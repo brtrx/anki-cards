@@ -197,11 +197,14 @@ python fr/verbs-intermediate/tools/verify.py        # 2–4. check every card �
    off in the report.
 
 **Optional fifth layer: LanguageTool.**
-`python fr/verbs-intermediate/tools/grammar_check.py --fetch` runs the
-open-source LanguageTool French grammar checker **locally** (Java 17+ and Maven
-needed; nothing is sent to a web service) and writes `GRAMMAR.md`. It's advisory:
-good at catching agreement slips, noisy on literary quotations. Dismiss false
-positives in `tools/grammar_ignore.yaml`.
+`python fr/verbs-intermediate/tools/grammar_check.py --fetch` downloads the
+open-source LanguageTool French grammar checker with Maven, starts it as a
+**local** server on 127.0.0.1 (Java 17+ needed; nothing is sent to a web
+service), checks each card as a separate request and writes `GRAMMAR.md`.
+It's advisory: good at catching agreement slips, noisy on literary quotations.
+Dismiss false positives in `tools/grammar_ignore.yaml`. In CI the report also
+appears on the workflow run's summary page. `test_grammar_check.py` tests the
+client side against a stub server, so it needs no Java.
 
 The self-test (`test_verify.py`) feeds the checker deliberately wrong cards
 (*nous sommes allé*, *il faut que tu viens*, *va-y*, *elle s'est levé*,

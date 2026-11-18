@@ -1,4 +1,7 @@
-<!-- Used only by grammar_check.py --fetch to download LanguageTool (French) from Maven Central. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Used only by grammar_check.py (fetch option) to download LanguageTool
+     (local HTTP server + French rules) from Maven Central.
+     Note: XML comments must not contain two consecutive hyphens. -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>local.anki-cards</groupId>
@@ -7,7 +10,7 @@
   <dependencies>
     <dependency>
       <groupId>org.languagetool</groupId>
-      <artifactId>languagetool-commandline</artifactId>
+      <artifactId>languagetool-server</artifactId>
       <version>6.8</version>
     </dependency>
     <dependency>

@@ -18,6 +18,9 @@ jobs:
       - name: Self-test — the checker must catch known mistakes
         run: python fr/verbs-intermediate/tools/test_verify.py
 
+      - name: Self-test — grammar_check client (stub server, no Java needed)
+        run: python fr/verbs-intermediate/tools/test_grammar_check.py
+
       - name: Verify every card (lint, conjugation, spelling)
         run: python fr/verbs-intermediate/tools/verify.py --strict
 
@@ -32,7 +35,8 @@ jobs:
             fr/verbs-intermediate/VERIFICATION.md
 
   grammar:
-    # Advisory only: LanguageTool runs locally on the runner; flags are for humans.
+    # Advisory: LanguageTool runs as a local server on the runner. Flags never fail
+    # this job; it fails only if LanguageTool can't be fetched or started.
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
@@ -50,6 +54,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: LanguageTool grammar check
         run: python fr/verbs-intermediate/tools/grammar_check.py --fetch
+      - name: Show the report on the run page
+        run: cat fr/verbs-intermediate/GRAMMAR.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: grammar-report
