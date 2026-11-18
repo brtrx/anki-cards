@@ -60,8 +60,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: LanguageTool grammar check
         run: python fr/verbs-intermediate/tools/grammar_check.py --fetch
-      - name: Show the report on the run page
-        run: cat fr/verbs-intermediate/GRAMMAR.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Show the report (run summary page and this log)
+        run: tee -a "$GITHUB_STEP_SUMMARY" < fr/verbs-intermediate/GRAMMAR.md
       - uses: actions/upload-artifact@v4
         with:
           name: grammar-report
