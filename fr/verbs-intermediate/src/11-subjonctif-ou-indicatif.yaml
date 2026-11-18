@@ -217,12 +217,12 @@ cards:
     note: "*dès que* + **indicative** — future, because it's in the future."
 
   - id: 26
-    text: "Elle est partie sans que personne ne {{la voie}}."
+    text: "Elle est partie sans que personne {{la voie}}."
     verb: voir
     tense: subjonctif
     person: 3s
     en: "She left without anyone seeing her."
-    note: "*sans que* + **subjunctive**."
+    note: "*sans que* + **subjunctive**. In careful French there is no *ne* after *sans que* (here *personne* = anyone); *sans que personne ne la voie* is common in speech but advised against by the Académie française."
 
   - id: 27
     text: "Quoi qu'il {{arrive}}, la flamme de la résistance française ne doit pas s'éteindre."

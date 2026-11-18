@@ -196,7 +196,7 @@ Correct as far as the machines can tell, but these involve judgement. **208 card
 - [ ] `11-023` faire → présent: is this the *only* natural tense here? «Pendant que tu fais la vaisselle, je range le salon.»
 - [ ] `11-024` avoir → subjonctif présent: is this the *only* natural tense here? «Je viendrai, à moins qu'il y ait une grève.»
 - [ ] `11-025` avoir → futur simple: is this the *only* natural tense here? «Dès qu'il aura son diplôme, il cherchera du travail.»
-- [ ] `11-026` voir → subjonctif présent: is this the *only* natural tense here? «Elle est partie sans que personne ne la voie.»
+- [ ] `11-026` voir → subjonctif présent: is this the *only* natural tense here? «Elle est partie sans que personne la voie.»
 - [ ] `11-027` arriver → subjonctif présent: is this the *only* natural tense here? «Quoi qu'il arrive, la flamme de la résistance française ne doit pas s'éteindre.»
 - [ ] `11-028` aller → subjonctif présent: is this the *only* natural tense here? «Où que tu ailles, je te suivrai.»
 - [ ] `11-029` devoir → présent: is this the *only* natural tense here? «Il est évident que nous devons agir.»

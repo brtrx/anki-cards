@@ -1,8 +1,38 @@
 # LanguageTool false positives that a human has checked and dismissed.
 # grammar_check.py skips any (card id, rule id) pair listed here.
-#
-#   - id: 02-031
-#     rule: SOME_RULE_ID
-#     reason: "Pascal's original wording (ne… point), deliberate."
+# If you change one of these cards, delete its entries so it is checked again.
 
-ignore: []
+ignore:
+  - id: 01-003
+    rule: FRENCH_WORD_REPEAT_RULE
+    reason: "« Tu achètes le pain ou je m'en occupe ? » repeats nothing; spurious match."
+  - id: 01-003
+    rule: OU
+    reason: "« ou » = or (an alternative), which is correct here; « où » would be wrong."
+  - id: 03-022
+    rule: ACCORD_SUJET_VERBE
+    reason: "Lamartine: « Ô temps ! suspends ton vol » — temps is addressed (vocative), suspends is an imperative."
+  - id: 03-024
+    rule: PLACE_DE_LA_VIRGULE
+    reason: "Boileau's line, original punctuation."
+  - id: 04-004
+    rule: VIRG_NON_TROUVEE
+    reason: "Rousseau's sentence, original punctuation."
+  - id: 07-031
+    rule: CONSTRUCTION_DANS_LES_EXPRESSIONS
+    reason: "« d'ici l'année prochaine » is standard; « d'ici à » is only the more formal variant."
+  - id: 08-014
+    rule: COND_VS_FUTUR
+    reason: "Molière: « que je ne saurais voir » — deliberate literary conditional (= cannot)."
+  - id: 12-013
+    rule: COND_VS_FUTUR
+    reason: "Future-in-the-past in reported speech: the conditional is the point of the card."
+  - id: 14-005
+    rule: FR_SPELLING_RULE
+    reason: "Domrémy (Domrémy-la-Pucelle), Joan of Arc's birthplace — a correct proper noun."
+  - id: 14-026
+    rule: NE_VERBE_RIEN
+    reason: "Molière: « sans que j'en susse rien » — original wording."
+  - id: 14-026
+    rule: NEGATION_PERSONNE
+    reason: "Molière: « sans que j'en susse rien » — original wording."
