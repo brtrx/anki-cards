@@ -1,0 +1,15 @@
+# Cards a fluent speaker has checked by hand.
+# tools/verify.py ticks these off in the "For human review" section of
+# VERIFICATION.md, so progress survives regenerating the report.
+#
+# Add one entry per card (ids are "deck-card", e.g. 06-014):
+#
+#   - id: 06-014
+#     by: your initials or GitHub handle
+#     date: 2026-11-20
+#     note: optional — e.g. "fine", or what you changed
+#
+# If you change a card's text after it was reviewed, delete its entry so it
+# gets looked at again.
+
+reviewed: []

@@ -1,0 +1,56 @@
+name: Verify decks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Self-test — the checker must catch known mistakes
+        run: python fr/verbs-intermediate/tools/test_verify.py
+
+      - name: Verify every card (lint, conjugation, spelling)
+        run: python fr/verbs-intermediate/tools/verify.py --strict
+
+      - name: Build packages
+        run: python fr/verbs-intermediate/tools/build.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fr-verbs-intermediate
+          path: |
+            fr/verbs-intermediate/dist/
+            fr/verbs-intermediate/VERIFICATION.md
+
+  grammar:
+    # Advisory only: LanguageTool runs locally on the runner; flags are for humans.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+          cache-dependency-path: fr/verbs-intermediate/tools/languagetool/pom.xml
+      - run: pip install -r requirements.txt
+      - name: LanguageTool grammar check
+        run: python fr/verbs-intermediate/tools/grammar_check.py --fetch
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grammar-report
+          path: fr/verbs-intermediate/GRAMMAR.md

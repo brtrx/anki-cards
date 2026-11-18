@@ -1,0 +1,311 @@
+deck:
+  number: 5
+  slug: imparfait-plus-que-parfait
+  title: "Imparfait & plus-que-parfait"
+  mode: form
+  description: |
+    Imparfait: stem = *nous* form of the present minus -ons (only *être* is
+    irregular: ét-), endings -ais -ais -ait -ions -iez -aient. Watch the
+    spelling traps (nous commencions, je mangeais, nous étudiions, vous payiez).
+    Uses: habits, descriptions, background, actions in progress, polite
+    requests, *si seulement*, *venir de* in the past.
+    Plus-que-parfait: imparfait of avoir/être + participle — the past before
+    the past.
+
+cards:
+  - id: 1
+    text: "Quand j'étais petit, nous {{allions}} à la plage tous les étés."
+    verb: aller
+    tense: imparfait
+    person: 1p
+    en: "When I was little, we used to go to the beach every summer."
+    note: "Imparfait = past **habits** (*tous les étés*). Stem = *nous* present minus -ons: (nous) all-ons → j'allais, nous allions."
+
+  - id: 2
+    text: "Hier encore, {{j'avais}} vingt ans."
+    verb: avoir
+    tense: imparfait
+    person: 1s
+    source: "Charles Aznavour, « Hier encore » (1964)"
+    en: "Only yesterday, I was twenty."
+    note: "Age and descriptions in the past → imparfait. *avoir*: nous av-ons → j'avais."
+
+  - id: 3
+    text: "Parce que c'{{était}} lui, parce que c'était moi."
+    verb: être
+    tense: imparfait
+    person: 3s
+    source: "Michel de Montaigne, *Essais*, I, 28, « De l'amitié » — on his friend La Boétie (added by hand to his own copy after 1588)"
+    en: "Because it was him, because it was me."
+    note: "*être* is the only verb with an irregular imparfait stem: **ét-** (j'étais, c'était). The endings never change: -ais, -ais, -ait, -ions, -iez, -aient."
+
+  - id: 4
+    text: "Il était une fois une princesse qui {{vivait}} dans un château."
+    verb: vivre
+    tense: imparfait
+    person: 3s
+    en: "Once upon a time there was a princess who lived in a castle."
+    note: "*Il était une fois…* = once upon a time. Background description → imparfait. *vivre*: nous viv-ons → il vivait."
+
+  - id: 5
+    text: "Je {{m'en allais}}, les poings dans mes poches crevées."
+    verb: s'en aller
+    tense: imparfait
+    person: 1s
+    source: "Arthur Rimbaud, « Ma Bohème » (1870)"
+    en: "Off I went, my fists in my torn pockets."
+    note: "*s'en aller* in the imparfait: je m'en allais — a scene in progress, not a single event."
+
+  - id: 6
+    text: "Que diable {{allait}}-il faire dans cette galère ?"
+    verb: aller
+    tense: imparfait
+    person: 3s
+    source: "Molière, *Les Fourberies de Scapin*, acte II, scène 7 (1671)"
+    en: "What the devil was he going to do in that galley?"
+    note: "Now an idiom: 'what on earth was he doing getting mixed up in that mess?' *aller* + infinitive in the imparfait = was going to."
+
+  - id: 7
+    text: "Vous {{chantiez}} ? j'en suis fort aise."
+    verb: chanter
+    tense: imparfait
+    person: 2p
+    source: "Jean de La Fontaine, « La Cigale et la Fourmi », *Fables* (1668)"
+    en: "You were singing? I'm delighted to hear it."
+    note: "Imparfait for an activity that went on over a period (all summer). *fort aise* = very glad (old-fashioned). The ant's next line: *Eh bien ! dansez maintenant.*"
+
+  - id: 8
+    text: "Nous {{commencions}} à peine à manger quand le téléphone a sonné."
+    verb: commencer
+    tense: imparfait
+    person: 1p
+    en: "We had barely started eating when the phone rang."
+    note: "-cer verbs: **ç** before *a* (je commençais) but **c** before *i* (nous commencions). Action in progress, interrupted by a passé composé."
+
+  - id: 9
+    text: "Avant, je {{mangeais}} de la viande tous les jours."
+    verb: manger
+    tense: imparfait
+    person: 1s
+    en: "I used to eat meat every day."
+    note: "-ger verbs: **ge** before *a* (je mangeais, ils mangeaient) but nous mangions. *avant* + imparfait = used to."
+
+  - id: 10
+    text: "Nous {{étudiions}} ensemble à la bibliothèque."
+    verb: étudier
+    tense: imparfait
+    person: 1p
+    en: "We used to study together at the library."
+    note: "-ier verbs have a double *i* with nous/vous: nous étud**ii**ons, vous étud**ii**ez (stem étudi- + -ions). Same: oublier, crier, apprécier."
+
+  - id: 11
+    text: "Vous {{payiez}} combien de loyer à Paris ?"
+    verb: payer
+    tense: imparfait
+    person: 2p
+    en: "How much rent were you paying in Paris?"
+    note: "*y* + *-iez*: vous pa**yi**ez, nous payions — both letters are needed. Same: nous envoyions, nous croyions, nous voyions."
+
+  - id: 12
+    text: "Ils {{croyaient}} au Père Noël jusqu'à dix ans."
+    verb: croire
+    tense: imparfait
+    person: 3p
+    en: "They believed in Father Christmas until they were ten."
+    note: "Stem from *nous croyons* → je croyais, ils croyaient. *croire au Père Noël* also means 'to be naïve'."
+
+  - id: 13
+    text: "Il {{faisait}} si chaud qu'on ne pouvait pas dormir."
+    verb: faire
+    tense: imparfait
+    person: 3s
+    en: "It was so hot we couldn't sleep."
+    note: "Weather and background → imparfait. *faire*: nous **fais**ons → il faisait (the *ai* is pronounced like *e* in *le*)."
+
+  - id: 14
+    text: "Elle {{ne savait pas}} nager à l'époque."
+    verb: savoir
+    tense: imparfait
+    person: 3s
+    en: "She couldn't swim back then."
+    note: "*savoir*: nous sav-ons → je savais. *savoir* + infinitive = to know how to. *à l'époque* = back then."
+
+  - id: 15
+    text: "Il {{fallait}} faire la queue pendant des heures."
+    verb: falloir
+    tense: imparfait
+    person: 3s
+    en: "You had to queue for hours."
+    note: "*falloir*: il fallait (imparfait), il a fallu (passé composé). *faire la queue* = to queue."
+
+  - id: 16
+    text: "On {{prenait}} toujours le train de nuit pour aller à Rome."
+    verb: prendre
+    tense: imparfait
+    person: 3s
+    en: "We always used to take the night train to Rome."
+    note: "Stem from *nous prenons* → je prenais. *toujours* + imparfait = habitually."
+
+  - id: 17
+    text: "Je {{venais}} de m'endormir quand l'alarme s'est déclenchée."
+    verb: venir
+    tense: imparfait
+    person: 1s
+    en: "I had just fallen asleep when the alarm went off."
+    note: "**venir de** in the imparfait = 'had just done'. *se déclencher* = to go off (alarm)."
+
+  - id: 18
+    text: "Si seulement tu {{étais}} là !"
+    verb: être
+    tense: imparfait
+    person: 2s
+    en: "If only you were here!"
+    note: "*si seulement* + imparfait = a wish about the present ('if only…')."
+
+  - id: 19
+    text: "Je {{voulais}} vous demander un petit service."
+    verb: vouloir
+    tense: imparfait
+    person: 1s
+    en: "I wanted to ask you a small favour."
+    note: "**Polite imparfait**: *je voulais* softens a request (compare the blunter *je veux*)."
+
+  - id: 20
+    text: "Nous {{étions}} en train de dîner quand ils sont arrivés."
+    verb: être
+    tense: imparfait
+    person: 1p
+    en: "We were in the middle of dinner when they arrived."
+    note: "*être en train de* + infinitive = to be in the middle of doing; in the past it's always the imparfait."
+
+  - id: 21
+    text: "Les enfants {{dormaient}} déjà quand nous sommes rentrés."
+    verb: dormir
+    tense: imparfait
+    person: 3p
+    en: "The children were already asleep when we got home."
+    note: "A state in progress at a moment in the past → imparfait. *dormir*: nous dorm-ons → ils dormaient."
+
+  - id: 22
+    text: "Avant Internet, on {{écrivait}} des lettres."
+    verb: écrire
+    tense: imparfait
+    person: 3s
+    en: "Before the internet, people wrote letters."
+    note: "Stem from *nous écrivons* → j'écrivais. *on* = people in general."
+
+  - id: 23
+    text: "Quand j'étais ado, je {{lisais}} un roman par semaine."
+    verb: lire
+    tense: imparfait
+    person: 1s
+    en: "When I was a teenager, I read a novel a week."
+    note: "Stem from *nous lisons* → je lisais. *ado* = adolescent (informal)."
+
+  - id: 24
+    text: "Ils {{se disputaient}} sans arrêt."
+    verb: se disputer
+    tense: imparfait
+    person: 3p
+    en: "They argued constantly."
+    note: "Repeated action over a period → imparfait. *sans arrêt* = non-stop."
+
+  - id: 25
+    text: "Il a mis son manteau de pluie parce qu'il {{pleuvait}}."
+    verb: pleuvoir
+    tense: imparfait
+    person: 3s
+    source: "Jacques Prévert, « Déjeuner du matin », *Paroles* (1946)"
+    en: "He put on his raincoat because it was raining."
+    note: "Background circumstance → imparfait (*il pleuvait*); the completed action → passé composé (*il a mis*)."
+
+  - id: 26
+    text: "Quand nous sommes arrivés, le film {{avait déjà commencé}}."
+    verb: commencer
+    tense: plus-que-parfait
+    person: 3s
+    en: "When we arrived, the film had already started."
+    note: "**Plus-que-parfait** = imparfait of avoir/être + participle: an action completed **before** another past action."
+
+  - id: 27
+    text: "Elle m'a rendu le livre que je {{lui avais prêté}}."
+    verb: prêter
+    tense: plus-que-parfait
+    person: 1s
+    en: "She gave me back the book I had lent her."
+    note: "The lending happened before the giving back → plus-que-parfait. (*que* = le livre, masculine → prêté.)"
+
+  - id: 28
+    text: "Quand je l'ai appelé, il {{était déjà parti}}."
+    verb: partir
+    tense: plus-que-parfait
+    person: 3s
+    en: "When I called him, he had already left."
+    note: "être verbs: étais/était… + participle — il était parti, elle était partie."
+
+  - id: 29
+    text: "Si seulement {{j'avais su}} !"
+    verb: savoir
+    tense: plus-que-parfait
+    person: 1s
+    en: "If only I had known!"
+    note: "*si seulement* + plus-que-parfait = a regret about the past."
+
+  - id: 30
+    text: "Elle {{avait pris}} ce pli dans son âge enfantin de venir dans ma chambre un peu chaque matin."
+    verb: prendre
+    tense: plus-que-parfait
+    person: 3s
+    source: "Victor Hugo, *Les Contemplations* (1856), about his daughter Léopoldine"
+    en: "As a little girl, she had got into the habit of coming into my room for a while each morning."
+    note: "*prendre le pli de* = to get into the habit of. Plus-que-parfait: the habit was formed before the time being remembered."
+
+  - id: 31
+    text: "Nous {{nous étions perdus}} dans le vieux quartier."
+    verb: se perdre
+    tense: plus-que-parfait
+    person: 1p
+    en: "We had got lost in the old quarter."
+    note: "Pronominal verbs take être in every compound tense: nous nous étions perdus."
+
+  - id: 32
+    text: "Ils m'ont dit qu'ils {{avaient vendu}} leur maison."
+    verb: vendre
+    tense: plus-que-parfait
+    person: 3p
+    en: "They told me they had sold their house."
+    note: "Reported speech: an action before *ont dit* → plus-que-parfait (they said « Nous avons vendu… »)."
+
+  - id: 33
+    text: "Je {{n'avais jamais vu}} la mer avant l'âge de quinze ans."
+    verb: voir
+    tense: plus-que-parfait
+    person: 1s
+    en: "I had never seen the sea before the age of fifteen."
+    note: "*ne… jamais* around the auxiliary: je n'avais jamais vu."
+
+  - id: 34
+    text: "Elles {{étaient arrivées}} la veille."
+    verb: arriver
+    tense: plus-que-parfait
+    person: 3p
+    agree: f
+    en: "They (f.) had arrived the day before."
+    note: "être verb → agreement: elles étaient arrivé**es**. *la veille* = the day before (≠ *hier*, which means the day before today)."
+
+  - id: 35
+    text: "Tu {{avais promis}} de m'aider !"
+    verb: promettre
+    tense: plus-que-parfait
+    person: 2s
+    en: "You had promised to help me!"
+    note: "Reproach: the plus-que-parfait stresses a promise made earlier (and broken). *promettre* → promis."
+
+  - id: 36
+    text: "La réunion que vous {{aviez prévue}} a été annulée."
+    verb: prévoir
+    tense: plus-que-parfait
+    person: 2p
+    agree: fs
+    en: "The meeting you had planned has been cancelled."
+    note: "*prévoir* → **prévu**; *que* = la réunion (f.), placed before → prévu**e**."

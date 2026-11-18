@@ -1,0 +1,226 @@
+deck:
+  number: 13
+  slug: gerondif-participes
+  title: "Gérondif, participles & past infinitive"
+  mode: form
+  description: |
+    Participe présent: *nous* stem + -ant (only three irregulars: étant,
+    ayant, sachant). Gérondif = en + participe présent: how, while, by,
+    if (*en travaillant*, *tout en sachant*). The participe présent alone is
+    formal/written (*les personnes souhaitant…*).
+    Infinitif passé: avoir/être + participle, after *après*, *merci de*,
+    *désolé de*, *avant de… l'avoir…*. Participe passé composé: ayant fini,
+    étant arrivé(e)s.
+    Bonus trap: participles vs adjectives (fatiguant / fatigant,
+    convainquant / convaincant).
+
+cards:
+  - id: 1
+    text: "C'est {{en forgeant}} qu'on devient forgeron."
+    verb: forger
+    tense: gerondif
+    tags: [proverb]
+    en: "It's by forging that you become a blacksmith (practice makes perfect)."
+    note: "**Gérondif = en + participe présent**: by doing. -ger verbs keep the *e*: nous forgeons → forgeant."
+
+  - id: 2
+    text: "L'appétit vient {{en mangeant}}."
+    verb: manger
+    tense: gerondif
+    source: "François Rabelais, *Gargantua* (1534)"
+    en: "Appetite comes with eating."
+    note: "Now a proverb: the more you have, the more you want. *mangeant* keeps the *e* (soft g)."
+
+  - id: 3
+    text: "Je me suis fait mal au dos {{en soulevant}} un carton."
+    verb: soulever
+    tense: gerondif
+    en: "I hurt my back lifting a box."
+    note: "Gérondif = how / while something happened. Participle from *nous soulevons* → soulevant (no accent)."
+
+  - id: 4
+    text: "Ne téléphone pas {{en conduisant}} !"
+    verb: conduire
+    tense: gerondif
+    en: "Don't phone while you're driving!"
+    note: "Gérondif for two simultaneous actions by the same person. *nous conduisons* → conduisant."
+
+  - id: 5
+    text: "{{En prenant}} le train de 7 heures, tu arriveras à temps."
+    verb: prendre
+    tense: gerondif
+    en: "If you take the 7 o'clock train, you'll get there in time."
+    note: "Gérondif expressing a condition = *si tu prends*. *nous prenons* → prenant."
+
+  - id: 6
+    text: "Il est sorti {{en courant}}."
+    verb: courir
+    tense: gerondif
+    en: "He ran out."
+    note: "*en courant* = running (manner). French often puts the direction in the verb (*sortir*) and the manner in the gérondif: he ran out = il est sorti en courant."
+
+  - id: 7
+    text: "{{Tout en sachant}} que c'était risqué, il a accepté."
+    verb: savoir
+    tense: gerondif
+    en: "Even though he knew it was risky, he accepted."
+    note: "**tout en** + participe présent = while / even though. *savoir* → **sachant** — one of only three irregular present participles (with étant and ayant)."
+
+  - id: 8
+    text: "{{En faisant}} du sport régulièrement, on dort mieux."
+    verb: faire
+    tense: gerondif
+    en: "By doing sport regularly, you sleep better."
+    note: "Gérondif = means (by doing). *nous faisons* → faisant."
+
+  - id: 9
+    text: "Il a appris l'anglais {{en regardant}} des séries."
+    verb: regarder
+    tense: gerondif
+    en: "He learnt English by watching TV series."
+    note: "Gérondif = means: by watching."
+
+  - id: 10
+    text: "{{En attendant}}, on peut prendre un café."
+    verb: attendre
+    tense: gerondif
+    en: "In the meantime, we can have a coffee."
+    note: "*en attendant* = meanwhile / in the meantime — a fixed gérondif."
+
+  - id: 11
+    text: "{{En lisant}} ce livre, j'ai beaucoup appris sur l'histoire de la Corse."
+    verb: lire
+    tense: gerondif
+    en: "By reading this book, I learnt a lot about the history of Corsica."
+    note: "*nous lisons* → lisant."
+
+  - id: 12
+    text: "Les personnes {{souhaitant}} s'inscrire doivent remplir ce formulaire."
+    verb: souhaiter
+    tense: participe-present
+    en: "Anyone wishing to register must fill in this form."
+    note: "**Participe présent** without *en* = *qui souhaitent* — formal, written style. It never agrees."
+
+  - id: 13
+    text: "{{Étant}} donné la situation, nous reportons la réunion."
+    verb: être
+    tense: participe-present
+    en: "Given the situation, we're postponing the meeting."
+    note: "*étant donné* = given. *être* → **étant** (irregular)."
+
+  - id: 14
+    text: "{{Ayant}} trop de travail, elle a refusé l'invitation."
+    verb: avoir
+    tense: participe-present
+    en: "Having too much work, she turned down the invitation."
+    note: "Participe présent = cause (*comme elle avait*). *avoir* → **ayant** (irregular)."
+
+  - id: 15
+    text: "{{Voyant}} qu'il pleuvait, nous sommes restés à l'intérieur."
+    verb: voir
+    tense: participe-present
+    en: "Seeing that it was raining, we stayed inside."
+    note: "*nous voyons* → **voyant**. Participe présent = cause."
+
+  - id: 16
+    text: "{{N'ayant pas reçu}} de réponse, je me permets de vous relancer."
+    verb: recevoir
+    tense: participe-passe-compose
+    en: "Having had no reply, I'm taking the liberty of following up."
+    note: "**Participe passé composé** (*ayant* + participle) = an earlier action given as a cause. A standard phrase in follow-up emails."
+
+  - id: 17
+    text: "{{Étant arrivés}} en retard, nous avons raté le début."
+    verb: arriver
+    tense: participe-passe-compose
+    agree: mp
+    en: "Having arrived late, we missed the beginning."
+    note: "être verbs use **étant** + participle, with agreement: étant arrivés."
+
+  - id: 18
+    text: "Après {{avoir mangé}}, nous sommes allés nous promener."
+    verb: manger
+    tense: infinitif-passe
+    en: "After eating, we went for a walk."
+    note: "**après + infinitif passé** (avoir/être + participle) when the subject is the same. Never *après manger* in standard French."
+
+  - id: 19
+    text: "Après {{être rentrée}}, elle a pris une douche."
+    verb: rentrer
+    tense: infinitif-passe
+    agree: fs
+    en: "After getting home, she had a shower."
+    note: "être verbs: après être rentré(e)(s) — agreement with the subject (*elle* → rentrée)."
+
+  - id: 20
+    text: "Après {{s'être levés}}, ils ont pris leur petit-déjeuner."
+    verb: se lever
+    tense: infinitif-passe
+    agree: mp
+    en: "After getting up, they had breakfast."
+    note: "Pronominal: the reflexive matches the subject — après **s'**être levés (ils), après **nous** être levés, après **vous** être levés."
+
+  - id: 21
+    text: "Il ne faut pas vendre la peau de l'ours avant de {{l'avoir tué}}."
+    verb: tuer
+    tense: infinitif-passe
+    tags: [proverb]
+    en: "Don't sell the bear's skin before you've killed it (don't count your chickens before they've hatched)."
+    note: "*avant de* + infinitif passé: completed before. (*l'* = l'ours, masculine → tué.)"
+
+  - id: 22
+    text: "Merci de {{m'avoir aidé}} !"
+    verb: aider
+    tense: infinitif-passe
+    en: "Thanks for helping me!"
+    note: "*merci de* + infinitif passé for something already done (*merci de m'aider* = please help me / thanks for helping now)."
+
+  - id: 23
+    text: "Je suis désolé d'{{être arrivé}} en retard."
+    verb: arriver
+    tense: infinitif-passe
+    en: "I'm sorry I was late."
+    note: "*être désolé de* + infinitif passé: apologising for something you did."
+
+  - id: 24
+    text: "Une fois {{arrivés}} à l'hôtel, nous avons dormi douze heures."
+    verb: arriver
+    tense: participe-passe
+    agree: mp
+    en: "Once we got to the hotel, we slept for twelve hours."
+    note: "*une fois* + participe passé = once (done). It agrees as if with être: arrivé**s**."
+
+  - id: 25
+    text: "{{Vu}} le prix, je préfère attendre les soldes."
+    verb: voir
+    tense: participe-passe
+    en: "Given the price, I'd rather wait for the sales."
+    note: "*vu* + noun = given / considering — invariable when it comes before the noun. Same: *étant donné*, *compte tenu de*."
+
+  - id: 26
+    text: "Ce long trajet en car était vraiment {{fatigant}}."
+    verb: fatiguer
+    tense: participe-present
+    cue: "fatiguer → adjectif"
+    check: false
+    check_reason: "Deliberately the verbal ADJECTIVE (fatigant), which differs from the participle (fatiguant)."
+    en: "That long coach journey was really tiring."
+    note: "Adjective **fatigant** (no *u*) vs participle **fatiguant** (*en fatiguant tout le monde*). Same trap: convaincant / convainquant, provocant / provoquant, négligent / négligeant."
+
+  - id: 27
+    text: "Ses arguments n'étaient pas très {{convaincants}}."
+    verb: convaincre
+    tense: participe-present
+    cue: "convaincre → adjectif"
+    check: false
+    check_reason: "Deliberately the verbal ADJECTIVE (convaincant, agrees), not the participle (convainquant)."
+    en: "His arguments weren't very convincing."
+    note: "The adjective **convaincant** agrees (*des arguments convaincants*); the participle **convainquant** never does (*en convainquant le jury*)."
+
+  - id: 28
+    text: "Il est parti sans {{dire}} au revoir."
+    verb: dire
+    tense: infinitif
+    cue: "dire — which form after « sans » ?"
+    en: "He left without saying goodbye."
+    note: "*sans* + **infinitive** — English uses '-ing' (without saying), French doesn't."

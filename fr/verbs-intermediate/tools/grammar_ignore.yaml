@@ -1,0 +1,8 @@
+# LanguageTool false positives that a human has checked and dismissed.
+# grammar_check.py skips any (card id, rule id) pair listed here.
+#
+#   - id: 02-031
+#     rule: SOME_RULE_ID
+#     reason: "Pascal's original wording (ne… point), deliberate."
+
+ignore: []

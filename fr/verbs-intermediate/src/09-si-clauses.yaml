@@ -1,0 +1,249 @@
+deck:
+  number: 9
+  slug: si-clauses
+  title: "Hypotheses: « si » clauses (choose the tense)"
+  mode: choice
+  description: |
+    Three patterns, and never a future or conditional straight after *si* (= if):
+      si + présent → présent / futur / impératif         (real possibility)
+      si + imparfait → conditionnel présent              (unreal now)
+      si + plus-que-parfait → conditionnel passé         (unreal past)
+    plus the mixed patterns, *comme si* (+ imparfait / plus-que-parfait),
+    *même si*, *au cas où* (+ conditionnel!) and *si* = whether (any tense).
+
+cards:
+  - id: 1
+    text: "Si tu {{as}} le temps demain, passe me voir."
+    verb: avoir
+    tense: present
+    person: 2s
+    en: "If you have time tomorrow, come and see me."
+    note: "si + **présent** → impératif / présent / futur. Never a future after *si* meaning 'if'."
+
+  - id: 2
+    text: "Si tu veux, je {{t'aiderai}} à déménager."
+    verb: aider
+    tense: futur
+    person: 1s
+    also: ["t'aide", "vais t'aider"]
+    en: "If you like, I'll help you move."
+    note: "si + présent → **futur** in the main clause (the present or *futur proche* also work in conversation)."
+
+  - id: 3
+    text: "Si {{j'avais}} plus de temps, je ferais du sport."
+    verb: avoir
+    tense: imparfait
+    person: 1s
+    en: "If I had more time, I'd do some sport."
+    note: "An unreal present: si + **imparfait** → conditionnel. Never *si j'aurais*!"
+
+  - id: 4
+    text: "Si j'avais plus d'argent, je {{voyagerais}} plus souvent."
+    verb: voyager
+    tense: conditionnel
+    person: 1s
+    en: "If I had more money, I'd travel more often."
+    note: "si + imparfait → **conditionnel présent**."
+
+  - id: 5
+    text: "Si {{j'avais su}}, je ne serais pas venu."
+    verb: savoir
+    tense: plus-que-parfait
+    person: 1s
+    tags: [idiom]
+    en: "If I'd known, I wouldn't have come."
+    note: "si + **plus-que-parfait** → conditionnel passé. In the film *La Guerre des boutons* (1962) little Gibus says it the childish, ungrammatical way — « Si j'aurais su, j'aurais pas venu ! » — two mistakes that every French speaker can quote."
+
+  - id: 6
+    text: "Si vous {{étiez}} à ma place, qu'est-ce que vous feriez ?"
+    verb: être
+    tense: imparfait
+    person: 2p
+    en: "If you were in my shoes, what would you do?"
+    note: "Unreal present: si + **imparfait** → conditionnel (*feriez*)."
+
+  - id: 7
+    text: "Si Dieu n'existait pas, il {{faudrait}} l'inventer."
+    verb: falloir
+    tense: conditionnel
+    person: 3s
+    source: "Voltaire, *Épître à l'auteur du livre des Trois Imposteurs* (1769)"
+    en: "If God did not exist, it would be necessary to invent him."
+    note: "si + imparfait → **conditionnel présent**: il faudrait."
+
+  - id: 8
+    text: "Si jeunesse {{savait}}, si vieillesse pouvait…"
+    verb: savoir
+    tense: imparfait
+    person: 3s
+    source: "Henri Estienne, *Les Prémices* (1594)"
+    en: "If youth only knew, if age only could…"
+    note: "si + **imparfait** on its own expresses a wish or regret: 'if only…'."
+
+  - id: 9
+    text: "S'il {{fait}} beau dimanche, on ira pique-niquer."
+    verb: faire
+    tense: present
+    person: 3s
+    en: "If the weather's nice on Sunday, we'll go for a picnic."
+    note: "*si* + *il* → **s'il** (elision only before *il/ils*, never *s'elle*). si + présent → futur."
+
+  - id: 10
+    text: "S'il avait fait beau, nous {{serions allés}} à la plage."
+    verb: aller
+    tense: conditionnel-passe
+    person: 1p
+    en: "If the weather had been nice, we would have gone to the beach."
+    note: "si + plus-que-parfait → **conditionnel passé** (être verb: serions allés)."
+
+  - id: 11
+    text: "Si tu {{étais venu}} hier, tu aurais rencontré ma sœur."
+    verb: venir
+    tense: plus-que-parfait
+    person: 2s
+    en: "If you'd come yesterday, you'd have met my sister."
+    note: "Unreal past: si + **plus-que-parfait** → conditionnel passé (*aurais rencontré*)."
+
+  - id: 12
+    text: "Si tu avais pris le train de 8 heures, tu {{serais}} déjà là."
+    verb: être
+    tense: conditionnel
+    person: 2s
+    en: "If you had caught the 8 o'clock train, you'd be here by now."
+    note: "**Mixed**: a past condition (si + plus-que-parfait) with a present consequence (conditionnel présent) — *déjà là* means now."
+
+  - id: 13
+    text: "Si j'étais plus courageux, je {{lui aurais dit}} la vérité depuis longtemps."
+    verb: dire
+    tense: conditionnel-passe
+    person: 1s
+    en: "If I were braver, I'd have told him the truth long ago."
+    note: "**Mixed**: a permanent trait (si + imparfait) with a past consequence (conditionnel passé) — *depuis longtemps*."
+
+  - id: 14
+    text: "Je me demande s'il {{viendra}} demain."
+    verb: venir
+    tense: futur
+    person: 3s
+    en: "I wonder whether he'll come tomorrow."
+    note: "Here *si* = **whether** (indirect question), so the future is fine — unlike conditional *si* (= if)."
+
+  - id: 15
+    text: "Il m'a demandé si je {{viendrais}} à la fête."
+    verb: venir
+    tense: conditionnel
+    person: 1s
+    en: "He asked me whether I'd come to the party."
+    note: "*si* = whether, after a past verb: the future in the past → **conditionnel**."
+
+  - id: 16
+    text: "Il parle comme s'il {{savait}} tout."
+    verb: savoir
+    tense: imparfait
+    person: 3s
+    en: "He talks as if he knew everything."
+    note: "**comme si** + imparfait (or plus-que-parfait) — never the present or the conditional."
+
+  - id: 17
+    text: "Elle a réagi comme si rien ne {{s'était passé}}."
+    verb: se passer
+    tense: plus-que-parfait
+    person: 3s
+    en: "She reacted as if nothing had happened."
+    note: "comme si + **plus-que-parfait** for something earlier: as if nothing had happened."
+
+  - id: 18
+    text: "Même si tu {{insistes}}, je ne changerai pas d'avis."
+    verb: insister
+    tense: present
+    person: 2s
+    en: "Even if you insist, I won't change my mind."
+    note: "*même si* follows the rules of *si*: même si + présent → futur."
+
+  - id: 19
+    text: "Au cas où il {{pleuvrait}}, prends un parapluie."
+    verb: pleuvoir
+    tense: conditionnel
+    person: 3s
+    en: "In case it rains, take an umbrella."
+    note: "**au cas où** + **conditionnel** — unlike *si*! (In case it rains = au cas où il pleuvrait.)"
+
+  - id: 20
+    text: "Si tu {{ne te dépêches pas}}, on va rater le début."
+    verb: se dépêcher
+    tense: present
+    person: 2s
+    en: "If you don't hurry up, we're going to miss the start."
+    note: "si + présent → futur proche works too: *on va rater*."
+
+  - id: 21
+    text: "Si on {{allait}} au cinéma ce soir ?"
+    verb: aller
+    tense: imparfait
+    person: 3s
+    en: "How about going to the cinema tonight?"
+    note: "**si + imparfait** on its own = a suggestion: 'how about…?' / 'what if we…?'"
+
+  - id: 22
+    text: "Si j'étais toi, je {{n'accepterais pas}} cette offre."
+    verb: accepter
+    tense: conditionnel
+    person: 1s
+    en: "If I were you, I wouldn't accept that offer."
+    note: "*si j'étais toi* = if I were you → conditionnel présent."
+
+  - id: 23
+    text: "Si elle {{avait écouté}} mes conseils, elle n'en serait pas là."
+    verb: écouter
+    tense: plus-que-parfait
+    person: 3s
+    en: "If she'd listened to my advice, she wouldn't be in this mess."
+    note: "Mixed: past condition (plus-que-parfait) → present result (*elle n'en serait pas là* = she wouldn't be where she is now)."
+
+  - id: 24
+    text: "Qu'est-ce que tu ferais si tu {{gagnais}} au loto ?"
+    verb: gagner
+    tense: imparfait
+    person: 2s
+    en: "What would you do if you won the lottery?"
+    note: "The *si* clause can come second; it's still si + imparfait."
+
+  - id: 25
+    text: "Si vous {{appuyez}} sur ce bouton, la porte s'ouvre."
+    verb: appuyer
+    tense: present
+    person: 2p
+    en: "If you press this button, the door opens."
+    note: "A general rule: si + présent → présent."
+
+  - id: 26
+    text: "Si tu {{vois}} Paul, dis-lui bonjour de ma part."
+    verb: voir
+    tense: present
+    person: 2s
+    en: "If you see Paul, say hello to him from me."
+    note: "si + présent → impératif."
+
+  - id: 27
+    text: "Si j'avais su que tu étais malade, je {{serais passé}} te voir."
+    verb: passer
+    tense: conditionnel-passe
+    person: 1s
+    en: "If I'd known you were ill, I'd have dropped by to see you."
+    note: "si + plus-que-parfait → conditionnel passé. *passer* (= to drop by) → être."
+
+  - id: 28
+    text: "Je t'aurais appelé si {{j'avais eu}} ton numéro."
+    verb: avoir
+    tense: plus-que-parfait
+    person: 1s
+    en: "I would have called you if I'd had your number."
+    note: "Unreal past: si + **plus-que-parfait** (*j'avais eu*); main clause conditionnel passé."
+
+  - id: 29
+    text: "Si tu {{continues}} comme ça, tu vas te faire mal."
+    verb: continuer
+    tense: present
+    person: 2s
+    en: "If you carry on like that, you're going to hurt yourself."
+    note: "Real possibility: si + présent → futur proche."

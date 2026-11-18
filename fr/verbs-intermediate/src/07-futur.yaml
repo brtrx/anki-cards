@@ -1,0 +1,311 @@
+deck:
+  number: 7
+  slug: futur
+  title: "Futur simple & futur antérieur"
+  mode: form
+  description: |
+    Futur simple: infinitive (minus final -e) + -ai -as -a -ons -ez -ont,
+    with about twenty irregular stems (ser-, aur-, ir-, fer-, pourr-, verr-,
+    viendr-, saur-, voudr-, devr-, enverr-, faudr-…) and the stem-changers
+    (achèterai, appellerai, paierai).
+    Key difference from English: **quand / dès que / lorsque + futur** when
+    the time is future ("when I get there" = *quand j'arriverai*).
+    Futur antérieur: future of avoir/être + participle — "will have done",
+    and also a guess about the past.
+    These stems come back in the conditional, so learn them well here.
+
+cards:
+  - id: 1
+    text: "Demain, dès l'aube, à l'heure où blanchit la campagne, je {{partirai}}."
+    verb: partir
+    tense: futur
+    person: 1s
+    source: "Victor Hugo, « Demain, dès l'aube… », *Les Contemplations* (1856)"
+    en: "Tomorrow, at dawn, at the hour when the countryside turns white, I will set out."
+    note: "Regular future: infinitive + -ai: partir → je **partirai**. Hugo wrote the poem for the anniversary of his daughter's death."
+
+  - id: 2
+    text: "Nous {{serons}} en retard si on ne part pas maintenant."
+    verb: être
+    tense: futur
+    person: 1p
+    en: "We'll be late if we don't leave now."
+    note: "*être* → **ser-**: je serai, nous serons. si + présent → futur."
+
+  - id: 3
+    text: "Tu {{auras}} les résultats d'ici vendredi."
+    verb: avoir
+    tense: futur
+    person: 2s
+    en: "You'll have the results by Friday."
+    note: "*avoir* → **aur-**: j'aurai, tu auras. *d'ici vendredi* = by Friday."
+
+  - id: 4
+    text: "Ne t'inquiète pas, tout {{ira}} bien."
+    verb: aller
+    tense: futur
+    person: 3s
+    en: "Don't worry, everything will be fine."
+    note: "*aller* → **ir-**: j'irai, tout ira, ils iront."
+
+  - id: 5
+    text: "Tu {{feras}} attention en traversant."
+    verb: faire
+    tense: futur
+    person: 2s
+    en: "Be careful when you cross."
+    note: "*faire* → **fer-**: je ferai. The future can be a softer command: *tu feras attention* ≈ *fais attention*."
+
+  - id: 6
+    text: "Est-ce que vous {{pourrez}} m'envoyer le devis avant lundi ?"
+    verb: pouvoir
+    tense: futur
+    person: 2p
+    en: "Will you be able to send me the quote before Monday?"
+    note: "*pouvoir* → **pourr-** (double r). Also double r: courir → courrai, mourir → mourrai, voir → verrai, envoyer → enverrai. *un devis* = a quote."
+
+  - id: 7
+    text: "Qui vivra {{verra}}."
+    verb: voir
+    tense: futur
+    person: 3s
+    tags: [proverb]
+    en: "Time will tell. (Lit. whoever lives will see.)"
+    note: "*voir* → **verr-** (double r): je verrai, on verra. *vivre* is regular: il vivra."
+
+  - id: 8
+    text: "Je {{saurai}} demain si j'ai le poste."
+    verb: savoir
+    tense: futur
+    person: 1s
+    en: "I'll know tomorrow whether I've got the job."
+    note: "*savoir* → **saur-**: je saurai. Here *si* = whether, so no tense restriction."
+
+  - id: 9
+    text: "Il {{faudra}} changer de train à Dijon."
+    verb: falloir
+    tense: futur
+    person: 3s
+    en: "You'll have to change trains at Dijon."
+    note: "*falloir* → il **faudra**; *valoir* → il vaudra."
+
+  - id: 10
+    text: "Ils {{viendront}} nous chercher à l'aéroport."
+    verb: venir
+    tense: futur
+    person: 3p
+    en: "They'll come and pick us up at the airport."
+    note: "*venir* → **viendr-**: je viendrai. Same: tenir → tiendrai, devenir → deviendrai."
+
+  - id: 11
+    text: "Elle {{voudra}} sûrement venir avec nous."
+    verb: vouloir
+    tense: futur
+    person: 3s
+    en: "She'll certainly want to come with us."
+    note: "*vouloir* → **voudr-**. Careful: *je voudrai* (future) and *je voudrais* (conditional) sound almost the same."
+
+  - id: 12
+    text: "Vous {{devrez}} remplir ce formulaire en ligne."
+    verb: devoir
+    tense: futur
+    person: 2p
+    en: "You will have to fill in this form online."
+    note: "*devoir* → **devr-**: je devrai, vous devrez."
+
+  - id: 13
+    text: "Je {{vous enverrai}} les photos ce soir."
+    verb: envoyer
+    tense: futur
+    person: 1s
+    en: "I'll send you the photos this evening."
+    note: "*envoyer* → **enverr-** (like voir): j'enverrai. Never *envoyerai*."
+
+  - id: 14
+    text: "Vous {{recevrez}} votre colis sous 48 heures."
+    verb: recevoir
+    tense: futur
+    person: 2p
+    en: "You'll receive your parcel within 48 hours."
+    note: "*recevoir* → **recevr-**: je recevrai. *sous 48 heures* = within 48 hours."
+
+  - id: 15
+    text: "Je {{t'appellerai}} dès que j'arriverai à la gare."
+    verb: appeler
+    tense: futur
+    person: 1s
+    en: "I'll call you as soon as I get to the station."
+    note: "*appeler* → **appeller-** (double l throughout the future). Note **dès que + futur**: English says 'as soon as I get'."
+
+  - id: 16
+    text: "Quand tu {{seras}} grand, tu comprendras."
+    verb: être
+    tense: futur
+    person: 2s
+    en: "When you're older, you'll understand."
+    note: "**quand + futur** for a future time — English uses the present ('when you are')."
+
+  - id: 17
+    text: "{{J'achèterai}} une voiture électrique quand les prix baisseront."
+    verb: acheter
+    tense: futur
+    person: 1s
+    en: "I'll buy an electric car when prices come down."
+    note: "*acheter* → **achèter-** (è in every person): j'achèterai. And *quand* + futur again: *quand les prix baisseront*."
+
+  - id: 18
+    text: "Nous {{essaierons}} de venir, mais nous ne promettons rien."
+    verb: essayer
+    tense: futur
+    person: 1p
+    also: ["essayerons"]
+    en: "We'll try to come, but we're not promising anything."
+    note: "-ayer verbs: **essaierai** or essayerai — both correct. (-oyer/-uyer verbs must change: nettoierai, essuierai.)"
+
+  - id: 19
+    text: "Tu {{courras}} moins vite avec ces chaussures."
+    verb: courir
+    tense: futur
+    person: 2s
+    en: "You'll run more slowly in those shoes."
+    note: "*courir* → **courr-** (double r): tu courras. The present has one: tu cours."
+
+  - id: 20
+    text: "Rira bien qui {{rira}} le dernier."
+    verb: rire
+    tense: futur
+    person: 3s
+    tags: [proverb]
+    en: "He who laughs last laughs longest."
+    note: "-re verbs drop the final *e*: rire → **rir-** → il rira."
+
+  - id: 21
+    text: "Il ne faut jamais dire : « Fontaine, je {{ne boirai pas}} de ton eau. »"
+    verb: boire
+    tense: futur
+    person: 1s
+    tags: [proverb]
+    en: "Never say 'Fountain, I will not drink your water' (never say never)."
+    note: "boire → **boir-** → je boirai. The proverb warns against saying 'never'."
+
+  - id: 22
+    text: "Quoi qu'il arrive, la flamme de la résistance française ne doit pas s'éteindre et {{ne s'éteindra pas}}."
+    verb: s'éteindre
+    tense: futur
+    person: 3s
+    source: "Charles de Gaulle, *Appel du 18 juin* (1940)"
+    en: "Whatever happens, the flame of French resistance must not go out and will not go out."
+    note: "-indre verbs: éteindre → **éteindr-** → elle s'éteindra. (*Quoi qu'il arrive* = whatever happens, + subjunctive.)"
+
+  - id: 23
+    text: "Si on ne les arrose pas, ces plantes {{mourront}}."
+    verb: mourir
+    tense: futur
+    person: 3p
+    en: "If we don't water them, these plants will die."
+    note: "*mourir* → **mourr-** (double r): ils mourront. si + présent → futur."
+
+  - id: 24
+    text: "Il {{pleuvra}} demain sur toute la Bretagne."
+    verb: pleuvoir
+    tense: futur
+    person: 3s
+    en: "It will rain tomorrow across Brittany."
+    note: "*pleuvoir* → il **pleuvra**. Weather forecasts love the futur simple."
+
+  - id: 25
+    text: "Ça {{vaudra}} le coup, tu verras."
+    verb: valoir
+    tense: futur
+    person: 3s
+    en: "It'll be worth it, you'll see."
+    note: "*valoir* → **vaudr-**: ça vaudra le coup (informal: it'll be worth it)."
+
+  - id: 26
+    text: "Je {{m'assiérai}} à côté de toi."
+    verb: s'asseoir
+    tense: futur
+    person: 1s
+    also: ["m'assoirai"]
+    en: "I'll sit next to you."
+    note: "*s'asseoir* has two futures: je m'**assiérai** or je m'**assoirai**."
+
+  - id: 27
+    text: "Tu {{tiendras}} ta promesse ?"
+    verb: tenir
+    tense: futur
+    person: 2s
+    en: "Will you keep your promise?"
+    note: "*tenir* → **tiendr-** (like venir). *tenir sa promesse* = to keep one's promise."
+
+  - id: 28
+    text: "Attention, tu {{vas tomber}} !"
+    verb: tomber
+    tense: futur-proche
+    person: 2s
+    en: "Careful, you're going to fall!"
+    note: "**Futur proche** (aller + infinitive) for something about to happen, or clearly foreseeable from the present. The futur simple sounds more distant or formal."
+
+  - id: 29
+    text: "Quand tu {{auras fini}} tes devoirs, tu pourras regarder la télé."
+    verb: finir
+    tense: futur-anterieur
+    person: 2s
+    en: "When you've finished your homework, you can watch TV."
+    note: "**Futur antérieur** = future of avoir/être + participle: completed **before** another future action. English uses the present perfect ('when you've finished')."
+
+  - id: 30
+    text: "Je te rendrai ton livre dès que je {{l'aurai lu}}."
+    verb: lire
+    tense: futur-anterieur
+    person: 1s
+    en: "I'll give you your book back as soon as I've read it."
+    note: "*dès que* + futur antérieur: the reading comes first. *lire* → lu."
+
+  - id: 31
+    text: "D'ici l'année prochaine, ils {{auront déménagé}}."
+    verb: déménager
+    tense: futur-anterieur
+    person: 3p
+    en: "By next year they'll have moved."
+    note: "*d'ici* + a future point = by (then) → futur antérieur."
+
+  - id: 32
+    text: "Elle n'est pas encore là ? Elle {{aura raté}} son train."
+    verb: rater
+    tense: futur-anterieur
+    person: 3s
+    en: "She's not here yet? She must have missed her train."
+    note: "Futur antérieur of **probability**: a guess about the past (= *elle a sans doute raté son train*)."
+
+  - id: 33
+    text: "Une fois que vous {{serez arrivés}}, envoyez-moi un message."
+    verb: arriver
+    tense: futur-anterieur
+    person: 2p
+    en: "Once you've arrived, send me a message."
+    note: "être verbs: future of être + participle, with agreement: vous serez arrivés. *une fois que* + futur antérieur."
+
+  - id: 34
+    text: "À la fin du mois, nous {{aurons remboursé}} tout le prêt."
+    verb: rembourser
+    tense: futur-anterieur
+    person: 1p
+    en: "By the end of the month we'll have paid off the whole loan."
+    note: "Completed before a future deadline → futur antérieur."
+
+  - id: 35
+    text: "Tu verras, dans deux heures, tout le monde {{aura oublié}}."
+    verb: oublier
+    tense: futur-anterieur
+    person: 3s
+    en: "You'll see — in two hours everyone will have forgotten."
+    note: "Futur antérieur: a state reached by a future moment (*dans deux heures*)."
+
+  - id: 36
+    text: "Lorsqu'il {{se sera reposé}}, il ira mieux."
+    verb: se reposer
+    tense: futur-anterieur
+    person: 3s
+    en: "Once he's rested, he'll feel better."
+    note: "Pronominal → être: il se sera reposé. *lorsque* = *quand*, a little more formal."

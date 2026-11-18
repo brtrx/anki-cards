@@ -1,0 +1,338 @@
+deck:
+  number: 11
+  slug: subjonctif-ou-indicatif
+  title: "Subjunctive or indicative? (choose the mood)"
+  mode: choice
+  description: |
+    Only the infinitive is given. Ask: is the clause presented as a fact
+    (indicative) or as something wished, required, feared, doubted, or not
+    yet real (subjunctive)?
+    Classic traps: espérer que + indicative / souhaiter que + subjunctive;
+    il est probable que + indicative / il est possible que + subjunctive;
+    je pense que + indicative / je ne pense pas que + subjunctive;
+    après que + indicative / avant que + subjunctive;
+    même si + indicative / bien que + subjunctive.
+    Many cards come in pairs — learn them as contrasts.
+
+cards:
+  - id: 1
+    text: "Je pense qu'il {{a}} raison."
+    verb: avoir
+    tense: present
+    person: 3s
+    en: "I think he's right."
+    note: "*penser que* (affirmative) + **indicative**: you're stating what you believe to be true."
+
+  - id: 2
+    text: "Je ne pense pas qu'il {{ait}} raison."
+    verb: avoir
+    tense: subjonctif
+    person: 3s
+    en: "I don't think he's right."
+    note: "Negative *penser/croire que* → **subjunctive**: doubt."
+
+  - id: 3
+    text: "J'espère que tu {{vas}} mieux aujourd'hui."
+    verb: aller
+    tense: present
+    person: 2s
+    en: "I hope you're feeling better today."
+    note: "*espérer que* + **indicative** — a very common mistake, since English 'hope' feels like a wish."
+
+  - id: 4
+    text: "Je souhaite que tu {{ailles}} mieux très vite."
+    verb: aller
+    tense: subjonctif
+    person: 2s
+    en: "I hope you'll be better very soon."
+    note: "*souhaiter que* + **subjunctive** — but *espérer que* + indicative, despite the similar meaning."
+
+  - id: 5
+    text: "Il est probable qu'il {{pleuvra}} demain."
+    verb: pleuvoir
+    tense: futur
+    person: 3s
+    en: "It will probably rain tomorrow."
+    note: "*il est probable que* + **indicative** (likely enough to treat as fact); compare *il est possible que* + subjunctive."
+
+  - id: 6
+    text: "Il est possible qu'il {{pleuve}} demain."
+    verb: pleuvoir
+    tense: subjonctif
+    person: 3s
+    en: "It might rain tomorrow."
+    note: "*il est possible que* + **subjunctive**. The subjunctive has no future: *pleuve* covers 'will rain'."
+
+  - id: 7
+    text: "Je suis sûr qu'elle {{viendra}}."
+    verb: venir
+    tense: futur
+    person: 3s
+    en: "I'm sure she'll come."
+    note: "Certainty (*je suis sûr que*) → **indicative** (here future)."
+
+  - id: 8
+    text: "Je ne suis pas sûr qu'elle {{vienne}}."
+    verb: venir
+    tense: subjonctif
+    person: 3s
+    en: "I'm not sure she'll come."
+    note: "Uncertainty → **subjunctive**."
+
+  - id: 9
+    text: "Après qu'il {{est parti}}, nous avons fermé la boutique."
+    verb: partir
+    tense: passe-compose
+    person: 3s
+    en: "After he left, we closed the shop."
+    note: "**après que** + indicative (it's a fact that already happened). *après qu'il soit parti* is very common in speech but still considered incorrect."
+
+  - id: 10
+    text: "Avant qu'il {{parte}}, nous lui avons offert un cadeau."
+    verb: partir
+    tense: subjonctif
+    person: 3s
+    en: "Before he left, we gave him a present."
+    note: "**avant que** + subjunctive (at that point it hadn't happened yet)."
+
+  - id: 11
+    text: "Bien qu'elle {{soit}} malade, elle est venue travailler."
+    verb: être
+    tense: subjonctif
+    person: 3s
+    en: "Although she's ill, she came in to work."
+    note: "*bien que* / *quoique* + **subjunctive** (concession)."
+
+  - id: 12
+    text: "Même si elle {{est}} malade, elle viendra travailler."
+    verb: être
+    tense: present
+    person: 3s
+    en: "Even if she's ill, she'll come in to work."
+    note: "*même si* + **indicative** (like *si*) — compare *bien que* + subjunctive."
+
+  - id: 13
+    text: "Je te prête ma veste pour que tu {{n'aies pas}} froid."
+    verb: avoir
+    tense: subjonctif
+    person: 2s
+    en: "I'm lending you my jacket so that you won't be cold."
+    note: "*pour que* + **subjunctive**: purpose."
+
+  - id: 14
+    text: "Je te prête ma veste parce que tu {{as}} froid."
+    verb: avoir
+    tense: present
+    person: 2s
+    en: "I'm lending you my jacket because you're cold."
+    note: "*parce que* + **indicative**: a real cause."
+
+  - id: 15
+    text: "C'est le meilleur film que {{j'aie jamais vu}}."
+    verb: voir
+    tense: subjonctif-passe
+    person: 1s
+    also: ["j'ai jamais vu"]
+    en: "It's the best film I've ever seen."
+    note: "A superlative (*le meilleur… que*, *le seul… qui*) is usually followed by the **subjunctive**; the indicative is common in speech."
+
+  - id: 16
+    text: "Je cherche un appartement qui {{soit}} proche du métro."
+    verb: être
+    tense: subjonctif
+    person: 3s
+    en: "I'm looking for a flat that's close to the metro."
+    note: "Looking for something that may not exist → **subjunctive** in the relative clause."
+
+  - id: 17
+    text: "J'ai trouvé un appartement qui {{est}} proche du métro."
+    verb: être
+    tense: present
+    person: 3s
+    en: "I've found a flat that's close to the metro."
+    note: "The flat exists → **indicative**."
+
+  - id: 18
+    text: "Il me semble qu'il y {{a}} un problème."
+    verb: avoir
+    tense: present
+    person: 3s
+    en: "It seems to me there's a problem."
+    note: "**il me semble que** + indicative; **il semble que** (no *me*, more doubt) + subjunctive."
+
+  - id: 19
+    text: "Il semble qu'il y {{ait}} un problème."
+    verb: avoir
+    tense: subjonctif
+    person: 3s
+    en: "There seems to be a problem."
+    note: "**il semble que** + subjunctive (impersonal, less certain); compare *il me semble que* + indicative."
+
+  - id: 20
+    text: "Je suis contente que tu {{sois}} là."
+    verb: être
+    tense: subjonctif
+    person: 2s
+    en: "I'm glad you're here."
+    note: "Emotion (*content que, triste que, ravi que, désolé que*) → **subjunctive**."
+
+  - id: 21
+    text: "Je sais que tu {{es}} là."
+    verb: être
+    tense: present
+    person: 2s
+    en: "I know you're there."
+    note: "Knowledge (*savoir que*) → **indicative**."
+
+  - id: 22
+    text: "Attends ici jusqu'à ce que je {{revienne}}."
+    verb: revenir
+    tense: subjonctif
+    person: 1s
+    en: "Wait here until I get back."
+    note: "*jusqu'à ce que* + **subjunctive**."
+
+  - id: 23
+    text: "Pendant que tu {{fais}} la vaisselle, je range le salon."
+    verb: faire
+    tense: present
+    person: 2s
+    en: "While you do the washing-up, I'll tidy the living room."
+    note: "*pendant que* + **indicative** (two simultaneous facts)."
+
+  - id: 24
+    text: "Je viendrai, à moins qu'il y {{ait}} une grève."
+    verb: avoir
+    tense: subjonctif
+    person: 3s
+    en: "I'll come, unless there's a strike."
+    note: "*à moins que* + **subjunctive** (in formal style with a *ne explétif*: à moins qu'il n'y ait)."
+
+  - id: 25
+    text: "Dès qu'il {{aura}} son diplôme, il cherchera du travail."
+    verb: avoir
+    tense: futur
+    person: 3s
+    en: "As soon as he has his degree, he'll look for work."
+    note: "*dès que* + **indicative** — future, because it's in the future."
+
+  - id: 26
+    text: "Elle est partie sans que personne ne {{la voie}}."
+    verb: voir
+    tense: subjonctif
+    person: 3s
+    en: "She left without anyone seeing her."
+    note: "*sans que* + **subjunctive**."
+
+  - id: 27
+    text: "Quoi qu'il {{arrive}}, la flamme de la résistance française ne doit pas s'éteindre."
+    verb: arriver
+    tense: subjonctif
+    person: 3s
+    source: "Charles de Gaulle, *Appel du 18 juin* (1940)"
+    en: "Whatever happens, the flame of French resistance must not go out."
+    note: "**quoi que** (two words) = whatever → subjunctive. Don't confuse it with *quoique* (one word) = although."
+
+  - id: 28
+    text: "Où que tu {{ailles}}, je te suivrai."
+    verb: aller
+    tense: subjonctif
+    person: 2s
+    en: "Wherever you go, I'll follow you."
+    note: "*où que* = wherever → **subjunctive**. Same: *qui que* (whoever), *quoi que* (whatever)."
+
+  - id: 29
+    text: "Il est évident que nous {{devons}} agir."
+    verb: devoir
+    tense: present
+    person: 1p
+    en: "It's obvious that we have to act."
+    note: "Certainty (*il est évident / clair / certain que*) → **indicative**."
+
+  - id: 30
+    text: "Il est nécessaire que nous {{agissions}} vite."
+    verb: agir
+    tense: subjonctif
+    person: 1p
+    en: "We need to act fast."
+    note: "Necessity → **subjunctive**. *agir*: que nous agissions."
+
+  - id: 31
+    text: "J'ai l'impression qu'il {{est}} fâché."
+    verb: être
+    tense: present
+    person: 3s
+    en: "I get the feeling he's annoyed."
+    note: "*avoir l'impression que* + **indicative**."
+
+  - id: 32
+    text: "Je doute qu'il {{soit}} fâché."
+    verb: être
+    tense: subjonctif
+    person: 3s
+    en: "I doubt he's annoyed."
+    note: "Doubt (*douter que*) → **subjunctive**."
+
+  - id: 33
+    text: "Tu veux que je {{t'aide}} ?"
+    verb: aider
+    tense: subjonctif
+    person: 1s
+    en: "Do you want me to help you?"
+    note: "*vouloir que* + **subjunctive** (different subjects). For -er verbs, *je* looks the same as the present — but it is a subjunctive."
+
+  - id: 34
+    text: "Ce n'est pas que je {{veuille}} me plaindre, mais…"
+    verb: vouloir
+    tense: subjonctif
+    person: 1s
+    en: "It's not that I want to complain, but…"
+    note: "*ce n'est pas que* + **subjunctive**: 'it's not that…'."
+
+  - id: 35
+    text: "Je suis certain que le train {{est déjà parti}}."
+    verb: partir
+    tense: passe-compose
+    person: 3s
+    en: "I'm certain the train has already left."
+    note: "Certainty → **indicative** (passé composé)."
+
+  - id: 36
+    text: "Je regrette que le train {{soit déjà parti}}."
+    verb: partir
+    tense: subjonctif-passe
+    person: 3s
+    en: "I'm sorry the train has already left."
+    note: "Regret → **subjonctif passé**."
+
+  - id: 37
+    text: "J'attends que tu {{finisses}}."
+    verb: finir
+    tense: subjonctif
+    person: 2s
+    en: "I'm waiting for you to finish."
+    note: "*attendre que* + **subjunctive**: 'wait for … to'."
+
+  - id: 38
+    text: "Je crains qu'il ne {{fasse}} trop froid pour sortir."
+    verb: faire
+    tense: subjonctif
+    person: 3s
+    en: "I'm afraid it may be too cold to go out."
+    note: "*craindre que* + **subjunctive**, often with a *ne explétif* — it has no negative meaning."
+
+  - id: 39
+    text: "Je crois que tu {{peux}} le faire."
+    verb: pouvoir
+    tense: present
+    person: 2s
+    en: "I believe you can do it."
+    note: "*croire que* (affirmative) + **indicative**."
+
+  - id: 40
+    text: "Il faut que tu {{prennes}} rendez-vous chez le dentiste."
+    verb: prendre
+    tense: subjonctif
+    person: 2s
+    en: "You need to make an appointment at the dentist's."
+    note: "*il faut que* + **subjunctive**. *prendre rendez-vous* = to make an appointment."

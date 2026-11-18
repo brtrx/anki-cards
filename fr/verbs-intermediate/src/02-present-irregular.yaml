@@ -1,0 +1,345 @@
+deck:
+  number: 2
+  slug: present-irregular
+  title: "Présent II — irregular verbs"
+  mode: form
+  description: |
+    The irregular verbs you use every day, plus the families that share their
+    patterns (venir/tenir, prendre, mettre, recevoir, craindre/peindre,
+    conduire/construire, -aître…). Many sentences show the *uses* of the present:
+    depuis + présent, venir de, the present for planned events.
+
+cards:
+  - id: 1
+    text: "Mes enfants {{prennent}} le bus pour aller à l'école."
+    verb: prendre
+    tense: present
+    person: 3p
+    en: "My children take the bus to school."
+    note: "*prendre* has three stems: je prends, nous prenons, ils **prennent** (double *n*). Same: apprendre, comprendre, reprendre, surprendre."
+
+  - id: 2
+    text: "Vous {{faites}} quoi ce week-end ?"
+    verb: faire
+    tense: present
+    person: 2p
+    en: "What are you doing this weekend?"
+    note: "Only three verbs have a *vous* form in **-tes**: vous êtes, vous faites, vous dites. Never *faisez*."
+
+  - id: 3
+    text: "Qu'est-ce que vous {{dites}} ? Je n'entends rien avec ce bruit."
+    verb: dire
+    tense: present
+    person: 2p
+    en: "What are you saying? I can't hear a thing with this noise."
+    note: "vous **dites** — but its compounds are regular: vous contredisez, vous interdisez, vous prédisez."
+
+  - id: 4
+    text: "Ils {{font}} grève depuis lundi."
+    verb: faire
+    tense: present
+    person: 3p
+    en: "They've been on strike since Monday."
+    note: "Only four verbs end in **-ont** in the 3rd person plural: ils sont, ils ont, ils vont, ils **font**. *faire grève* = to be on strike; depuis + présent."
+
+  - id: 5
+    text: "Est-ce que tu {{peux}} me rappeler dans cinq minutes ?"
+    verb: pouvoir
+    tense: present
+    person: 2s
+    en: "Can you call me back in five minutes?"
+    note: "*pouvoir*: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils **peuvent**. *Puis-je… ?* is the formal inverted form of *je peux*."
+
+  - id: 6
+    text: "Ils {{veulent}} acheter une maison à la campagne."
+    verb: vouloir
+    tense: present
+    person: 3p
+    en: "They want to buy a house in the country."
+    note: "*vouloir*: je veux, nous voulons, ils **veulent**. A 'boot' verb: the stem changes for je/tu/il/ils (veu-) but not for nous/vous (voul-)."
+
+  - id: 7
+    text: "Vous {{devez}} présenter une pièce d'identité à l'entrée."
+    verb: devoir
+    tense: present
+    person: 2p
+    en: "You must show ID at the entrance."
+    note: "*devoir*: je dois, nous devons, vous devez, ils **doivent**. *une pièce d'identité* = an ID document."
+
+  - id: 8
+    text: "Tu {{sais}} à quelle heure ferme la pharmacie ?"
+    verb: savoir
+    tense: present
+    person: 2s
+    en: "Do you know what time the pharmacy closes?"
+    note: "*savoir* = to know a fact / know how to; *connaître* = to be familiar with a person or place. je sais, nous savons, ils savent. Note the inversion *ferme la pharmacie* after *à quelle heure*."
+
+  - id: 9
+    text: "On {{met}} combien de temps pour aller à la gare à pied ?"
+    verb: mettre
+    tense: present
+    person: 3s
+    en: "How long does it take to walk to the station?"
+    note: "*mettre du temps* = to take time. *mettre*: je mets, il met, nous mettons, ils mettent. Same: permettre, promettre, admettre, remettre."
+
+  - id: 10
+    text: "Ils {{viennent}} d'emménager à côté de chez nous."
+    verb: venir
+    tense: present
+    person: 3p
+    en: "They've just moved in next door to us."
+    note: "**venir de + infinitif** = to have just done something. *venir*: je viens, nous venons, ils **viennent**. Same: tenir, devenir, revenir, obtenir, se souvenir."
+
+  - id: 11
+    text: "Je {{tiens}} à vous remercier pour votre accueil."
+    verb: tenir
+    tense: present
+    person: 1s
+    en: "I'd really like to thank you for your hospitality."
+    note: "*tenir à* + infinitive = to be keen to / to insist on. *tenir* conjugates like *venir*: je tiens, nous tenons, ils tiennent."
+
+  - id: 12
+    text: "Est-ce que vous {{vous souvenez}} de notre premier voyage ?"
+    verb: se souvenir
+    tense: present
+    person: 2p
+    en: "Do you remember our first trip?"
+    note: "*se souvenir de quelque chose* (compare *se rappeler quelque chose*, no *de*). Like venir: je me souviens, vous vous souvenez, ils se souviennent."
+
+  - id: 13
+    text: "On ne naît pas femme : on {{le devient}}."
+    verb: devenir
+    tense: present
+    person: 3s
+    source: "Simone de Beauvoir, *Le Deuxième Sexe* (1949)"
+    en: "One is not born, but rather becomes, a woman."
+    note: "*devenir* conjugates like venir: il devient, ils deviennent. *le* is the neutral pronoun standing for *femme*."
+
+  - id: 14
+    text: "Nous {{recevons}} des dizaines de candidatures chaque semaine."
+    verb: recevoir
+    tense: present
+    person: 1p
+    en: "We receive dozens of applications every week."
+    note: "*recevoir*: je reçois, nous recevons, ils **reçoivent** — **ç** before *o* and *u*. Same: apercevoir, décevoir, concevoir."
+
+  - id: 15
+    text: "Ce film {{me déçoit}} un peu."
+    verb: décevoir
+    tense: present
+    person: 3s
+    en: "This film is a bit of a letdown for me."
+    note: "False friend: *décevoir* = to disappoint (to deceive = *tromper*). Like recevoir: il déçoit, nous décevons, ils déçoivent."
+
+  - id: 16
+    text: "Nous {{ne buvons jamais}} d'alcool le midi."
+    verb: boire
+    tense: present
+    person: 1p
+    en: "We never drink alcohol at lunchtime."
+    note: "*boire* has three stems: je bois, nous **buvons**, ils **boivent**. *le midi* = at lunchtime."
+
+  - id: 17
+    text: "Nous {{croyons}} que le projet peut encore réussir."
+    verb: croire
+    tense: present
+    person: 1p
+    en: "We believe the project can still succeed."
+    note: "*croire*: je crois, nous **croyons**, ils croient (y between two vowel sounds). Same pattern as *voir*: je vois, nous voyons."
+
+  - id: 18
+    text: "Vous {{voyez}} ce que je veux dire ?"
+    verb: voir
+    tense: present
+    person: 2p
+    en: "Do you see what I mean?"
+    note: "*voir*: je vois, nous voyons, vous **voyez**, ils voient. *vouloir dire* = to mean."
+
+  - id: 19
+    text: "Elle {{écrit}} un roman depuis deux ans."
+    verb: écrire
+    tense: present
+    person: 3s
+    en: "She has been writing a novel for two years."
+    note: "**depuis + présent**: the action started in the past and is still going on (English: *has been …ing*). *écrire*: j'écris, nous **écrivons**, ils écrivent."
+
+  - id: 20
+    text: "Mon grand-père {{vit}} seul depuis la mort de ma grand-mère."
+    verb: vivre
+    tense: present
+    person: 3s
+    en: "My grandfather has lived alone since my grandmother died."
+    note: "*vivre*: je vis, il vit, nous vivons. Careful: *je vis* is also the passé simple of *voir* (I saw)!"
+
+  - id: 21
+    text: "Je {{suis}} un cours de cuisine thaïe le mardi soir."
+    verb: suivre
+    tense: present
+    person: 1s
+    en: "I'm taking a Thai cookery class on Tuesday evenings."
+    note: "*je suis* = I am (être) **and** I follow (suivre) — context decides. *suivre un cours* = to take a class. suivre: je suis, nous suivons, ils suivent."
+
+  - id: 22
+    text: "Les experts {{craignent}} une nouvelle vague de chaleur cet été."
+    verb: craindre
+    tense: present
+    person: 3p
+    en: "Experts fear another heatwave this summer."
+    note: "-indre verbs (craindre, peindre, éteindre, joindre): je crains, il craint, but nous **craignons**, ils **craignent** — the stem becomes *-gn-* in the plural."
+
+  - id: 23
+    text: "Cette année, nous {{peignons}} les volets en bleu."
+    verb: peindre
+    tense: present
+    person: 1p
+    en: "This year we're painting the shutters blue."
+    note: "*peindre*: je peins, nous **peignons**, ils peignent. Same family: éteindre (nous éteignons), atteindre, rejoindre (nous rejoignons)."
+
+  - id: 24
+    text: "Je {{vous rejoins}} au café dans dix minutes."
+    verb: rejoindre
+    tense: present
+    person: 1s
+    en: "I'll meet you at the café in ten minutes."
+    note: "*rejoindre* = to join / meet up with. je rejoins, il rejoint, nous rejoignons. Present for the immediate future."
+
+  - id: 25
+    text: "Vous {{conduisez}} à droite ou à gauche en Irlande ?"
+    verb: conduire
+    tense: present
+    person: 2p
+    en: "Do you drive on the right or on the left in Ireland?"
+    note: "-uire verbs (conduire, traduire, construire, produire, détruire): je conduis, nous **conduisons**, ils conduisent — an *s* appears in the plural. (In Ireland: on the left.)"
+
+  - id: 26
+    text: "Je {{m'assieds}} toujours près de la fenêtre."
+    verb: s'asseoir
+    tense: present
+    person: 1s
+    also: ["m'assois"]
+    en: "I always sit by the window."
+    note: "*s'asseoir* has two correct conjugations: je m'**assieds** / nous nous asseyons (more traditional) or je m'**assois** / nous nous assoyons."
+
+  - id: 27
+    text: "Ça {{vaut}} la peine d'essayer."
+    verb: valoir
+    tense: present
+    person: 3s
+    en: "It's worth a try."
+    note: "*valoir* = to be worth: il vaut, ils valent. Fixed expressions: *ça vaut la peine*, *il vaut mieux* + infinitive (it's better to)."
+
+  - id: 28
+    text: "Il {{faut}} réserver au moins une semaine à l'avance."
+    verb: falloir
+    tense: present
+    person: 3s
+    en: "You have to book at least a week in advance."
+    note: "*falloir* exists only with impersonal *il*: il faut, il fallait, il faudra, il faudrait, qu'il faille."
+
+  - id: 29
+    text: "Il pleure dans mon cœur comme il {{pleut}} sur la ville."
+    verb: pleuvoir
+    tense: present
+    person: 3s
+    source: "Paul Verlaine, « Il pleure dans mon cœur », *Romances sans paroles* (1874)"
+    en: "It weeps in my heart as it rains on the town."
+    note: "Verlaine invents an impersonal *il pleure* (it weeps) to echo *il pleut* (it rains). *pleuvoir* is impersonal: il pleut, il a plu, il pleuvra."
+
+  - id: 30
+    text: "Les hommes {{naissent}} et demeurent libres et égaux en droits."
+    verb: naître
+    tense: present
+    person: 3p
+    source: "*Déclaration des droits de l'homme et du citoyen*, article 1 (1789)"
+    en: "Men are born and remain free and equal in rights."
+    note: "*naître*: je nais, il naît, nous naissons, ils **naissent**. Passé composé with *être*: il est né. *demeurer* (formal) = to remain."
+
+  - id: 31
+    text: "Le cœur a ses raisons que la raison {{ne connaît point}}."
+    verb: connaître
+    tense: present
+    person: 3s
+    source: "Blaise Pascal, *Pensées* (1670)"
+    en: "The heart has its reasons which reason knows nothing of."
+    note: "*ne… point* = literary *ne… pas*. *connaître*: je connais, il **connaît** (î before *t* in traditional spelling), nous connaissons. Same: reconnaître, paraître, disparaître."
+
+  - id: 32
+    text: "Ce logiciel {{résout}} la plupart des problèmes de compatibilité."
+    verb: résoudre
+    tense: present
+    person: 3s
+    en: "This software solves most compatibility problems."
+    note: "*résoudre*: je résous, il **résout**, nous **résolvons**, ils résolvent; past participle *résolu*."
+
+  - id: 33
+    text: "Elle {{rit}} toujours de mes blagues, même les plus nulles."
+    verb: rire
+    tense: present
+    person: 3s
+    en: "She always laughs at my jokes, even the worst ones."
+    note: "*rire*: je ris, il rit, nous rions, ils rient. Same: sourire. *nul, nulle* (informal) = rubbish."
+
+  - id: 34
+    text: "Ce film {{me plaît}} beaucoup."
+    verb: plaire
+    tense: present
+    person: 3s
+    en: "I really like this film."
+    note: "*plaire à quelqu'un*: the thing liked is the subject (*ce film me plaît*). il **plaît** (î in traditional spelling), ils plaisent. *S'il vous plaît* = literally 'if it pleases you'."
+
+  - id: 35
+    text: "Quand le prof entre, tout le monde {{se tait}}."
+    verb: se taire
+    tense: present
+    person: 3s
+    en: "When the teacher comes in, everyone goes quiet."
+    note: "*se taire* = to stop talking: je me tais, il se **tait** (no circumflex, unlike *plaît*), nous nous taisons."
+
+  - id: 36
+    text: "Je {{meurs}} de faim !"
+    verb: mourir
+    tense: present
+    person: 1s
+    en: "I'm starving!"
+    note: "*mourir de faim / de soif / d'envie de…* — everyday exaggerations. *mourir*: je meurs, nous mourons, ils meurent; future je mourrai (double *r*)."
+
+  - id: 37
+    text: "Bon, il est tard, je {{m'en vais}}."
+    verb: s'en aller
+    tense: present
+    person: 1s
+    en: "Right, it's late, I'm off."
+    note: "*s'en aller* = to leave, go away: je m'en vais, tu t'en vas, il s'en va, nous nous en allons, ils s'en vont."
+
+  - id: 38
+    text: "Ils {{construisent}} un nouveau pont sur la Loire."
+    verb: construire
+    tense: present
+    person: 3p
+    en: "They're building a new bridge over the Loire."
+    note: "*construire*: je construis, nous construisons, ils **construisent** — same pattern as conduire, traduire, produire."
+
+  - id: 39
+    text: "Ça {{suffit}} !"
+    verb: suffire
+    tense: present
+    person: 3s
+    en: "That's enough!"
+    note: "*suffire*: il suffit, nous suffisons. *Il suffit de* + infinitive = all you have to do is…"
+
+  - id: 40
+    text: "Est-ce que vous {{vous plaisez}} dans votre nouvel appartement ?"
+    verb: se plaire
+    tense: present
+    person: 2p
+    en: "Do you like it in your new flat?"
+    note: "*se plaire quelque part* = to be happy somewhere / to like living there. vous vous plaisez, ils se plaisent. *nouvel* before a vowel: un nouvel appartement."
+
+  - id: 41
+    text: "Va, je {{ne te hais point}}."
+    verb: haïr
+    tense: present
+    person: 1s
+    source: "Pierre Corneille, *Le Cid*, acte III, scène 4 (1637)"
+    en: "Go — I do not hate you."
+    note: "French theatre's most famous understatement: Chimène means 'I love you'. *haïr*: je **hais**, tu hais, il hait (no diaeresis in the singular), nous haïssons, ils haïssent."

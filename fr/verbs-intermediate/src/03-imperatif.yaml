@@ -1,0 +1,289 @@
+deck:
+  number: 3
+  slug: imperatif
+  title: "Impératif — commands, requests & pronouns"
+  mode: form
+  description: |
+    The imperative: the four irregulars (sois, aie, sache, veuillez), the
+    missing -s of -er verbs (va, mange — but vas-y, manges-en), reflexive
+    imperatives (lève-toi / ne te lève pas) and pronoun order
+    (donne-le-moi / ne me le donne pas). Plenty of poetry and proverbs:
+    French literature loves a command.
+
+cards:
+  - id: 1
+    text: "{{Sois}} sage, ô ma Douleur, et tiens-toi plus tranquille."
+    verb: être
+    tense: imperatif
+    person: 2s
+    source: "Charles Baudelaire, « Recueillement », *Les Fleurs du mal* (1868 edition)"
+    en: "Be good, O my Sorrow, and keep calmer."
+    note: "*être* takes its imperative from the subjunctive: **sois**, soyons, soyez. Same for avoir (aie, ayons, ayez), savoir (sache, sachons, sachez) and vouloir (veuillez)."
+
+  - id: 2
+    text: "{{Soyez}} les bienvenus !"
+    verb: être
+    tense: imperatif
+    person: 2p
+    en: "Welcome! (to a group)"
+    note: "**soyez** — no *i* after the *y* (never *soyiez*). Literally 'be the welcome ones'; *bienvenu* agrees with the guests."
+
+  - id: 3
+    text: "{{Ayez}} l'obligeance de patienter quelques instants."
+    verb: avoir
+    tense: imperatif
+    person: 2p
+    en: "Kindly wait a few moments."
+    note: "*avoir*: aie, ayons, **ayez** (no *i*). *avoir l'obligeance de* = formal 'be so kind as to'."
+
+  - id: 4
+    text: "{{Sachez}} que nous ferons tout notre possible."
+    verb: savoir
+    tense: imperatif
+    person: 2p
+    en: "Rest assured that we will do everything we can."
+    note: "*savoir*: sache, sachons, **sachez** — 'be aware that…', common in speeches and formal letters."
+
+  - id: 5
+    text: "{{Veuillez}} agréer, Madame, l'expression de mes salutations distinguées."
+    verb: vouloir
+    tense: imperatif
+    person: 2p
+    en: "Yours faithfully (lit. 'Please accept, Madam, the expression of my distinguished greetings')."
+    note: "**veuillez** + infinitive = the formal 'please' of letters and notices: *Veuillez patienter*, *Veuillez fermer la porte*. It's the imperative of *vouloir*."
+
+  - id: 6
+    text: "{{Va}} chercher du pain, s'il te plaît."
+    verb: aller
+    tense: imperatif
+    person: 2s
+    en: "Go and get some bread, please."
+    note: "-er verbs (and *aller*) drop the *s* of the *tu* form: tu vas → **va**, tu manges → mange. *aller chercher* = to go and get."
+
+  - id: 7
+    text: "Le marché ferme à midi : {{vas-y}} maintenant !"
+    verb: aller
+    tense: imperatif
+    person: 2s
+    en: "The market closes at noon: go now!"
+    note: "The *s* comes back before *y* and *en*, for the liaison sound /z/: **vas-y**, manges-en, penses-y."
+
+  - id: 8
+    text: "Il reste du gâteau : {{manges-en}} un peu !"
+    verb: manger
+    tense: imperatif
+    person: 2s
+    en: "There's some cake left: have a bit!"
+    note: "Before *en* and *y*, -er imperatives regain their *s*: **manges-en**, achètes-en, parles-en. Without a pronoun: mange !"
+
+  - id: 9
+    text: "{{Donne-le-moi}}, s'il te plaît."
+    verb: donner
+    tense: imperatif
+    person: 2s
+    en: "Give it to me, please."
+    note: "Affirmative imperative: verb – direct object – indirect object, all hyphenated, and *me* becomes **moi**: donne-le-moi, envoie-les-nous."
+
+  - id: 10
+    text: "{{Rends-la-lui}} avant qu'il ne s'en aperçoive."
+    verb: rendre
+    tense: imperatif
+    person: 2s
+    en: "Give it back to him before he notices."
+    note: "With *lui/leur*, the order is direct then indirect: **rends-la-lui**, donne-les-leur. (With moi/nous it's the same: donne-le-moi.) Non -er verbs keep their *s*: rends."
+
+  - id: 11
+    text: "Ce document est confidentiel : {{ne le lui montrez pas}}."
+    verb: montrer
+    tense: imperatif
+    person: 2p
+    en: "This document is confidential: don't show it to him (or her)."
+    note: "Negative imperative: pronouns go **before** the verb in the normal order — *ne le lui montrez pas*, *ne me le dis pas*. No hyphens, no *moi*."
+
+  - id: 12
+    text: "{{Ne t'inquiète pas}}, tout va bien se passer."
+    verb: s'inquiéter
+    tense: imperatif
+    person: 2s
+    en: "Don't worry, everything will be fine."
+    note: "Negative reflexive imperative: *te* stays before the verb. Affirmative would be *inquiète-toi*. No *s* in the -er imperative."
+
+  - id: 13
+    text: "{{Asseyez-vous}}, je vous en prie."
+    verb: s'asseoir
+    tense: imperatif
+    person: 2p
+    also: ["Assoyez-vous"]
+    en: "Do sit down, please."
+    note: "*s'asseoir*: assieds-toi, asseyons-nous, **asseyez-vous** (or assois-toi, assoyez-vous). *je vous en prie* = please / you're welcome (formal)."
+
+  - id: 14
+    text: "{{Taisez-vous}} et écoutez !"
+    verb: se taire
+    tense: imperatif
+    person: 2p
+    en: "Be quiet and listen!"
+    note: "*se taire*: tais-toi, taisons-nous, **taisez-vous**. In the affirmative the reflexive pronoun follows the verb."
+
+  - id: 15
+    text: "Il est tard : {{dépêchons-nous}} !"
+    verb: se dépêcher
+    tense: imperatif
+    person: 1p
+    en: "It's late: let's hurry!"
+    note: "The *nous* imperative = 'let's…': dépêchons-nous, allons-y, partons."
+
+  - id: 16
+    text: "{{Ne nous énervons pas}}, discutons calmement."
+    verb: s'énerver
+    tense: imperatif
+    person: 1p
+    en: "Let's not get worked up — let's talk calmly."
+    note: "Negative *nous* imperative: the pronoun goes back before the verb — *ne nous énervons pas*."
+
+  - id: 17
+    text: "{{Mettons-nous}} d'accord sur le budget avant la réunion."
+    verb: se mettre
+    tense: imperatif
+    person: 1p
+    en: "Let's agree on the budget before the meeting."
+    note: "*se mettre d'accord* = to come to an agreement. *mettre*: mets, mettons, mettez."
+
+  - id: 18
+    text: "{{Souviens-toi}} que tu dois rappeler le plombier."
+    verb: se souvenir
+    tense: imperatif
+    person: 2s
+    en: "Remember that you have to call the plumber back."
+    note: "*se souvenir*: **souviens-toi**, souvenons-nous, souvenez-vous. (*Rappelle-toi* is also common.)"
+
+  - id: 19
+    text: "{{Allez-vous-en}} !"
+    verb: s'en aller
+    tense: imperatif
+    person: 2p
+    en: "Go away!"
+    note: "*s'en aller*: va-t'en, allons-nous-en, **allez-vous-en**. In *va-t'en* the *t'* is the pronoun *te* (elided), not a linking *t*."
+
+  - id: 20
+    text: "{{Aide-toi}}, le Ciel t'aidera."
+    verb: s'aider
+    tense: imperatif
+    person: 2s
+    source: "Jean de La Fontaine, « Le Chartier embourbé », *Fables* (1668)"
+    en: "Help yourself, and Heaven will help you."
+    note: "Imperative + future = 'do this and that will follow'. -er verb, so no *s*: tu t'aides → **aide-toi**."
+
+  - id: 21
+    text: "S'il vous plaît… {{dessine-moi}} un mouton !"
+    verb: dessiner
+    tense: imperatif
+    person: 2s
+    source: "Antoine de Saint-Exupéry, *Le Petit Prince* (1943)"
+    en: "Please… draw me a sheep!"
+    note: "After an affirmative imperative, *me* becomes **moi**: dessine-moi, dis-moi, écoute-moi. (The little prince mixes *vous* and *tu* — he's polite and a child at once.)"
+
+  - id: 22
+    text: "Ô temps ! {{suspends}} ton vol, et vous, heures propices ! Suspendez votre cours…"
+    verb: suspendre
+    tense: imperatif
+    person: 2s
+    source: "Alphonse de Lamartine, « Le Lac », *Méditations poétiques* (1820)"
+    en: "O time, suspend your flight! And you, propitious hours, suspend your course…"
+    note: "-re verbs keep their *s*: tu suspends → **suspends**, attends, prends. Only -er verbs (and aller, ouvrir, cueillir…) drop it."
+
+  - id: 23
+    text: "{{Cueillez}} dès aujourd'hui les roses de la vie."
+    verb: cueillir
+    tense: imperatif
+    person: 2p
+    source: "Pierre de Ronsard, *Sonnets pour Hélène* (1578)"
+    en: "Gather the roses of life, starting today."
+    note: "*cueillir* takes -er endings like *ouvrir*: cueille, cueillons, **cueillez**. Ronsard's version of *carpe diem*."
+
+  - id: 24
+    text: "Vingt fois sur le métier {{remettez}} votre ouvrage."
+    verb: remettre
+    tense: imperatif
+    person: 2p
+    source: "Nicolas Boileau, *L'Art poétique* (1674)"
+    en: "Put your work back on the loom twenty times over (keep revising)."
+    note: "*remettre* like *mettre*: remets, remettons, **remettez**. The line before it is another imperative: *Hâtez-vous lentement* (make haste slowly)."
+
+  - id: 25
+    text: "Eh bien ! {{dansez}} maintenant."
+    verb: danser
+    tense: imperatif
+    person: 2p
+    source: "Jean de La Fontaine, « La Cigale et la Fourmi », *Fables* (1668)"
+    en: "Well then — dance now!"
+    note: "The ant's cruel reply to the cicada who sang all summer. The *vous* imperative = the present without *vous*: dansez."
+
+  - id: 26
+    text: "{{Allons}} enfants de la Patrie, le jour de gloire est arrivé !"
+    verb: aller
+    tense: imperatif
+    person: 1p
+    source: "Claude Joseph Rouget de Lisle, *La Marseillaise* (1792)"
+    en: "Arise, children of the Fatherland, the day of glory has come!"
+    note: "*nous* imperative = 'let's…' / 'come on': **allons**, partons, chantons."
+
+  - id: 27
+    text: "{{Ne me quitte pas}}."
+    verb: quitter
+    tense: imperatif
+    person: 2s
+    source: "Jacques Brel, « Ne me quitte pas » (1959)"
+    en: "Don't leave me."
+    note: "Negative imperative: *me* stays before the verb. Affirmative: *quitte-moi*."
+
+  - id: 28
+    text: "{{Dis-moi}} qui tu fréquentes, je te dirai qui tu es."
+    verb: dire
+    tense: imperatif
+    person: 2s
+    tags: [proverb]
+    en: "Tell me who you spend your time with, and I'll tell you who you are."
+    note: "*dire*: dis, disons, dites. Imperative + future = condition and consequence. *fréquenter quelqu'un* = to spend time with someone."
+
+  - id: 29
+    text: "{{Chassez}} le naturel, il revient au galop."
+    verb: chasser
+    tense: imperatif
+    person: 2p
+    source: "Philippe Néricault Destouches, *Le Glorieux* (1732), after Horace"
+    en: "Drive out nature and it comes back at a gallop."
+    note: "An imperative used as a condition: '(if you) chase away your nature…'. You can't change who you are."
+
+  - id: 30
+    text: "Si tu veux la paix, {{prépare}} la guerre."
+    verb: préparer
+    tense: imperatif
+    person: 2s
+    tags: [proverb]
+    en: "If you want peace, prepare for war."
+    note: "From the Latin *Si vis pacem, para bellum*. si + présent → impératif. -er verb: **prépare** (no *s*)."
+
+  - id: 31
+    text: "{{Prends}} ton temps, rien ne presse."
+    verb: prendre
+    tense: imperatif
+    person: 2s
+    en: "Take your time, there's no rush."
+    note: "Verbs not in -er keep the *s*: **prends**, fais, viens, dis. *rien ne presse* = there's no hurry."
+
+  - id: 32
+    text: "Pendant la séance, {{éteignez}} vos téléphones."
+    verb: éteindre
+    tense: imperatif
+    person: 2p
+    en: "Please switch off your phones during the screening."
+    note: "*éteindre* (-indre): éteins, éteignons, **éteignez** — *-gn-* in the plural."
+
+  - id: 33
+    text: "Les clés ? {{Ne les oublie pas}} sur la table !"
+    verb: oublier
+    tense: imperatif
+    person: 2s
+    en: "The keys? Don't leave them on the table!"
+    note: "*oublier quelque chose quelque part* = to leave something behind. Negative: pronoun before the verb (ne les oublie pas); affirmative: oublie-les."

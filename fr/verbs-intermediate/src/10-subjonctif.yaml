@@ -1,0 +1,328 @@
+deck:
+  number: 10
+  slug: subjonctif
+  title: "Subjonctif présent & passé — forming it"
+  mode: form
+  description: |
+    How to build the subjunctive (the trigger is always in the sentence, so
+    you see it in context):
+      • stem = *ils* form of the present minus -ent: ils prenn-ent → que je prenne
+      • *nous/vous* take the *nous* stem: que nous prenions, que vous preniez
+      • ten verbs are irregular: être, avoir, aller, faire, pouvoir, savoir,
+        vouloir, valoir, falloir, pleuvoir
+    Subjonctif passé = subjunctive of avoir/être + participle.
+    Plus the fixed expressions where the subjunctive hides in plain sight:
+    *Vive la France !*, *Ainsi soit-il*, *Que le meilleur gagne !*
+
+cards:
+  - id: 1
+    text: "Il faut que tu {{viennes}} avec nous."
+    verb: venir
+    tense: subjonctif
+    person: 2s
+    en: "You have to come with us."
+    note: "Stem from *ils viennent* → que je vienne, que tu viennes. But *nous/vous* use the *nous* stem: que nous venions."
+
+  - id: 2
+    text: "Il faut que nous {{prenions}} une décision rapidement."
+    verb: prendre
+    tense: subjonctif
+    person: 1p
+    en: "We need to make a decision quickly."
+    note: "Two stems: que je **prenne** (ils prennent) but que nous **prenions** (nous prenons)."
+
+  - id: 3
+    text: "Je veux que vous {{fassiez}} attention."
+    verb: faire
+    tense: subjonctif
+    person: 2p
+    en: "I want you to be careful."
+    note: "*faire* → **fass-** throughout: que je fasse, que vous fassiez. *vouloir que* + subjunctive."
+
+  - id: 4
+    text: "Il faut qu'on {{aille}} à la banque avant midi."
+    verb: aller
+    tense: subjonctif
+    person: 3s
+    en: "We need to go to the bank before noon."
+    note: "*aller*: que j'**aille**, qu'on aille, qu'ils aillent — but que nous allions, que vous alliez."
+
+  - id: 5
+    text: "Je ne crois pas qu'il {{puisse}} venir ce soir."
+    verb: pouvoir
+    tense: subjonctif
+    person: 3s
+    en: "I don't think he can come tonight."
+    note: "*pouvoir* → **puiss-** throughout: que je puisse, que nous puissions. Negative *croire/penser que* → subjunctive."
+
+  - id: 6
+    text: "Il faut que tu {{saches}} la vérité."
+    verb: savoir
+    tense: subjonctif
+    person: 2s
+    en: "You need to know the truth."
+    note: "*savoir* → **sach-** throughout: que je sache, que nous sachions."
+
+  - id: 7
+    text: "Il faut que vous {{soyez}} à l'heure demain."
+    verb: être
+    tense: subjonctif
+    person: 2p
+    en: "You must be on time tomorrow."
+    note: "*être*: que je sois, qu'il soit, que nous **soyons**, que vous **soyez** (no *i*!), qu'ils soient."
+
+  - id: 8
+    text: "J'ai peur qu'ils {{n'aient pas}} assez d'argent."
+    verb: avoir
+    tense: subjonctif
+    person: 3p
+    en: "I'm afraid they don't have enough money."
+    note: "*avoir*: que j'aie, qu'il ait, que nous **ayons**, que vous ayez, qu'ils **aient**. Fear (*avoir peur que*) → subjunctive."
+
+  - id: 9
+    text: "Je doute qu'il {{veuille}} nous aider."
+    verb: vouloir
+    tense: subjonctif
+    person: 3s
+    en: "I doubt he'll want to help us."
+    note: "*vouloir*: que je **veuille**, qu'il veuille — but que nous voulions. Doubt → subjunctive."
+
+  - id: 10
+    text: "Il faut que vous {{receviez}} tous les documents avant lundi."
+    verb: recevoir
+    tense: subjonctif
+    person: 2p
+    en: "You need to receive all the documents before Monday."
+    note: "que je **reçoive** (ils reçoivent) but que vous **receviez** (nous recevons)."
+
+  - id: 11
+    text: "Pendant la canicule, il est important que chacun {{boive}} beaucoup d'eau."
+    verb: boire
+    tense: subjonctif
+    person: 3s
+    en: "During the heatwave, it's important that everyone drinks plenty of water."
+    note: "*boire*: que je **boive** (ils boivent), que nous **buvions**. *la canicule* = heatwave."
+
+  - id: 12
+    text: "Je suis content que tu {{sois venu}}."
+    verb: venir
+    tense: subjonctif-passe
+    person: 2s
+    en: "I'm glad you came."
+    note: "**Subjonctif passé** = subjunctive of avoir/être + participle, for an action already completed."
+
+  - id: 13
+    text: "Bien qu'il {{ait plu}} toute la journée, le match a eu lieu."
+    verb: pleuvoir
+    tense: subjonctif-passe
+    person: 3s
+    en: "Although it rained all day, the match went ahead."
+    note: "*bien que* + subjunctive; passé because the rain was before/during the match. *avoir lieu* = to take place."
+
+  - id: 14
+    text: "Je suis désolé que vous {{ayez attendu}} si longtemps."
+    verb: attendre
+    tense: subjonctif-passe
+    person: 2p
+    en: "I'm sorry you had to wait so long."
+    note: "Emotion (*désolé que*) + subjonctif passé: the waiting is already over."
+
+  - id: 15
+    text: "Il faut que je {{finisse}} ce dossier avant de partir."
+    verb: finir
+    tense: subjonctif
+    person: 1s
+    en: "I need to finish this file before I leave."
+    note: "-ir (-iss-) verbs: que je finisse (ils finissent). *avant de* + infinitive when the subject is the same."
+
+  - id: 16
+    text: "Le médecin veut que tu {{dormes}} au moins huit heures."
+    verb: dormir
+    tense: subjonctif
+    person: 2s
+    en: "The doctor wants you to sleep at least eight hours."
+    note: "*dormir*: ils dorment → que tu dormes."
+
+  - id: 17
+    text: "Il est possible qu'il {{pleuve}} cet après-midi."
+    verb: pleuvoir
+    tense: subjonctif
+    person: 3s
+    en: "It may rain this afternoon."
+    note: "*il est possible que* + subjunctive (but *il est probable que* + indicative). *pleuvoir* → qu'il pleuve."
+
+  - id: 18
+    text: "Il faudrait qu'on {{se voie}} plus souvent."
+    verb: se voir
+    tense: subjonctif
+    person: 3s
+    en: "We should see each other more often."
+    note: "*voir*: que je voie, qu'on se voie — but que nous voyions. *il faudrait que* = we really ought to."
+
+  - id: 19
+    text: "Je ne pense pas qu'il {{faille}} s'inquiéter."
+    verb: falloir
+    tense: subjonctif
+    person: 3s
+    en: "I don't think there's any need to worry."
+    note: "*falloir* → qu'il **faille**. Negative *penser que* → subjunctive."
+
+  - id: 20
+    text: "Il est essentiel que vous {{lisiez}} le contrat attentivement."
+    verb: lire
+    tense: subjonctif
+    person: 2p
+    en: "It's essential that you read the contract carefully."
+    note: "*lire*: que je lise, que vous lisiez. Necessity (*il est essentiel que*) → subjunctive."
+
+  - id: 21
+    text: "Avant que tu {{partes}}, j'ai quelque chose à te dire."
+    verb: partir
+    tense: subjonctif
+    person: 2s
+    en: "Before you go, I have something to tell you."
+    note: "*avant que* + subjunctive (but *après que* + indicative, officially)."
+
+  - id: 22
+    text: "Je t'explique pour que tu {{comprennes}}."
+    verb: comprendre
+    tense: subjonctif
+    person: 2s
+    en: "I'm explaining so that you understand."
+    note: "*pour que* + subjunctive (purpose). *comprendre*: ils comprennent → que tu comprennes."
+
+  - id: 23
+    text: "{{Vive}} la France !"
+    verb: vivre
+    tense: subjonctif
+    person: 3s
+    tags: [idiom]
+    en: "Long live France!"
+    note: "*Vive…!* is the subjunctive of *vivre* (= qu'elle vive). Strictly it agrees in the plural — *Vivent les vacances !* — though *Vive les vacances !* is accepted too."
+
+  - id: 24
+    text: "Ainsi {{soit}}-il."
+    verb: être
+    tense: subjonctif
+    person: 3s
+    tags: [idiom]
+    en: "So be it. (Amen.)"
+    note: "A wish in the subjunctive, without *que*, with inversion. Also *soit* alone = 'very well' / 'let's say'."
+
+  - id: 25
+    text: "Qu'ils {{mangent}} de la brioche !"
+    verb: manger
+    tense: subjonctif
+    person: 3p
+    source: "Jean-Jacques Rousseau, *Les Confessions*, livre VI (written c. 1765), quoting 'a great princess'"
+    en: "Let them eat brioche!"
+    note: "*Que* + subjunctive = an order or wish about someone else. Often pinned on Marie-Antoinette, but Rousseau wrote it when she was a child in Austria."
+
+  - id: 26
+    text: "Qui m'aime me {{suive}} !"
+    verb: suivre
+    tense: subjonctif
+    person: 3s
+    source: "Attributed to King Philippe VI of France (14th century)"
+    en: "Let whoever loves me follow me!"
+    note: "A command in the subjunctive, without *que*. *suivre*: ils suivent → qu'il suive."
+
+  - id: 27
+    text: "Que le meilleur {{gagne}} !"
+    verb: gagner
+    tense: subjonctif
+    person: 3s
+    tags: [idiom]
+    en: "May the best one win!"
+    note: "*Que* + subjunctive = a wish. For -er verbs the 3rd person singular looks like the present: qu'il gagne."
+
+  - id: 28
+    text: "Il faut qu'une porte {{soit}} ouverte ou fermée."
+    verb: être
+    tense: subjonctif
+    person: 3s
+    source: "Alfred de Musset, title of a play (1845)"
+    en: "A door must be either open or shut."
+    note: "*il faut que* + subjunctive. Musset's proverb-play: sooner or later you have to make up your mind."
+
+  - id: 29
+    text: "Oh ! je voudrais tant que tu {{te souviennes}} des jours heureux où nous étions amis."
+    verb: se souvenir
+    tense: subjonctif
+    person: 2s
+    source: "Jacques Prévert, « Les Feuilles mortes » (1945)"
+    en: "Oh, I'd so like you to remember the happy days when we were friends."
+    note: "*vouloir que* + subjunctive. *se souvenir*: ils se souviennent → que tu te souviennes."
+
+  - id: 30
+    text: "Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous {{ayez}} le droit de le dire."
+    verb: avoir
+    tense: subjonctif
+    person: 2p
+    source: "Evelyn Beatrice Hall, *The Friends of Voltaire* (1906) — often wrongly attributed to Voltaire"
+    en: "I disapprove of what you say, but I will defend to the death your right to say it."
+    note: "*pour que* + subjunctive. Voltaire never wrote this: it's Evelyn Beatrice Hall's summary of his attitude, in English, later translated into French."
+
+  - id: 31
+    text: "Il est temps que les enfants {{aillent}} se coucher."
+    verb: aller
+    tense: subjonctif
+    person: 3p
+    en: "It's time the children went to bed."
+    note: "*il est temps que* + subjunctive. *aller*: qu'ils **aillent**."
+
+  - id: 32
+    text: "J'aimerais que vous {{m'envoyiez}} votre CV."
+    verb: envoyer
+    tense: subjonctif
+    person: 2p
+    en: "I'd like you to send me your CV."
+    note: "*y* + *-iez*: que vous envoy**i**ez, que nous envoyions — the *i* of the ending is still needed."
+
+  - id: 33
+    text: "Il faut que tu {{croies}} en toi."
+    verb: croire
+    tense: subjonctif
+    person: 2s
+    en: "You have to believe in yourself."
+    note: "*croire*: que je croie, que tu croies — but que nous croyions."
+
+  - id: 34
+    text: "C'est dommage qu'ils {{soient partis}} si tôt."
+    verb: partir
+    tense: subjonctif-passe
+    person: 3p
+    en: "It's a shame they left so early."
+    note: "Subjonctif passé with être: qu'ils soient partis (with agreement)."
+
+  - id: 35
+    text: "Je doute qu'elle {{ait reçu}} mon message."
+    verb: recevoir
+    tense: subjonctif-passe
+    person: 3s
+    en: "I doubt she got my message."
+    note: "Doubt + subjonctif passé (the receiving should already have happened)."
+
+  - id: 36
+    text: "Il faut que tu {{écrives}} à ta grand-mère."
+    verb: écrire
+    tense: subjonctif
+    person: 2s
+    en: "You must write to your grandmother."
+    note: "*écrire*: ils écrivent → que tu écrives."
+
+  - id: 37
+    text: "Je préfère que tu {{conduises}}, je suis fatigué."
+    verb: conduire
+    tense: subjonctif
+    person: 2s
+    en: "I'd rather you drove, I'm tired."
+    note: "*préférer que* + subjunctive. *conduire*: ils conduisent → que tu conduises."
+
+  - id: 38
+    text: "Il vaut mieux que tu {{t'en ailles}} avant son retour."
+    verb: s'en aller
+    tense: subjonctif
+    person: 2s
+    en: "It'd be better if you left before he gets back."
+    note: "*il vaut mieux que* + subjunctive. *s'en aller*: que je m'en aille, que tu t'en ailles."

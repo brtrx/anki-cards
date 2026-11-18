@@ -1,0 +1,201 @@
+deck:
+  number: 1
+  slug: present-stem-changes
+  title: "Présent I — spelling & stem changes"
+  mode: form
+  description: |
+    The present tense of verbs that are *almost* regular: -cer/-ger spellings,
+    è/ll/tt stem changes (acheter, appeler, jeter, préférer), y → i (payer,
+    envoyer, s'ennuyer), -iss- verbs, -dre verbs, and the partir/ouvrir patterns.
+    Learn the pattern once and it covers dozens of verbs.
+    Uses of the present also appear in context: *depuis* + présent, present for
+    the near future, general truths.
+
+cards:
+  - id: 1
+    text: "Nous {{commençons}} la réunion à neuf heures pile."
+    verb: commencer
+    tense: present
+    person: 1p
+    en: "We start the meeting at nine o'clock sharp."
+    note: "-cer verbs take **ç** before *a* and *o* to keep the soft /s/ sound: nous commençons, il commençait. Same: lancer, placer, remplacer, prononcer."
+
+  - id: 2
+    text: "Nous {{mangeons}} rarement avant vingt heures en été."
+    verb: manger
+    tense: present
+    person: 1p
+    en: "We rarely eat before 8 p.m. in summer."
+    note: "-ger verbs keep an **e** before *a* and *o* to keep the soft /ʒ/ sound: nous mangeons, nous voyageons, nous nageons, nous partageons."
+
+  - id: 3
+    text: "Tu {{achètes}} le pain ou je m'en occupe ?"
+    verb: acheter
+    tense: present
+    person: 2s
+    en: "Are you buying the bread or shall I take care of it?"
+    note: "*acheter* takes **è** when the next syllable is silent (j'achète, tu achètes, ils achètent) but not in nous achetons / vous achetez. Same: lever, mener, peser, se promener."
+
+  - id: 4
+    text: "Vous {{vous levez}} à quelle heure, le dimanche ?"
+    verb: se lever
+    tense: present
+    person: 2p
+    en: "What time do you get up on Sundays?"
+    note: "Trap: **no** accent in nous/vous — vous vous levez, nous nous levons — but je me **lève**, ils se **lèvent**. The 'boot' pattern: je/tu/il/ils change, nous/vous don't."
+
+  - id: 5
+    text: "Tu {{t'appelles}} comment ?"
+    verb: s'appeler
+    tense: present
+    person: 2s
+    en: "What's your name?"
+    note: "*appeler* doubles the **l** in the stressed forms: je m'appelle, tu t'appelles, ils s'appellent — but nous nous appelons. Same: rappeler, épeler."
+
+  - id: 6
+    text: "Je {{jette}} toujours un œil à la météo avant de partir."
+    verb: jeter
+    tense: present
+    person: 1s
+    en: "I always take a quick look at the weather forecast before leaving."
+    note: "*jeter un œil* = to take a quick look. *jeter* doubles the **t**: je jette, ils jettent, but nous jetons. Same: rejeter, projeter, feuilleter."
+
+  - id: 7
+    text: "Nous {{préférons}} partir tôt pour éviter les bouchons."
+    verb: préférer
+    tense: present
+    person: 1p
+    en: "We prefer to leave early to avoid the traffic jams."
+    note: "é → è only before a silent ending: je préfère, ils préfèrent; nous préférons, vous préférez keep **é**. Same: espérer, répéter, compléter. *un bouchon* = a traffic jam (also a cork)."
+
+  - id: 8
+    text: "Les clients {{s'inquiètent}} de la hausse des prix."
+    verb: s'inquiéter
+    tense: present
+    person: 3p
+    en: "Customers are worried about rising prices."
+    note: "é → è before a silent ending: je m'inquiète, ils s'inquiètent (but nous nous inquiétons). *la hausse des prix* = rising prices; *la baisse* = the fall."
+
+  - id: 9
+    text: "Je {{paie}} toujours par carte, je n'ai jamais de liquide sur moi."
+    verb: payer
+    tense: present
+    person: 1s
+    also: ["paye"]
+    en: "I always pay by card; I never have any cash on me."
+    note: "-ayer verbs allow both: je **paie** / je **paye**. (-oyer and -uyer verbs must change y → i: j'envoie, je m'ennuie.) *du liquide / des espèces* = cash."
+
+  - id: 10
+    text: "Je {{t'envoie}} le lien par texto."
+    verb: envoyer
+    tense: present
+    person: 1s
+    en: "I'll send you the link by text."
+    note: "-oyer verbs change y → i before a silent *e*: j'envoie, ils envoient — but nous envoyons. The present is often used for an immediate promise."
+
+  - id: 11
+    text: "Le dimanche, on {{s'ennuie}} un peu dans ce village."
+    verb: s'ennuyer
+    tense: present
+    person: 3s
+    en: "On Sundays we get a bit bored in this village."
+    note: "-uyer verbs: y → i before a silent *e*: je m'ennuie, ils s'ennuient; nous nous ennuyons. *On* is the everyday way of saying *nous*."
+
+  - id: 12
+    text: "Les chiens {{aboient}}, la caravane passe."
+    verb: aboyer
+    tense: present
+    person: 3p
+    tags: [proverb]
+    en: "The dogs bark, the caravan moves on."
+    note: "Proverb: let the critics talk and carry on regardless. *aboyer* (-oyer): ils aboient, nous aboyons."
+
+  - id: 13
+    text: "Nous {{réfléchissons}} encore à votre proposition."
+    verb: réfléchir
+    tense: present
+    person: 1p
+    en: "We're still thinking about your proposal."
+    note: "Regular -ir verbs add **-iss-** in the plural: nous réfléchissons, ils réfléchissent. Compare *partir*, which doesn't: nous partons."
+
+  - id: 14
+    text: "Je {{pars}} en vacances la semaine prochaine."
+    verb: partir
+    tense: present
+    person: 1s
+    en: "I'm going on holiday next week."
+    note: "Present with a future meaning for planned events. *partir*: the last consonant of the stem drops in the singular — je **pars**, il part, nous partons. Same: sortir (je sors), dormir (je dors), sentir, mentir, servir."
+
+  - id: 15
+    text: "Qui {{dort}} dîne."
+    verb: dormir
+    tense: present
+    person: 3s
+    tags: [proverb]
+    en: "He who sleeps, dines (sleep takes your mind off hunger)."
+    note: "Old proverb. *dormir* follows *partir*: je dors, il dort, nous dormons. *Qui* here = 'whoever' (no antecedent)."
+
+  - id: 16
+    text: "Rien ne {{sert}} de courir ; il faut partir à point."
+    verb: servir
+    tense: present
+    person: 3s
+    source: "Jean de La Fontaine, « Le Lièvre et la Tortue », *Fables* (1668)"
+    en: "There's no point running; you have to set off at the right time."
+    note: "*Rien ne sert de* + infinitive = there's no point in… *servir* follows *partir*: je sers, il sert, nous servons."
+
+  - id: 17
+    text: "Les magasins {{ouvrent}} à dix heures le dimanche."
+    verb: ouvrir
+    tense: present
+    person: 3p
+    en: "The shops open at ten o'clock on Sundays."
+    note: "*ouvrir* looks like an -ir verb but takes **-er endings** in the present: j'ouvre, tu ouvres, il ouvre. Same: offrir, couvrir, découvrir, souffrir."
+
+  - id: 18
+    text: "Qu'est-ce que tu {{lui offres}} pour son anniversaire ?"
+    verb: offrir
+    tense: present
+    person: 2s
+    en: "What are you giving him (or her) for his (or her) birthday?"
+    note: "*offrir* takes -er endings, like ouvrir: tu offres (not *offris*). *offrir quelque chose à quelqu'un* = to give someone a present."
+
+  - id: 19
+    text: "Tu {{attends}} depuis longtemps ?"
+    verb: attendre
+    tense: present
+    person: 2s
+    en: "Have you been waiting long?"
+    note: "**depuis + présent** = something that started in the past and is still going on (English: *have been …ing*). -dre verbs: j'attends, il **attend** (no ending in the 3rd person), nous attendons."
+
+  - id: 20
+    text: "Mon cœur {{bat}} trop vite."
+    verb: battre
+    tense: present
+    person: 3s
+    en: "My heart is beating too fast."
+    note: "*battre*: je bats, il **bat** — one *t* in the singular, two in the plural (nous battons). Same: combattre, débattre, se battre."
+
+  - id: 21
+    text: "Excusez-moi, je {{vous interromps}} ?"
+    verb: interrompre
+    tense: present
+    person: 1s
+    en: "Sorry, am I interrupting you?"
+    note: "*interrompre* keeps its *p*: j'interromps, il **interrompt** (with a final *t*!), nous interrompons. Same: rompre, corrompre."
+
+  - id: 22
+    text: "Je {{cours}} tous les matins le long du canal."
+    verb: courir
+    tense: present
+    person: 1s
+    en: "I go running every morning along the canal."
+    note: "*courir*: je cours, il court, nous courons — one *r* in the present, but **two** in the future and conditional: je courrai, je courrais."
+
+  - id: 23
+    text: "Le robinet de la cuisine {{fuit}} depuis des semaines."
+    verb: fuir
+    tense: present
+    person: 3s
+    en: "The kitchen tap has been leaking for weeks."
+    note: "*fuir* = to flee, and also to leak. je fuis, il fuit, nous **fuyons**, ils fuient (y between vowel sounds). depuis + présent = has been doing."
