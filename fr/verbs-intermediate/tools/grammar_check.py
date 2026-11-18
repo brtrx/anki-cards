@@ -6,8 +6,9 @@
     python fr/verbs-intermediate/tools/grammar_check.py --url http://localhost:8081   # use a server you already run
 
 Needs Java 17+ and (for --fetch) Maven. LanguageTool runs as a local HTTP
-server on 127.0.0.1 that this script starts and stops; each card is sent to it
-as a separate request, so every result maps cleanly to one card. Nothing is
+server on 127.0.0.1 that this script starts and stops. Cards are sent in
+batches of a few thousand characters (one card per paragraph) and every match
+is mapped back to its card by offset, so ~13 requests cover the whole deck. Nothing is
 sent to a web service. Results go to GRAMMAR.md; false positives can be
 silenced in tools/grammar_ignore.yaml (card id + rule id + a reason).
 
@@ -40,6 +41,14 @@ SERVER_CLASS = "org.languagetool.server.HTTPServer"
 # Categories about house style rather than correctness, or that clash with
 # deliberate choices in these cards (straight apostrophes, → arrows…).
 IGNORED_CATEGORIES = {"TYPOGRAPHY", "STYLE", "REDUNDANCY", "REPETITIONS_STYLE", "PLAIN_FRENCH"}
+BATCH_CHARS = 5000   # per request; far below any server text limit
+SEP = "\n\n"        # one card per paragraph, so no rule spans two cards
+# Server settings (exact key names: the server rejects unknown keys). Without
+# pipeline caching it rebuilds the French rule set for every request.
+SERVER_CONFIG = """pipelineCaching=true
+maxPipelinePoolSize=2
+pipelineExpireTimeInSeconds=3600
+"""
 
 
 def fetch(lib: Path) -> None:
@@ -54,7 +63,31 @@ def free_port() -> int:
         return s.getsockname()[1]
 
 
-def check(base_url: str, text: str, timeout: float = 60) -> dict:
+def u16len(s: str) -> int:
+    """Length in UTF-16 code units — the unit LanguageTool (Java) uses for offsets."""
+    return len(s.encode("utf-16-le")) // 2
+
+
+def u16_slice(s: str, off: int, length: int) -> str:
+    b = s.encode("utf-16-le")
+    return b[2 * off: 2 * (off + length)].decode("utf-16-le", errors="replace")
+
+
+def batches(items: list, size_of, limit: int = BATCH_CHARS) -> list[list]:
+    out, cur, size = [], [], 0
+    for it in items:
+        n = size_of(it) + len(SEP)
+        if cur and size + n > limit:
+            out.append(cur)
+            cur, size = [], 0
+        cur.append(it)
+        size += n
+    if cur:
+        out.append(cur)
+    return out
+
+
+def check(base_url: str, text: str, timeout: float = 300) -> dict:
     """POST one text to LanguageTool's /v2/check and return the JSON response."""
     data = urllib.parse.urlencode({"language": "fr", "text": text}).encode()
     req = urllib.request.Request(f"{base_url.rstrip('/')}/v2/check", data=data,
@@ -66,22 +99,38 @@ def check(base_url: str, text: str, timeout: float = 60) -> dict:
 class LocalServer:
     """Start LanguageTool's HTTP server on 127.0.0.1 and stop it afterwards."""
 
-    def __init__(self, lib: Path, startup_timeout: float = 240):
+    def __init__(self, lib: Path, startup_timeout: float = 300):
         self.lib, self.startup_timeout = lib, startup_timeout
         self.port = free_port()
         self.url = f"http://127.0.0.1:{self.port}"
         self.log = tempfile.NamedTemporaryFile("w+", suffix=".log", delete=False)
+        self.config = tempfile.NamedTemporaryFile("w", suffix=".properties", delete=False)
+        self.config.write(SERVER_CONFIG)
+        self.config.close()
         self.proc: subprocess.Popen | None = None
 
     def __enter__(self) -> "LocalServer":
+        try:
+            return self._start(use_config=True)
+        except RuntimeError as e:
+            if "exited with code" not in str(e):
+                raise
+            # A rejected config file shouldn't stop the check: retry with defaults.
+            print("Server refused the config file; retrying with default settings.", flush=True)
+            return self._start(use_config=False)
+
+    def _start(self, use_config: bool) -> "LocalServer":
         cmd = ["java", "-Xmx2g", "-cp", f"{self.lib}{os.sep}*", SERVER_CLASS, "--port", str(self.port)]
+        if use_config:
+            cmd += ["--config", self.config.name]
         self.proc = subprocess.Popen(cmd, stdout=self.log, stderr=subprocess.STDOUT)
         deadline = time.monotonic() + self.startup_timeout
         while True:
             if self.proc.poll() is not None:
                 raise RuntimeError(f"LanguageTool server exited with code {self.proc.returncode}:\n{self.log_tail()}")
             try:
-                check(self.url, "Bonjour.", timeout=30)  # also warms up the French rules
+                check(self.url, "Bonjour.", timeout=120)  # also loads the French rules
+                print(f"LanguageTool server ready on port {self.port}.", flush=True)
                 return self
             except (urllib.error.URLError, ConnectionError, TimeoutError, OSError):
                 if time.monotonic() > deadline:
@@ -97,6 +146,7 @@ class LocalServer:
                 self.proc.kill()
         self.log.close()
         os.unlink(self.log.name)
+        os.unlink(self.config.name)
 
     def log_tail(self, n: int = 40) -> str:
         self.log.flush()
@@ -114,20 +164,34 @@ def load_ignores(path: Path) -> set[tuple[str, str]]:
 def run_checks(base_url: str, ignores: set[tuple[str, str]]) -> tuple[int, list[str], Counter]:
     cards = [c for d in load_decks() for c in d.cards]
     rows, rules = [], Counter()
-    for c in cards:
-        result = check(base_url, c.plain)
-        for m in result.get("matches", []):
+    groups = batches(cards, lambda c: len(c.plain))
+    for i, group in enumerate(groups, 1):
+        t0 = time.monotonic()
+        starts, pos = [], 0
+        for c in group:
+            starts.append(pos)
+            pos += u16len(c.plain) + u16len(SEP)
+        matches = check(base_url, SEP.join(c.plain for c in group)).get("matches", [])
+        kept = 0
+        for m in matches:
+            off, length = m.get("offset", 0), m.get("length", 0)
+            j = next((k for k in range(len(group) - 1, -1, -1) if starts[k] <= off), None)
+            if j is None or off - starts[j] >= u16len(group[j].plain):
+                continue  # match on a separator, not on a card
+            c = group[j]
             rule = m.get("rule", {})
             rid, cat = rule.get("id", ""), rule.get("category", {}).get("id", "")
             if cat in IGNORED_CATEGORIES or (c.uid, rid) in ignores:
                 continue
-            off, length = m.get("offset", 0), m.get("length", 0)
-            flagged = c.plain[off:off + length]
+            flagged = u16_slice(c.plain, off - starts[j], length)
             repl = ", ".join(r.get("value", "") for r in m.get("replacements", [])[:3])
             rules[rid] += 1
+            kept += 1
             rows.append(f"- [ ] `{c.uid}` **{flagged}** — {m.get('message', '')} "
                         f"(rule `{rid}`{'; suggestion: ' + repl if repl else ''})  \n"
                         f"  «{c.plain}»")
+        print(f"  batch {i}/{len(groups)}: {len(group)} cards, {kept} flags kept "
+              f"({len(matches) - kept} filtered) in {time.monotonic() - t0:.1f}s", flush=True)
     return len(cards), rows, rules
 
 

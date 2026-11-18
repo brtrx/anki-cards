@@ -200,7 +200,7 @@ python fr/verbs-intermediate/tools/verify.py        # 2â€“4. check every card â†
 `python fr/verbs-intermediate/tools/grammar_check.py --fetch` downloads the
 open-source LanguageTool French grammar checker with Maven, starts it as a
 **local** server on 127.0.0.1 (Java 17+ needed; nothing is sent to a web
-service), checks each card as a separate request and writes `GRAMMAR.md`.
+service), checks the cards in a handful of batched requests and writes `GRAMMAR.md`.
 It's advisory: good at catching agreement slips, noisy on literary quotations.
 Dismiss false positives in `tools/grammar_ignore.yaml`. In CI the report also
 appears on the workflow run's summary page. `test_grammar_check.py` tests the

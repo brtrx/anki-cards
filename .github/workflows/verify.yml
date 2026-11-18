@@ -4,6 +4,11 @@ on:
   push:
   pull_request:
 
+# A newer push to the same branch cancels the older, now-irrelevant run.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -39,6 +44,7 @@ jobs:
     # this job; it fails only if LanguageTool can't be fetched or started.
     runs-on: ubuntu-latest
     continue-on-error: true
+    timeout-minutes: 20   # normally ~3 min; never let it sit for GitHub's 6-hour default
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
