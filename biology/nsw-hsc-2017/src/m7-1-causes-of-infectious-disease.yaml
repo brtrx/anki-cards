@@ -1,0 +1,230 @@
+deck:
+  module: 7
+  iq: 1
+cards:
+  - id: 1
+    q: "What is a pathogen, and what is an infectious disease?"
+    a: "A **pathogen** is an organism or agent that causes disease. An **infectious disease** is caused by a pathogen and can be **transmitted** from one host to another."
+    dp: [7.1.1a]
+
+  - id: 2
+    q: "Which pathogens are non-cellular, and which are cellular?"
+    a: "**Non-cellular**: viruses and prions. **Cellular**: bacteria, protists and fungi (microorganisms), and macroparasites such as worms and arthropods (macroorganisms)."
+    dp: [7.1.1a]
+
+  - id: 3
+    q: "What are prions, and what diseases do they cause?"
+    a: "**Misfolded proteins** with no DNA or RNA. They make normal versions of the protein in the brain misfold too, forming clumps that destroy nerve tissue: fatal diseases such as **Creutzfeldt–Jakob disease**, kuru and **mad cow disease** (BSE)."
+    dp: [7.1.1a]
+
+  - id: 4
+    q: "What are viruses? Give examples of viral diseases of animals and plants."
+    a: "Non-cellular particles of **DNA or RNA in a protein coat** (sometimes with an envelope) that reproduce **only inside host cells**, using the host's machinery. Animals: influenza, measles, HIV, COVID-19. Plants: tobacco mosaic virus, banana bunchy top virus."
+    dp: [7.1.1a]
+
+  - id: 5
+    q: "How do bacteria cause disease? Give examples."
+    a: "They invade and multiply in tissues and/or release **toxins** that damage cells. Humans: tuberculosis (*Mycobacterium tuberculosis*), cholera (*Vibrio cholerae*), tetanus. Plants: bacterial wilt, citrus canker."
+    dp: [7.1.1a]
+
+  - id: 6
+    q: "Give examples of diseases caused by protists."
+    a: "**Malaria** (*Plasmodium*, carried by *Anopheles* mosquitoes), **giardiasis** (*Giardia*, from contaminated water), sleeping sickness (*Trypanosoma*)."
+    dp: [7.1.1a]
+
+  - id: 7
+    q: "Give examples of diseases caused by fungi in humans, animals and plants."
+    a: "**Humans**: tinea (athlete's foot), thrush (*Candida*). **Animals**: chytrid fungus in frogs. **Plants**: **myrtle rust**, wheat stem rust, Panama disease of bananas."
+    dp: [7.1.1a]
+
+  - id: 8
+    q: "What are macroparasites? Give examples."
+    a: "**Multicellular** parasites visible without a microscope. **Endoparasites**: tapeworms, roundworms, liver flukes. **Ectoparasites**: head lice, ticks, fleas, and mites (e.g. the mite that causes mange in wombats)."
+    dp: [7.1.1a]
+    tags: [aus]
+
+  - id: 9
+    q: "What kind of organism is *Phytophthora cinnamomi*, and why does it matter in Australia?"
+    a: "An **oomycete (water mould)**: a fungus-like protist, not a true fungus. It rots the roots of many native plants (jarrah, banksias), causing **dieback** across large areas, and is spread in contaminated soil and water."
+    dp: [7.1.1a, 7.2.1]
+    tags: [aus]
+
+  - id: 10
+    q: "Distinguish endemic, epidemic and pandemic."
+    a: "**Endemic**: constantly present in a region at a usual level. **Epidemic**: a sudden increase in cases above the expected level in a region. **Pandemic**: an epidemic that spreads across many countries or continents."
+    dp: [7.1.1b]
+    tags: [compare]
+
+  - id: 11
+    q: "What did John Snow's investigation of the 1854 London cholera epidemic show?"
+    a: "Mapping deaths showed they **clustered around the Broad Street water pump**; after the pump handle was removed, cases declined. This was evidence that cholera spreads through **contaminated water**, not 'bad air' (miasma)."
+    dp: [7.1.1b, 7.4.6]
+    tags: [history, data]
+
+  - id: 12
+    q: "How is the transmission of a disease investigated during an epidemic?"
+    a: "Collect data on cases (**time, place, person**), map them, plot an **epidemic curve**, use **contact tracing** to find sources and chains of transmission, test samples to identify the pathogen, and estimate how many people each case infects."
+    dp: [7.1.1b]
+    tags: [data]
+
+  - id: 13
+    q: "What is the basic reproduction number (R₀)?"
+    a: "The **average number of people one infected person infects** in a fully susceptible population. If R₀ > 1 the epidemic grows; if < 1 it dies out. (Measles is very high, about 12–18.)"
+    dp: [7.1.1b, 7.4.5a]
+
+  - id: 14
+    q: "How did COVID-19 spread during the pandemic, and how was its transmission limited?"
+    a: "SARS-CoV-2 spread mainly through **respiratory droplets and aerosols**, often from people without symptoms, and reached the world through **air travel**. It was limited by testing, contact tracing, isolation, masks, distancing, lockdowns and border closures, then by **vaccination**."
+    dp: [7.1.1b, 7.4.4]
+
+  - id: 15
+    q: "How can water or food samples be tested for microbes in a school laboratory?"
+    a: "Using **aseptic technique**, spread a measured amount of each sample on sterile **nutrient agar** plates; include a **control** plate (sterile water); incubate, then **count colonies** (each colony grew from one cell or clump)."
+    dp: [7.1.1c]
+    tags: [practical]
+
+  - id: 16
+    q: "Why are school agar plates incubated at about 25–30 °C rather than 37 °C?"
+    a: "To avoid encouraging the growth of **human pathogens**, which grow best at body temperature."
+    dp: [7.1.1c, WS.3.1]
+    tags: [practical]
+
+  - id: 17
+    q: "What safe aseptic practices are used when culturing microbes?"
+    a: "**Sterilise** equipment (autoclave, flame loops); work beside a Bunsen flame; open lids as little as possible; tape lids with a few strips (not sealed all round) and incubate **upside down**; **never open** plates after incubation; **autoclave** before disposal."
+    dp: [7.1.1c, WS.3.1]
+    tags: [practical]
+
+  - id: 18
+    q: "Why is *E. coli* used as an indicator of water quality?"
+    a: "It lives in the **gut** of warm-blooded animals, so finding it in water shows **faecal contamination**, and that gut pathogens may also be present."
+    dp: [7.1.1c]
+
+  - id: 19
+    q: "Distinguish direct contact and indirect contact transmission."
+    a: "**Direct**: physical contact with an infected person or animal or their body fluids (touching, kissing, sexual contact, close-range droplets). **Indirect**: via **contaminated objects** (fomites), food, water or air."
+    dp: [7.1.1d]
+    tags: [compare]
+
+  - id: 20
+    q: "What is vector transmission? Give examples."
+    a: "Spread by an organism (usually an insect) that carries the pathogen between hosts: *Anopheles* mosquitoes (**malaria**), *Aedes* mosquitoes (**dengue**, Zika), fleas (plague), ticks; aphids carry many plant viruses."
+    dp: [7.1.1d]
+
+  - id: 21
+    q: "Define vector (syllabus glossary)."
+    glossary: vector
+    a: "An insect or animal that carries a disease from one animal or plant to another."
+    dp: [7.1.1d]
+
+  - id: 22
+    q: "What are fomites?"
+    a: "**Objects** contaminated with pathogens (door handles, phones, towels, bedding) that can spread disease by indirect contact."
+    dp: [7.1.1d]
+
+  - id: 23
+    cloze: "Koch's postulates: (1) the microbe is found in {{c1::all cases}} of the disease but not in healthy hosts; (2) it is {{c2::isolated and grown in pure culture}}; (3) the cultured microbe causes {{c3::the same disease}} when put into a healthy host; (4) the microbe is {{c4::isolated again}} from that host and shown to be the same."
+    dp: [7.1.2a]
+    tags: [history]
+
+  - id: 24
+    q: "Which diseases did Robert Koch show were caused by specific bacteria?"
+    a: "**Anthrax** (1876), **tuberculosis** (1882) and **cholera** (1883–84)."
+    dp: [7.1.2a]
+    tags: [history]
+
+  - id: 25
+    q: "What are the limitations of Koch's postulates?"
+    a: "Some pathogens **can't be grown in pure culture** (viruses, prions, the leprosy bacterium); **healthy carriers** exist; some diseases involve several organisms; and it's unethical to infect humans deliberately."
+    dp: [7.1.2a]
+
+  - id: 26
+    q: "Describe Pasteur's swan-neck flask experiment."
+    a: "Broth was **boiled** in flasks with long **S-shaped necks**: air could get in, but dust and microbes were trapped in the bend, and the broth **stayed clear**. When a neck was **broken off** (or the broth tipped into the bend), microbes grew."
+    dp: [7.1.2b]
+    tags: [history]
+
+  - id: 27
+    q: "What did Pasteur's experiments show, and why were they important?"
+    a: "Microbes come from other microbes in the air, **not spontaneous generation**. This supported the **germ theory** of disease and led to pasteurisation, aseptic technique in medicine and the development of vaccines."
+    dp: [7.1.2b]
+    tags: [history]
+
+  - id: 28
+    q: "Identify the variables in Pasteur's swan-neck experiment."
+    a: "**IV**: whether airborne microbes could reach the broth (intact or broken neck). **DV**: microbial growth (cloudiness). **Controlled**: same broth, boiled the same way, same flasks, all open to air."
+    dp: [7.1.2b, WS.2.2]
+    tags: [history]
+
+  - id: 29
+    q: "What is the germ theory of disease?"
+    a: "**Specific diseases are caused by specific microorganisms** invading the body. It replaced the idea that disease came from 'bad air' (miasma)."
+    dp: [7.1.2a, 7.1.2b]
+
+  - id: 30
+    q: "Assess the effects of plant diseases on agricultural production, using an example."
+    a: "They cut **yield and quality**, add **costs** (fungicides, removing crops), and lead to **trade restrictions** and quarantine. Example: Panama disease (Tropical Race 4), a soil fungus with no cure, forces quarantine of infected banana farms in north Queensland."
+    dp: [7.1.3a]
+    tags: [aus]
+
+  - id: 31
+    q: "Assess the effects of animal diseases on agricultural production."
+    a: "Deaths and lost **productivity** (milk, meat, wool); costs of vaccines, treatment and **culling**; **export bans** that close markets; financial and mental stress for farmers."
+    dp: [7.1.3b]
+
+  - id: 32
+    q: "Why would an outbreak of foot-and-mouth disease be so damaging for Australia?"
+    a: "FMD is a highly contagious **virus** of cloven-hoofed animals (cattle, sheep, pigs). Australia is **FMD-free** and exports a lot of meat and livestock, so an outbreak would **close export markets** and require mass culling: estimated costs run to tens of billions of dollars."
+    review: "check current cost estimate"
+    dp: [7.1.3b]
+    tags: [aus]
+
+  - id: 33
+    q: "How does avian influenza affect poultry production?"
+    a: "Highly pathogenic strains kill most infected birds. Outbreaks are controlled by **culling** every bird on infected farms, quarantine zones and movement restrictions; outbreaks in Australia in 2024 led to more than a million birds being destroyed and egg shortages."
+    review: "check figures for the 2024 H7 outbreaks"
+    dp: [7.1.3b]
+    tags: [aus]
+
+  - id: 34
+    q: "What adaptations help pathogens enter a host?"
+    a: "**Attachment** structures (pili, viral surface proteins that bind host receptors); **enzymes** that break down tissues or cell walls; entry through a **vector's bite**; fungal hyphae that grow in through **stomata** or penetrate the cuticle."
+    dp: [7.1.4]
+
+  - id: 35
+    q: "How is the influenza virus adapted for entering cells and spreading?"
+    a: "Its surface **haemagglutinin** binds receptors on cells lining the airways, triggering entry; **neuraminidase** releases new viruses from the cell. It spreads in droplets and aerosols, and its surface antigens keep **mutating**, so it evades immunity."
+    dp: [7.1.4]
+
+  - id: 36
+    q: "How is *Plasmodium* (malaria) adapted for transmission?"
+    a: "It uses **two hosts**: injected by an *Anopheles* mosquito, it hides inside **liver cells** and then **red blood cells**, out of reach of most immune defences; some develop into gametocytes that are taken up when another mosquito bites. It also changes its surface antigens."
+    dp: [7.1.4]
+
+  - id: 37
+    q: "How is HIV adapted to its host?"
+    a: "Its surface glycoprotein binds the **CD4 receptor** on **helper T cells**, so it infects and destroys the very cells that coordinate the immune response. Its reverse transcriptase makes many errors, so it **mutates rapidly**, evading immunity and drugs; it spreads in body fluids."
+    dp: [7.1.4]
+
+  - id: 38
+    q: "How is *Mycobacterium tuberculosis* adapted to survive and spread?"
+    a: "A thick, **waxy cell wall** resists drying, disinfectants and digestion; it can **survive inside macrophages**; it spreads in airborne droplets when infected people cough."
+    dp: [7.1.4]
+
+  - id: 39
+    q: "How do some pathogens change their host's symptoms in ways that help them spread?"
+    a: "**Cholera** toxin causes massive watery **diarrhoea**, releasing bacteria into water supplies; respiratory viruses trigger **coughing and sneezing**; the rabies virus makes animals aggressive and drool."
+    dp: [7.1.4]
+
+  - id: 40
+    q: "Compare how different pathogens are transmitted between hosts."
+    a: |-
+      | Pathogen | Transmission |
+      |---|---|
+      | Influenza virus | droplets, aerosols, fomites |
+      | *Vibrio cholerae* | contaminated water and food |
+      | *Plasmodium* | mosquito vector |
+      | HIV | body fluids (blood, sexual contact) |
+      | Myrtle rust | wind-blown spores, people, equipment |
+    dp: [7.1.4, 7.1.1d]
+    tags: [compare]

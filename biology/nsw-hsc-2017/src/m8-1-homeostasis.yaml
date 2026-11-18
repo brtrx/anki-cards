@@ -1,0 +1,182 @@
+deck:
+  module: 8
+  iq: 1
+cards:
+  - id: 1
+    q: "What is homeostasis?"
+    a: "Keeping the **internal environment** (temperature, blood glucose, water, pH, ions) **relatively stable within narrow limits**, despite changes in the external environment."
+    dp: [8.1.1a, 8.1.1b]
+
+  - id: 2
+    q: "What is negative feedback?"
+    a: "A control mechanism in which a change from the set point triggers a response that **reverses the change**, returning the variable towards normal."
+    dp: [8.1.1a, 8.1.1b]
+
+  - id: 3
+    cloze: "Negative feedback loop: a change (the {{c1::stimulus}}) is detected by a {{c2::receptor}}; the {{c3::control centre}} compares it with the set point and signals an {{c4::effector}}, whose {{c5::response}} reverses the change."
+    dp: [8.1.1a, 8.1.1b]
+
+  - id: 4
+    q: "Distinguish negative and positive feedback."
+    a: "**Negative** feedback **reverses** a change, keeping conditions stable (homeostasis). **Positive** feedback **amplifies** a change until an end point is reached (e.g. oxytocin during childbirth, blood clotting)."
+    dp: [8.1.1a, 8.1.1b]
+    tags: [compare]
+
+  - id: 5
+    q: "Which part of the body controls body temperature, and what is the normal set point?"
+    a: "The **hypothalamus** in the brain; the set point is about **37 °C**."
+    dp: [8.1.1a]
+
+  - id: 6
+    q: "How does the body respond when body temperature rises above the set point?"
+    a: "Thermoreceptors signal the hypothalamus, which triggers **vasodilation** of skin arterioles (more heat lost from the skin), **sweating** (evaporative cooling) and lower metabolic activity; behaviour changes too (seeking shade, removing clothing)."
+    dp: [8.1.1a]
+
+  - id: 7
+    cloze: "Body too cold: {{c1::thermoreceptors}} in the skin detect the fall → the {{c2::hypothalamus}} → skin arterioles {{c3::constrict}} (vasoconstriction), skeletal muscles {{c4::shiver}} and metabolic rate increases → body temperature rises back to the set point."
+    dp: [8.1.1a]
+
+  - id: 8
+    q: "How is blood glucose lowered after a meal?"
+    a: "**Beta (β) cells** in the islets of Langerhans of the pancreas detect the rise and release **insulin**; body cells (muscle, fat) take up more glucose, and the liver and muscles convert glucose into **glycogen**, so blood glucose falls back to normal."
+    dp: [8.1.1b]
+
+  - id: 9
+    q: "How is blood glucose raised when it falls too low?"
+    a: "**Alpha (α) cells** in the pancreatic islets release **glucagon**; the liver breaks down **glycogen** into glucose and makes new glucose, releasing it into the blood. (Adrenaline also raises blood glucose.)"
+    dp: [8.1.1b]
+
+  - id: 10
+    q: "Compare insulin and glucagon."
+    a: |-
+      | | Insulin | Glucagon |
+      |---|---|---|
+      | Made by | β cells (pancreas) | α cells (pancreas) |
+      | Released when | glucose high | glucose low |
+      | Effect | cells take up glucose; glycogen made | glycogen broken down; glucose released |
+      | Result | lowers blood glucose | raises blood glucose |
+    dp: [8.1.1b]
+    tags: [compare]
+
+  - id: 11
+    q: "What is the difference between glycogen and glucagon?"
+    a: "**Glycogen** is a storage carbohydrate (polysaccharide) in liver and muscle. **Glucagon** is a **hormone** that triggers glycogen breakdown."
+    tip: "Examiners penalise mixing these up: check the spelling of every 'gly-' and 'glu-' word."
+    dp: [8.1.1b]
+    tags: [compare]
+
+  - id: 12
+    q: "What is the normal range of blood glucose in humans?"
+    a: "About **4–8 mmol/L** (roughly 4–6 mmol/L when fasting, rising temporarily after a meal)."
+    review: "check against a current clinical source"
+    dp: [8.1.1b]
+
+  - id: 13
+    q: "What is an endotherm?"
+    a: "An animal that produces most of its body heat **internally by metabolism** and keeps a fairly **constant body temperature** (mammals and birds), unlike ectotherms, which rely mainly on external heat."
+    dp: [8.1.2a]
+
+  - id: 14
+    q: "Give behavioural adaptations that help endotherms regulate body temperature."
+    a: "Seeking **shade or sun**, being **nocturnal**, **burrowing** (bilby), **huddling** (penguins), **panting** (dogs), **licking forearms** (kangaroos), wallowing in water or mud, and entering **torpor** or hibernation."
+    dp: [8.1.2a, 3.2.1c]
+    tags: [aus]
+
+  - id: 15
+    q: "Give structural adaptations that help endotherms regulate body temperature."
+    a: "**Insulation** (fur, feathers, blubber), **body size and shape** (low SA:V in the cold), **size of extremities** (large ears to lose heat in hot climates, e.g. bilby), and **countercurrent** arrangements of blood vessels in limbs."
+    dp: [8.1.2a, 3.2.1a]
+    tags: [aus]
+
+  - id: 16
+    q: "Give physiological adaptations that help endotherms regulate body temperature."
+    a: "**Sweating** and **panting**; **vasodilation and vasoconstriction**; **shivering** and heat production by **brown fat**; raising or lowering **metabolic rate**; torpor."
+    dp: [8.1.2a, 3.2.1b]
+
+  - id: 17
+    q: "What trend in body size do related endotherms show across climates (Bergmann's rule), and why?"
+    a: "Populations and species in **colder climates tend to be larger**: a larger body has a **smaller SA:V ratio**, so it loses heat more slowly."
+    dp: [8.1.2a]
+    tags: [data]
+
+  - id: 18
+    q: "What trend in extremities do related endotherms show across climates (Allen's rule)?"
+    a: "Endotherms in **cold** climates tend to have **shorter** ears, limbs and tails (less heat loss); those in **hot** climates have **longer** extremities to radiate heat (e.g. fennec fox and bilby ears, compared with the Arctic fox)."
+    dp: [8.1.2a]
+    tags: [data]
+
+  - id: 19
+    q: "What is countercurrent heat exchange, and how does it help endotherms in the cold?"
+    a: "Arteries carrying **warm** blood to an extremity run right beside veins carrying **cool** blood back. Heat passes from the arterial to the venous blood, so it returns to the body core instead of being lost (e.g. penguins' feet, dolphins' flippers)."
+    dp: [8.1.2a]
+
+  - id: 20
+    q: "What is torpor?"
+    a: "A temporary state of **lowered body temperature and metabolic rate** that saves energy during cold or food shortages (e.g. dunnarts, pygmy-possums, many bats)."
+    dp: [8.1.2a]
+    tags: [aus]
+
+  - id: 21
+    q: "Why do small endotherms have a higher metabolic rate per gram than large ones?"
+    a: "Their **larger SA:V ratio** means they lose heat faster, so each gram of tissue must produce more heat to keep body temperature constant."
+    dp: [8.1.2a, 1.2.1c]
+    tags: [data]
+
+  - id: 22
+    q: "Compare the nervous and endocrine systems as coordination systems."
+    a: |-
+      | | Nervous | Endocrine |
+      |---|---|---|
+      | Signal | electrical impulses, neurotransmitters | hormones in the blood |
+      | Speed | very fast | slower |
+      | Duration | short | longer-lasting |
+      | Target | specific cells | any cell with the receptor |
+    dp: [8.1.2b]
+    tags: [compare]
+
+  - id: 23
+    cloze: "Reflex arc: {{c1::receptor}} → {{c2::sensory neuron}} → {{c3::interneuron}} (in the spinal cord) → {{c4::motor neuron}} → {{c5::effector}} (muscle or gland)."
+    dp: [8.1.2b]
+
+  - id: 24
+    q: "How is a nerve impulse passed across a synapse?"
+    a: "The impulse reaches the axon terminal → **neurotransmitter** is released by exocytosis → it **diffuses across the synaptic gap** → binds **receptors** on the next cell, triggering a new impulse → the neurotransmitter is then broken down or taken back up."
+    dp: [8.1.2b]
+
+  - id: 25
+    q: "What role does the hypothalamus play in homeostasis?"
+    a: "It is the main **control centre**: it monitors blood temperature, water concentration and more, and **links the nervous and endocrine systems**, controlling the pituitary gland and the autonomic nervous system."
+    dp: [8.1.2b]
+
+  - id: 26
+    q: "How do hormones act on their target cells?"
+    a: "Endocrine glands secrete hormones into the **blood**, which carries them throughout the body; only cells with **specific receptors** respond, changing their activity (e.g. switching enzymes or genes on or off)."
+    dp: [8.1.2b]
+
+  - id: 27
+    q: "How is the water concentration of the blood regulated in humans?"
+    a: "Blood too concentrated → **osmoreceptors** in the hypothalamus → **ADH** released from the posterior pituitary → kidney **collecting ducts** become more permeable → more water **reabsorbed** → small volume of concentrated urine."
+    x: "We also feel thirsty. When the blood is too dilute, less ADH is released and a large volume of dilute urine is produced."
+    dp: [8.1.2b, 8.5.1c]
+
+  - id: 28
+    q: "How does abscisic acid (ABA) help a plant maintain water balance?"
+    a: "When the plant is **short of water**, ABA is produced; it makes guard cells lose K⁺ ions and water, so they become flaccid and the **stomata close**, reducing transpiration."
+    dp: [8.1.2c]
+
+  - id: 29
+    q: "What structural features help xerophytes conserve water?"
+    a: "**Thick waxy cuticle**; **sunken stomata** in pits or grooves; **hairs** that trap humid air; **rolled** leaves (spinifex); tiny or no leaves (she-oaks); water-storing tissue (succulents); deep or widespread roots."
+    dp: [8.1.2c, 3.2.1a]
+    tags: [aus]
+
+  - id: 30
+    q: "How do CAM plants (e.g. cacti, pineapple) conserve water?"
+    a: "They open their stomata at **night**, when it's cooler and more humid, and store the CO₂ as organic acids; during the **day** the stomata stay **closed** while that CO₂ is used in photosynthesis."
+    dp: [8.1.2c]
+
+  - id: 31
+    q: "How do halophytes such as saltbush maintain water balance in salty soil?"
+    a: "They **accumulate salts in their vacuoles**, keeping the cell solute concentration high so water still enters the roots by osmosis, and **excrete** excess salt through salt glands or bladders on the leaves (which makes saltbush look silvery)."
+    dp: [8.1.2c]
+    tags: [aus]

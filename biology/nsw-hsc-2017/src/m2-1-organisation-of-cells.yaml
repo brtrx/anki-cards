@@ -1,0 +1,101 @@
+deck:
+  module: 2
+  iq: 1
+cards:
+  - id: 1
+    q: "Compare unicellular, colonial and multicellular organisms."
+    a: |-
+      - **Unicellular**: one cell carries out all life functions (bacteria, *Paramecium*, yeast).
+      - **Colonial**: groups of similar cells living together, mostly independent, with little specialisation (*Volvox*).
+      - **Multicellular**: many specialised, interdependent cells organised into tissues and organs (humans, eucalypts).
+    dp: [2.1.1a]
+    tags: [compare]
+
+  - id: 2
+    q: "How does a unicellular organism such as *Paramecium* carry out all its life functions?"
+    a: "Organelles do the jobs that organs do in larger organisms: **cilia** for movement and feeding, **food vacuoles** for digestion, **contractile vacuoles** for water balance, and the **cell membrane** for gas exchange by diffusion."
+    dp: [2.1.1a]
+
+  - id: 3
+    q: "What is *Volvox*, and why is it a useful model for the evolution of multicellularity?"
+    a: "A colonial green alga: a hollow sphere of hundreds to thousands of flagellated cells, linked by cytoplasmic strands, that beat in coordination. A few cells are specialised for reproduction, so it shows a step between single cells and true multicellularity."
+    dp: [2.1.1a]
+
+  - id: 4
+    q: "What are the advantages and the main challenge of being multicellular?"
+    a: "**Advantages**: cell specialisation (division of labour, more efficiency), larger size, longer life (cells are replaced), a controlled internal environment. **Challenge**: a low SA:V ratio, so the organism needs specialised exchange surfaces, transport and coordination systems."
+    dp: [2.1.1b, 2.1.3]
+
+  - id: 5
+    q: "What is cell differentiation, and how can cells with the same DNA become different?"
+    a: "The process by which unspecialised cells become **specialised** for one function. Every cell has the same DNA, but **different genes are switched on (expressed)** in different cell types."
+    dp: [2.1.2, 5.3.2d]
+
+  - id: 6
+    q: "What are stem cells?"
+    a: "**Unspecialised** cells that can divide repeatedly and **differentiate** into specialised cell types."
+    x: "Embryonic stem cells can become almost any cell type; adult stem cells (e.g. in bone marrow) produce a limited range. In plants, **meristems** (shoot and root tips) are the dividing, undifferentiated tissue."
+    dp: [2.1.2]
+
+  - id: 7
+    q: "How is a red blood cell's structure suited to its function?"
+    a: "**Biconcave disc**: large surface area for O₂ diffusion. **No nucleus**: more room for haemoglobin. **Small and flexible**: squeezes through capillaries."
+    dp: [2.1.1b]
+
+  - id: 8
+    q: "How is a root hair cell suited to its function?"
+    a: "A long, thin **extension** greatly increases surface area for absorbing water and mineral ions; it has a thin wall, **many mitochondria** (ATP for active uptake of ions) and no chloroplasts."
+    dp: [2.1.1b]
+
+  - id: 9
+    q: "How is a neuron (nerve cell) suited to its function?"
+    a: "A long **axon** carries impulses over long distances; many branched **dendrites** connect with other cells; a fatty **myelin sheath** insulates the axon and speeds up transmission."
+    dp: [2.1.1b]
+
+  - id: 10
+    q: "How is a palisade mesophyll cell suited to photosynthesis?"
+    a: "Column-shaped cells packed tightly just below the upper epidermis, filled with **many chloroplasts**, to absorb as much light as possible."
+    dp: [2.1.1b, 2.2.1b]
+
+  - id: 11
+    q: "Name the four main types of animal tissue and their functions."
+    a: |-
+      - **Epithelial**: covers surfaces and lines cavities (protection, absorption, secretion).
+      - **Connective**: supports and binds (bone, cartilage, blood, fat).
+      - **Muscle**: contracts (skeletal, smooth, cardiac).
+      - **Nervous**: transmits impulses.
+    dp: [2.1.2]
+
+  - id: 12
+    q: "Name the main types of plant tissue and their functions."
+    a: |-
+      - **Dermal** (epidermis): protection, waxy cuticle, stomata.
+      - **Ground** (e.g. mesophyll): photosynthesis, storage, support.
+      - **Vascular**: xylem (water and minerals), phloem (sugars).
+      - **Meristem**: growth by cell division.
+    dp: [2.1.2]
+
+  - id: 13
+    q: "What is the difference between a tissue, an organ and an organ system?"
+    a: "**Tissue**: a group of similar cells performing one function. **Organ**: several tissues working together for a function (heart, leaf). **System**: several organs working together for a major function (digestive system)."
+    dp: [2.1.2, 2.1.3]
+
+  - id: 14
+    q: "Justify the hierarchical structural organisation of multicellular organisms."
+    a: "Organelles → cells → tissues → organs → systems → organism. Each level combines units of the level below, so specialised parts can **divide the work** and operate efficiently and interdependently, allowing a large, complex organism to function."
+    tip: "'Justify' means support the argument: give the levels **and** explain why organisation into levels is advantageous."
+    dp: [2.1.3]
+
+  - id: 15
+    q: "Give an example of the levels of organisation in a plant."
+    a: "Chloroplast (organelle) → palisade mesophyll cell → mesophyll tissue → **leaf** (organ) → shoot system → plant."
+    dp: [2.1.3]
+
+  - id: 16
+    cloze: "Levels of organisation in a human: mitochondrion ({{c1::organelle}}) → cardiac muscle cell → cardiac muscle {{c2::tissue}} → heart ({{c3::organ}}) → circulatory {{c4::system}} → organism."
+    dp: [2.1.3]
+
+  - id: 17
+    q: "Why do large multicellular organisms need specialised exchange surfaces and transport systems?"
+    a: "Their **SA:V ratio is small** and most cells are far from the body surface, so diffusion alone would be far too slow; they need large exchange surfaces (lungs, gills, leaves, gut) and a transport system to carry materials to and from every cell."
+    dp: [2.1.1b, 1.2.1c]

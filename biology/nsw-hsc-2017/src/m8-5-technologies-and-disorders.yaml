@@ -1,0 +1,166 @@
+deck:
+  module: 8
+  iq: 5
+cards:
+  - id: 1
+    cloze: "Hearing: sound waves → ear canal → the {{c1::eardrum}} vibrates → the {{c2::ossicles}} (hammer, anvil, stirrup) amplify the vibrations → {{c3::oval window}} → fluid in the {{c4::cochlea}} moves → {{c5::hair cells}} bend and generate impulses → the {{c6::auditory nerve}} carries them to the brain."
+    dp: [8.5.1a]
+
+  - id: 2
+    q: "Distinguish conductive and sensorineural hearing loss."
+    a: "**Conductive**: sound can't reach the inner ear because of a problem in the **outer or middle ear** (wax, middle-ear infection with fluid, perforated eardrum, fused ossicles). **Sensorineural**: damage to the **cochlear hair cells or auditory nerve** (loud noise, ageing, genes, some drugs and infections)."
+    dp: [8.5.1a]
+    tags: [compare]
+
+  - id: 3
+    q: "How does loud noise cause permanent hearing loss?"
+    a: "Intense vibrations **damage and kill hair cells** in the cochlea (high-frequency cells first). Human hair cells **don't regenerate**, so the loss is permanent (sensorineural)."
+    dp: [8.5.1a]
+
+  - id: 4
+    q: "What is presbycusis?"
+    a: "**Age-related** sensorineural hearing loss, from the gradual loss of cochlear hair cells; **high frequencies** are lost first."
+    dp: [8.5.1a]
+
+  - id: 5
+    q: "Why is middle-ear disease (otitis media) a particular concern for many Aboriginal and Torres Strait Islander children?"
+    a: "Rates of long-lasting middle-ear infection and resulting **conductive hearing loss** are very high in many communities (linked to factors such as crowded housing and access to health care), affecting **language development and schooling**; ear-health programs aim to detect and treat it early."
+    review: "check wording and current data with appropriate sources"
+    dp: [8.5.1a]
+    tags: [aus, indigenous]
+
+  - id: 6
+    cloze: "Vision: light passes through the {{c1::cornea}} (which does most of the focusing), the pupil and the {{c2::lens}} (which changes shape to fine-focus: accommodation) and forms an image on the {{c3::retina}}, where rods and cones generate impulses carried to the brain by the {{c4::optic nerve}}."
+    dp: [8.5.1b]
+
+  - id: 7
+    q: "What is myopia (short-sightedness), and how is it corrected?"
+    a: "The eyeball is **too long** (or the cornea too curved), so light from **distant** objects focuses **in front of** the retina and they look blurred. It's corrected with **concave (diverging)** lenses."
+    dp: [8.5.1b, 8.5.2b]
+
+  - id: 8
+    q: "What is hyperopia (long-sightedness), and how is it corrected?"
+    a: "The eyeball is **too short** (or the focusing power too weak), so light from **near** objects focuses **behind** the retina and they look blurred. It's corrected with **convex (converging)** lenses."
+    dp: [8.5.1b, 8.5.2b]
+
+  - id: 9
+    q: "What is astigmatism?"
+    a: "An **irregularly curved cornea** (or lens) focuses light at different points in different planes, so vision is blurred or distorted at all distances; corrected with **cylindrical (toric)** lenses."
+    dp: [8.5.1b]
+
+  - id: 10
+    q: "What is presbyopia?"
+    a: "With age the lens loses **elasticity** and can't change shape enough to focus on **near objects** (usually from the 40s); it's corrected with reading glasses (convex lenses)."
+    dp: [8.5.1b]
+
+  - id: 11
+    q: "What are cataracts, and how are they treated?"
+    a: "**Clouding of the lens** as its proteins clump, giving blurred, dim vision; risk factors include ageing, UV exposure, diabetes and smoking. Treated by surgery that replaces the lens with an **artificial plastic lens**."
+    dp: [8.5.1b]
+
+  - id: 12
+    q: "What are glaucoma and macular degeneration?"
+    a: "**Glaucoma**: damage to the **optic nerve**, often from raised pressure in the eye, causing gradual loss of peripheral vision. **Macular degeneration**: age-related damage to the **centre of the retina**, causing loss of central vision."
+    dp: [8.5.1b]
+
+  - id: 13
+    q: "What are the functions of the kidneys?"
+    a: "**Excrete** nitrogenous waste (urea) and excess substances; regulate **water and salt** balance, **blood pH** and **blood pressure**; produce hormones (e.g. erythropoietin, which stimulates red blood cell production) and activate vitamin D."
+    dp: [8.5.1c]
+
+  - id: 14
+    cloze: "Nephron: blood is filtered under pressure from the {{c1::glomerulus}} into Bowman's capsule ({{c2::filtration}}); useful substances (all the glucose, most water and salts) return to the blood in the {{c3::proximal convoluted tubule}} ({{c4::reabsorption}}); the loop of Henle helps concentrate the urine; water reabsorption in the {{c5::collecting duct}} is controlled by {{c6::ADH}}."
+    dp: [8.5.1c]
+
+  - id: 15
+    q: "What causes loss of kidney function?"
+    a: "Most often **diabetes** and **high blood pressure**, which damage the glomeruli; also kidney inflammation (glomerulonephritis), inherited **polycystic kidney disease**, infections and some drugs and toxins."
+    dp: [8.5.1c]
+
+  - id: 16
+    q: "What are the effects of kidney failure?"
+    a: "**Urea and toxins accumulate** (tiredness, nausea), **fluid retention** (swelling), dangerous **salt imbalances** (high potassium affects heart rhythm), high blood pressure, **anaemia** (less erythropoietin) and bone disease."
+    dp: [8.5.1c]
+
+  - id: 17
+    q: "How does a hearing aid work, and who is it suitable for?"
+    a: "A **microphone** picks up sound, an **amplifier** makes it louder, and a small speaker delivers it into the ear canal. It suits **mild to moderate** hearing loss, because it relies on the person having **working hair cells**."
+    dp: [8.5.2a]
+
+  - id: 18
+    q: "How does a cochlear implant work?"
+    a: "An external **microphone and sound processor** convert sound into electrical signals that are sent through the skin to an implanted receiver; an **electrode array inside the cochlea** stimulates the **auditory nerve** directly, **bypassing damaged hair cells**. It needs a working auditory nerve."
+    dp: [8.5.2a]
+
+  - id: 19
+    q: "Who developed the multichannel cochlear implant?"
+    a: "Professor **Graeme Clark** and his team at the University of Melbourne; the first implant was in **1978**, and the device was commercialised by the Australian company Cochlear."
+    dp: [8.5.2a]
+    tags: [aus, history]
+
+  - id: 20
+    q: "How does a bone conduction implant work, and who is it for?"
+    a: "A sound processor converts sound into **vibrations** that travel through the **skull bone** (via an implanted titanium fixture) directly to the cochlea, **bypassing the outer and middle ear**. It suits **conductive or mixed** hearing loss and deafness in one ear."
+    dp: [8.5.2a]
+
+  - id: 21
+    q: "Which hearing technology suits which type of hearing loss?"
+    a: |-
+      | Technology | Suits | How |
+      |---|---|---|
+      | Hearing aid | mild–moderate loss | amplifies sound (needs hair cells) |
+      | Bone conduction implant | conductive, mixed, one-sided | bypasses outer and middle ear |
+      | Cochlear implant | severe–profound sensorineural | bypasses hair cells (needs auditory nerve) |
+    dp: [8.5.2a]
+    tags: [compare]
+
+  - id: 22
+    q: "How do spectacles correct myopia and hyperopia?"
+    a: "**Myopia**: a **concave (diverging)** lens spreads the light so it focuses further back, on the retina. **Hyperopia**: a **convex (converging)** lens bends the light inwards so it focuses sooner, on the retina."
+    dp: [8.5.2b]
+    tags: [compare]
+
+  - id: 23
+    q: "How does laser eye surgery (e.g. LASIK) correct vision?"
+    a: "A laser **reshapes the cornea** by removing tiny amounts of tissue, changing its curvature: **flattening** it for myopia, **steepening** it for hyperopia. In LASIK a thin flap of cornea is cut and lifted first; in PRK the surface layer is removed."
+    dp: [8.5.2b]
+
+  - id: 24
+    q: "Evaluate laser eye surgery."
+    a: "**Advantages**: permanent correction, quick recovery, freedom from glasses or contacts. **Disadvantages**: cost; not suitable for everyone (thin corneas, changing prescription); risks such as dry eyes, glare and halos, and over- or under-correction; it doesn't prevent age-related presbyopia."
+    dp: [8.5.2b, 8.5.3]
+
+  - id: 25
+    q: "How does haemodialysis work?"
+    a: "Blood is pumped through a **dialyser**, past a **partially permeable membrane**, with dialysis fluid flowing the **opposite way** on the other side; urea, excess salts and water diffuse out, and the cleaned blood is returned."
+    x: "Typically about 3 sessions a week, each of 4–5 hours, in a hospital, clinic or at home."
+    dp: [8.5.2c]
+
+  - id: 26
+    q: "Why does dialysis fluid contain glucose and salts at normal blood concentrations but no urea?"
+    a: "With **no concentration gradient**, glucose and useful salts aren't lost from the blood, while **urea diffuses out** down its steep gradient. (Excess salts and water are removed by adjusting the fluid and pressure.)"
+    dp: [8.5.2c]
+
+  - id: 27
+    q: "How does peritoneal dialysis work?"
+    a: "Dialysis fluid is run into the **abdominal cavity** through a tube; the **peritoneum** (abdominal lining) acts as the membrane; wastes diffuse into the fluid, which is drained and replaced several times a day (or overnight by a machine), usually **at home**."
+    dp: [8.5.2c]
+
+  - id: 28
+    q: "Evaluate the effectiveness of dialysis."
+    a: "It keeps people with kidney failure **alive** and can bridge to a transplant. But it only **partly replaces** the kidney (not its hormone functions), needs strict diet and fluid limits, takes **12+ hours a week**, risks infection and is costly."
+    x: "Survival and quality of life are better after a kidney transplant, but donor kidneys are scarce and recipients need lifelong immunosuppressant drugs."
+    dp: [8.5.3, 8.5.2c]
+
+  - id: 29
+    q: "Evaluate the effectiveness of cochlear implants."
+    a: "Highly effective for many people with severe–profound loss, especially **children implanted early**, who often develop spoken language. But they **don't restore normal hearing** (music, noisy places), need surgery and long rehabilitation, and are costly."
+    x: "Some members of the Deaf community see deafness as a culture and identity rather than a disorder to be fixed."
+    dp: [8.5.3, 8.5.2a]
+    tags: [ethics]
+
+  - id: 30
+    q: "What criteria should you use to evaluate the effectiveness of a technology for a disorder?"
+    a: "How well it **restores function**; who it **suits**; **risks** and side effects; **cost and access**; effect on **quality of life**; **long-term** outcomes compared with the alternatives."
+    tip: "'Evaluate' needs a judgement based on criteria: state the criteria, apply them, and finish with a clear judgement."
+    dp: [8.5.3]

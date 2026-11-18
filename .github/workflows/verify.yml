@@ -39,6 +39,32 @@ jobs:
             fr/verbs-intermediate/dist/
             fr/verbs-intermediate/VERIFICATION.md
 
+  biology-nsw-hsc-2017:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Self-test — the checker must catch known mistakes
+        run: python biology/nsw-hsc-2017/tools/test_verify.py
+
+      - name: Verify every card (lint, coverage, definitions, worked problems, spelling)
+        run: python biology/nsw-hsc-2017/tools/verify.py --strict
+
+      - name: Build packages
+        run: python biology/nsw-hsc-2017/tools/build.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: biology-nsw-hsc-2017
+          path: |
+            biology/nsw-hsc-2017/dist/
+            biology/nsw-hsc-2017/VERIFICATION.md
+
   grammar:
     # Advisory: LanguageTool runs as a local server on the runner. Flags never fail
     # this job; it fails only if LanguageTool can't be fetched or started.

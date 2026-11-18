@@ -1,0 +1,222 @@
+deck:
+  module: 5
+  iq: 4
+cards:
+  - id: 1
+    q: "How can meiosis be modelled practically to predict the genotypes of offspring?"
+    a: "Use objects (pipe-cleaners, beads, cards) as chromosomes with marked alleles: **replicate**, pair homologues, **cross over** (swap segments), separate them in two divisions to make gametes, then combine gametes at random (**fertilisation**) and compare observed with predicted ratios."
+    dp: [5.4.1]
+    tags: [practical]
+
+  - id: 2
+    q: "Which processes produce genetic variation among the offspring of the same parents?"
+    a: "**Crossing over** (prophase I), **independent assortment** (metaphase I) and **random fertilisation**; **mutation** provides new alleles."
+    dp: [5.4.1, 6.1.5]
+
+  - id: 3
+    q: "How does random fertilisation add to genetic variation?"
+    a: "Any one of millions of genetically different sperm can fertilise any one of millions of different eggs: 2²³ × 2²³ (about 70 trillion) combinations in humans, even before crossing over."
+    dp: [5.4.1, 6.1.5]
+
+  - id: 4
+    q: "What are the limitations of modelling meiosis with beads or pipe-cleaners?"
+    a: "It is **simplified**: few chromosomes and genes, crossing over at chosen points, no molecular detail; and small numbers of 'offspring' give ratios that **differ by chance** from the expected values."
+    dp: [5.4.1, WS.6.1]
+    tags: [practical]
+
+  - id: 5
+    q: "Define allele (syllabus glossary)."
+    glossary: allele
+    a: "A variant form of a gene."
+    dp: [5.4.2a]
+
+  - id: 6
+    q: "Distinguish dominant and recessive alleles."
+    a: "A **dominant** allele is expressed in the phenotype even when only **one copy** is present (heterozygote). A **recessive** allele is expressed only when **two copies** are present (homozygous)."
+    dp: [5.4.2a]
+    tags: [compare]
+
+  - id: 7
+    q: "Distinguish homozygous and heterozygous."
+    a: "**Homozygous**: two identical alleles of a gene (AA or aa). **Heterozygous**: two different alleles (Aa)."
+    dp: [5.4.2a]
+    tags: [compare]
+
+  - id: 8
+    q: "Two heterozygous tall pea plants (Tt) are crossed. What is the expected phenotype ratio of the offspring?"
+    a: "**3:1**, tall : short."
+    dp: [5.4.2b, 5.4.2a]
+    calc: {kind: cross, p1: "T/t", p2: "T/t", ask: phenotype-ratio, labels: {T: tall, t: short}, result: {tall: 3, short: 1}}
+
+  - id: 9
+    q: "What is the expected genotype ratio from the cross Tt × Tt?"
+    a: "**1:2:1**, TT : Tt : tt."
+    dp: [5.4.2b]
+    calc: {kind: cross, p1: "T/t", p2: "T/t", ask: genotype-ratio, result: {"T/T": 1, "T/t": 2, "t/t": 1}}
+
+  - id: 10
+    q: "What is a test cross, and how is it interpreted?"
+    a: "Crossing an individual with the **dominant phenotype** (genotype unknown: AA or Aa) with a **homozygous recessive** (aa). If any offspring show the **recessive** phenotype, the parent is **heterozygous**; if all (of a large number) show the dominant phenotype, it's probably homozygous dominant."
+    dp: [5.4.2b, 5.4.2a]
+
+  - id: 11
+    q: "What phenotype ratio is expected from the test cross Tt × tt?"
+    a: "**1:1**, tall : short."
+    dp: [5.4.2b]
+    calc: {kind: cross, p1: "T/t", p2: "t/t", ask: phenotype-ratio, labels: {T: tall, t: short}, result: {tall: 1, short: 1}}
+
+  - id: 12
+    q: "Cystic fibrosis is autosomal recessive. Two carrier parents (Cc) have a child. What is the probability that the child has cystic fibrosis?"
+    a: "**1/4 (25%)**."
+    x: "The probability is the same for every child, independently: having one affected child doesn't change the odds for the next."
+    dp: [5.4.2a, 5.4.2b, 8.2.1a]
+    calc: {kind: cross, p1: "C/c", p2: "C/c", ask: probability, of: c, result: "1/4"}
+
+  - id: 13
+    q: "Huntington's disease is autosomal dominant. An affected heterozygous parent (Hh) has children with an unaffected partner (hh). What is the probability that each child inherits the disease?"
+    a: "**1/2 (50%)**."
+    dp: [5.4.2a, 8.2.1a]
+    calc: {kind: cross, p1: "H/h", p2: "h/h", ask: probability, of: H, result: "1/2"}
+
+  - id: 14
+    q: "What is sex linkage?"
+    a: "Inheritance of genes carried on the **X chromosome**. Males (XY) have only one X, so a single recessive allele is expressed: X-linked recessive conditions (haemophilia A, red–green colour blindness) are **much more common in males**."
+    dp: [5.4.2a]
+
+  - id: 15
+    q: "A carrier woman (X^H^X^h^) and an unaffected man (X^H^Y) have a son. What is the probability that he has haemophilia?"
+    a: "**1/2 (50%)**: he inherits his only X from his mother, who has one of each allele."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "XH/Xh", p2: "XH/Y", ask: probability, of: h, given: male, result: "1/2"}
+
+  - id: 16
+    q: "A carrier woman (X^H^X^h^) and an unaffected man (X^H^Y) have a daughter. What is the probability that she has haemophilia?"
+    a: "**0%**: she always gets her father's X^H^. (There's a 1/2 chance she is a carrier.)"
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "XH/Xh", p2: "XH/Y", ask: probability, of: h, given: female, result: "0"}
+
+  - id: 17
+    q: "A man with haemophilia (X^h^Y) and a homozygous unaffected woman (X^H^X^H^) have children. What genotypes are expected?"
+    a: "**1:1** carrier daughters (X^H^X^h^) : unaffected sons (X^H^Y). All daughters are carriers; no children are affected."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "Xh/Y", p2: "XH/XH", ask: genotype-ratio, result: {"XH/Xh": 1, "XH/Y": 1}}
+
+  - id: 18
+    q: "Why can't a father pass an X-linked condition to his son?"
+    a: "A son inherits his father's **Y chromosome**, not his X."
+    dp: [5.4.2a, 5.4.2b]
+
+  - id: 19
+    q: "What is codominance? Give examples."
+    a: "**Both alleles are fully expressed** in the heterozygote: in **roan cattle** both red and white hairs are present; in blood group **AB** both A and B antigens are made."
+    dp: [5.4.2a]
+
+  - id: 20
+    q: "Two roan cattle (C^R^C^W^) are crossed. What phenotype ratio is expected?"
+    a: "**1:2:1**, red : roan : white."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "CR/CW", p2: "CR/CW", mode: codominant, ask: phenotype-ratio, labels: {"CR/CR": red, "CR/CW": roan, "CW/CW": white}, result: {red: 1, roan: 2, white: 1}}
+
+  - id: 21
+    q: "What is incomplete dominance? Give an example."
+    a: "The heterozygote has an **intermediate** phenotype, a blend of the two: red × white snapdragons give **pink** offspring."
+    dp: [5.4.2a]
+
+  - id: 22
+    q: "A pink snapdragon (C^R^C^W^) is crossed with a white one (C^W^C^W^). What phenotype ratio is expected?"
+    a: "**1:1**, pink : white."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "CR/CW", p2: "CW/CW", mode: incomplete, ask: phenotype-ratio, labels: {"CR/CW": pink, "CW/CW": white}, result: {pink: 1, white: 1}}
+
+  - id: 23
+    q: "Distinguish codominance and incomplete dominance."
+    a: "**Codominance**: both alleles are expressed **separately and fully** (red and white hairs side by side). **Incomplete dominance**: the heterozygote shows a **blended, intermediate** phenotype (pink)."
+    dp: [5.4.2a]
+    tags: [compare]
+
+  - id: 24
+    q: "What are multiple alleles? Give an example."
+    a: "**More than two alleles** of a gene exist in the population (though each individual has only two). Example: ABO blood groups, with alleles **I^A^** and **I^B^** (codominant) and **i** (recessive)."
+    dp: [5.4.2a]
+
+  - id: 25
+    q: "Which genotypes give each ABO blood group?"
+    a: "**A**: I^A^I^A^ or I^A^i. **B**: I^B^I^B^ or I^B^i. **AB**: I^A^I^B^. **O**: ii."
+    dp: [5.4.2a]
+
+  - id: 26
+    q: "Parents with genotypes I^A^i and I^B^i have children. What blood groups are possible, in what ratio?"
+    a: "**A : AB : B : O = 1:1:1:1**. All four blood groups are possible."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "IA/i", p2: "IB/i", mode: abo, ask: phenotype-ratio, result: {A: 1, AB: 1, B: 1, O: 1}}
+
+  - id: 27
+    q: "A parent with blood group AB has children with a group O partner. What blood groups can the children have?"
+    a: "Only **A or B**, in a **1:1** ratio; none can be AB or O."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "IA/IB", p2: "i/i", mode: abo, ask: phenotype-ratio, result: {A: 1, B: 1}}
+
+  - id: 28
+    q: "What phenotype ratio results from crossing two individuals heterozygous for two unlinked genes (AaBb × AaBb)?"
+    a: "**9:3:3:1** (both dominant : dominant A only : dominant B only : both recessive)."
+    dp: [5.4.2a, 5.4.2b]
+    calc: {kind: cross, p1: "A/a B/b", p2: "A/a B/b", ask: phenotype-ratio, result: {"A B": 9, "A b": 3, "a B": 3, "a b": 1}}
+
+  - id: 29
+    q: "Why don't linked genes give the expected 9:3:3:1 ratio?"
+    a: "Genes **close together on the same chromosome** tend to be inherited together, so the parental combinations appear more often than expected; only **crossing over** between them produces recombinant offspring."
+    dp: [5.4.2a]
+
+  - id: 30
+    q: "In a pedigree, what do squares, circles, shaded symbols and horizontal lines mean?"
+    a: "**Square** = male; **circle** = female; **shaded** = affected (half-shaded or dotted = carrier); a **horizontal line** joins parents, and a vertical line leads down to their children; generations are numbered I, II, III…"
+    dp: [5.4.2b]
+
+  - id: 31
+    q: "Which pedigree clue shows a trait is autosomal recessive?"
+    a: "**Two unaffected parents have an affected child**, so the trait can skip generations. Males and females are affected about equally."
+    dp: [5.4.2b]
+
+  - id: 32
+    q: "Which pedigree clues show a trait is autosomal dominant?"
+    a: "Every affected person has **at least one affected parent** (it doesn't skip generations), and **two affected parents can have an unaffected child**. Both sexes are affected equally."
+    dp: [5.4.2b]
+
+  - id: 33
+    q: "Which pedigree clues suggest X-linked recessive inheritance, and which rule it out?"
+    a: "**Suggest**: mostly **males** affected; affected sons of unaffected (carrier) mothers; never passed from father to son. **Rule out**: an affected **daughter with an unaffected father**, or an affected mother with an unaffected son."
+    dp: [5.4.2b]
+
+  - id: 34
+    q: "What is a Punnett square used for?"
+    a: "A grid showing every combination of the **gametes** from two parents, to predict the **probabilities** of offspring genotypes and phenotypes."
+    tip: "Predicted ratios are probabilities; small families often don't match them exactly."
+    dp: [5.4.2b]
+
+  - id: 35
+    q: "How can the frequency of a characteristic in a population be collected and presented?"
+    a: "Survey a **large, random** sample and count each phenotype (e.g. blood groups, earlobe type); convert to **percentages**; present in a table and a **column graph** (discrete categories); then look for trends and note limitations such as sample size and how representative it is."
+    dp: [5.4.3a, WS.4.1]
+    tags: [data]
+
+  - id: 36
+    q: "In a sample of 100 animals, 40 are AA, 40 are Aa and 20 are aa. What is the frequency of allele a?"
+    a: "**0.4**: (40 + 2 × 20) ÷ 200 alleles = 80 ÷ 200."
+    dp: [5.4.3a]
+    calc: {kind: allele-frequency, hom_dom: 40, het: 40, hom_rec: 20, allele: rec, result: 0.4}
+
+  - id: 37
+    q: "What is a single nucleotide polymorphism (SNP)?"
+    a: "A variation in a **single base** at a particular position in the DNA that differs between individuals of a population; SNPs are the **most common** type of genetic variation."
+    x: "On average there's roughly one SNP every 1000 bases, about 4–5 million in a person's genome."
+    dp: [5.4.3b]
+
+  - id: 38
+    q: "How are SNPs used?"
+    a: "As **genetic markers**: linking variants to **disease risk** (genome-wide association studies), predicting **drug responses**, tracing **ancestry** and relationships, and in forensic and conservation genetics."
+    dp: [5.4.3b, 5.5.2b]
+
+  - id: 39
+    q: "What are the limitations of SNP data?"
+    a: "Most SNPs have **no effect**; an **association isn't proof of cause**; studies need very large samples; and many studies have mostly sampled people of **European ancestry**, so results may not apply to other populations."
+    dp: [5.4.3b, WS.5.2]

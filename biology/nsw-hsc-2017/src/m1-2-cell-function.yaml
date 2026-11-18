@@ -1,0 +1,272 @@
+deck:
+  module: 1
+  iq: 2
+cards:
+  - id: 1
+    q: "Define diffusion."
+    a: "The **net movement of particles from a region of higher concentration to a region of lower concentration** (down a concentration gradient). It is passive: no ATP is used."
+    dp: [1.2.1a]
+
+  - id: 2
+    q: "Define osmosis."
+    a: "The net movement of **water** across a **selectively permeable membrane** from a region of **lower solute concentration** (more free water) to a region of **higher solute concentration**."
+    tip: "Always say *water* and *membrane*, and describe the gradient in terms of solute or water concentration: 'water moves from high to low concentration' on its own is ambiguous."
+    dp: [1.2.1a]
+
+  - id: 3
+    q: "What happens to a red blood cell placed in a hypotonic, an isotonic and a hypertonic solution?"
+    a: "**Hypotonic** (more dilute than the cell): water enters, the cell swells and may burst (lysis). **Isotonic**: no net change. **Hypertonic** (more concentrated): water leaves and the cell shrinks (crenates)."
+    dp: [1.2.1a]
+
+  - id: 4
+    q: "What happens to a plant cell in a hypotonic solution and in a hypertonic solution?"
+    a: "**Hypotonic**: water enters and the cell becomes **turgid**; the cell wall stops it bursting. **Hypertonic**: water leaves and the membrane pulls away from the wall: **plasmolysis**."
+    x: "Turgor pressure keeps non-woody plants upright; wilting is loss of turgor."
+    dp: [1.2.1a]
+
+  - id: 5
+    q: "In a potato-cylinder osmosis practical, what are the independent and dependent variables, and why is change in mass given as a percentage?"
+    a: "IV: **concentration of the sugar (or salt) solution**. DV: **change in mass** of the cylinders. Percentage change allows a fair comparison because the cylinders start with slightly different masses."
+    x: "Controlled variables: potato variety, cylinder size and surface area, time in solution, temperature, blotting method. Use several cylinders per concentration (repetition improves reliability)."
+    dp: [1.2.1a, WS.2.2]
+    tags: [practical]
+
+  - id: 6
+    q: "In the potato osmosis experiment, what does the solution concentration that gives 0% change in mass tell you?"
+    a: "That solution is **isotonic** with the potato cells, so it estimates the solute concentration of the cell contents (read it where the line of best fit crosses the x-axis)."
+    dp: [1.2.1a, WS.5.1]
+    tags: [practical, data]
+
+  - id: 7
+    q: "How can dialysis (Visking) tubing be used to model a cell membrane?"
+    a: "It is selectively permeable: when filled with starch and glucose and placed in water, **glucose** (small) diffuses out (positive Benedict's test outside) but **starch** (large) stays in (iodine test)."
+    x: "If iodine is added to the water outside, it diffuses in and turns the starch blue-black inside the tubing. Limitation: the tubing has no proteins, so it can't model facilitated diffusion or active transport."
+    dp: [1.2.1a]
+    tags: [practical]
+
+  - id: 8
+    q: "What is facilitated diffusion?"
+    a: "**Passive** movement of a substance down its concentration gradient through specific **channel or carrier proteins** in the membrane; no ATP is used."
+    x: "Used for ions and polar molecules such as glucose, which can't pass through the hydrophobic core of the bilayer. Water also moves quickly through channel proteins called aquaporins."
+    dp: [1.2.1b, 1.2.1c]
+
+  - id: 9
+    q: "What is active transport?"
+    a: "Movement of a substance **against its concentration gradient** (low → high) through **carrier proteins (pumps)**, using energy from **ATP**."
+    x: "Example: the sodium–potassium pump moves 3 Na⁺ out and 2 K⁺ into the cell for each ATP used."
+    dp: [1.2.1b]
+
+  - id: 10
+    q: "Give two examples of active transport in living things."
+    a: "Root hair cells absorbing **mineral ions** (e.g. nitrate) from dilute soil water; the **sodium–potassium pump** in nerve cells; absorption of glucose from the small intestine or kidney tubules."
+    dp: [1.2.1b]
+
+  - id: 11
+    q: "What is endocytosis, and what are its two main forms?"
+    a: "Bulk uptake: the membrane folds in around material and pinches off as a **vesicle**, using ATP. **Phagocytosis**: solid particles ('cell eating', e.g. a phagocyte engulfing a bacterium). **Pinocytosis**: droplets of fluid ('cell drinking')."
+    dp: [1.2.1b]
+
+  - id: 12
+    q: "What is exocytosis? Give an example."
+    a: "Bulk export: **vesicles fuse with the cell membrane** and release their contents outside the cell, using ATP. Example: secretion of digestive enzymes, insulin, or neurotransmitters."
+    dp: [1.2.1b, 1.2.3]
+
+  - id: 13
+    q: "Which ways of crossing a membrane require energy from ATP?"
+    a: "**Active transport, endocytosis and exocytosis**. Diffusion, facilitated diffusion and osmosis are passive."
+    dp: [1.2.1b]
+    tags: [compare]
+
+  - id: 14
+    q: "Why can't cells grow indefinitely large?"
+    a: "As a cell grows, its **volume increases faster than its surface area**, so the surface-area-to-volume ratio falls: the membrane can no longer exchange materials fast enough for the volume, and diffusion distances to the centre become too long."
+    dp: [1.2.1c]
+
+  - id: 15
+    q: "What is the surface-area-to-volume ratio of a cube with 2 cm sides?"
+    a: "**3:1** (surface area = 6 × 2 × 2 = 24 cm²; volume = 2 × 2 × 2 = 8 cm³; 24 ÷ 8 = 3)."
+    x: "A 1 cm cube has SA:V 6:1; a 4 cm cube 1.5:1. Doubling the side halves the ratio."
+    dp: [1.2.1c]
+    calc: {kind: sav, shape: cube, side: 2, result: "3:1"}
+
+  - id: 16
+    q: "Agar cubes of different sizes containing an indicator are soaked in acid or alkali. Which cube changes colour throughout first, proportionally, and why?"
+    a: "The **smallest** cube: it has the **largest SA:V ratio**, so diffusion reaches a greater proportion of its volume in a given time."
+    x: "The agar cubes model cells of different sizes; diffusion inward moves at the same rate in all of them."
+    dp: [1.2.1c]
+    tags: [practical]
+
+  - id: 17
+    q: "How do cells and organisms increase their surface-area-to-volume ratio for exchange?"
+    a: "By **flattening** (biconcave red blood cells, thin leaves), **folding** (microvilli, villi, alveoli, cristae) and **long thin extensions** (root hairs)."
+    dp: [1.2.1c, 2.2.3a]
+
+  - id: 18
+    q: "How do the characteristics of a substance determine how it crosses the cell membrane?"
+    a: "**Small, non-polar or lipid-soluble** molecules (O₂, CO₂) diffuse through the bilayer; **ions and polar molecules** (Na⁺, glucose) need channel or carrier proteins; **large particles** need endocytosis or exocytosis."
+    dp: [1.2.1c]
+
+  - id: 19
+    q: "Which factors affect the rate of diffusion?"
+    a: "Steepness of the **concentration gradient**, **temperature**, **surface area**, **distance** (thickness of the barrier) and the **size and solubility** of the particles."
+    x: "Fick's law: rate ∝ surface area × concentration difference ÷ thickness of membrane."
+    dp: [1.2.1c]
+
+  - id: 20
+    q: "What forms of energy do cells use?"
+    a: "**Light energy** (captured by autotrophs in photosynthesis) and **chemical energy** stored in complex molecules (glucose, lipids), which respiration transfers to ATP."
+    dp: [1.2.2a]
+
+  - id: 21
+    q: "Why is ATP described as the 'energy currency' of the cell?"
+    a: "Respiration stores energy in ATP's terminal phosphate bond; hydrolysing ATP → ADP + phosphate releases it in small, usable amounts wherever the cell needs it."
+    dp: [1.2.2a]
+
+  - id: 22
+    q: "What matter do cells need to obtain from their environment?"
+    a: "**Gases** (O₂ for respiration, CO₂ for photosynthesis), **water**, **simple nutrients** (glucose, amino acids, fatty acids and glycerol, vitamins) and **ions** (e.g. Na⁺, K⁺, Ca²⁺, nitrate, phosphate)."
+    dp: [1.2.2b]
+
+  - id: 23
+    q: "Why do plants need nitrate, phosphate and magnesium ions?"
+    a: "**Nitrate**: nitrogen for amino acids (proteins) and nucleic acids. **Phosphate**: phosphorus for ATP, DNA/RNA and phospholipids. **Magnesium**: part of the chlorophyll molecule."
+    dp: [1.2.2b]
+
+  - id: 24
+    q: "What wastes do cells produce, and how do they leave the cell?"
+    a: "**CO₂** from respiration, **nitrogenous wastes** (ammonia from breaking down amino acids) and excess **water**; small molecules diffuse out, other products leave by exocytosis. In plants, O₂ from photosynthesis is a by-product."
+    dp: [1.2.2c]
+
+  - id: 25
+    q: "Why must nitrogenous waste be removed, and in what forms do animals excrete it?"
+    a: "Ammonia is **highly toxic**. Aquatic animals excrete ammonia directly (diluted by water); mammals convert it to **urea**; birds, reptiles and insects convert it to **uric acid**, which saves the most water."
+    dp: [1.2.2c]
+    tags: [compare]
+
+  - id: 26
+    q: "How do single-celled freshwater organisms (e.g. *Paramecium*) avoid bursting?"
+    a: "Water constantly enters by osmosis, so **contractile vacuoles** collect the excess water and pump it out of the cell, using ATP."
+    dp: [1.2.2c]
+
+  - id: 27
+    q: "Give the word equation and the balanced chemical equation for photosynthesis."
+    a: |-
+      carbon dioxide + water → glucose + oxygen (light energy, chlorophyll)
+      **6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂**
+    dp: [1.2.3]
+
+  - id: 28
+    q: "What happens in the light-dependent reactions of photosynthesis?"
+    a: "On the **thylakoid membranes**, chlorophyll absorbs light; **water is split** (photolysis) into O₂, H⁺ and electrons; the energy is used to make **ATP and NADPH**."
+    dp: [1.2.3]
+
+  - id: 29
+    q: "What happens in the light-independent reactions (Calvin cycle)?"
+    a: "In the **stroma**, CO₂ is **fixed** by the enzyme **RuBisCO** and then reduced to glucose (via 3-carbon sugars) using the **ATP and NADPH** from the light-dependent reactions."
+    x: "They don't need light directly, but they stop in the dark once ATP and NADPH run out."
+    dp: [1.2.3]
+
+  - id: 30
+    q: "Give the word equation and balanced chemical equation for aerobic respiration."
+    a: |-
+      glucose + oxygen → carbon dioxide + water + energy (ATP)
+      **C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP**
+    x: "HSC textbooks usually quote 36–38 ATP per glucose; modern measurements give about 30–32."
+    dp: [1.2.3]
+
+  - id: 31
+    cloze: "Aerobic respiration: {{c1::glycolysis}} in the {{c2::cytosol}} (glucose → 2 pyruvate, net 2 ATP) → {{c3::Krebs cycle}} in the mitochondrial {{c4::matrix}} (CO₂ released) → {{c5::electron transport chain}} on the {{c6::inner mitochondrial membrane (cristae)}}, where most ATP is made and O₂ accepts electrons to form water."
+    dp: [1.2.3]
+
+  - id: 32
+    q: "What happens in anaerobic respiration in animal cells and in yeast?"
+    a: "Only glycolysis runs, giving **2 ATP** per glucose. Animal cells convert pyruvate to **lactic acid (lactate)**; yeast converts it to **ethanol and CO₂** (fermentation)."
+    dp: [1.2.3]
+    tags: [compare]
+
+  - id: 33
+    q: "Compare photosynthesis and aerobic respiration."
+    a: |-
+      | | Photosynthesis | Respiration |
+      |---|---|---|
+      | Where | chloroplasts | cytosol + mitochondria |
+      | Energy | light → stored in glucose | glucose → released as ATP |
+      | Uses | CO₂ + H₂O | glucose + O₂ |
+      | Produces | glucose + O₂ | CO₂ + H₂O |
+    dp: [1.2.3]
+    tags: [compare]
+
+  - id: 34
+    q: "Do plant cells respire? When?"
+    a: "**Yes, all living plant cells respire all the time**, day and night. In bright light photosynthesis is faster than respiration, so the plant releases O₂ overall; in the dark it releases CO₂."
+    tip: "A common misconception is 'plants photosynthesise, animals respire'. Plants do both."
+    dp: [1.2.3]
+
+  - id: 35
+    cloze: "Export of a protein from a eukaryotic cell: made by ribosomes on the {{c1::rough ER}} → transport vesicle → modified and packaged in the {{c2::Golgi apparatus}} → secretory vesicle → released by {{c3::exocytosis}}."
+    dp: [1.2.3]
+
+  - id: 36
+    q: "What is an enzyme?"
+    a: "A **biological catalyst**, usually a protein, that speeds up a reaction by **lowering its activation energy**, without being used up."
+    dp: [1.2.4]
+
+  - id: 37
+    q: "What is the active site of an enzyme, and why are enzymes specific?"
+    a: "The region (formed by the protein's 3D folding) where the **substrate binds**. Its shape and chemistry are **complementary** to one substrate, so each enzyme catalyses only one reaction (or a few)."
+    dp: [1.2.4]
+
+  - id: 38
+    q: "Compare the lock-and-key and induced-fit models of enzyme action."
+    a: "**Lock-and-key**: the active site is a rigid, exact fit for the substrate. **Induced fit**: the active site changes shape slightly as the substrate binds, moulding around it and straining its bonds. Induced fit is the currently accepted model."
+    dp: [1.2.4]
+    tags: [compare]
+
+  - id: 39
+    q: "Describe a practical investigation that models enzyme action using catalase."
+    a: "Add liver or potato (source of **catalase**) to **hydrogen peroxide**: 2H₂O₂ → 2H₂O + O₂. Measure the rate as the volume of O₂ (or height of foam) produced per minute."
+    x: "Catalase protects cells by breaking down toxic hydrogen peroxide, a by-product of metabolism."
+    dp: [1.2.4]
+    tags: [practical]
+
+  - id: 40
+    q: "How can the activity of amylase be measured in the laboratory?"
+    a: "Mix amylase with **starch** and test drops of the mixture with **iodine** at regular intervals; the time until iodine no longer turns blue-black shows how quickly the starch has been broken down (to maltose)."
+    dp: [1.2.4]
+    tags: [practical]
+
+  - id: 41
+    q: "How does temperature affect enzyme activity?"
+    a: "Activity rises with temperature (faster particles, more collisions) up to the **optimum** (about 37 °C for most human enzymes). Above it, bonds holding the 3D shape break, the active site changes and the enzyme **denatures**, so activity falls steeply."
+    dp: [1.2.5]
+
+  - id: 42
+    q: "Why is enzyme activity at low temperature recovered on warming, while heat denaturation is permanent?"
+    a: "Cold only **slows** molecular movement (fewer collisions); the active site is unchanged. High heat **breaks the bonds** that hold the active site's shape, permanently changing it."
+    dp: [1.2.5]
+    tags: [compare]
+
+  - id: 43
+    q: "How does pH affect enzyme activity?"
+    a: "Each enzyme has an **optimum pH**. Away from it, H⁺ or OH⁻ ions disrupt the ionic and hydrogen bonds in the active site, so the substrate binds less well; extreme pH **denatures** the enzyme."
+    x: "Pepsin (stomach) works best at about pH 2; trypsin (small intestine) at about pH 8; salivary amylase at about pH 7."
+    dp: [1.2.5]
+
+  - id: 44
+    q: "How does substrate concentration affect the rate of an enzyme-catalysed reaction?"
+    a: "The rate increases as substrate concentration rises until **all active sites are occupied (saturation)**; then the rate **plateaus**, because the amount of enzyme is now the limiting factor."
+    dp: [1.2.5]
+    tags: [data]
+
+  - id: 45
+    q: "How do competitive and non-competitive inhibitors reduce enzyme activity?"
+    a: "**Competitive**: shaped like the substrate, it occupies the active site (overcome by adding more substrate). **Non-competitive**: binds elsewhere on the enzyme and changes the active site's shape."
+    x: "Heavy metals such as mercury and lead are non-competitive inhibitors; many drugs and poisons work by inhibiting enzymes."
+    dp: [1.2.5]
+    tags: [compare]
+
+  - id: 46
+    q: "An enzyme is tested at 20, 30, 40, 50 and 60 °C, and activity peaks at 40 °C. Can you conclude the optimum is exactly 40 °C? How would you improve the investigation?"
+    a: "No: the true optimum could be anywhere between 30 and 50 °C. Repeat with **smaller temperature intervals** around the peak (e.g. every 2 °C from 30 to 50 °C)."
+    dp: [1.2.5, WS.5.2]
+    tags: [data]

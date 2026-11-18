@@ -1,0 +1,8 @@
+# Cards checked by a qualified human reviewer (e.g. a Biology teacher).
+# verify.py ticks these off in the "For human review" list of VERIFICATION.md.
+#
+# Add one entry per checked card, e.g.
+#   - {id: "5.4-015", by: "initials", date: 2027-02-01}
+# or simply
+#   - "5.4-015"
+reviewed: []

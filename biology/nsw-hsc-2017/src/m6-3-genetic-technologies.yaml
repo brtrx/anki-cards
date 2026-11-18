@@ -1,0 +1,170 @@
+deck:
+  module: 6
+  iq: 3
+cards:
+  - id: 1
+    q: "Name current technologies that induce genetic change in organisms."
+    a: "**Selective breeding**, artificial insemination and pollination, **cloning** (whole organism and gene), **recombinant DNA** technology (transgenic organisms), **gene editing** (CRISPR) and **gene therapy**."
+    dp: [6.3.1]
+
+  - id: 2
+    q: "What advantages do genetic engineering technologies have over traditional selective breeding?"
+    a: "They are **faster** (one generation, not many), more **precise** (a single known gene), and can move genes **between species**, producing traits that breeding never could."
+    dp: [6.3.1]
+    tags: [compare]
+
+  - id: 3
+    q: "What is gene therapy?"
+    a: "Treating a genetic disease by **adding a working copy of a gene** to a patient's cells (often using a harmless modified virus as the vector) or by **editing** the faulty gene. Somatic gene therapy is not inherited by the patient's children."
+    dp: [6.3.1, 8.4.1b]
+
+  - id: 4
+    q: "What is artificial insemination (AI)?"
+    a: "**Semen** is collected from a chosen male, often diluted and frozen, and placed into the **female's reproductive tract** by a technician at the right time in her cycle. It is widely used for cattle, sheep and pigs."
+    dp: [6.3.2a]
+
+  - id: 5
+    q: "What is artificial pollination?"
+    a: "People transfer **pollen** from the anthers of a chosen plant to the **stigma** of another, by hand or brush. It is used to breed hybrids and for crops with poor natural pollination."
+    x: "To control the cross, the receiving flower's anthers are usually removed first and the flower is bagged to keep out other pollen."
+    dp: [6.3.2b]
+
+  - id: 6
+    q: "Compare the processes and outcomes of artificial insemination and artificial pollination."
+    a: |-
+      | | Artificial insemination | Artificial pollination |
+      |---|---|---|
+      | Organisms | animals | plants |
+      | Process | semen placed in female tract | pollen placed on stigma |
+      | Typical outcome | one male sires thousands of offspring | hybrids of chosen parents |
+    x: "Both transfer male gametes from parents chosen by people, produce genetically varied offspring (it's still sexual reproduction) and speed up selective breeding, but both can reduce genetic diversity if few parents are used."
+    dp: [6.3.2a, 6.3.2b]
+    tags: [compare]
+
+  - id: 7
+    q: "What are the advantages and disadvantages of artificial insemination for farmers?"
+    a: "**Advantages**: access to superior genetics without keeping a bull or ram; one male can sire thousands of offspring; frozen semen is easily transported; less disease spread and injury. **Disadvantages**: **less genetic diversity**, need for skilled technicians and accurate timing of oestrus, cost."
+    dp: [6.3.2a]
+
+  - id: 8
+    q: "What is whole-organism cloning, and how can it be done?"
+    a: "Producing an organism **genetically identical** to another. Plants: cuttings, grafting, **tissue culture**. Animals: **embryo splitting** or **somatic cell nuclear transfer**."
+    dp: [6.3.3a]
+
+  - id: 9
+    cloze: "Somatic cell nuclear transfer: the nucleus is removed from an {{c1::egg cell}}; the nucleus of a {{c2::somatic (body) cell}} from the animal to be cloned is inserted (fused with an electric pulse); the cell divides to form an {{c3::embryo}}, which is implanted into a {{c4::surrogate mother}}. The clone's nuclear DNA is identical to the {{c5::body-cell donor's}}."
+    dp: [6.3.3a]
+
+  - id: 10
+    q: "What was significant about Dolly the sheep?"
+    a: "Born in **1996** at the Roslin Institute (Scotland), she was the **first mammal cloned from an adult body cell**, by somatic cell nuclear transfer. She was the only lamb born from 277 attempts."
+    dp: [6.3.3a]
+    tags: [history]
+
+  - id: 11
+    q: "Assess the effectiveness of whole-organism cloning."
+    a: "**Plants**: highly effective, cheap mass production of identical plants. **Animals**: **low success rate**, health problems and high cost, though it can copy elite or endangered animals. In both, clones have **no genetic variation**, so they are vulnerable to disease."
+    dp: [6.3.3a]
+
+  - id: 12
+    q: "What is plant tissue culture (micropropagation)?"
+    a: "Small pieces of plant tissue (often meristem) are grown on **sterile nutrient agar with plant hormones**, forming a mass of cells that develops into many **identical plantlets**. It is used for orchids, bananas, disease-free stock and rare plants such as the Wollemi pine."
+    dp: [6.3.3a, 5.1.3]
+    tags: [aus]
+
+  - id: 13
+    q: "What is gene cloning?"
+    a: "Making **many identical copies of a particular gene**, either in a test tube by **PCR**, or by inserting the gene into a **plasmid** and putting it into bacteria, which copy it as they multiply (and may make its protein)."
+    dp: [6.3.3b]
+
+  - id: 14
+    q: "Assess the effectiveness of gene cloning."
+    a: "Very effective: it reliably produces large amounts of a gene for study, or of a **protein** (insulin, growth hormone, vaccine proteins) cheaply and safely. **Limitations**: bacteria can't remove introns (a copy without introns must be used) or make some modifications that human proteins need."
+    dp: [6.3.3b]
+
+  - id: 15
+    cloze: "Making recombinant DNA: the gene and a {{c1::plasmid}} are cut with the same {{c2::restriction enzyme}}, leaving matching {{c3::sticky ends}}; the gene is inserted and joined in by {{c4::DNA ligase}}; bacteria take up the recombinant plasmid ({{c5::transformation}}); those that did are identified using a {{c6::marker gene}} such as antibiotic resistance."
+    dp: [6.3.4]
+
+  - id: 16
+    q: "What are restriction enzymes?"
+    a: "Bacterial enzymes that **cut DNA at specific recognition sequences** (e.g. EcoRI cuts at GAATTC), often leaving staggered single-stranded **sticky ends**."
+    dp: [6.3.4]
+
+  - id: 17
+    q: "What is a vector in genetic engineering? Give examples."
+    a: "A carrier that **delivers DNA into a host cell**: bacterial **plasmids**, **viruses** (bacteriophages; modified viruses in gene therapy) and the Ti plasmid of the soil bacterium *Agrobacterium* (for plants)."
+    dp: [6.3.4]
+
+  - id: 18
+    q: "How are new genes put into plant cells?"
+    a: "With *Agrobacterium tumefaciens*, whose Ti plasmid naturally inserts DNA into plant chromosomes, or with a **gene gun** (DNA-coated gold particles fired into cells). Whole plants are then regrown from the transformed cells by tissue culture."
+    dp: [6.3.4a]
+
+  - id: 19
+    q: "What is a transgenic organism?"
+    a: "An organism containing a **gene from a different species**, inserted by genetic engineering."
+    dp: [6.3.4a]
+
+  - id: 20
+    q: "How was Bt cotton developed, and why is it used?"
+    a: "A gene from the bacterium *Bacillus thuringiensis* (Bt), coding for a protein toxic to caterpillar pests such as the cotton bollworm, was inserted into cotton. It greatly **reduces insecticide spraying**; almost all cotton grown in Australia is now GM."
+    review: "check current adoption figure"
+    dp: [6.3.4a, 6.3.5]
+    tags: [aus]
+
+  - id: 21
+    q: "How is human insulin produced using recombinant DNA?"
+    a: "The human insulin gene is inserted into **bacteria** (*E. coli*) or yeast, which multiply in fermenters and make **identical human insulin**. It replaced insulin extracted from pig and cattle pancreases: cheaper, unlimited supply, fewer allergic reactions. (First approved in 1982.)"
+    dp: [6.3.4a, 6.3.5]
+    tags: [history]
+
+  - id: 22
+    q: "What is Golden Rice?"
+    a: "Rice engineered with genes (from maize and a soil bacterium) to make **β-carotene** (provitamin A) in the grain, to reduce **vitamin A deficiency**, which causes blindness and deaths in young children in many low-income countries."
+    dp: [6.3.4a, 8.4.1b]
+
+  - id: 23
+    q: "Evaluate the benefits of genetic technologies in agriculture."
+    a: "**Benefits**: higher yields; resistance to pests, disease and drought; less insecticide; better nutrition; longer shelf life. **But**: seed costs, pests and weeds evolve resistance, public concern, and reduced genetic diversity."
+    dp: [6.3.5]
+
+  - id: 24
+    q: "What are the benefits of genetic technologies in medicine?"
+    a: "Mass production of **human proteins** (insulin, growth hormone, clotting factors) and **vaccines** (e.g. hepatitis B, mRNA vaccines); **genetic testing** and diagnosis; **gene therapy**; monoclonal antibodies; transgenic animals as models of disease."
+    dp: [6.3.5]
+
+  - id: 25
+    q: "What are the benefits of genetic technologies in industry?"
+    a: "GM microorganisms make **enzymes** (for detergents, food processing, and chymosin for cheese-making), **biofuels** and bioplastics, and can break down pollutants (**bioremediation**)."
+    dp: [6.3.5]
+
+  - id: 26
+    q: "Evaluate the effect on biodiversity of using biotechnology in agriculture."
+    a: "**Negative**: monocultures reduce crop diversity; GM genes can spread to wild relatives; heavy herbicide use removes weeds that wildlife depends on; pests and weeds evolve resistance. **Positive**: less broad-spectrum insecticide protects non-target insects; higher yields may reduce land clearing."
+    dp: [6.3.6, 6.2.1d]
+
+  - id: 27
+    q: "What does the Irish potato famine show about low genetic diversity in crops?"
+    a: "In the 1840s Ireland relied on a few **genetically uniform** potato varieties, none resistant to **late blight** (*Phytophthora infestans*). The blight destroyed crops for several years; about a million people died."
+    dp: [6.3.6]
+    tags: [history]
+
+  - id: 28
+    q: "How do economic contexts influence biotechnologies?"
+    a: "Research is expensive, so companies **patent** genes and seeds and focus on **profitable** markets (crops for large commercial farmers, drugs for diseases common in wealthy countries); poorer farmers and patients may be unable to afford the products."
+    dp: [6.3.7]
+
+  - id: 29
+    q: "How do social and cultural contexts influence biotechnologies?"
+    a: "Public attitudes and religious and cultural values (what is natural, eating GM food, animal welfare, Indigenous rights over genetic resources) shape **regulation, labelling and uptake**."
+    x: "GM crops are tightly restricted in the EU but widely grown in the US, and some Australian states have had moratoriums on growing GM crops."
+    dp: [6.3.7]
+    tags: [aus, ethics]
+
+  - id: 30
+    q: "How did social, economic and cultural factors affect the use of Golden Rice?"
+    a: "It was developed around **2000** as a humanitarian project (free to poor farmers), but **opposition to GM crops**, regulatory hurdles and cultural preferences delayed approval for growing until **2021** (the Philippines), prompting debate about the human cost of the delay."
+    review: "check dates"
+    dp: [6.3.7]
+    tags: [ethics]

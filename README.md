@@ -7,11 +7,12 @@ in Git and every release is checked before it's built.
 | Subject | Deck | Level | Cards | Download |
 |---|---|---|---:|---|
 | 🇫🇷 French (`fr/`) | [French Verbs in Context](fr/verbs-intermediate/) — tenses, moods & verb forms in real sentences | B1–B2 | 488 | [`.apkg`](fr/verbs-intermediate/dist/French_Verbs_B1-B2.apkg) |
+| 🧬 Biology (`biology/`) | [NSW HSC Biology](biology/nsw-hsc-2017/) — every dot point of the Biology Stage 6 Syllabus (2017), by module and inquiry question | Years 11–12 (HSC to 2027) | 886 | [`.apkg`](biology/nsw-hsc-2017/dist/Biology_NSW_HSC_2017_syllabus.apkg) |
 
 ## Layout
 
 ```
-<subject>/                    one folder per subject (ISO 639-1 code for languages: fr, es, de…)
+<subject>/                    one folder per subject (ISO 639-1 code for languages: fr, es, de…; plain names otherwise: biology)
   README.md                   index of that subject's decks
   <deck-name>/
     README.md                 what's in it, how to study it, pedagogy, how it's checked
@@ -35,6 +36,10 @@ pip install -r requirements.txt
 python fr/verbs-intermediate/tools/test_verify.py   # self-test of the checker
 python fr/verbs-intermediate/tools/verify.py        # check every card
 python fr/verbs-intermediate/tools/build.py         # rebuild the .apkg files
+
+python biology/nsw-hsc-2017/tools/test_verify.py    # same three steps for the biology deck
+python biology/nsw-hsc-2017/tools/verify.py
+python biology/nsw-hsc-2017/tools/build.py
 ```
 
 GitHub Actions runs the same checks on every push and pull request

@@ -1,0 +1,171 @@
+deck:
+  module: 5
+  iq: 1
+cards:
+  - id: 1
+    q: "Distinguish external and internal fertilisation."
+    a: "**External**: eggs and sperm are released into water and fuse outside the body (most fish, frogs, corals). **Internal**: sperm are placed inside the female's reproductive tract and fertilisation happens there (mammals, birds, reptiles, insects)."
+    dp: [5.1.1a]
+    tags: [compare]
+
+  - id: 2
+    q: "What are the advantages of external fertilisation?"
+    a: "**Huge numbers** of offspring at low energy cost per offspring; no need for mating structures or close contact; water **disperses** gametes and larvae widely; gametes from many parents mix (variation)."
+    x: "Disadvantages: it needs water; most gametes and young are lost to dilution and predators; the chance of any one egg being fertilised is low."
+    dp: [5.1.1a]
+
+  - id: 3
+    q: "What are the advantages of internal fertilisation?"
+    a: "A **high chance of fertilisation**; gametes are protected from **drying out** (allowing reproduction on land); the embryo can be protected (shell or uterus) and cared for, so more offspring survive and **fewer** need to be produced."
+    dp: [5.1.1a]
+
+  - id: 4
+    q: "How do corals on the Great Barrier Reef improve their chance of external fertilisation?"
+    a: "**Synchronised mass spawning**: on a few nights after a full moon in late spring, cued by water temperature and the moon, many colonies release eggs and sperm at once, so gametes meet in high concentrations and predators are swamped."
+    dp: [5.1.1a]
+    tags: [aus]
+
+  - id: 5
+    cloze: "Flower structure: the male part (stamen) is the {{c1::anther}}, which makes pollen, on a filament. The female part (carpel) is the {{c2::stigma}}, which receives pollen, the {{c3::style}} and the {{c4::ovary}}, which contains the ovules that become seeds."
+    dp: [5.1.1b]
+
+  - id: 6
+    q: "Outline sexual reproduction in flowering plants."
+    a: "**Pollination** (pollen moves from anther to stigma) → a **pollen tube** grows down the style to an ovule → the male gamete **fertilises** the egg → the zygote becomes an **embryo** in a seed → the ovary develops into a **fruit**, which aids seed dispersal."
+    dp: [5.1.1b]
+
+  - id: 7
+    q: "Distinguish pollination and fertilisation in plants."
+    a: "**Pollination**: transfer of pollen from an anther to a stigma. **Fertilisation**: fusion of the male gamete (delivered by the pollen tube) with the egg cell inside the ovule."
+    dp: [5.1.1b]
+    tags: [compare]
+
+  - id: 8
+    q: "Compare wind-pollinated and animal-pollinated flowers."
+    a: "**Wind**: small, dull, unscented, no nectar; anthers and feathery stigmas hang outside; huge amounts of light pollen (grasses). **Animal**: large, colourful, scented, with nectar; sticky or larger pollen (banksias, grevilleas)."
+    dp: [5.1.1b]
+    tags: [compare]
+
+  - id: 9
+    q: "Give examples of natural asexual reproduction in plants."
+    a: "**Runners** (strawberry), **rhizomes** (many grasses, ferns), **tubers** (potato), **bulbs** (onion), **suckers** and plantlets on leaves (*Kalanchoe*)."
+    x: "Artificial methods: cuttings, grafting, tissue culture."
+    dp: [5.1.1b]
+
+  - id: 10
+    q: "What are the advantages and disadvantages of asexual reproduction?"
+    a: "**Advantages**: fast, needs only one parent and no mate or pollinator, offspring are identical to a parent that is well suited to a stable environment. **Disadvantage**: **no genetic variation**, so one disease or environmental change can wipe out the whole population."
+    dp: [5.1.1b, 5.2.2]
+    tags: [compare]
+
+  - id: 11
+    q: "What are the advantages and disadvantages of sexual reproduction?"
+    a: "**Advantage**: **genetic variation**, so some offspring are likely to survive environmental change or disease; variation is the raw material for natural selection. **Disadvantages**: slower, needs a mate or pollinator, more energy, only half of each parent's genes are passed on."
+    dp: [5.1.1b, 5.2.2]
+    tags: [compare]
+
+  - id: 12
+    q: "How do yeasts reproduce asexually?"
+    a: "By **budding**: a small outgrowth forms on the parent cell, the nucleus divides by mitosis and one copy moves into the bud, which grows and pinches off (or stays attached, forming chains)."
+    dp: [5.1.1c]
+
+  - id: 13
+    q: "How do moulds and mushrooms reproduce using spores?"
+    a: "They produce **huge numbers of tiny, light spores** (asexually by mitosis, e.g. in sporangia of bread mould, or sexually), dispersed by wind, water or animals; each germinates into new hyphae when conditions suit."
+    dp: [5.1.1c]
+
+  - id: 14
+    q: "Describe binary fission in bacteria."
+    a: "The **circular chromosome replicates**; the two copies move apart as the cell **elongates**; the membrane and wall grow inwards and split the cell into **two genetically identical** daughter cells. There's no nucleus, so no mitosis."
+    dp: [5.1.1d]
+
+  - id: 15
+    q: "A bacterium divides every 20 minutes. Starting from one cell, how many cells will there be after 2 hours (with no deaths)?"
+    a: "**64 cells**: 120 ÷ 20 = 6 generations, and 2⁶ = 64."
+    dp: [5.1.1d]
+    calc: {kind: growth, start: 1, doubling_min: 20, time_min: 120, result: 64}
+
+  - id: 16
+    q: "How do protists reproduce asexually?"
+    a: "Most by **binary fission**: the nucleus divides by mitosis, then the cell splits in two (e.g. *Amoeba*, *Paramecium*, *Euglena*). A few reproduce by **budding**, where a small daughter cell grows from the parent and separates."
+    x: "Many protists can also reproduce sexually: *Paramecium* exchanges genetic material by conjugation, and the malaria parasite *Plasmodium* reproduces sexually inside the mosquito."
+    review: "check the examples of protist budding used in your textbook"
+    dp: [5.1.1e]
+
+  - id: 17
+    q: "Where does fertilisation occur in humans, and what happens?"
+    a: "In the **oviduct (fallopian tube)**. A sperm's **acrosome** releases enzymes that digest a path through the egg's outer layers; the membranes fuse, the egg's surface changes to **block other sperm**, and the nuclei fuse to form a **diploid zygote**."
+    dp: [5.1.2]
+
+  - id: 18
+    q: "What happens between fertilisation and implantation in humans?"
+    a: "The zygote divides by mitosis (**cleavage**) as it moves down the oviduct, forming a ball of cells and then a hollow **blastocyst**, which reaches the uterus and **implants** in the endometrium about a week after fertilisation."
+    dp: [5.1.2]
+
+  - id: 19
+    q: "What is implantation?"
+    a: "The **blastocyst embeds in the endometrium** (uterine lining). Its outer cell layer helps form the **placenta** and starts secreting **hCG**."
+    dp: [5.1.2]
+
+  - id: 20
+    q: "What is the role of hCG in early pregnancy?"
+    a: "**Human chorionic gonadotrophin**, made by the embryo and early placenta, **maintains the corpus luteum**, so it keeps secreting progesterone and oestrogen and menstruation doesn't occur. Pregnancy tests detect it in urine."
+    dp: [5.1.2]
+
+  - id: 21
+    q: "What does progesterone do during pregnancy?"
+    a: "**Maintains the thickened endometrium**, inhibits contractions of the uterus, and (with oestrogen) suppresses FSH and LH so **no further ovulation** occurs. It comes from the corpus luteum at first, then from the **placenta**."
+    dp: [5.1.2]
+
+  - id: 22
+    q: "What does oestrogen do during pregnancy?"
+    a: "Stimulates growth of the **uterus** and **mammary glands**; late in pregnancy, rising oestrogen increases the uterus's sensitivity to oxytocin, preparing for birth."
+    dp: [5.1.2]
+
+  - id: 23
+    q: "How is birth (labour) controlled by hormones?"
+    a: "The baby's head presses on the **cervix**, triggering release of **oxytocin** from the posterior pituitary; oxytocin causes **uterine contractions**, which push the baby harder against the cervix, releasing more oxytocin: a **positive feedback** loop that continues until birth."
+    tip: "Birth is a classic example of positive feedback; homeostasis uses negative feedback."
+    dp: [5.1.2]
+
+  - id: 24
+    q: "Which hormones control milk production and release?"
+    a: "**Prolactin** (anterior pituitary) stimulates milk **production**; **oxytocin**, released when the baby suckles, causes milk **ejection** (let-down)."
+    dp: [5.1.2]
+
+  - id: 25
+    q: "What are the functions of the placenta?"
+    a: "Exchange of O₂, nutrients, CO₂ and wastes between mother's and fetus's blood **without the blood mixing**; secretion of **hormones** (hCG, progesterone, oestrogen); passing **antibodies** to the fetus (passive immunity); a partial barrier to pathogens."
+    dp: [5.1.2, 7.4.2c]
+
+  - id: 26
+    q: "What are the roles of FSH and LH in the human ovarian cycle?"
+    a: "**FSH** stimulates a follicle (and its egg) to develop and secrete oestrogen. A **surge of LH** triggers **ovulation** and turns the empty follicle into the **corpus luteum**."
+    dp: [5.1.2]
+
+  - id: 27
+    q: "How has scientific knowledge been used to manipulate animal reproduction in agriculture?"
+    a: "**Selective breeding**, **artificial insemination**, **hormone treatments** to synchronise oestrus and cause superovulation, **embryo transfer** and IVF, sexed semen, and cloning."
+    dp: [5.1.3, 6.3.2a]
+
+  - id: 28
+    q: "How has scientific knowledge been used to manipulate plant reproduction in agriculture?"
+    a: "**Selective breeding**, **artificial (hand) pollination** to make hybrids, **vegetative propagation** (cuttings, grafting), **tissue culture** (micropropagation), and genetic modification."
+    dp: [5.1.3, 6.3.2b]
+
+  - id: 29
+    q: "What are the benefits of manipulating reproduction in agriculture?"
+    a: "**Faster improvement** of desirable traits (yield, wool and milk quality, disease resistance); one elite bull can sire thousands of calves; **uniform**, predictable crops; desirable genetics can be spread worldwide (frozen semen and embryos)."
+    dp: [5.1.3]
+
+  - id: 30
+    q: "What are the drawbacks of manipulating reproduction in agriculture?"
+    a: "**Reduced genetic diversity** (many animals from a few sires; clonal or monoculture crops), so populations are vulnerable to disease and environmental change; inbreeding problems; animal welfare concerns; cost and reliance on technology."
+    dp: [5.1.3, 6.3.6]
+    tags: [ethics]
+
+  - id: 31
+    q: "Why is the Cavendish banana an example of the risks of manipulated reproduction?"
+    a: "Almost all commercial bananas are **clones** of one variety, so none has resistance to **Panama disease** (Tropical Race 4, a soil fungus). It has destroyed plantations worldwide and reached Australia (NT, then north Queensland in 2015)."
+    dp: [5.1.3, 6.3.6, 7.1.3a]
+    tags: [aus]

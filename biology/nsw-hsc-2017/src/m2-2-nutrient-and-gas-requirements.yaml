@@ -1,0 +1,275 @@
+deck:
+  module: 2
+  iq: 2
+cards:
+  - id: 1
+    cloze: "Leaf cross-section, top to bottom: {{c1::waxy cuticle}} → {{c2::upper epidermis}} → {{c3::palisade mesophyll}} → {{c4::spongy mesophyll}} (air spaces, vascular bundles) → lower epidermis with {{c5::stomata}} surrounded by {{c6::guard cells}}."
+    dp: [2.2.1b, 2.2.3a]
+
+  - id: 2
+    q: "How is the structure of a leaf adapted for photosynthesis?"
+    a: "**Broad and thin** (large surface area, short diffusion distance); palisade cells packed with chloroplasts near the top; **air spaces** in the spongy mesophyll for gas diffusion; **stomata** let CO₂ in; **veins** bring water (xylem) and remove sugars (phloem)."
+    dp: [2.2.1a, 2.2.3a]
+
+  - id: 3
+    q: "What do you see in an epidermal peel from the underside of a leaf under a light microscope?"
+    a: "Irregular, interlocking **epidermal cells** without chloroplasts, and pairs of bean-shaped **guard cells** (which do have chloroplasts) surrounding the **stomata**."
+    x: "Most plants have more stomata on the lower surface, which is cooler and shaded, reducing water loss."
+    dp: [2.2.1a, 2.2.1b]
+    tags: [practical]
+
+  - id: 4
+    q: "How are the vascular tissues arranged in the stem and root of a typical flowering plant (dicot)?"
+    a: "**Stem**: vascular bundles in a **ring**, xylem towards the inside and phloem towards the outside. **Root**: a **central** vascular cylinder with xylem in the middle."
+    dp: [2.2.1b]
+    tags: [compare]
+
+  - id: 5
+    q: "Which imaging technologies are used to study plant structure?"
+    a: "Light microscopy of stained sections; **SEM** (3D surfaces: stomata, leaf hairs); **TEM** (chloroplast ultrastructure); **confocal fluorescence** microscopy; and **X-ray micro-CT** (3D internal structure, e.g. air in xylem vessels)."
+    dp: [2.2.1c, 1.1.1b]
+
+  - id: 6
+    q: "What happens to the glucose a plant makes in photosynthesis?"
+    a: "It is used in **respiration**; converted to **sucrose** for transport in the phloem; stored as **starch**; made into **cellulose** for cell walls; and converted to lipids and (with nitrate) amino acids and proteins."
+    dp: [2.2.2a]
+
+  - id: 7
+    q: "Why is starch, not glucose, used to store carbohydrate in plants?"
+    a: "Starch is **insoluble**, so it doesn't affect the cell's water potential (no osmotic effect); it is compact and easily broken back down to glucose when needed."
+    dp: [2.2.2a]
+
+  - id: 8
+    q: "What is translocation?"
+    a: "The movement of sugars (mainly **sucrose**) and other organic products in the **phloem**, from **sources** (photosynthesising leaves, storage organs) to **sinks** (roots, fruits, growing tips, storage organs). It can go up or down."
+    dp: [2.2.2a, 2.3.3a]
+
+  - id: 9
+    q: "Explain the pressure-flow (mass-flow) hypothesis of phloem transport."
+    a: "At the **source**, sucrose is actively loaded into sieve tubes, water follows by osmosis and pressure rises. At the **sink**, sucrose is unloaded, water leaves and pressure falls. Sap flows from high to low pressure."
+    x: "Proposed by Ernst Münch (1930). It explains why phloem transport needs living cells and energy (ATP) for loading."
+    dp: [2.2.2a, 2.2.4a]
+    tags: [history]
+
+  - id: 10
+    q: "How have radioactive tracers been used to trace the products of photosynthesis?"
+    a: "Plants are given **¹⁴CO₂**; the radioactive carbon is followed (by autoradiography) into sugars, then into the phloem, and finally into sinks such as roots, fruits and growing tips."
+    dp: [2.2.2a]
+    tags: [practical]
+
+  - id: 11
+    q: "How do aphids help scientists study the phloem?"
+    a: "An aphid inserts its stylet into a single **sieve tube**; if the aphid is cut off, sap keeps flowing out of the stylet and can be collected and analysed (it contains sucrose and amino acids; flow rate can be measured)."
+    dp: [2.2.2a]
+
+  - id: 12
+    q: "What happens when a ring of bark (including the phloem) is removed from a tree trunk, and what does it show?"
+    a: "Sugars build up and the bark **swells above the ring**, while the roots below are starved and the tree eventually dies. This shows sugars travel **down in the phloem** (in the bark), while water still moves up the xylem (wood)."
+    x: "Ringing (girdling) experiments were first done by Marcello Malpighi in the 1600s."
+    dp: [2.2.2a, 2.2.4a]
+    tags: [history]
+
+  - id: 13
+    q: "How are alveoli adapted for gas exchange?"
+    a: "Millions of alveoli give a **huge surface area**; walls are **one cell thick** (short diffusion distance); a **moist** lining dissolves gases; a dense **capillary network** and ventilation maintain steep concentration gradients."
+    dp: [2.2.3a]
+
+  - id: 14
+    q: "What features do all efficient gas exchange surfaces share?"
+    a: "A **large surface area**, a **thin** barrier (short diffusion distance), a **moist** surface, and (in animals) a good **blood supply** and **ventilation** to keep concentration gradients steep."
+    dp: [2.2.3a, 2.2.3b]
+
+  - id: 15
+    q: "How do gases get into and out of a leaf?"
+    a: "By **diffusion** through the **stomata** into the air spaces of the spongy mesophyll, where they dissolve in the moist cell surfaces. In daylight, CO₂ diffuses in, and O₂ and water vapour diffuse out."
+    dp: [2.2.3a, 2.3.2]
+
+  - id: 16
+    q: "How do guard cells open and close a stoma?"
+    a: "When guard cells take up water (after K⁺ ions are pumped in), they become **turgid** and bend apart because their inner walls are thicker, so the stoma **opens**. When they lose water they become **flaccid** and the stoma **closes**."
+    dp: [2.2.3a, 8.1.2c]
+
+  - id: 17
+    q: "Describe the gas exchange system of an insect."
+    a: "Air enters through **spiracles** on the body surface into branching **tracheae** and fine **tracheoles** that deliver O₂ directly to the cells; the blood (haemolymph) is not used for gas transport."
+    dp: [2.2.3b]
+
+  - id: 18
+    q: "How do fish gills achieve efficient gas exchange?"
+    a: "Many gill filaments with thin **lamellae** give a large surface area, and water flows over the lamellae in the **opposite direction** to the blood (**countercurrent exchange**), keeping a concentration gradient along their whole length."
+    dp: [2.2.3b]
+
+  - id: 19
+    q: "Why is countercurrent flow more efficient than parallel flow in gills?"
+    a: "With countercurrent flow, blood always meets water with a **higher O₂ concentration**, so diffusion continues all along the lamella. With parallel flow the concentrations would become equal partway along, and exchange would stop (at most about 50% saturation)."
+    dp: [2.2.3b]
+    tags: [compare]
+
+  - id: 20
+    q: "How do frogs exchange gases?"
+    a: "Through their thin, **moist skin** (cutaneous gas exchange, which is the main route underwater), the lining of the **mouth**, and simple sac-like **lungs**."
+    dp: [2.2.3b]
+
+  - id: 21
+    q: "Why are bird lungs more efficient than mammal lungs?"
+    a: "Air sacs keep air flowing **one way** through rigid tubes (parabronchi), so fresh air passes over the exchange surface during both breathing in and out, without mixing with stale air."
+    x: "Mammals breathe tidally (in and out the same way), so some stale air always remains in the lungs."
+    dp: [2.2.3b]
+    tags: [compare]
+
+  - id: 22
+    q: "What happens during inhalation in a mammal?"
+    a: "The **diaphragm contracts** and flattens and the **external intercostal muscles** lift the ribs; chest volume increases, so air pressure inside falls below atmospheric pressure and air flows in."
+    dp: [2.2.3b]
+
+  - id: 23
+    q: "What did van Helmont conclude from his willow-tree experiment (1640s), and what did he miss?"
+    a: "The tree gained about 74 kg while the soil lost only about 57 g, so he concluded the plant's mass came from **water**. He missed that most of the mass comes from **carbon dioxide** taken from the air."
+    dp: [2.2.4a]
+    tags: [history]
+
+  - id: 24
+    q: "What did Joseph Priestley show about plants (1771)?"
+    a: "A sprig of mint 'restored' air in which a candle had burned out, so the candle could burn and a mouse could survive in it: plants **release a gas (oxygen)** that supports burning and respiration."
+    dp: [2.2.4a]
+    tags: [history]
+
+  - id: 25
+    q: "What did Jan Ingenhousz add to the understanding of photosynthesis (1779)?"
+    a: "Plants restore air only in **light**, and only their **green parts** do so."
+    dp: [2.2.4a]
+    tags: [history]
+
+  - id: 26
+    q: "How did Ruben and Kamen (1941) show where the oxygen released in photosynthesis comes from?"
+    a: "They used the isotope **¹⁸O**. When the **water** was labelled, the O₂ released was labelled; when the CO₂ was labelled, it wasn't. So the O₂ comes from **water**."
+    dp: [2.2.4a, 1.2.3]
+    tags: [history]
+
+  - id: 27
+    q: "How did Melvin Calvin work out the light-independent reactions?"
+    a: "He gave algae **¹⁴CO₂**, killed samples after very short times, and separated the compounds by **paper chromatography**; the order in which compounds became radioactive revealed the cycle (the Calvin cycle; Nobel Prize 1961)."
+    dp: [2.2.4a]
+    tags: [history]
+
+  - id: 28
+    q: "What does the history of photosynthesis research show about how scientific models develop?"
+    a: "Each model was **revised as new evidence** became available, often thanks to **new technology** (accurate balances, gas chemistry, isotopes, chromatography); hypotheses were tested, replicated and refined rather than proved once and for all."
+    dp: [2.2.4a, WS.1.2]
+    tags: [history]
+
+  - id: 29
+    q: "State the transpiration-cohesion-tension theory."
+    a: "Water evaporates from leaf cells and diffuses out of the stomata (**transpiration**), creating **tension** that pulls water up the xylem. **Cohesion** (hydrogen bonds between water molecules) holds the column together, and **adhesion** to the xylem walls helps."
+    x: "Proposed by Dixon and Joly (1894). It's passive: the energy comes from the Sun evaporating water, not from ATP."
+    dp: [2.2.4b]
+    tags: [history]
+
+  - id: 30
+    q: "What evidence supports the transpiration-cohesion-tension theory?"
+    a: "Tree trunks **shrink in diameter** during the day when transpiration is fastest (the xylem is under tension); cut xylem **draws in** air or dye instead of leaking; the rate of water uptake matches the rate of transpiration."
+    dp: [2.2.4b]
+
+  - id: 31
+    q: "Why can't root pressure or capillarity explain how water reaches the top of tall trees?"
+    a: "Each can lift water only **a few metres at most**, and root pressure is often absent when transpiration is high. Trees taller than 100 m need the much larger pull created by transpiration."
+    review: "heights quoted for root pressure and capillarity vary between sources"
+    dp: [2.2.4b]
+
+  - id: 32
+    q: "What does a potometer measure, and how?"
+    a: "The **rate of water uptake** by a leafy shoot (close to its transpiration rate), from how far an air bubble moves along a capillary tube in a given time."
+    x: "Used to test the effects of light, temperature, wind and humidity. Assumes water taken up = water lost; some is used in photosynthesis."
+    dp: [2.2.4b]
+    tags: [practical]
+
+  - id: 33
+    q: "Which environmental conditions increase the rate of transpiration?"
+    a: "Higher **temperature**, higher **light intensity** (stomata open), **wind** (removes humid air from the leaf surface) and lower **humidity** (steeper water vapour gradient)."
+    dp: [2.2.4b]
+
+  - id: 34
+    q: "Distinguish physical and chemical digestion."
+    a: "**Physical** (mechanical): breaking food into smaller pieces without changing its molecules (chewing, churning, emulsifying), which increases surface area for enzymes. **Chemical**: **enzymes hydrolyse** large molecules into small soluble ones that can be absorbed."
+    dp: [2.2.5a, 2.2.5b]
+    tags: [compare]
+
+  - id: 35
+    cloze: "The path of food: mouth → {{c1::oesophagus}} → stomach → {{c2::small intestine}} (duodenum, jejunum, ileum) → {{c3::large intestine}} (colon) → rectum → anus."
+    dp: [2.2.5a]
+
+  - id: 36
+    q: "What happens to food in the mouth?"
+    a: "**Teeth** cut and grind it (physical digestion); **saliva** moistens it, and **salivary amylase** starts chemical digestion of starch into maltose."
+    dp: [2.2.5a, 2.2.5b]
+
+  - id: 37
+    q: "What is peristalsis?"
+    a: "Waves of contraction of the **smooth muscle** in the gut wall that push food along the digestive tract (e.g. down the oesophagus)."
+    dp: [2.2.5a]
+
+  - id: 38
+    q: "What happens to food in the stomach?"
+    a: "The muscular wall **churns** food (physical digestion). **Hydrochloric acid** (about pH 2) kills microbes and provides the acidic conditions for **pepsin**, which begins digesting proteins into polypeptides."
+    dp: [2.2.5a, 2.2.5b]
+
+  - id: 39
+    q: "What does bile do, and where is it made?"
+    a: "Made by the **liver**, stored in the **gall bladder** and released into the duodenum. Bile salts **emulsify** fats into small droplets (more surface area for lipase), and bile helps neutralise stomach acid."
+    tip: "Bile contains no enzymes: emulsification is physical digestion."
+    dp: [2.2.5a]
+
+  - id: 40
+    q: "Which pancreatic enzymes act in the small intestine, and what do they digest?"
+    a: "**Amylase**: starch → maltose. **Trypsin** (a protease): proteins → peptides. **Lipase**: fats → fatty acids and glycerol. Enzymes on the intestinal lining finish the job (e.g. maltase → glucose; peptidases → amino acids)."
+    dp: [2.2.5b]
+
+  - id: 41
+    q: "What are the end products of digesting carbohydrates, proteins and lipids?"
+    a: "Carbohydrates → **simple sugars** (glucose). Proteins → **amino acids**. Lipids → **fatty acids and glycerol**."
+    dp: [2.2.5b]
+
+  - id: 42
+    q: "How is the small intestine adapted for absorption?"
+    a: "It is very long, and its folds, **villi** and **microvilli** give a huge surface area; the lining is **one cell thick**; a rich **capillary** network and **lacteals** carry nutrients away, keeping gradients steep; carrier proteins allow active uptake."
+    dp: [2.2.5c]
+
+  - id: 43
+    q: "Where do the absorbed products of digestion go?"
+    a: "Glucose, amino acids, water-soluble vitamins and minerals enter the **capillaries** and travel in the **hepatic portal vein** to the liver. Fatty acids and glycerol are re-formed into fats and enter the **lacteals** (lymph), which later drains into the blood."
+    dp: [2.2.5c]
+
+  - id: 44
+    q: "What does the large intestine do?"
+    a: "It absorbs much of the **remaining water** and some minerals, plus vitamins (such as vitamin K) made by gut bacteria, forming semi-solid **faeces**."
+    x: "Most of the water in the gut is actually absorbed in the small intestine; the colon recovers much of what is left."
+    dp: [2.2.5c, 2.2.5d]
+
+  - id: 45
+    q: "What is in faeces, and how are they eliminated?"
+    a: "Undigested material (especially cellulose fibre), dead gut cells, bacteria and bile pigments. They are stored in the **rectum** and eliminated (egested) through the **anus**."
+    tip: "Elimination (egestion) is not excretion: faeces were never inside body cells. Excretion removes metabolic wastes such as urea and CO₂."
+    dp: [2.2.5d]
+
+  - id: 46
+    q: "Distinguish autotrophs and heterotrophs."
+    a: "**Autotrophs** make their own organic compounds from inorganic substances (CO₂, water) using light (photosynthesis) or chemical energy (chemosynthesis). **Heterotrophs** must get organic compounds by consuming other organisms."
+    dp: [2.2.6]
+    tags: [compare]
+
+  - id: 47
+    q: "Compare the nutrient requirements of autotrophs and heterotrophs."
+    a: "**Autotrophs** need only **inorganic** nutrients: CO₂, water and mineral ions (nitrate, phosphate, Mg²⁺), plus an energy source (light). **Heterotrophs** need **ready-made organic** nutrients (carbohydrates, proteins with essential amino acids, lipids, vitamins) as well as water and minerals."
+    dp: [2.2.6]
+    tags: [compare]
+
+  - id: 48
+    q: "Compare the gas requirements of plants and animals."
+    a: "Both need **O₂ for respiration** and release CO₂. Plants also take in **CO₂ for photosynthesis**, so in light they take in CO₂ and give out O₂ overall; animals take in O₂ and give out CO₂ all the time."
+    dp: [2.2.6, 2.3.2]
+    tags: [compare]
+
+  - id: 49
+    q: "What are chemoautotrophs? Give an example."
+    a: "Prokaryotes that make organic compounds using energy from **chemical reactions** (oxidising inorganic substances such as hydrogen sulfide, ammonia or iron) instead of light. Examples: bacteria at deep-sea hydrothermal vents; nitrifying bacteria in soil."
+    dp: [2.2.6]

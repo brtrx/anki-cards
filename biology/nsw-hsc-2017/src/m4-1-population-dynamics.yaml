@@ -1,0 +1,188 @@
+deck:
+  module: 4
+  iq: 1
+cards:
+  - id: 1
+    q: "Define abiotic (syllabus glossary)."
+    glossary: abiotic
+    a: "The non-living components of the environment."
+    dp: [4.1.1a]
+
+  - id: 2
+    q: "How do abiotic factors affect the distribution and abundance of organisms?"
+    a: "Every species has a **range of tolerance** for each factor (temperature, water, light, salinity, pH, nutrients, O₂). Outside it, individuals can't survive or reproduce, so abiotic factors **limit where** a species lives and **how many** there are."
+    dp: [4.1.1a]
+
+  - id: 3
+    q: "Give an example of an abiotic factor controlling a population in an Australian ecosystem."
+    a: "In the arid inland, **rainfall** controls plant growth, which in turn controls herbivores: red kangaroo numbers boom after good rains and crash during drought."
+    dp: [4.1.1a]
+    tags: [aus]
+
+  - id: 4
+    q: "Describe the typical pattern of predator and prey population sizes over time."
+    a: "They **oscillate in cycles**: prey numbers rise → predators increase (with a **lag**) → prey numbers fall → predators decline → prey recover. Predator peaks follow prey peaks."
+    x: "The classic data set is snowshoe hare and Canada lynx pelts traded to the Hudson's Bay Company over about 90 years."
+    dp: [4.1.1b, 4.1.1d]
+    tags: [data]
+
+  - id: 5
+    q: "Distinguish intraspecific and interspecific competition."
+    a: "**Intraspecific**: between members of the **same species**, which have identical needs, so it's often intense. **Interspecific**: between **different species** for a shared, limited resource."
+    dp: [4.1.1b]
+    tags: [compare]
+
+  - id: 6
+    q: "What is the competitive exclusion principle?"
+    a: "Two species competing for **exactly the same limiting resources** (the same niche) can't coexist indefinitely: one will outcompete the other, unless they **partition** the resources."
+    dp: [4.1.1b, 4.1.1c]
+
+  - id: 7
+    q: "Define symbiosis (syllabus glossary)."
+    glossary: symbiosis
+    a: "Interaction between two different organisms living in close physical association, including mutualism, commensalism, and parasitism. Symbiosis can be positive (beneficial) or negative."
+    dp: [4.1.1b]
+
+  - id: 8
+    q: "Distinguish mutualism, commensalism and parasitism, with an example of each."
+    a: |-
+      - **Mutualism** (+/+): coral polyps and zooxanthellae; mycorrhizal fungi and plant roots.
+      - **Commensalism** (+/0): staghorn ferns growing on trees.
+      - **Parasitism** (+/−): ticks on mammals; mistletoe on eucalypts.
+    dp: [4.1.1b]
+    tags: [compare, aus]
+
+  - id: 9
+    q: "Give an example of mutualism between Australian plants and animals."
+    a: "Honeyeaters and some marsupials (e.g. the honey possum) feed on the **nectar** of banksias and grevilleas and carry **pollen** between flowers, pollinating them."
+    dp: [4.1.1b]
+    tags: [aus]
+
+  - id: 10
+    q: "Define niche (syllabus glossary)."
+    glossary: niche
+    a: "A position or function in a habitat that provides all the requirements for life of a species."
+    dp: [4.1.1c]
+
+  - id: 11
+    q: "Distinguish habitat and niche."
+    a: "**Habitat**: the place where an organism lives (its 'address'). **Niche**: its role and everything it needs and does there: what it eats, when it's active, how it interacts with other species (its 'profession')."
+    dp: [4.1.1c]
+    tags: [compare]
+
+  - id: 12
+    q: "Distinguish a species' fundamental niche and its realised niche."
+    a: "**Fundamental**: the full range of conditions and resources it could use with no competitors or predators. **Realised**: the smaller part it actually occupies because of competition and other interactions."
+    x: "Connell's barnacles: *Chthamalus* can live lower on rocky shores, but is crowded out there by *Balanus*, so its realised niche is only the upper shore."
+    dp: [4.1.1c]
+    tags: [compare]
+
+  - id: 13
+    q: "How can similar species share the same habitat without one excluding the other?"
+    a: "By **resource partitioning**: dividing up resources through differences in food type, feeding position or time of activity."
+    x: "MacArthur's warblers feed in different parts of the same spruce trees; different possums and gliders use different eucalypt species, foods or hollows."
+    dp: [4.1.1c, 4.1.1b]
+
+  - id: 14
+    q: "Predict the consequences of removing a top predator such as the dingo from an ecosystem."
+    a: "Populations of **mesopredators** (foxes, cats) and large **herbivores** (kangaroos) can increase, leading to overgrazing and more predation on **small native mammals**: a **trophic cascade**."
+    review: "simplified summary of a debated research area (e.g. studies either side of the dingo fence)"
+    dp: [4.1.1d]
+    tags: [aus]
+
+  - id: 15
+    q: "Why have introduced foxes and cats had such a big impact on Australia's small native mammals?"
+    a: "Native mammals had **no evolved defences** against these efficient predators; many medium-sized ground-dwelling species (the 'critical weight range', roughly 35 g to 5.5 kg) declined or became extinct."
+    dp: [4.1.1d, 4.3.1a]
+    tags: [aus]
+
+  - id: 16
+    q: "Give examples of introduced species competing with Australian natives."
+    a: "**Rabbits** compete with native herbivores for food (and cause erosion); feral **honeybees** take over **tree hollows** needed by native birds and possums."
+    dp: [4.1.1d, 4.1.1b]
+    tags: [aus]
+
+  - id: 17
+    q: "How has devil facial tumour disease (DFTD) affected Tasmanian devils?"
+    a: "DFTD is a **transmissible cancer** spread by biting, first recorded in **1996**. Devil numbers fell by about **80%**; their low genetic diversity left them vulnerable. Disease-free insurance populations have been set up, and there is evidence of evolving resistance."
+    review: "check decline figure and resistance evidence"
+    dp: [4.1.1d]
+    tags: [aus]
+
+  - id: 18
+    q: "How has chytrid fungus affected Australian frogs?"
+    a: "The chytrid fungus (*Batrachochytrium dendrobatidis*) infects frogs' skin, disrupting the balance of water and salts, and kills them. It has caused declines in **dozens** of Australian frog species and several **extinctions**."
+    review: "check numbers of species affected"
+    dp: [4.1.1d]
+    tags: [aus]
+
+  - id: 19
+    q: "Why do ecologists sample populations instead of counting every individual?"
+    a: "Counting every individual is usually impossible; a **representative sample** lets them **estimate** population size, density and distribution."
+    dp: [4.1.1e]
+
+  - id: 20
+    q: "How is a quadrat used to estimate a population?"
+    a: "Place a square frame **randomly** many times; count the individuals (or estimate % cover) in each; multiply the **average density** by the total area. Best for plants and slow-moving or fixed animals."
+    dp: [4.1.1e]
+    tags: [practical]
+
+  - id: 21
+    q: "Five 1 m² quadrats contain 3, 5, 4, 6 and 2 plants. Estimate the population in a 200 m² field."
+    a: "**About 800 plants**: mean = 20 ÷ 5 = 4 per m², and 4 × 200 = 800."
+    dp: [4.1.1e]
+    calc: {kind: quadrat, counts: [3, 5, 4, 6, 2], quadrat_m2: 1, area_m2: 200, result: 800}
+
+  - id: 22
+    q: "What is a transect, and when would you use one?"
+    a: "A **line** (line transect) or **strip** (belt transect) along which organisms are recorded at regular intervals. Used where conditions **change gradually** across an area (an environmental gradient), e.g. from the shoreline inland."
+    dp: [4.1.1e]
+    tags: [practical]
+
+  - id: 23
+    q: "How does capture–mark–recapture estimate population size?"
+    a: "Capture, **mark** and release a sample (M). Later, capture a second sample (C) and count how many are marked (R). **N = (M × C) ÷ R** (the Lincoln index). Used for mobile animals."
+    dp: [4.1.1e]
+
+  - id: 24
+    q: "40 possums are caught, marked and released. Later 50 are caught, of which 8 are marked. Estimate the population."
+    a: "**250 possums**: N = (40 × 50) ÷ 8 = 250."
+    dp: [4.1.1e]
+    calc: {kind: lincoln, marked: 40, caught: 50, recaptured: 8, result: 250}
+
+  - id: 25
+    q: "What assumptions does capture–mark–recapture make?"
+    a: "Marked animals **mix randomly** back into the population; marks aren't lost and don't affect survival or behaviour; every individual has an **equal chance of capture**; and there are no significant births, deaths or migration between samples."
+    dp: [4.1.1e, WS.5.2]
+
+  - id: 26
+    q: "How can you improve the reliability and accuracy of a quadrat survey?"
+    a: "Use **more quadrats**, place them **randomly** (random coordinates, not chosen by eye), use a quadrat size suited to the organism, and repeat the survey."
+    dp: [4.1.1e, WS.5.3]
+    tags: [practical]
+
+  - id: 27
+    q: "Which modern techniques can measure animal populations without capturing them?"
+    a: "**Motion-sensing camera traps**, **environmental DNA (eDNA)** from water or soil, aerial and drone surveys, acoustic recorders, and counts of scats or tracks."
+    dp: [4.1.1e]
+
+  - id: 28
+    q: "Explain a recent extinction event: the Bramble Cay melomys."
+    a: "A small rodent found only on **Bramble Cay**, a tiny low-lying island in the Torres Strait. Repeated **storm surges and sea-level rise** destroyed the vegetation it relied on for food and shelter; last seen in 2009, it was declared extinct (Queensland 2016; Australian Government 2019)."
+    x: "Widely reported as the first mammal extinction caused mainly by human-induced climate change."
+    review: "check dates"
+    dp: [4.1.2, 4.3.1c]
+    tags: [aus]
+
+  - id: 29
+    q: "Why was the Bramble Cay melomys especially vulnerable to extinction?"
+    a: "Its whole population lived on **one tiny island** only a few metres above sea level; it couldn't move elsewhere, numbers were small, and there was **no captive population** to fall back on."
+    dp: [4.1.2]
+    tags: [aus]
+
+  - id: 30
+    q: "Why did the thylacine become extinct?"
+    a: "Mainly **hunting** (government bounties were paid for more than 2000 animals in Tasmania), plus habitat loss, competition with dogs and possibly disease. The last known thylacine died in **Hobart Zoo in 1936**."
+    x: "On the mainland, thylacines had disappeared about 3000 years earlier."
+    dp: [4.1.2, 4.3.1a]
+    tags: [aus, history]

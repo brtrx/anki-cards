@@ -1,0 +1,69 @@
+deck:
+  module: 3
+  iq: 1
+cards:
+  - id: 1
+    q: "What is a selection pressure?"
+    a: "Any **environmental factor**, biotic or abiotic, that affects which individuals **survive and reproduce**, so individuals with favourable traits leave more offspring."
+    dp: [3.1.1a, 3.1.1b]
+
+  - id: 2
+    q: "Give examples of biotic selection pressures."
+    a: "**Predation**, **competition** (for food, mates, territory), **disease** and parasites, availability of prey or pollinators, and **introduced species**."
+    dp: [3.1.1a]
+
+  - id: 3
+    q: "Give examples of abiotic selection pressures."
+    a: "**Temperature**, **water availability** (drought, flood), **light**, salinity, pH, soil nutrients, **fire** and oxygen levels."
+    dp: [3.1.1b]
+
+  - id: 4
+    q: "Predict how the arrival of a new predator would affect a prey population over many generations."
+    a: "Numbers may fall at first. Prey with traits that help them avoid the predator (camouflage, speed, toxins, wariness) **survive and reproduce more**, so those traits become **more common** in the population over generations."
+    dp: [3.1.1a]
+
+  - id: 5
+    q: "Predict how a long drought would affect a population of a plant species."
+    a: "Individuals with **drought-tolerant** traits (deep roots, thick cuticle, fewer stomata) survive and reproduce; the population may shrink, but the frequency of alleles for drought tolerance increases."
+    dp: [3.1.1b]
+
+  - id: 6
+    q: "How can selection pressures change the diversity and abundance of species in an ecosystem?"
+    a: "They reduce the **abundance** of poorly adapted individuals and species and favour others. Over time they can cause **extinction** (less diversity) or drive populations to diverge into **new species** (more diversity)."
+    dp: [3.1.1a, 3.1.1b]
+
+  - id: 7
+    q: "When and why were cane toads introduced to Australia?"
+    a: "In **1935**, to the sugar-cane fields of north Queensland, to control **cane beetles**. They didn't control the beetles, and they spread rapidly across northern Australia."
+    dp: [3.1.2a]
+    tags: [aus, history]
+
+  - id: 8
+    q: "Why have cane toads been so successful in Australia?"
+    a: "They are **toxic** to most native predators, have few diseases or predators here, produce **thousands of eggs** per clutch, eat almost anything and tolerate a wide range of habitats."
+    dp: [3.1.2a]
+    tags: [aus]
+
+  - id: 9
+    q: "How have cane toads acted as a selection pressure on native Australian predators?"
+    a: "Predators that eat toads often die from the toxin. In toad-invaded areas, **red-bellied black snakes** have evolved greater toxin resistance and smaller heads relative to body size (they can't swallow large, lethal toads), and some predators have learnt to avoid toads."
+    review: "check the evidence summarised for red-bellied black snakes (Phillips & Shine 2004)"
+    dp: [3.1.2a, 3.4.2a]
+    tags: [aus]
+
+  - id: 10
+    q: "How did prickly pear spread in Australia?"
+    a: "Introduced from the Americas from the late 1700s (for cochineal dye, later as hedges), it had **no natural enemies** here and by the 1920s covered about **24 million hectares** of Queensland and New South Wales."
+    dp: [3.1.2b]
+    tags: [aus, history]
+
+  - id: 11
+    q: "How was prickly pear brought under control, and what does it show about selection pressures?"
+    a: "The **cactus moth** *Cactoblastis cactorum* was released in **1926**; its larvae tunnel through the pads, which rot. Within about a decade most infestations collapsed. A new biotic factor drastically cut the cactus's **abundance and distribution**; it now survives only in scattered patches."
+    dp: [3.1.2b]
+    tags: [aus, history]
+
+  - id: 12
+    q: "Why can introduced species become pests in a new environment?"
+    a: "They often escape the **predators, parasites and diseases** (biotic selection pressures) that limited them at home, while native species have **no adaptations** to compete with them or defend against them."
+    dp: [3.1.1a, 3.1.2a]

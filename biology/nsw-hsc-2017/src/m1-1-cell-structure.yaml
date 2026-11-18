@@ -1,0 +1,222 @@
+deck:
+  module: 1
+  iq: 1
+cards:
+  - id: 1
+    q: "What are the three main ideas of cell theory?"
+    a: |-
+      1. All living things are made of one or more cells.
+      2. The cell is the basic unit of structure and function of life.
+      3. All cells come from pre-existing cells.
+    x: "Schleiden (plants, 1838) and Schwann (animals, 1839) proposed that all organisms are made of cells; Virchow (1855) added *omnis cellula e cellula*: every cell comes from a cell."
+    dp: [1.1.1a]
+    tags: [history]
+
+  - id: 2
+    q: "What is the key structural difference between prokaryotic and eukaryotic cells?"
+    a: "Prokaryotic cells have **no nucleus and no membrane-bound organelles**; eukaryotic cells have a nucleus and membrane-bound organelles (mitochondria, ER, Golgi …)."
+    x: "Both have a cell membrane, cytoplasm, ribosomes and DNA. *Pro* = before, *eu* = true, *karyon* = kernel (nucleus)."
+    dp: [1.1.1a, 1.1.2b]
+    tags: [compare]
+
+  - id: 3
+    q: "Which groups of organisms are prokaryotes, and which are eukaryotes?"
+    a: "Prokaryotes: **bacteria and archaea**. Eukaryotes: protists, fungi, plants and animals."
+    dp: [1.1.1a]
+
+  - id: 4
+    q: "Where is the DNA of a prokaryotic cell found?"
+    a: "Free in the cytoplasm in the **nucleoid** region (a single circular chromosome), often with extra small circular **plasmids**."
+    dp: [1.1.1a, 5.3.1]
+
+  - id: 5
+    q: "How do prokaryotic and eukaryotic cells typically compare in size?"
+    a: "Prokaryotes are much smaller: about **1–5 µm**; eukaryotic cells are about **10–100 µm**."
+    x: "Small size gives prokaryotes a large surface-area-to-volume ratio, so diffusion alone can supply the whole cell."
+    dp: [1.1.1a]
+
+  - id: 6
+    q: "What type of ribosome do prokaryotes have, compared with eukaryotes?"
+    a: "Prokaryotes have smaller **70S** ribosomes; eukaryotes have larger **80S** ribosomes in their cytoplasm."
+    x: "Mitochondria and chloroplasts contain 70S ribosomes and their own circular DNA, like bacteria: evidence that they evolved from engulfed prokaryotes (endosymbiosis). Many antibiotics target 70S ribosomes, which is why they harm bacteria but not our cells."
+    dp: [1.1.2b, 1.1.1a]
+    tags: [compare]
+
+  - id: 7
+    q: "Name three structures found in plant cells but not in animal cells."
+    a: "A **cellulose cell wall**, **chloroplasts** and a **large permanent (central) vacuole**."
+    x: "Animal cells have centrioles (most plant cells don't) and only small, temporary vacuoles. Not every plant cell has chloroplasts: root cells don't."
+    dp: [1.1.2b]
+    tags: [compare]
+
+  - id: 8
+    q: "What is the function of the mitochondrion?"
+    a: "Site of **aerobic cellular respiration**: releases energy from glucose and makes most of the cell's **ATP**."
+    x: "Double membrane; the inner membrane is folded into **cristae**, which increase the surface area for the electron transport chain. The fluid **matrix** holds the Krebs cycle enzymes."
+    dp: [1.1.2b]
+
+  - id: 9
+    q: "What does the chloroplast do, and where inside it does each stage of photosynthesis happen?"
+    a: "It carries out **photosynthesis**. Light-dependent reactions: on the **thylakoid membranes** (stacked into grana). Light-independent reactions (Calvin cycle): in the fluid **stroma**."
+    dp: [1.1.2b, 1.2.3]
+
+  - id: 10
+    q: "What are the functions of the nucleus and the nucleolus?"
+    a: "**Nucleus**: holds the DNA (as chromatin) and controls the cell's activities through gene expression. **Nucleolus**: makes ribosomal RNA and assembles ribosome subunits."
+    x: "The nuclear envelope is a double membrane with pores that let mRNA and ribosome subunits out."
+    dp: [1.1.2b]
+
+  - id: 11
+    q: "How do rough and smooth endoplasmic reticulum (ER) differ in function?"
+    a: "**Rough ER** is studded with ribosomes: it makes and transports proteins, especially for export. **Smooth ER** has no ribosomes: it makes lipids and steroids and detoxifies drugs."
+    dp: [1.1.2b]
+    tags: [compare]
+
+  - id: 12
+    q: "What does the Golgi apparatus (Golgi body) do?"
+    a: "It **modifies, sorts and packages** proteins and lipids into vesicles, for secretion or for use inside the cell."
+    dp: [1.1.2b]
+
+  - id: 13
+    q: "What do lysosomes do?"
+    a: "They are membrane sacs of **digestive (hydrolytic) enzymes** that break down engulfed food or pathogens and worn-out organelles."
+    x: "Found mainly in animal cells. A white blood cell's phagocytic vesicle fuses with lysosomes to digest a bacterium."
+    dp: [1.1.2b]
+
+  - id: 14
+    q: "What are ribosomes and where are they found?"
+    a: "Small non-membrane-bound structures (rRNA + protein) that **synthesise proteins**; free in the cytoplasm or attached to rough ER (and in mitochondria and chloroplasts)."
+    dp: [1.1.2b]
+
+  - id: 15
+    q: "What is the cell wall made of in plants, fungi and bacteria?"
+    a: "Plants: **cellulose**. Fungi: **chitin**. Bacteria: **peptidoglycan**."
+    x: "The wall gives support and shape and stops the cell bursting when water enters by osmosis. Animal cells have no wall."
+    dp: [1.1.2b]
+    tags: [compare]
+
+  - id: 16
+    q: "What is the cytoskeleton and what does it do?"
+    a: "A network of protein fibres (microtubules, microfilaments, intermediate filaments) that **maintains cell shape**, anchors organelles and **moves** vesicles, chromosomes and the cell itself."
+    dp: [1.1.2b]
+
+  - id: 17
+    q: "What structures do some bacteria have outside the cell wall, and what are they for?"
+    a: "A **capsule** (slime layer: protection, sticking to surfaces), **flagella** (movement) and **pili/fimbriae** (attachment; transfer of DNA)."
+    dp: [1.1.1a, 7.1.4]
+
+  - id: 18
+    q: "Why do cells that secrete a lot of protein (e.g. pancreatic cells) have a lot of rough ER and Golgi?"
+    a: "They make and export large amounts of protein (digestive enzymes, hormones): the rough ER synthesises it and the Golgi packages it into secretory vesicles."
+    x: "Organelle numbers reflect function: structure suits function."
+    dp: [1.1.2b, 2.1.1b]
+
+  - id: 19
+    q: "Why do muscle cells and sperm cells contain many mitochondria?"
+    a: "They have a **high energy demand** (contraction, swimming), so they need a lot of ATP from aerobic respiration."
+    dp: [1.1.2b, 2.1.1b]
+
+  - id: 20
+    q: "What is the main limitation of the light microscope?"
+    a: "Its **resolution** is limited to about **0.2 µm (200 nm)** by the wavelength of light, so it can't show small organelles in detail (ribosomes, membrane structure)."
+    x: "Maximum useful magnification is about ×1000–×1500. Advantages: cheap, portable, shows living cells and true colour (with stains)."
+    dp: [1.1.1b]
+
+  - id: 21
+    q: "What is the difference between magnification and resolution?"
+    a: "**Magnification**: how many times bigger the image is than the object. **Resolution**: the ability to distinguish two points close together as separate (how much detail is shown)."
+    x: "Magnifying beyond the resolution limit only gives a bigger blur ('empty magnification')."
+    dp: [1.1.1b, 1.1.2a]
+
+  - id: 22
+    q: "Why does an electron microscope show far more detail than a light microscope?"
+    a: "A beam of electrons has a much **shorter wavelength** than visible light, so the resolution is far higher (about 0.2 nm in theory, versus about 200 nm)."
+    dp: [1.1.1b]
+
+  - id: 23
+    q: "Compare the transmission (TEM) and scanning (SEM) electron microscopes."
+    a: |-
+      | | TEM | SEM |
+      |---|---|---|
+      | How | electrons pass **through** a thin section | electrons scan the **surface** |
+      | Image | 2D, internal ultrastructure | 3D surface |
+      | Resolution | highest | lower |
+    x: "Both: specimens are dead, in a vacuum, often coated or stained with heavy metals (risk of artefacts); images are black and white (colour is added afterwards)."
+    dp: [1.1.1b]
+    tags: [compare]
+
+  - id: 24
+    q: "How do fluorescence and confocal microscopy help scientists work out a cell's function?"
+    a: "Fluorescent dyes or tagged proteins (e.g. GFP) label **specific molecules or organelles**, so their location and movement can be followed in **living** cells; confocal microscopes give sharp optical slices that build 3D images."
+    dp: [1.1.1b]
+
+  - id: 25
+    q: "What is differential centrifugation (cell fractionation) used for?"
+    a: "Cells are broken open and the mixture spun at increasing speeds, separating organelles by **size and density** so each type can be isolated and its function studied."
+    x: "Heaviest first: nuclei → mitochondria/chloroplasts → ER fragments and ribosomes."
+    dp: [1.1.1b]
+
+  - id: 26
+    q: "Which technologies reveal the 3D structure of individual molecules such as proteins and DNA?"
+    a: "**X-ray crystallography** and **cryo-electron microscopy** (cryo-EM)."
+    x: "Rosalind Franklin's X-ray diffraction image of DNA (Photo 51, 1952) was key evidence for the double helix."
+    dp: [1.1.1b, 5.2.1b]
+    tags: [history]
+
+  - id: 27
+    q: "What is the formula for magnification?"
+    a: "**Magnification = image size ÷ actual size** (both in the same units)."
+    x: "Rearranged: actual size = image size ÷ magnification. Remember: 1 mm = 1000 µm; 1 µm = 1000 nm."
+    dp: [1.1.2a]
+
+  - id: 28
+    q: "A cell is drawn 30 mm long. Its actual length is 15 µm. What is the magnification of the drawing?"
+    a: "**×2000** (30 mm = 30 000 µm; 30 000 ÷ 15 = 2000)."
+    tip: "Convert both sizes to the same unit first; the most common mistake is mixing mm and µm."
+    dp: [1.1.2a]
+    calc: {kind: magnification, image_mm: 30, actual_um: 15, result: 2000}
+
+  - id: 29
+    q: "At ×400 the field of view is 400 µm wide, and 8 cells fit end to end across it. Estimate the length of one cell."
+    a: "About **50 µm** (400 µm ÷ 8)."
+    dp: [1.1.2a]
+    tags: [practical]
+    calc: {kind: field, fov_um: 400, count: 8, result: 50}
+
+  - id: 30
+    q: "What are the conventions for a scientific (biological) drawing?"
+    a: "Sharp pencil; clean single lines, **no shading**; drawn in proportion; **ruled label lines** (no arrows) that don't cross; a title; and the magnification or a **scale bar**."
+    dp: [1.1.2a]
+    tags: [practical]
+
+  - id: 31
+    q: "Describe the fluid mosaic model of the cell membrane."
+    a: "A **phospholipid bilayer** with **proteins** embedded in or attached to it, plus cholesterol and glycoproteins/glycolipids. The molecules can move sideways, so the membrane is fluid."
+    x: "Proposed by Singer and Nicolson (1972). Membranes are about 7–10 nm thick: visible only with an electron microscope."
+    dp: [1.1.2c]
+    tags: [history]
+
+  - id: 32
+    q: "Why is the membrane model called 'fluid mosaic'?"
+    a: "**Fluid**: phospholipids and proteins move sideways within the layer. **Mosaic**: proteins are scattered through the bilayer like tiles in a mosaic."
+    dp: [1.1.2c]
+
+  - id: 33
+    q: "Why do phospholipids arrange themselves as a bilayer?"
+    a: "Each has a **hydrophilic** (water-loving) phosphate head and two **hydrophobic** fatty-acid tails; in water the tails face inwards, away from water, and the heads face the watery fluid on both sides."
+    dp: [1.1.2c]
+
+  - id: 34
+    q: "What roles do proteins in the cell membrane play?"
+    a: "**Transport** (channels, carriers, pumps), **receptors** for hormones and signals, **enzymes**, cell **recognition** (glycoprotein markers) and attachment to the cytoskeleton or neighbouring cells."
+    dp: [1.1.2c]
+
+  - id: 35
+    q: "What does cholesterol do in animal cell membranes?"
+    a: "It regulates **fluidity**: it stops the membrane becoming too fluid when warm or too rigid when cold."
+    dp: [1.1.2c]
+
+  - id: 36
+    q: "What does 'selectively permeable' mean for a cell membrane?"
+    a: "Some substances cross easily (small, non-polar molecules such as O₂ and CO₂), while others (ions, large or polar molecules like glucose) can cross only through specific proteins or not at all."
+    dp: [1.1.2c, 1.2.1c]

@@ -1,0 +1,144 @@
+deck:
+  module: 8
+  iq: 2
+cards:
+  - id: 1
+    q: "How do non-infectious diseases differ from infectious diseases?"
+    a: "They are **not caused by pathogens** and **can't be transmitted** between people; causes include genes, environmental exposure, nutrition and lifestyle, ageing, or a combination."
+    dp: [8.2.1a, 8.2.1b, 8.2.1c, 8.2.1d]
+    tags: [compare]
+
+  - id: 2
+    q: "Describe the cause and effects of cystic fibrosis."
+    a: "An **autosomal recessive** disease caused by mutations in the **CFTR** gene, which codes for a chloride-ion channel. Mucus becomes **thick and sticky**, blocking the airways (repeated lung infections) and pancreatic ducts (poor digestion), and shortening life expectancy."
+    dp: [8.2.1a]
+
+  - id: 3
+    q: "Describe the cause and effects of Huntington's disease."
+    a: "An **autosomal dominant** disease: an expanded repeat (CAG) in the *HTT* gene makes an abnormal protein that gradually destroys brain neurons, causing loss of movement control, cognition and mood. Symptoms usually start at **30–50 years**, often after the person has had children."
+    dp: [8.2.1a]
+
+  - id: 4
+    q: "Describe the cause and effects of haemophilia A."
+    a: "**X-linked recessive**: a faulty gene for **clotting factor VIII**, so blood clots poorly and bleeding is prolonged (including internal bleeding into joints). It mostly affects males; it's treated with clotting factor (now made by recombinant DNA technology)."
+    dp: [8.2.1a, 5.4.2a]
+
+  - id: 5
+    q: "What causes Down syndrome, and what are its effects?"
+    a: "An **extra copy of chromosome 21** (trisomy 21), usually from **non-disjunction** in meiosis; the risk increases with the mother's age. Effects include intellectual disability, characteristic facial features and a higher risk of heart defects."
+    dp: [8.2.1a, 6.1.2b]
+
+  - id: 6
+    q: "What causes mesothelioma, and why are rates so high in Australia?"
+    a: "A cancer of the lining of the lungs (pleura) or abdomen caused by **inhaling asbestos fibres**, usually appearing **20–40+ years** after exposure. Australia used asbestos heavily and mined blue asbestos at **Wittenoom** (WA), so it has one of the world's highest rates."
+    dp: [8.2.1b, 8.2.1d]
+    tags: [aus]
+
+  - id: 7
+    q: "How does UV exposure cause melanoma, and why is it significant in Australia?"
+    a: "UV radiation **damages the DNA** of pigment cells (melanocytes) in the skin; accumulated mutations cause uncontrolled division, and melanoma can **spread** to other organs. Australia has one of the **highest melanoma rates** in the world (high UV, many fair-skinned people)."
+    dp: [8.2.1b, 8.2.1d]
+    tags: [aus]
+
+  - id: 8
+    q: "Describe the causes and effects of lead poisoning."
+    a: "Exposure to **lead** (old paint, leaded petrol in the past, mining and smelting towns such as Broken Hill and Port Pirie) damages the **nervous system**, especially children's brain development (lower IQ, learning and behaviour problems), and causes anaemia."
+    dp: [8.2.1b]
+    tags: [aus]
+
+  - id: 9
+    q: "How does smoking cause disease?"
+    a: "Tobacco smoke contains many **carcinogens** (mutagens such as benzo[a]pyrene) that cause lung, mouth and throat cancers; tar and irritants destroy **cilia** and **alveoli** (emphysema, chronic lung disease); nicotine and carbon monoxide increase **heart disease and stroke**."
+    dp: [8.2.1b, 8.2.1d]
+
+  - id: 10
+    q: "What are nutritional diseases? Give examples of deficiency and excess."
+    a: "Diseases caused by too little or too much of a nutrient. **Deficiency**: scurvy (vitamin C), rickets (vitamin D), iron-deficiency anaemia, goitre (iodine), kwashiorkor (protein). **Excess**: obesity, type 2 diabetes, cardiovascular disease."
+    dp: [8.2.1c]
+
+  - id: 11
+    q: "Describe the cause and effects of scurvy."
+    a: "Lack of **vitamin C**, which is needed to make **collagen**: bleeding gums, poor wound healing, bruising and fatigue. James Lind's 1747 trial on sailors showed that citrus fruit cured it."
+    dp: [8.2.1c]
+    tags: [history]
+
+  - id: 12
+    q: "Describe the causes and effects of type 2 diabetes."
+    a: "Body cells become **resistant to insulin** and the pancreas can't keep up, so blood glucose stays high. Risk factors: **excess weight** (especially around the waist), **inactivity**, poor diet, family history, age. High glucose damages blood vessels and nerves → heart disease, kidney failure, blindness, amputations."
+    dp: [8.2.1c, 8.1.1b]
+
+  - id: 13
+    q: "Compare type 1 and type 2 diabetes."
+    a: "**Type 1**: the immune system destroys the insulin-making β cells, so **no insulin** is made; usually starts in childhood; needs insulin injections; not preventable. **Type 2**: **insulin resistance**; usually in adults; linked to lifestyle; managed with diet, exercise and medication; often preventable."
+    dp: [8.2.1c, 8.1.1b]
+    tags: [compare]
+
+  - id: 14
+    q: "What are the effects of iron-deficiency anaemia?"
+    a: "Too little iron to make enough **haemoglobin**, so the blood carries less O₂: tiredness, pale skin, shortness of breath, reduced ability to concentrate."
+    dp: [8.2.1c]
+
+  - id: 15
+    q: "What is cancer?"
+    a: "**Uncontrolled division of abnormal cells**, caused by mutations in genes that regulate the cell cycle. It forms tumours that can **invade** nearby tissue and **spread** (metastasise)."
+    dp: [8.2.1d]
+
+  - id: 16
+    q: "Distinguish benign and malignant tumours."
+    a: "**Benign**: grows slowly, stays in one place (often enclosed in a capsule), doesn't invade or spread. **Malignant** (cancer): **invades** surrounding tissue and spreads through the blood or lymph to form **secondary tumours** (metastasis)."
+    dp: [8.2.1d]
+    tags: [compare]
+
+  - id: 17
+    q: "What are proto-oncogenes and tumour-suppressor genes, and how are they involved in cancer?"
+    a: "**Proto-oncogenes** promote cell division; mutated into **oncogenes**, they act like an accelerator stuck 'on'. **Tumour-suppressor genes** (e.g. *p53*, *BRCA1*) stop division or trigger apoptosis when DNA is damaged; when they fail, the 'brakes' are gone. Usually several mutations are needed."
+    dp: [8.2.1d, 6.1.3]
+
+  - id: 18
+    q: "What are the main risk factors for cancer?"
+    a: "**Carcinogens** (tobacco smoke, UV and ionising radiation, asbestos, alcohol), certain **viruses** (HPV, hepatitis B), **inherited** mutations (e.g. *BRCA1/2*), **age**, obesity, diet and physical inactivity."
+    dp: [8.2.1d]
+
+  - id: 19
+    q: "Define the mortality rate of a disease."
+    a: "The **number of deaths** from the disease in a population over a given period, usually expressed **per 100 000 people per year**."
+    dp: [8.2.2]
+
+  - id: 20
+    q: "Do non-infectious diseases cause more deaths than infectious diseases?"
+    a: "**Yes, worldwide**: non-communicable diseases (heart disease, stroke, cancers, chronic lung disease, diabetes) cause about **three-quarters of all deaths**, and an even larger share in Australia. Infectious diseases still cause a larger share of deaths in some low-income countries and among young children."
+    review: "check against current WHO / AIHW figures"
+    dp: [8.2.2]
+    tags: [data]
+
+  - id: 21
+    q: "In a population of 2 500 000, 750 people died of melanoma in one year. What is the mortality rate per 100 000 per year?"
+    a: "**30 per 100 000 per year** (750 ÷ 2 500 000 × 100 000)."
+    dp: [8.2.2b]
+    calc: {kind: rate, cases: 750, population: 2500000, per: 100000, result: 30}
+
+  - id: 22
+    q: "How should incidence, prevalence and mortality data for non-infectious diseases be presented?"
+    a: "As **rates per 100 000** (so populations of different sizes can be compared); **line graphs** for trends over time; **column graphs** to compare diseases, groups or regions; **age-standardised** rates when comparing populations."
+    dp: [8.2.2, WS.4.1]
+    tags: [data]
+
+  - id: 23
+    q: "Why are age-standardised rates used to compare non-infectious diseases between populations?"
+    a: "Many non-infectious diseases are much **more common in older people**, so a population with more older people has higher raw rates. Age-standardising **removes the effect of different age structures**, allowing a fair comparison."
+    dp: [8.2.2]
+    tags: [data]
+
+  - id: 24
+    q: "How did lung cancer death rates in Australian men change in the late 20th century, and why?"
+    a: "They **rose until about the early 1980s** and then **fell steadily**, decades after smoking rates among men began to decline: the lag reflects the long delay between exposure and cancer."
+    review: "check the year of the peak"
+    dp: [8.2.2b, 8.3.1b]
+    tags: [aus, data]
+
+  - id: 25
+    q: "What do Australian data show about overweight and obesity, a nutrition-related condition?"
+    a: "About **two in three adults** are overweight or obese, and the proportion with **obesity** has risen markedly since the 1990s; prevalence increases with age and is higher in lower-income and remote areas."
+    review: "check against current AIHW / ABS data"
+    dp: [8.2.2a]
+    tags: [aus, data]

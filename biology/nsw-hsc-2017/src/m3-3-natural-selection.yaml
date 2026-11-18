@@ -1,0 +1,146 @@
+deck:
+  module: 3
+  iq: 3
+cards:
+  - id: 1
+    cloze: "Natural selection: individuals in a population show {{c1::variation}}, much of it inherited; more offspring are produced than can survive, so there is a {{c2::struggle for existence}}; individuals with {{c3::favourable variations}} are more likely to survive and {{c4::reproduce}}; their offspring inherit those traits, so the traits become {{c5::more common over generations}}."
+    dp: [3.3.1]
+
+  - id: 2
+    q: "Who proposed the Theory of Evolution by Natural Selection, and when?"
+    a: "**Charles Darwin and Alfred Russel Wallace**, independently; their ideas were presented together in **1858**, and Darwin published *On the Origin of Species* in **1859**."
+    dp: [3.3.1]
+    tags: [history]
+
+  - id: 3
+    q: "How does the Theory of Evolution by Natural Selection explain biodiversity?"
+    a: "Populations in different environments face **different selection pressures**. Over many generations they accumulate different adaptations and **diverge into new species**, so life has diversified from common ancestors into millions of species."
+    dp: [3.3.1]
+
+  - id: 4
+    cloze: "Diversification of life: Earth formed about {{c1::4.5}} billion years ago; the oldest fossils, {{c2::stromatolites}} built by microbes, date from about 3.5 billion years ago; O₂ began building up in the atmosphere about {{c3::2.4}} billion years ago; {{c4::eukaryotic}} cells appeared about 2 billion years ago; the {{c5::Cambrian explosion}} of animal groups was about 540 million years ago."
+    review: "dates are approximate and revised as new evidence appears"
+    dp: [3.3.1]
+
+  - id: 5
+    q: "What are stromatolites, and why are they important in the history of life?"
+    a: "Layered rock structures built by **cyanobacteria** (photosynthetic microbes) trapping sediment. Fossil stromatolites about **3.5 billion years old** in the Pilbara (WA) are among the oldest evidence of life; their photosynthesis eventually **oxygenated the atmosphere**."
+    x: "Living stromatolites still grow in Hamelin Pool, Shark Bay (WA)."
+    dp: [3.3.1, 4.2.1b]
+    tags: [aus]
+
+  - id: 6
+    q: "What is the endosymbiotic theory, and what is the evidence for it?"
+    a: "Mitochondria and chloroplasts descended from **free-living prokaryotes** engulfed by an ancestral cell. Evidence: they have their own **circular DNA**, **70S ribosomes** and a **double membrane**, and they divide by **binary fission**, like bacteria."
+    x: "Championed by Lynn Margulis from 1967."
+    dp: [3.3.1, 1.1.2b]
+    tags: [history]
+
+  - id: 7
+    q: "What was the Cambrian explosion?"
+    a: "A relatively rapid appearance and diversification of most major **animal groups** (phyla) about **540 million years ago**, seen in fossil beds such as the Burgess Shale (Canada) and Chengjiang (China)."
+    dp: [3.3.1]
+
+  - id: 8
+    q: "How have mass extinctions shaped biodiversity?"
+    a: "Five major mass extinctions (e.g. the **end-Permian**, about 252 million years ago, which wiped out most marine species; the **end-Cretaceous**, 66 million years ago, which ended the non-avian dinosaurs) removed many groups; survivors then **diversified rapidly** into the empty niches (e.g. mammals after the dinosaurs)."
+    dp: [3.3.1, 3.3.4]
+
+  - id: 9
+    q: "Define microevolution (syllabus glossary)."
+    glossary: microevolution
+    a: "A change in gene frequency in a population over a short period of time."
+    dp: [3.3.2]
+
+  - id: 10
+    q: "How can an accumulation of microevolutionary changes lead to speciation?"
+    a: "Small changes in **allele frequencies** each generation (selection, drift, mutation, gene flow) build up. In **isolated** populations, different changes accumulate until the populations can no longer interbreed to produce fertile offspring: they are **new species**."
+    dp: [3.3.2]
+
+  - id: 11
+    q: "What is a species (biological species concept)?"
+    a: "A group of organisms that can **interbreed** in nature to produce **fertile offspring**."
+    x: "Limitations: it can't be applied to fossils or to organisms that reproduce asexually, and some species hybridise."
+    dp: [3.3.2]
+
+  - id: 12
+    cloze: "Allopatric speciation: a population is split by a {{c1::geographical barrier}} → no {{c2::gene flow}} between the groups → different {{c3::selection pressures}}, mutations and drift change their allele frequencies separately → eventually {{c4::reproductive isolation}}: they can't interbreed even if they meet again → two species."
+    dp: [3.3.2]
+
+  - id: 13
+    q: "Describe the main trends in the evolution of the horse."
+    a: "Over about 55 million years, from *Hyracotherium* (*Eohippus*), a dog-sized forest browser with **four toes** on the front feet, to *Equus*: **larger body**, **longer legs**, toes reduced to a **single hoof**, and **high-crowned grinding teeth** for grazing."
+    dp: [3.3.2a]
+
+  - id: 14
+    q: "What environmental change drove the evolution of the horse?"
+    a: "The climate became **cooler and drier** and **forests gave way to grasslands**. Selection favoured **speed** to escape predators in open country (long legs, single toe) and **teeth** that could grind tough, gritty grass."
+    dp: [3.3.2a]
+
+  - id: 15
+    q: "Why is the textbook 'straight line' of horse evolution misleading?"
+    a: "Horse evolution was a **branching bush**: many side branches existed at the same time and went extinct. The trends weren't steady or goal-directed; *Equus* is the one surviving twig."
+    dp: [3.3.2a]
+
+  - id: 16
+    q: "What fossils trace the evolution of the platypus?"
+    a: "Toothed monotreme jaws from the Cretaceous: *Teinolophos* (Victoria) and *Steropodon* (opalised, Lightning Ridge, NSW); *Monotrematum* from about 61 million years ago in **Patagonia**; and *Obdurodon*, a toothed platypus from the Miocene of **Riversleigh** (Qld)."
+    review: "check fossil ages and localities"
+    dp: [3.3.2b]
+    tags: [aus]
+
+  - id: 17
+    q: "What trends and evidence does the platypus fossil record show?"
+    a: "A trend to **loss of adult teeth** (the living platypus has horny pads instead) and specialisation for aquatic foraging. A fossil platypus in **South America** shows monotremes lived across Gondwana before it broke up."
+    dp: [3.3.2b, 3.4.1a]
+    tags: [aus]
+
+  - id: 18
+    q: "What is convergent evolution?"
+    a: "**Distantly related** species evolve **similar traits** because they face similar selection pressures in similar environments or niches; it produces **analogous** structures."
+    dp: [3.3.3a]
+
+  - id: 19
+    q: "Give examples of convergent evolution involving Australian marsupials."
+    a: "The **thylacine** and the grey wolf (similar skull and body shape); the **marsupial mole** and the African golden mole; the **sugar glider** and the North American flying squirrel (gliding membranes)."
+    dp: [3.3.3a]
+    tags: [aus]
+
+  - id: 20
+    q: "How does natural selection account for convergent evolution?"
+    a: "**Similar environments impose similar selection pressures.** In each lineage, individuals whose variations happen to suit that environment survive and reproduce more, so similar adaptations accumulate **independently**, from different starting points."
+    dp: [3.3.3a]
+
+  - id: 21
+    q: "What is divergent evolution?"
+    a: "**Related** species evolve **different traits** from a common ancestor because their populations face different selection pressures; it produces **homologous** structures. Rapid divergence into many niches is called **adaptive radiation**."
+    dp: [3.3.3b]
+
+  - id: 22
+    q: "Give an Australian example of divergent evolution (adaptive radiation)."
+    a: "**Marsupials** radiated from a common ancestor into grazers (kangaroos), leaf-eaters (koalas), burrowers (wombats), tree-dwellers (possums, gliders) and carnivores (quolls, Tasmanian devil)."
+    x: "Darwin's finches are the classic non-Australian example."
+    dp: [3.3.3b]
+    tags: [aus]
+
+  - id: 23
+    q: "Distinguish homologous and analogous structures."
+    a: "**Homologous**: same basic structure, from a common ancestor, but often different functions (pentadactyl limb: human arm, whale flipper, bat wing): evidence of **divergent** evolution. **Analogous**: similar function, different structure and origin (bird wing and insect wing): evidence of **convergent** evolution."
+    dp: [3.3.3b, 3.3.3a, 3.4.1a]
+    tags: [compare]
+
+  - id: 24
+    q: "Compare gradualism and punctuated equilibrium."
+    a: "**Gradualism** (Darwin): species change slowly and steadily through many small changes. **Punctuated equilibrium** (Eldredge and Gould, 1972): long periods of little change (**stasis**) are interrupted by **short bursts** of rapid change and speciation."
+    dp: [3.3.4]
+    tags: [compare, history]
+
+  - id: 25
+    q: "What fossil evidence led to the idea of punctuated equilibrium?"
+    a: "Many species appear **suddenly** in the fossil record and then stay **largely unchanged** for millions of years, with few intermediate forms, instead of showing smooth series of gradual change."
+    dp: [3.3.4]
+
+  - id: 26
+    q: "Does punctuated equilibrium contradict natural selection?"
+    a: "No. Both models are driven by natural selection; they differ in the **tempo** (rate) of change. Rapid change often follows sudden environmental change, and different lineages may show either pattern."
+    dp: [3.3.4]

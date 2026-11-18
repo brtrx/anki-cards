@@ -1,0 +1,112 @@
+deck:
+  module: 7
+  iq: 3
+cards:
+  - id: 1
+    q: "Distinguish innate and adaptive immunity."
+    a: "**Innate**: present from birth, **non-specific**, acts within minutes to hours, **no memory** (first and second lines of defence). **Adaptive**: **specific** to particular antigens, takes days the first time, has **memory** (third line: B and T lymphocytes)."
+    dp: [7.3.1]
+    tags: [compare]
+
+  - id: 2
+    q: "What is the first line of defence?"
+    a: "**Barriers** that stop pathogens entering: intact **skin**; **mucous membranes** and mucus; **cilia**; **lysozyme** in tears and saliva; **stomach acid**; harmless resident microbes that outcompete pathogens; reflexes such as coughing and sneezing."
+    dp: [7.3.1]
+
+  - id: 3
+    q: "What is the second line of defence?"
+    a: "**Non-specific** responses once a pathogen has entered: **phagocytes** (neutrophils, macrophages), **inflammation**, **fever**, complement proteins, natural killer cells and interferons."
+    dp: [7.3.1]
+
+  - id: 4
+    q: "Describe phagocytosis by a white blood cell."
+    a: "A phagocyte (neutrophil or macrophage) **engulfs** the pathogen in a vesicle; **lysosomes** fuse with it and their enzymes **digest** the pathogen. Macrophages then display fragments of it (antigens) on their surface."
+    dp: [7.3.1]
+
+  - id: 5
+    q: "What is an antigen?"
+    a: "A molecule, usually a protein or polysaccharide, that the immune system recognises as **foreign (non-self)** and that triggers a **specific** immune response, e.g. a protein on a pathogen's surface."
+    dp: [7.3.1]
+
+  - id: 6
+    q: "What are MHC markers?"
+    a: "**Major histocompatibility complex** proteins on cell surfaces that mark cells as 'self' and display antigen fragments. **MHC I**: on all nucleated cells (show what's inside the cell). **MHC II**: on antigen-presenting cells (show what they've engulfed)."
+    dp: [7.3.1]
+
+  - id: 7
+    q: "What are antigen-presenting cells, and why are they important?"
+    a: "Cells such as **dendritic cells**, macrophages and B cells that engulf pathogens and display their antigens on **MHC II** to **helper T cells**. They link the innate and adaptive responses."
+    dp: [7.3.1, 7.3.2]
+
+  - id: 8
+    q: "What do B lymphocytes do?"
+    a: "Each B cell carries receptors for **one specific antigen**. When it binds that antigen (and is activated by a helper T cell), it divides into **plasma cells**, which secrete **antibodies**, and long-lived **memory B cells**. B cells mature in the bone marrow."
+    dp: [7.3.1]
+
+  - id: 9
+    q: "Compare helper T cells and cytotoxic T cells."
+    a: "**Helper T** (CD4): recognise antigens on antigen-presenting cells and release **cytokines** that activate B cells, cytotoxic T cells and macrophages: the coordinators. **Cytotoxic T** (CD8): recognise antigens on MHC I of **infected or cancerous cells** and kill them. Both form memory cells."
+    dp: [7.3.1]
+    tags: [compare]
+
+  - id: 10
+    q: "Distinguish the humoral and cell-mediated responses."
+    a: "**Humoral**: B cells and **antibodies** in blood and lymph, effective against pathogens and toxins **outside** cells. **Cell-mediated**: **T cells** acting against infected body cells (pathogens **inside** cells), cancer cells and transplanted tissue."
+    dp: [7.3.1]
+    tags: [compare]
+
+  - id: 11
+    q: "Describe the structure of an antibody."
+    a: "A **Y-shaped** protein (immunoglobulin) of **four polypeptide chains**: two heavy and two light, held by disulfide bonds. Each arm tip has a **variable region** forming an antigen-binding site specific to one antigen; the rest is the constant region."
+    dp: [7.3.1, 5.3.3]
+
+  - id: 12
+    q: "How do antibodies help eliminate pathogens?"
+    a: "**Neutralisation** (block a virus's or toxin's binding sites), **agglutination** (clump pathogens together), marking pathogens for **phagocytosis**, and activating **complement** proteins that burst bacterial cells."
+    dp: [7.3.1]
+
+  - id: 13
+    q: "What is clonal selection?"
+    a: "Only the lymphocytes whose receptors **match the antigen** are activated (selected); they multiply into a **clone** of identical cells specific to that antigen: effector cells (plasma cells, cytotoxic T cells) and memory cells."
+    dp: [7.3.1, 7.3.2]
+
+  - id: 14
+    q: "What do natural killer cells do?"
+    a: "Innate lymphocytes that kill **virus-infected and cancer cells**, especially cells that show too few MHC I markers, by triggering apoptosis."
+    dp: [7.3.1]
+
+  - id: 15
+    q: "What is the role of the lymphatic system in immunity?"
+    a: "Lymph vessels collect tissue fluid; **lymph nodes** filter it and are where lymphocytes meet antigens (which is why nodes swell during infection). It also includes the spleen, thymus, tonsils and bone marrow."
+    dp: [7.3.1]
+
+  - id: 16
+    q: "What are cytokines?"
+    a: "Chemical messengers (e.g. interleukins) released by immune cells, especially **helper T cells**, that activate and coordinate other immune cells and trigger fever and inflammation."
+    dp: [7.3.1, 7.3.2]
+
+  - id: 17
+    cloze: "Response to a first exposure: the pathogen breaches barriers → innate response ({{c1::inflammation}}, phagocytes) → {{c2::antigen-presenting cells}} show antigens to {{c3::helper T cells}} → these activate specific {{c4::B cells}} (→ plasma cells → antibodies) and {{c5::cytotoxic T cells}} → the pathogen is cleared → {{c6::memory cells}} remain."
+    dp: [7.3.2]
+
+  - id: 18
+    q: "Compare the primary and secondary immune responses."
+    a: "**Primary** (first exposure): a **lag** of days before antibodies appear; they peak after about 1–2 weeks at a **lower** level; the person is often sick. **Secondary** (re-exposure): **memory cells** respond within days, producing **far more** antibody, faster and for longer; usually no symptoms."
+    dp: [7.3.2]
+    tags: [compare, data]
+
+  - id: 19
+    q: "Why don't you usually get sick a second time from the same pathogen?"
+    a: "**Memory B and T cells** from the first infection recognise the antigen immediately and launch a fast, strong **secondary response** that destroys the pathogen before it can cause symptoms."
+    dp: [7.3.2]
+
+  - id: 20
+    q: "Why can you catch the flu or a cold many times?"
+    a: "Influenza viruses keep changing their **surface antigens** (mutation and reassortment), and colds are caused by **many different viruses**, so memory cells from earlier infections don't recognise the new antigens."
+    dp: [7.3.2, 7.1.4]
+
+  - id: 21
+    q: "During a primary infection, why do innate and acquired immunity act on different timescales?"
+    a: "**Innate** defences are always ready and act within **minutes to hours**. **Acquired** (adaptive) immunity must first select and multiply the few lymphocytes that match the antigen, so it takes **days** (peaking after about 1–2 weeks)."
+    dp: [7.3.2]
+    tags: [compare]

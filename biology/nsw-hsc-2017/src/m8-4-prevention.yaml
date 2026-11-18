@@ -1,0 +1,57 @@
+deck:
+  module: 8
+  iq: 4
+cards:
+  - id: 1
+    q: "Describe Australia's SunSmart 'Slip, Slop, Slap' campaign."
+    a: "Launched in **1981** by Cancer Council Victoria (with Sid the Seagull): **slip** on a shirt, **slop** on sunscreen, **slap** on a hat; later expanded to **seek** shade and **slide** on sunglasses. It was backed by school sun-protection policies and daily UV forecasts."
+    dp: [8.4.1a]
+    tags: [aus, history]
+
+  - id: 2
+    q: "Evaluate the effectiveness of the SunSmart campaign."
+    a: "Very high **awareness** and more sun-protective behaviour; melanoma rates in **younger Australians have fallen**. But rates in older people (exposed before the campaign) remain high, the long delay between exposure and cancer makes evaluation slow, and Australia still has very high rates."
+    review: "check against current data"
+    dp: [8.4.1a]
+    tags: [aus]
+
+  - id: 3
+    q: "Which strategies has Australia used to reduce smoking, and how effective have they been?"
+    a: "**Quit** campaigns and graphic TV ads, **graphic health warnings**, advertising bans, smoke-free public places, high **taxes** and world-first **plain packaging** (2012). Adult daily smoking has fallen to around one in ten or fewer, and lung cancer death rates in men have fallen."
+    review: "check current smoking rate"
+    dp: [8.4.1a, 8.3.4]
+    tags: [aus]
+
+  - id: 4
+    q: "What features make a disease-prevention campaign effective?"
+    a: "A **clear, simple message** aimed at a specific audience; **sustained** over many years; **backed by policy and law** (taxes, regulations, school programs); culturally appropriate and developed with communities; and **evaluated** with data."
+    dp: [8.4.1a]
+
+  - id: 5
+    q: "Develop a strategy to help prevent type 2 diabetes."
+    a: "Combine **education** (diet, exercise), **school** programs (healthy canteens, daily physical activity), **food policy** (Health Star Ratings, a tax on sugary drinks), **screening** of high-risk people, urban design that supports **active transport**, and **community-led**, culturally appropriate programs."
+    dp: [8.4.1a]
+
+  - id: 6
+    q: "How can genetic engineering help prevent non-infectious disease?"
+    a: "**Biofortified GM crops** (Golden Rice for vitamin A deficiency); **gene therapy and gene editing** to treat or cure genetic diseases; GM organisms that make **medicines** (insulin). Editing human embryos (germ-line editing) could prevent inherited disease but is banned in many countries."
+    dp: [8.4.1b]
+
+  - id: 7
+    q: "Evaluate gene therapy and gene editing as ways to prevent or treat genetic disease."
+    a: "They can treat the **cause**, not just symptoms (e.g. a CRISPR-based treatment for sickle-cell disease was approved in **2023**). But they are **very expensive**, carry risks (immune reactions, unintended edits), have unknown long-term effects, and **germ-line** editing raises serious ethical concerns."
+    review: "check approval details"
+    dp: [8.4.1b]
+    tags: [ethics]
+
+  - id: 8
+    q: "What is preimplantation genetic diagnosis (PGD), and how does it prevent genetic disease?"
+    a: "Embryos made by **IVF** are tested for a specific genetic disorder (e.g. cystic fibrosis), and only **unaffected embryos** are implanted."
+    tip: "PGD selects embryos; it doesn't change their genes, so it isn't genetic engineering."
+    dp: [8.4.1b]
+    tags: [ethics]
+
+  - id: 9
+    q: "How does Golden Rice aim to prevent a nutritional disease, and what are the limitations?"
+    a: "Its grain contains **β-carotene**, which the body converts to **vitamin A**, to prevent deficiency (night blindness, blindness, more deaths from infection) in rice-dependent populations. **Limitations**: public opposition and slow approval, and it doesn't fix the poverty and diet problems behind the deficiency."
+    dp: [8.4.1b, 6.3.4a]

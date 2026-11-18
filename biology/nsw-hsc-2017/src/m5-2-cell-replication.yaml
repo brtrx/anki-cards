@@ -1,0 +1,153 @@
+deck:
+  module: 5
+  iq: 2
+cards:
+  - id: 1
+    q: "What is the purpose of mitosis?"
+    a: "To produce **two genetically identical diploid** daughter cells, for **growth, repair** and replacement of cells, and **asexual reproduction**."
+    dp: [5.2.1a]
+
+  - id: 2
+    q: "What happens during interphase, before a cell divides?"
+    a: "The cell **grows**, makes new organelles and **replicates its DNA** (S phase), so each chromosome becomes two identical **sister chromatids** joined at the centromere."
+    dp: [5.2.1a]
+
+  - id: 3
+    cloze: "Mitosis: {{c1::prophase}} (chromosomes condense, nuclear envelope breaks down, spindle forms) → {{c2::metaphase}} (chromosomes line up at the equator) → {{c3::anaphase}} (sister chromatids pulled to opposite poles) → {{c4::telophase}} (nuclear envelopes re-form) → {{c5::cytokinesis}} (the cytoplasm divides)."
+    dp: [5.2.1a]
+
+  - id: 4
+    q: "What is the purpose of meiosis?"
+    a: "To produce **four genetically different haploid** cells (gametes in animals), halving the chromosome number so that fertilisation restores the diploid number, and to generate **variation**."
+    dp: [5.2.1a]
+
+  - id: 5
+    q: "Outline meiosis I."
+    a: "Homologous chromosomes **pair up** and **cross over** (prophase I); the pairs line up on the equator (metaphase I); **homologues separate** to opposite poles (anaphase I). The result: two **haploid** cells, each chromosome still made of two chromatids. It is the reduction division."
+    dp: [5.2.1a]
+
+  - id: 6
+    q: "Outline meiosis II."
+    a: "Like mitosis, in each of the two haploid cells: chromosomes line up, and **sister chromatids separate**. The result: **four haploid cells**."
+    dp: [5.2.1a]
+
+  - id: 7
+    q: "Compare mitosis and meiosis."
+    a: |-
+      | | Mitosis | Meiosis |
+      |---|---|---|
+      | Divisions | 1 | 2 |
+      | Daughter cells | 2, diploid | 4, haploid |
+      | Genetically | identical | different |
+      | Crossing over | no | yes (prophase I) |
+      | Purpose | growth, repair | gametes |
+    dp: [5.2.1a]
+    tags: [compare]
+
+  - id: 8
+    q: "What is crossing over, and when does it happen?"
+    a: "The exchange of segments between **non-sister chromatids** of a homologous pair, at points called chiasmata, during **prophase I** of meiosis. It produces chromatids with **new combinations of alleles**."
+    dp: [5.2.1a, 5.4.1]
+
+  - id: 9
+    q: "What is independent assortment?"
+    a: "In **metaphase I**, each homologous pair lines up **independently** of the others, so maternal and paternal chromosomes are shuffled randomly into gametes: 2ⁿ combinations (2²³, about 8.4 million, in humans)."
+    dp: [5.2.1a, 5.4.1]
+
+  - id: 10
+    q: "What are homologous chromosomes?"
+    a: "A pair of chromosomes, **one from each parent**, with the **same genes at the same loci** (same size and centromere position), though they may carry **different alleles**."
+    dp: [5.2.1a]
+
+  - id: 11
+    q: "Distinguish diploid and haploid."
+    a: "**Diploid (2n)**: two sets of chromosomes, e.g. 46 in human body cells. **Haploid (n)**: one set, e.g. 23 in human gametes."
+    dp: [5.2.1a]
+    tags: [compare]
+
+  - id: 12
+    q: "What is a nucleotide made of?"
+    a: "A **phosphate** group, a **deoxyribose** sugar (in DNA) and a **nitrogenous base**: adenine, thymine, guanine or cytosine."
+    dp: [5.2.1b]
+
+  - id: 13
+    q: "Describe Watson and Crick's model of DNA structure (1953)."
+    a: "Two **antiparallel** strands twisted into a **double helix**; **sugar–phosphate backbones** on the outside; bases on the inside, paired by **hydrogen bonds**: A with T, and G with C."
+    x: "They built it using Rosalind Franklin's and Maurice Wilkins's X-ray diffraction data and Chargaff's base ratios."
+    dp: [5.2.1b]
+    tags: [history]
+
+  - id: 14
+    q: "What bonds hold a DNA molecule together?"
+    a: "Strong **covalent (phosphodiester) bonds** link nucleotides along each strand. Weak **hydrogen bonds** between complementary bases hold the two strands together: **two** between A and T, **three** between G and C."
+    x: "Weak hydrogen bonds let the strands separate easily for replication and transcription."
+    dp: [5.2.1b]
+
+  - id: 15
+    q: "What are purines and pyrimidines, and why does a purine always pair with a pyrimidine?"
+    a: "**Purines** (double ring): adenine and guanine. **Pyrimidines** (single ring): cytosine and thymine (uracil in RNA). A purine–pyrimidine pair keeps the **width of the helix constant**."
+    dp: [5.2.1b]
+
+  - id: 16
+    q: "What are Chargaff's rules?"
+    a: "In double-stranded DNA, the amount of **A equals T** and **G equals C** (so purines = pyrimidines); the ratio of A+T to G+C varies between species."
+    dp: [5.2.1b]
+    tags: [history]
+
+  - id: 17
+    q: "30% of the bases in a sample of double-stranded DNA are adenine. What percentage are guanine?"
+    a: "**20%**: A = T = 30% (60% in total), so G + C = 40%, and G = C = 20%."
+    dp: [5.2.1b]
+    calc: {kind: chargaff, A: 30, ask: G, result: 20}
+
+  - id: 18
+    q: "Why is DNA replication described as semi-conservative?"
+    a: "Each new DNA molecule contains **one original (parental) strand** and **one newly made strand**."
+    x: "Shown by Meselson and Stahl (1958), who grew bacteria in heavy (¹⁵N) then light (¹⁴N) nitrogen and separated the DNA by density."
+    dp: [5.2.1b]
+    tags: [history]
+
+  - id: 19
+    cloze: "DNA replication: {{c1::helicase}} unwinds the double helix and breaks the hydrogen bonds; free nucleotides pair with complementary bases on each template strand; {{c2::DNA polymerase}} joins them, building new strands only in the {{c3::5'→3'}} direction; the lagging strand is made in short {{c4::Okazaki fragments}}, which {{c5::DNA ligase}} joins together."
+    dp: [5.2.1b]
+
+  - id: 20
+    q: "Why is one new strand made continuously and the other in fragments?"
+    a: "DNA polymerase can only add nucleotides to a **3' end** (it builds 5'→3'), and the strands are **antiparallel**. So the **leading strand** is made continuously towards the fork, while the **lagging strand** is made in short pieces (Okazaki fragments) away from it."
+    dp: [5.2.1b]
+
+  - id: 21
+    q: "What is the complementary strand of 5'-ATGCCGTA-3'?"
+    a: "**3'-TACGGCAT-5'**"
+    dp: [5.2.1b]
+    calc: {kind: complement, strand: "5'-ATGCCGTA-3'", result: "3'-TACGGCAT-5'"}
+
+  - id: 22
+    q: "How is DNA copied so accurately?"
+    a: "**Complementary base pairing**, **proofreading** by DNA polymerase (it removes mismatched bases) and **repair enzymes** that fix remaining errors, leaving roughly one error per billion bases copied."
+    dp: [5.2.1b, 5.2.2]
+
+  - id: 23
+    q: "Why must DNA be replicated exactly?"
+    a: "So every daughter cell gets a **complete, identical set of instructions** and makes the correct proteins. Errors (mutations) can produce faulty proteins, cause cancer, or be passed to offspring if they occur in gamete-forming cells."
+    dp: [5.2.2]
+
+  - id: 24
+    q: "Assess the effect of mitosis on the continuity of species."
+    a: "Mitosis keeps cells **genetically stable**, allowing growth, repair and **asexual reproduction** of identical offspring. It preserves successful genotypes quickly, but produces **no variation**, so asexual populations are vulnerable to change."
+    dp: [5.2.2]
+
+  - id: 25
+    q: "Assess the effect of meiosis and fertilisation on the continuity of species."
+    a: "They keep the **chromosome number constant** across generations (halved, then restored) while **crossing over, independent assortment and random fertilisation** create variation, so some individuals can survive environmental change: the species is more likely to continue."
+    dp: [5.2.2, 6.1.5]
+
+  - id: 26
+    q: "What is non-disjunction, and what can it cause?"
+    a: "Failure of homologous chromosomes or sister chromatids to **separate** during meiosis, giving gametes with an extra or missing chromosome (**aneuploidy**), e.g. **trisomy 21** (Down syndrome)."
+    dp: [5.2.2, 6.1.2b]
+
+  - id: 27
+    q: "Why are rare copying errors important for a species in the long term?"
+    a: "Mutations are the **only source of new alleles**. Very accurate replication protects individuals, while rare errors supply the **variation** natural selection needs, so the species can evolve and persist."
+    dp: [5.2.2, 6.1.5]

@@ -1,0 +1,195 @@
+deck:
+  module: 5
+  iq: 3
+cards:
+  - id: 1
+    q: "Compare the forms in which DNA exists in prokaryotes and eukaryotes."
+    a: |-
+      | | Prokaryotes | Eukaryotes |
+      |---|---|---|
+      | Where | nucleoid (cytoplasm) | nucleus; also mitochondria, chloroplasts |
+      | Shape | one circular chromosome + plasmids | several linear chromosomes |
+      | Packaging | not wound on histones | wound on histones (chromatin) |
+      | Introns | rare | common |
+    dp: [5.3.1]
+    tags: [compare]
+
+  - id: 2
+    q: "What are histones and nucleosomes?"
+    a: "**Histones** are positively charged proteins around which eukaryotic DNA wraps. A **nucleosome** is a short length of DNA wound around a core of eight histones. Nucleosomes pack DNA into chromatin and affect which genes can be accessed."
+    dp: [5.3.1]
+
+  - id: 3
+    q: "What are plasmids?"
+    a: "Small, **circular** DNA molecules in bacteria (and some yeasts), separate from the main chromosome and replicating independently. They often carry genes such as **antibiotic resistance**, and are used as **vectors** in genetic engineering."
+    dp: [5.3.1, 6.3.4]
+
+  - id: 4
+    q: "What is distinctive about mitochondrial DNA (mtDNA)?"
+    a: "It is a small **circular** molecule (no histones) coding some of the mitochondrion's own proteins, and it is inherited **only from the mother**, so it's used to trace maternal ancestry."
+    dp: [5.3.1, 5.5.2c]
+
+  - id: 5
+    q: "What are introns and exons?"
+    a: "**Exons**: sequences within a gene that are expressed (they code for the polypeptide). **Introns**: non-coding sequences within a gene that are cut out of the pre-mRNA by **splicing**. Introns are common in eukaryotes but rare in prokaryotes."
+    dp: [5.3.1, 5.3.2a]
+
+  - id: 6
+    q: "What is a gene?"
+    a: "A section of DNA at a particular **locus** on a chromosome that codes for a specific **polypeptide** (or a functional RNA)."
+    dp: [5.3.1]
+
+  - id: 7
+    q: "What is polypeptide synthesis, and what are its two stages?"
+    a: "Making a polypeptide from the code in DNA: **transcription** (DNA → mRNA, in the nucleus) and **translation** (mRNA → polypeptide, at ribosomes in the cytoplasm)."
+    dp: [5.3.2a]
+
+  - id: 8
+    cloze: "Transcription: {{c1::RNA polymerase}} binds to the {{c2::promoter}} and unwinds the DNA; it builds a complementary {{c3::mRNA}} strand using one DNA strand as the {{c4::template}} (with U pairing with A). In eukaryotes the pre-mRNA is processed: {{c5::introns}} are removed by splicing and a cap and tail are added, and the mRNA leaves through a nuclear pore."
+    dp: [5.3.2a]
+
+  - id: 9
+    q: "A DNA template strand reads 3'-TACGGATTC-5'. What is the mRNA transcribed from it?"
+    a: "**5'-AUGCCUAAG-3'** (each base is complementary; U replaces T)."
+    dp: [5.3.2a]
+    calc: {kind: transcribe, template: "3'-TACGGATTC-5'", result: "5'-AUGCCUAAG-3'"}
+
+  - id: 10
+    q: "How does the mRNA sequence relate to the template and coding strands of DNA?"
+    a: "mRNA is **complementary to the template** strand, so it has the **same sequence as the coding** strand, except that it has U instead of T."
+    dp: [5.3.2a]
+
+  - id: 11
+    cloze: "Translation: the mRNA binds to a {{c1::ribosome}}; translation begins at the start codon {{c2::AUG}} (methionine); each {{c3::tRNA}} carries a specific amino acid and has an {{c4::anticodon}} that pairs with a codon on the mRNA; the ribosome joins adjacent amino acids with {{c5::peptide bonds}} and moves along one codon at a time until it reaches a {{c6::stop codon}}."
+    dp: [5.3.2a]
+
+  - id: 12
+    q: "What is a codon?"
+    a: "A sequence of **three mRNA bases** (a triplet) that codes for one **amino acid** or a stop signal."
+    dp: [5.3.2a]
+
+  - id: 13
+    q: "What are the three stop codons?"
+    a: "**UAA, UAG and UGA**: they code for no amino acid, so translation ends."
+    dp: [5.3.2a]
+
+  - id: 14
+    q: "Use a codon table to translate the mRNA 5'-AUGUUUGGCAAAUGA-3'."
+    a: "**Met-Phe-Gly-Lys**, then stop (UGA)."
+    dp: [5.3.2a]
+    calc: {kind: translate, mrna: "5'-AUGUUUGGCAAAUGA-3'", result: "Met-Phe-Gly-Lys"}
+
+  - id: 15
+    q: "What are the key properties of the genetic code?"
+    a: "**Triplet** (three bases per codon); **universal** (the same in almost all organisms); **degenerate** (64 codons for 20 amino acids, so most amino acids have several codons); **non-overlapping**; with **start and stop** codons."
+    dp: [5.3.2a]
+
+  - id: 16
+    q: "Why does the degeneracy (redundancy) of the genetic code matter?"
+    a: "Many base substitutions, especially in the **third base** of a codon, still code for the **same amino acid**, so they are **silent**: the code buffers the effect of mutations."
+    dp: [5.3.2a, 6.1.2a]
+
+  - id: 17
+    q: "Define translation (syllabus glossary)."
+    glossary: translation
+    a: "The process by which a sequence of nucleotide triplets in a messenger RNA molecule gives rise to a specific sequence of amino acids during synthesis of a polypeptide or protein."
+    dp: [5.3.2a]
+
+  - id: 18
+    q: "Assess the importance of mRNA in polypeptide synthesis."
+    a: "mRNA carries a **copy of a gene's code** from the DNA, which stays protected in the nucleus, to the ribosomes. Many copies can be made from one gene (**amplifying** production), and because mRNA is short-lived, protein production can be switched on and off."
+    dp: [5.3.2b]
+
+  - id: 19
+    q: "Assess the importance of tRNA in polypeptide synthesis."
+    a: "tRNA is the **adaptor** that translates nucleic-acid code into an amino-acid sequence: each carries a **specific amino acid**, and its **anticodon** pairs with the matching mRNA codon, so amino acids are joined in the **correct order**."
+    dp: [5.3.2b]
+
+  - id: 20
+    q: "Compare DNA and RNA."
+    a: |-
+      | | DNA | RNA |
+      |---|---|---|
+      | Sugar | deoxyribose | ribose |
+      | Bases | A, T, G, C | A, **U**, G, C |
+      | Strands | double | single |
+      | Role | stores genetic information | expresses it (mRNA, tRNA, rRNA) |
+    dp: [5.3.2b]
+    tags: [compare]
+
+  - id: 21
+    q: "What is rRNA?"
+    a: "**Ribosomal RNA**: together with proteins it makes up ribosomes, and it catalyses the formation of **peptide bonds**."
+    dp: [5.3.2b]
+
+  - id: 22
+    q: "Why is polypeptide synthesis important?"
+    a: "Proteins do almost every job in the cell: **enzymes**, structural proteins, hormones, transport, antibodies, receptors. Polypeptide synthesis is how a **genotype produces a phenotype**, and making different proteins in different cells allows specialisation."
+    dp: [5.3.2c]
+
+  - id: 23
+    q: "How does a polypeptide become a functional protein?"
+    a: "It **folds** into a specific 3D shape determined by its amino-acid sequence, may combine with other polypeptides, and may be modified (e.g. sugars added in the Golgi)."
+    dp: [5.3.2c, 5.3.3]
+
+  - id: 24
+    q: "What is gene expression, and how is it regulated?"
+    a: "The process by which a gene's information is used to make its product. It is regulated mainly at **transcription**: proteins (transcription factors) bind near the promoter to switch genes on or off; DNA packing and **methylation** also block or allow access."
+    dp: [5.3.2c, 5.3.2d]
+
+  - id: 25
+    q: "Distinguish genotype and phenotype."
+    a: "**Genotype**: the alleles an organism has. **Phenotype**: its observable characteristics, the result of the genotype **interacting with the environment**."
+    dp: [5.3.2d]
+    tags: [compare]
+
+  - id: 26
+    q: "Why do Himalayan rabbits have dark ears, nose, feet and tail?"
+    a: "They carry an allele for a **temperature-sensitive** form of the enzyme that makes the dark pigment (melanin). The enzyme works only in the **cooler extremities**; it is inactive at core body temperature, so the rest of the fur is white."
+    x: "If a patch of white fur is shaved and kept cold, it grows back dark. Siamese cats show the same pattern."
+    dp: [5.3.2d]
+
+  - id: 27
+    q: "Give examples of the environment affecting how genes are expressed in the phenotype."
+    a: "**Temperature**: fur colour of Himalayan rabbits; sex of many reptiles (incubation temperature). **Soil pH**: hydrangea flower colour. **Nutrition**: human height. **Diet**: people with PKU stay healthy on a low-phenylalanine diet."
+    dp: [5.3.2d]
+
+  - id: 28
+    q: "What is epigenetics?"
+    a: "Changes in **gene expression** that don't change the DNA sequence, e.g. **DNA methylation** and changes to histones, which can be influenced by the environment (diet, stress, toxins) and sometimes inherited."
+    dp: [5.3.2d]
+
+  - id: 29
+    q: "How do studies of identical twins show the effect of environment on phenotype?"
+    a: "Identical twins have the **same genotype**, so differences between them (in height, weight, or developing type 2 diabetes) must come from **environment** (including epigenetic changes). Comparing identical and non-identical twins estimates how much a trait depends on genes."
+    dp: [5.3.2d]
+
+  - id: 30
+    q: "What are proteins made of?"
+    a: "One or more **polypeptide** chains of **amino acids** joined by **peptide bonds**. There are 20 amino acids, each with an amino group, a carboxyl group and a variable **R group**."
+    dp: [5.3.3]
+
+  - id: 31
+    q: "Describe the four levels of protein structure."
+    a: |-
+      1. **Primary**: the sequence of amino acids.
+      2. **Secondary**: local folding into α-helices and β-pleated sheets (hydrogen bonds).
+      3. **Tertiary**: the overall 3D shape (bonds between R groups).
+      4. **Quaternary**: two or more polypeptides combined (e.g. haemoglobin has four).
+    dp: [5.3.3]
+
+  - id: 32
+    q: "Why is the shape of a protein so important?"
+    a: "Its **function depends on its precise 3D shape** (an enzyme's active site, an antibody's binding site, a receptor). The shape is determined by the amino-acid sequence, so a mutation or denaturation can destroy the function."
+    dp: [5.3.3, 6.1.2a]
+
+  - id: 33
+    q: "Give examples of the functions of proteins."
+    a: "**Enzymes** (amylase, DNA polymerase), **structural** (collagen, keratin), **transport** (haemoglobin, membrane channels), **hormones** (insulin), **defence** (antibodies), **movement** (actin and myosin in muscle), **receptors**."
+    dp: [5.3.3]
+
+  - id: 34
+    q: "Distinguish fibrous and globular proteins."
+    a: "**Fibrous**: long, insoluble, structural (collagen, keratin). **Globular**: compact, soluble, functional (enzymes, haemoglobin, antibodies)."
+    dp: [5.3.3]
+    tags: [compare]

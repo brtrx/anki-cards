@@ -1,0 +1,268 @@
+deck:
+  skills: kw
+cards:
+  - id: 1
+    q: "NESA key word: **Account for**"
+    keyword: "Account for"
+    a: "state reasons for, report on."
+
+  - id: 2
+    q: "NESA key word: **Give an account of**"
+    keyword: "Give an account of"
+    a: "narrate a series of events or transactions."
+
+  - id: 3
+    q: "NESA key word: **Analyse**"
+    keyword: "Analyse"
+    a: |-
+      - Identify components and the relationship between them.
+      - Draw out and relate implications.
+
+  - id: 4
+    q: "NESA key word: **Apply**"
+    keyword: "Apply"
+    a: "Use in a different, new or unfamiliar situation"
+
+  - id: 5
+    q: "NESA key word: **Appreciate**"
+    keyword: "Appreciate"
+    a: "Make a judgement about the value of."
+
+  - id: 6
+    q: "NESA key word: **Assess**"
+    keyword: "Assess"
+    a: "Make a judgement of value, quality, outcomes, results or size."
+
+  - id: 7
+    q: "NESA key word: **Calculate**"
+    keyword: "Calculate"
+    a: "Ascertain/determine from given facts, figures or information."
+
+  - id: 8
+    q: "NESA key word: **Clarify**"
+    keyword: "Clarify"
+    a: "Make clear or plain."
+
+  - id: 9
+    q: "NESA key word: **Classify**"
+    keyword: "Classify"
+    a: "Arrange or include in classes/categories."
+
+  - id: 10
+    q: "NESA key word: **Compare**"
+    keyword: "Compare"
+    a: "Show how things are similar or different."
+
+  - id: 11
+    q: "NESA key word: **Construct**"
+    keyword: "Construct"
+    a: |-
+      - Make.
+      - Build.
+      - Put together items or arguments.
+
+  - id: 12
+    q: "NESA key word: **Contrast**"
+    keyword: "Contrast"
+    a: "Show how things are different or opposite."
+
+  - id: 13
+    q: "NESA key word: **Critically analyse**"
+    keyword: "Critically analyse"
+    a: "use interpretation and reasoning to assess a range of evidence and make judgements based on detailed analysis."
+
+  - id: 14
+    q: "NESA key word: **Critically evaluate**"
+    keyword: "Critically evaluate"
+    a: "add a degree or level of accuracy, knowledge and understanding, logic, questioning, reflection and quality to evaluate."
+
+  - id: 15
+    q: "NESA key word: **Deduce**"
+    keyword: "Deduce"
+    a: "Draw conclusions."
+
+  - id: 16
+    q: "NESA key word: **Define**"
+    keyword: "Define"
+    a: "State meaning and identify essential qualities."
+
+  - id: 17
+    q: "NESA key word: **Demonstrate**"
+    keyword: "Demonstrate"
+    a: "Show by example."
+
+  - id: 18
+    q: "NESA key word: **Describe**"
+    keyword: "Describe"
+    a: "Provide characteristics and features."
+
+  - id: 19
+    q: "NESA key word: **Discuss**"
+    keyword: "Discuss"
+    a: "Identify issues and provide points for and/or against."
+
+  - id: 20
+    q: "NESA key word: **Distinguish**"
+    keyword: "Distinguish"
+    a: |-
+      - Recognise or note/indicate as being distinct or different from.
+      - To note differences between.
+
+  - id: 21
+    q: "NESA key word: **Evaluate**"
+    keyword: "Evaluate"
+    a: |-
+      - Make a judgement based on criteria.
+      - Determine the value of.
+
+  - id: 22
+    q: "NESA key word: **Examine**"
+    keyword: "Examine"
+    a: "Inquire into."
+
+  - id: 23
+    q: "NESA key word: **Explain**"
+    keyword: "Explain"
+    a: |-
+      - Relate cause and effect.
+      - Make the relationships between things evident.
+      - Provide why and/or how.
+
+  - id: 24
+    q: "NESA key word: **Extract**"
+    keyword: "Extract"
+    a: "Choose relevant and/or appropriate details."
+
+  - id: 25
+    q: "NESA key word: **Extrapolate**"
+    keyword: "Extrapolate"
+    a: "Infer from what is known."
+
+  - id: 26
+    q: "NESA key word: **Identify**"
+    keyword: "Identify"
+    a: "Recognise and name."
+
+  - id: 27
+    q: "NESA key word: **Interpret**"
+    keyword: "Interpret"
+    a: "Draw meaning from."
+
+  - id: 28
+    q: "NESA key word: **Investigate**"
+    keyword: "Investigate"
+    a: "Plan, inquire into and draw conclusions about."
+
+  - id: 29
+    q: "NESA key word: **Justify**"
+    keyword: "Justify"
+    a: "Support an argument or conclusion."
+
+  - id: 30
+    q: "NESA key word: **Outline**"
+    keyword: "Outline"
+    a: "Sketch in general terms; indicate the main features of."
+
+  - id: 31
+    q: "NESA key word: **Predict**"
+    keyword: "Predict"
+    a: "Suggest what may happen based on available information."
+
+  - id: 32
+    q: "NESA key word: **Propose**"
+    keyword: "Propose"
+    a: "Put forward (for example a point of view, idea, argument, suggestion) for consideration or action."
+
+  - id: 33
+    q: "NESA key word: **Recall**"
+    keyword: "Recall"
+    a: "Present remembered ideas, facts or experiences."
+
+  - id: 34
+    q: "NESA key word: **Recommend**"
+    keyword: "Recommend"
+    a: "Provide reasons in favour."
+
+  - id: 35
+    q: "NESA key word: **Recount**"
+    keyword: "Recount"
+    a: "Retell a series of events."
+
+  - id: 36
+    q: "NESA key word: **Summarise**"
+    keyword: "Summarise"
+    a: "Express, concisely, the relevant details."
+
+  - id: 37
+    q: "NESA key word: **Synthesise**"
+    keyword: "Synthesise"
+    a: "Putting together various elements to make a whole."
+
+  # ---- applying the key words in Biology answers ----
+  - id: 38
+    q: "How does an answer to 'explain' differ from an answer to 'describe'?"
+    a: "**Describe** gives characteristics and features: *what* happens. **Explain** relates **cause and effect**: *how* and *why* it happens, linking each step (e.g. 'because…', 'this causes…', 'therefore…')."
+    x: "Describe: 'Stomata close in hot, dry conditions.' Explain: 'Guard cells lose water and become flaccid, which closes the stomata, so less water vapour diffuses out and the plant conserves water.'"
+    dp: [KW.Explain, KW.Describe]
+
+  - id: 39
+    q: "What must an answer to 'evaluate' include?"
+    a: "**Criteria** for judging; the **strengths and limitations** (or benefits and costs) measured against them, with evidence; and a clear **final judgement** (e.g. 'highly effective because…')."
+    tip: "No judgement means no access to the top marks, however much detail you give."
+    dp: [KW.Evaluate]
+
+  - id: 40
+    q: "How do 'assess' and 'evaluate' differ in practice?"
+    a: "Both require a **judgement**. **Assess**: judge the value, quality, outcomes, results or **size** (how much, how significant). **Evaluate**: judge **against criteria** to determine the value. In both, state the judgement clearly and support it with evidence."
+    dp: [KW.Assess, KW.Evaluate]
+    tags: [compare]
+
+  - id: 41
+    q: "Distinguish 'compare', 'contrast' and 'distinguish' in exam questions."
+    a: "**Compare**: show **similarities and differences**. **Contrast**: show **differences** (or opposites) only. **Distinguish**: note what makes one thing **different** from the other."
+    tip: "For 'compare', write linked statements ('both…, whereas…') rather than two separate descriptions; a table often works well."
+    dp: [KW.Compare, KW.Contrast, KW.Distinguish]
+    tags: [compare]
+
+  - id: 42
+    q: "What does a 'discuss' question require?"
+    a: "**Identify the issues** and give **points for and/or against** (e.g. benefits and drawbacks of a biotechnology), supported with examples. A final judgement isn't strictly required, but a short conclusion helps."
+    dp: [KW.Discuss]
+
+  - id: 43
+    q: "What does a 'justify' question require?"
+    a: "**Support** an argument or conclusion with **evidence and reasons**: say what your position is and why the evidence supports it."
+    x: "Example: 'Justify the classification of prions as pathogens' → they cause transmissible disease, as shown by…"
+    dp: [KW.Justify]
+
+  - id: 44
+    q: "What does an 'analyse' question require in Biology?"
+    a: "Break the topic into its **components**, show **how they relate** (cause and effect, interactions), and **draw out the implications**: what follows from those relationships."
+    dp: [KW.Analyse]
+
+  - id: 45
+    q: "How much detail does 'outline' or 'identify' need compared with 'explain'?"
+    a: "**Identify**: recognise and name, often a word or a phrase. **Outline**: the main features in general terms, a sentence or two. **Explain**: the full cause-and-effect reasoning. Use the **marks** as a guide to depth."
+    dp: [KW.Outline, KW.Identify]
+
+  - id: 46
+    q: "What does a 'predict' question require?"
+    a: "**Suggest what is likely to happen** based on the information given, and (for more than one mark) **give the reason**, using the data or biology involved."
+    dp: [KW.Predict]
+
+  - id: 47
+    q: "How should you answer a 'to what extent' question?"
+    a: "Give a **judgement of degree** (e.g. 'largely', 'only partly', 'to a limited extent'), then support it with evidence **for and against**, and return to the judgement at the end."
+    x: "'To what extent' is not on NESA's list of key words, but NESA notes that self-explanatory terms like it are used in exam questions; it calls for an assessment of size or degree."
+    dp: [KW.Assess]
+
+  - id: 48
+    q: "What does 'account for' require, compared with 'give an account of'?"
+    a: "**Account for**: give the **reasons** something happens or is the case. **Give an account of**: **narrate** a series of events (a sequence, in order)."
+    dp: ["KW.Account for", "KW.Give an account of"]
+    tags: [compare]
+
+  - id: 49
+    q: "What does 'calculate' require in a Biology exam?"
+    a: "Work out a value from the given information, **showing working**, with the **correct unit** and a sensible number of significant figures."
+    dp: [KW.Calculate]

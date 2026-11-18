@@ -1,0 +1,267 @@
+deck:
+  module: 7
+  iq: 4
+cards:
+  - id: 1
+    q: "What interrelated factors affect the local, regional and global spread of malaria?"
+    a: "**Biological**: the *Anopheles* vector; drug-resistant *Plasmodium*; insecticide-resistant mosquitoes. **Environmental**: temperature, rainfall, standing water. **Social and economic**: poverty, housing, access to health care and bed nets, education. **Political**: funding, conflict, cross-border movement and travel."
+    dp: [7.4.1]
+
+  - id: 2
+    q: "Which strategies limit the spread of malaria?"
+    a: "**Vector control** (insecticide-treated bed nets, indoor spraying, draining standing water, larvicides); rapid **diagnosis and treatment** with artemisinin-based combination therapy; preventive drugs for travellers and pregnant women; **vaccines** for children (WHO-recommended since 2021); surveillance and education."
+    review: "check vaccine details"
+    dp: [7.4.1, 7.4.2e]
+
+  - id: 3
+    q: "Why is malaria so hard to control?"
+    a: "A complex life cycle with **two hosts**; the parasite hides in liver and red blood cells; it rapidly evolves **drug resistance** while mosquitoes evolve **insecticide resistance**; antigen variation makes vaccines difficult; and it is concentrated in poorer regions."
+    dp: [7.4.1]
+
+  - id: 4
+    q: "How do hygiene practices prevent the spread of disease?"
+    a: "**Handwashing** with soap; safe **food handling** (thorough cooking, refrigeration, avoiding cross-contamination); **sterilising and disinfecting**; clean drinking water and **sewage treatment**; covering coughs. They break direct and indirect transmission routes."
+    dp: [7.4.2a]
+
+  - id: 5
+    q: "Distinguish quarantine and isolation."
+    a: "**Quarantine**: restricting the movement of people, animals, plants or goods that **may have been exposed**, for at least the incubation period. **Isolation**: separating people (or animals) who are **known to be infected**."
+    dp: [7.4.2b]
+    tags: [compare]
+
+  - id: 6
+    q: "How does Australia use biosecurity and quarantine to keep out diseases?"
+    a: "**Inspections** at airports, mail centres and ports; **detector dogs**; banning or treating risky imports; quarantine of imported animals and plants in secure facilities; and surveillance of northern Australia for exotic pests and diseases."
+    dp: [7.4.2b]
+    tags: [aus]
+
+  - id: 7
+    q: "How does a vaccine work?"
+    a: "It contains **antigens** (a weakened or inactivated pathogen, a part of one, an inactivated toxin, or mRNA instructions for making an antigen) that trigger a **primary response without causing the disease**, producing **memory cells**; on real exposure, a rapid secondary response prevents illness."
+    dp: [7.4.2c]
+
+  - id: 8
+    q: "Name the main types of vaccine, with an example of each."
+    a: "**Live attenuated** (MMR), **inactivated** (flu shot), **subunit/recombinant** protein (hepatitis B, HPV), **toxoid** (tetanus), **mRNA** (some COVID-19 vaccines), **viral vector** (some COVID-19 vaccines)."
+    dp: [7.4.2c]
+
+  - id: 9
+    q: "Give an example of each kind of immunity: active natural, active artificial, passive natural and passive artificial."
+    a: |-
+      | | Natural | Artificial |
+      |---|---|---|
+      | **Active** (own antibodies, memory) | recovering from an infection | vaccination |
+      | **Passive** (antibodies received) | across the placenta; in breast milk | injected antibodies (antivenom) |
+    dp: [7.4.2c]
+    tags: [compare]
+
+  - id: 10
+    q: "Compare active and passive immunity."
+    a: "**Active**: your body makes its **own antibodies and memory cells**; takes time to develop but **lasts long**. **Passive**: you receive **ready-made antibodies**; protection is **immediate** but short-lived (weeks to months), with **no memory**."
+    dp: [7.4.2c]
+    tags: [compare]
+
+  - id: 11
+    q: "When is passive artificial immunity used?"
+    a: "When **immediate protection** is needed: **antivenom** after snakebite, tetanus or rabies immunoglobulin after exposure, and antibody injections that protect babies from RSV."
+    dp: [7.4.2c]
+    tags: [aus]
+
+  - id: 12
+    q: "What is herd immunity?"
+    a: "When a high enough proportion of a population is immune, chains of transmission are broken, which **protects people who can't be vaccinated** (newborns, people with weakened immune systems). The more infectious the disease, the higher the proportion needed (about 95% for measles)."
+    dp: [7.4.2c, 7.4.5a]
+
+  - id: 13
+    q: "How do public health campaigns reduce the spread of infectious disease? Give an example."
+    a: "They educate people and **change behaviour**: e.g. Australia's 1987 '**Grim Reaper**' HIV/AIDS campaign promoted safe sex and testing; hand-hygiene, cough-etiquette and vaccination campaigns."
+    dp: [7.4.2d]
+    tags: [aus, history]
+
+  - id: 14
+    q: "How can the effectiveness of a public health campaign be evaluated?"
+    a: "Compare **disease incidence**, vaccination rates and behaviour surveys **before and after** the campaign, ideally against a comparison region. Other changes happening at the same time make it hard to prove the campaign caused the improvement."
+    dp: [7.4.2d, WS.5.3]
+
+  - id: 15
+    q: "How are pesticides used to control the spread of disease, and what are their limitations?"
+    a: "**Insecticides** kill vectors (indoor spraying, treated bed nets, larvicides for mosquitoes); **fungicides** protect crops; acaricides kill ticks on cattle. **Limitations**: pests evolve **resistance**; harm to non-target species; some persist and build up in food chains."
+    dp: [7.4.2e]
+
+  - id: 16
+    q: "What did the use of DDT against malaria show?"
+    a: "DDT greatly reduced malaria in many countries in the 1950s–60s, but mosquitoes **evolved resistance** and DDT **accumulated in food chains** (harming predatory birds). It was banned for farm use; it's still allowed in limited indoor spraying against malaria."
+    dp: [7.4.2e, 7.4.6]
+    tags: [history]
+
+  - id: 17
+    q: "How can genetic engineering help prevent the spread of disease?"
+    a: "**Disease-resistant GM crops** (e.g. virus-resistant papaya in Hawaii); **GM mosquitoes** whose offspring die, to shrink vector populations; **recombinant vaccines** (hepatitis B vaccine made in yeast); gene drives are in development."
+    dp: [7.4.2f]
+
+  - id: 18
+    q: "How is the *Wolbachia* method used against dengue in Australia?"
+    a: "*Aedes aegypti* mosquitoes carrying the bacterium *Wolbachia* are much less able to transmit dengue. After releases in Cairns and Townsville, local dengue outbreaks almost disappeared."
+    tip: "This is not genetic engineering: *Wolbachia* is a natural bacterium transferred into the mosquitoes."
+    dp: [7.4.6, 7.4.5b]
+    tags: [aus]
+
+  - id: 19
+    q: "How do antibiotics work?"
+    a: "They kill or inhibit bacteria by targeting structures and processes that **differ from human cells**: cell-wall synthesis (penicillin), **70S ribosomes** (tetracycline, streptomycin), DNA replication, the cell membrane."
+    dp: [7.4.3b]
+
+  - id: 20
+    q: "Why are antibiotics useless against viruses?"
+    a: "Viruses have **no cell wall, ribosomes or metabolism** of their own (they use the host cell's), so there's nothing for an antibiotic to target."
+    dp: [7.4.3b, 7.4.3a]
+
+  - id: 21
+    q: "Assess the effectiveness of antibiotics as a treatment for infectious disease."
+    a: "Highly effective against many bacterial infections and have saved millions of lives. But **resistance** is rising because of overuse and misuse (for viral infections, unfinished courses, use in livestock); some bacteria now resist almost every antibiotic, and few new ones are being developed."
+    dp: [7.4.3b, 3.4.2b]
+
+  - id: 22
+    q: "How can the development of antibiotic resistance be slowed?"
+    a: "Prescribe antibiotics **only when needed** (never for viral infections); take them **exactly as prescribed**; use narrow-spectrum drugs where possible; reduce use in agriculture; improve infection control in hospitals; develop new antibiotics and alternatives."
+    dp: [7.4.3b]
+
+  - id: 23
+    q: "How do antiviral drugs work? Give examples."
+    a: "They block a stage of the **viral life cycle**: entry, copying of the genome (e.g. aciclovir against herpes), or release (oseltamivir/Tamiflu blocks neuraminidase, so new flu viruses can't leave the cell). HIV drugs block reverse transcriptase or protease."
+    dp: [7.4.3a]
+
+  - id: 24
+    q: "Assess the effectiveness of antiviral drugs."
+    a: "They usually **reduce severity and duration** rather than cure, and work best when taken **early**; each is specific to a few viruses; fast-mutating viruses become **resistant**. Combination therapy, however, has made HIV a manageable long-term condition."
+    dp: [7.4.3a]
+
+  - id: 25
+    q: "Why are antiviral drugs harder to develop than antibiotics?"
+    a: "Viruses reproduce **inside host cells using the host's machinery**, so drugs that stop the virus may also harm the host's cells; there are few virus-specific targets, and viruses mutate rapidly."
+    dp: [7.4.3a]
+
+  - id: 26
+    q: "What environmental management methods help control epidemics?"
+    a: "Clean **water supplies and sewage** treatment (cholera, typhoid); removing or treating **standing water** (mosquito vectors); rubbish and **rodent control** (plague); better housing and ventilation; culling infected animals that act as reservoirs (e.g. poultry with avian influenza)."
+    dp: [7.4.4]
+
+  - id: 27
+    q: "Evaluate quarantine as a way of controlling the COVID-19 pandemic in Australia."
+    a: "**Border closures and hotel quarantine** (2020–21) kept case numbers and deaths very low until vaccines were available. **But**: large economic costs, isolation and mental-health effects, separated families, and outbreaks from quarantine breaches. Most effective early and combined with testing, tracing and vaccination."
+    dp: [7.4.4]
+    tags: [aus]
+
+  - id: 28
+    q: "How did Australia respond to the 1918–19 influenza pandemic?"
+    a: "**Maritime quarantine** delayed the arrival of the deadly strain until early 1919; then states closed borders, masks were required in some places, and schools, churches and theatres were closed. Australia's death rate was lower than in many countries."
+    dp: [7.4.4, 7.4.6]
+    tags: [aus, history]
+
+  - id: 29
+    q: "Distinguish incidence and prevalence."
+    a: "**Incidence**: the number of **new** cases in a population over a set period (e.g. per 100 000 per year): measures risk and spread. **Prevalence**: the **total number of existing** cases at a point in time: measures the burden of disease."
+    dp: [7.4.5, 8.3.1a]
+    tags: [compare]
+
+  - id: 30
+    q: "A town of 40 000 people recorded 120 new cases of dengue in a year. What is the incidence per 100 000 people per year?"
+    a: "**300 per 100 000 per year** (120 ÷ 40 000 × 100 000)."
+    dp: [7.4.5b]
+    calc: {kind: rate, cases: 120, population: 40000, per: 100000, result: 300}
+
+  - id: 31
+    q: "How do the mobility of individuals and the proportion who are immune affect disease incidence?"
+    a: "**More mobility** (travel, migration) carries pathogens to new places and raises incidence. A **larger proportion immune or immunised** lowers incidence, because there are fewer susceptible hosts (herd immunity)."
+    dp: [7.4.5a]
+    tags: [data]
+
+  - id: 32
+    q: "How can the prevalence of a disease rise while its incidence falls?"
+    a: "If people **live longer with the disease** (treatment without cure, e.g. HIV with antiretroviral drugs), existing cases accumulate even as fewer new cases occur."
+    dp: [7.4.5]
+    tags: [data]
+
+  - id: 33
+    q: "What trends have been seen in malaria in South-East Asia?"
+    a: "Malaria cases in the Greater Mekong region **fell sharply** after about 2000 (bed nets, artemisinin combination therapy, surveillance), but **artemisinin-resistant** *Plasmodium falciparum* emerged there, and remaining cases are concentrated among mobile workers in forest and border areas."
+    review: "check current trend data"
+    dp: [7.4.5b, 7.4.1]
+    tags: [data]
+
+  - id: 34
+    q: "Why has dengue fever increased in South-East Asia?"
+    a: "**Urbanisation** and water-storage containers provide breeding sites for *Aedes aegypti*; **travel** spreads the virus; a **warming climate** extends the mosquito's range. Cases peak in the wet season, and there's no specific antiviral treatment."
+    review: "check against a current source"
+    dp: [7.4.5b]
+    tags: [data]
+
+  - id: 35
+    q: "Give examples of historical strategies to control the spread of disease."
+    a: "**Quarantine of ships** (from *quaranta giorni*, 40 days, in 14th-century Venice); **isolation** of the sick; **variolation** and then **Jenner's smallpox vaccine** (1796); **John Snow** removing the Broad Street pump handle (1854); sanitation reforms."
+    dp: [7.4.6]
+    tags: [history]
+
+  - id: 36
+    q: "What made it possible to eradicate smallpox (declared in 1980)?"
+    a: "Only **humans** carried the virus (no animal reservoir); a stable vaccine gave **long-lasting immunity**; the distinctive rash made cases easy to identify; and WHO used surveillance and **ring vaccination** (vaccinating everyone around each case)."
+    dp: [7.4.6]
+    tags: [history]
+
+  - id: 37
+    q: "Give examples of culturally diverse strategies for preventing and treating disease."
+    a: "Aboriginal **smoking ceremonies**, using smoke from plants such as emu bush (*Eremophila*), which research suggests has antimicrobial properties; Aboriginal use of **tea tree** leaves for wounds and infections; **variolation** practised in China, India and Africa before Jenner's vaccine."
+    review: "check examples with appropriate cultural sources"
+    dp: [7.4.6, 7.4.7a]
+    tags: [indigenous, history]
+
+  - id: 38
+    q: "What current strategies are used to predict and control the spread of disease?"
+    a: "Global **surveillance** networks (WHO); **genome sequencing** of pathogens to track variants; **mathematical models** of spread; **wastewater testing**; rapid vaccine development (mRNA); forecasting vector-borne disease from climate data."
+    dp: [7.4.6]
+
+  - id: 39
+    q: "Evaluate the use of mathematical models to predict and control the spread of disease."
+    a: "Models estimate how fast a disease will spread and how much interventions would help, guiding policy (e.g. COVID-19 restrictions and vaccination targets). But they rely on **assumptions** and early, uncertain data, and predictions change as people's behaviour changes."
+    dp: [7.4.6, WS.6.1]
+
+  - id: 40
+    q: "Define Indigenous cultural and intellectual property (syllabus glossary)."
+    glossary: Indigenous cultural and intellectual property
+    a: "Includes objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory."
+    dp: [7.4.7]
+    tags: [indigenous]
+
+  - id: 41
+    q: "Why is the recognition and protection of Indigenous cultural and intellectual property important when developing medicines?"
+    a: "Aboriginal and Torres Strait Islander peoples hold knowledge of medicinal plants developed over **tens of thousands of years**. Using it without **consent**, acknowledgement and fair **benefit-sharing** is exploitation (biopiracy); protecting it respects cultural rights and lets communities benefit."
+    dp: [7.4.7]
+    tags: [indigenous]
+
+  - id: 42
+    q: "What is the smoke bush case from Western Australia?"
+    a: "Aboriginal people used **smoke bush** (*Conospermum*) as medicine. A compound from it (conocurvone) was active against **HIV** in the lab; in the 1990s the WA government licensed the rights to a company with no agreement with Aboriginal knowledge holders: a cited example of possible **biopiracy**."
+    review: "check details and wording with appropriate sources"
+    dp: [7.4.7b]
+    tags: [indigenous, aus]
+
+  - id: 43
+    q: "What do Aboriginal protocols require when research or commercial products use Indigenous knowledge?"
+    a: "**Free, prior and informed consent** from the Traditional Owners; acknowledgement and attribution; **benefit-sharing** agreements; respect for cultural restrictions (e.g. secret or sacred knowledge); and community control over how the knowledge is used."
+    x: "Internationally, the Nagoya Protocol sets out rules for access to genetic resources and fair sharing of benefits."
+    dp: [7.4.7]
+    tags: [indigenous]
+
+  - id: 44
+    q: "Define protocol (syllabus glossary)."
+    glossary: protocol
+    a: "Appropriate ways of behaving, communicating and showing respect for the diversity of histories and cultures. This involves appreciation of the knowledge, standing and status of people within a local Aboriginal community. Protocols inevitably vary between communities, and between people within a community. In establishing partnerships between Aboriginal communities and industries or professions, it is especially important that protocols are acknowledged and respected."
+    dp: [7.4.7]
+    tags: [indigenous]
+
+  - id: 45
+    q: "Give examples of Australian bush medicines."
+    a: "**Tea tree** (*Melaleuca alternifolia*) leaves for wounds and infections; **emu bush** (*Eremophila*) for colds and sores; **Kakadu plum** (gubinge), extremely rich in vitamin C, now harvested and supplied by Aboriginal enterprises."
+    review: "check examples with appropriate cultural sources"
+    dp: [7.4.7a]
+    tags: [indigenous, aus]

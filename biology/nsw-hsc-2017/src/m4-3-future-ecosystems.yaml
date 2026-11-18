@@ -1,0 +1,102 @@
+deck:
+  module: 4
+  iq: 3
+cards:
+  - id: 1
+    q: "What human-induced selection pressures cause species to become extinct?"
+    a: "**Habitat destruction and fragmentation** (land clearing), **introduced species** (predators, competitors, diseases), **overhunting** and harvesting, **pollution**, and human-caused **climate change**."
+    dp: [4.3.1a]
+
+  - id: 2
+    q: "Why has Australia had one of the world's highest rates of mammal extinction?"
+    a: "More than **30 mammal species** have become extinct since 1788, mainly through predation by introduced **foxes and cats**, plus habitat clearing, changed fire regimes and competition from introduced herbivores such as rabbits."
+    review: "check the extinction count against a current list"
+    dp: [4.3.1a]
+    tags: [aus]
+
+  - id: 3
+    q: "How did changes to fire regimes after 1788 affect Australian ecosystems?"
+    a: "Aboriginal people had used frequent, small, **cool 'cultural burns'** that created a mosaic of habitats at different stages. When this stopped, fuel built up, leading to larger, hotter fires, and the loss of the mosaic contributed to declines of small mammals."
+    dp: [4.3.1a, 4.3.2]
+    tags: [indigenous, aus]
+
+  - id: 4
+    q: "How can studying past extinctions inform the management of future ecosystems?"
+    a: "It shows **which species are most vulnerable** (large, slow-breeding, specialist, small-range species) and **which threats matter most** (introduced predators, habitat loss, climate shifts), so protection, predator control and habitat corridors can be prioritised."
+    dp: [4.3.1a]
+
+  - id: 5
+    q: "Which models are used to predict future impacts on biodiversity?"
+    a: "**Species distribution (bioclimatic) models**, **population viability analysis (PVA)**, global **climate models** under different emissions scenarios, and food-web or ecosystem models."
+    dp: [4.3.1b]
+
+  - id: 6
+    q: "How does a species distribution model work?"
+    a: "It combines records of where a species **lives now** with climate and environmental data to define the conditions it needs (its 'climate envelope'), then maps where those conditions will be under **future climate scenarios**."
+    dp: [4.3.1b]
+
+  - id: 7
+    q: "What is population viability analysis (PVA)?"
+    a: "Computer modelling of a population's births, deaths and environmental variation to estimate its **probability of extinction** over a set time, and to compare management options (e.g. for Leadbeater's possum)."
+    dp: [4.3.1b]
+    tags: [aus]
+
+  - id: 8
+    q: "What are the limitations of models that predict future biodiversity?"
+    a: "They are **simplifications** built on assumptions and incomplete data; results depend on which emissions scenario occurs; they often ignore adaptation, species interactions and dispersal barriers; and they need **testing against real observations**."
+    dp: [4.3.1b, WS.6.1]
+
+  - id: 9
+    q: "How is climate change affecting ecosystems?"
+    a: "Higher temperatures, rising sea levels, changing rainfall and more extreme events (heatwaves, fires, droughts). Species **shift their ranges** towards the poles or uphill, the **timing** of flowering and migration changes, and species that can't move or adapt decline."
+    dp: [4.3.1c]
+
+  - id: 10
+    q: "What causes coral bleaching?"
+    a: "Prolonged **high sea temperatures** stress corals, and they expel their symbiotic algae (**zooxanthellae**). The corals turn white and, without the sugars the algae make by photosynthesis, they starve and may die if the heat persists."
+    dp: [4.3.1c, 4.1.1b]
+
+  - id: 11
+    q: "How has climate change affected the Great Barrier Reef?"
+    a: "Marine heatwaves have caused repeated **mass bleaching events** (including 2016, 2017, 2020, 2022 and 2024), killing large areas of coral and reducing habitat for reef species; the shorter gaps between events leave less time for recovery."
+    review: "update the list of mass bleaching years"
+    dp: [4.3.1c]
+    tags: [aus, data]
+
+  - id: 12
+    q: "Why is the mountain pygmy-possum threatened by climate change?"
+    a: "It relies on deep **snow cover** to insulate it during hibernation and on migrating **Bogong moths** for food; warming reduces both, and it already lives near the tops of the Australian Alps, so it **can't move higher**."
+    dp: [4.3.1c]
+    tags: [aus]
+
+  - id: 13
+    q: "How are mining sites rehabilitated?"
+    a: "**Topsoil** is removed and stored before mining; afterwards the land is reshaped, topsoil returned and the site replanted with **local native species** (seed of local provenance), then **monitored** for returning plants and animals."
+    x: "Example: rehabilitation of bauxite mines in the jarrah forest of south-west WA."
+    dp: [4.3.2a]
+    tags: [aus]
+
+  - id: 14
+    q: "What is dryland salinity, and how is it caused?"
+    a: "Clearing **deep-rooted native vegetation** lets more rainwater reach the groundwater, so the **water table rises** and brings dissolved salt to the surface, killing plants and degrading soil."
+    dp: [4.3.2b]
+    tags: [aus]
+
+  - id: 15
+    q: "How can land degraded by agriculture be restored?"
+    a: "Plant **deep-rooted trees and perennials** (lowers the water table, controls salinity); fence and revegetate **riverbanks**; reduce stocking rates and rotate crops (less erosion); control **weeds and feral animals**. Community groups such as Landcare do much of this work."
+    dp: [4.3.2b]
+    tags: [aus]
+
+  - id: 16
+    q: "How do Aboriginal land-management practices contribute to restoring Country?"
+    a: "**Cultural burning**, guided by knowledge of Country, uses frequent, cool, patchy fires that reduce fuel, prevent hot wildfires and maintain habitat mosaics. **Indigenous rangers** combine traditional knowledge with Western science (fire, weed and feral-animal management)."
+    dp: [4.3.2, 4.3.1a]
+    tags: [indigenous, aus]
+
+  - id: 17
+    q: "What does 'Country' mean (syllabus glossary)?"
+    glossary: Country
+    a: "An area that is traditionally owned and looked after by an Aboriginal language group or community, or by certain people within that group. The term may indicate more than simply a geographical area − it is also a concept that can encompass the spiritual meanings and feelings of attachment associated with that area."
+    dp: [4.3.2]
+    tags: [indigenous]

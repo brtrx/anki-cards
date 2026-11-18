@@ -1,0 +1,156 @@
+deck:
+  module: 4
+  iq: 2
+cards:
+  - id: 1
+    q: "How can Aboriginal rock paintings provide evidence of past ecosystems?"
+    a: "They depict the animals and plants present when they were painted, including species now **locally extinct**, such as **thylacines** in Arnhem Land and the Kimberley (gone from the mainland for about 3000 years). Changes in the species shown over time reflect environmental change."
+    dp: [4.2.1a]
+    tags: [indigenous, aus]
+
+  - id: 2
+    q: "How does Arnhem Land rock art record rising sea levels?"
+    a: "Later paintings (from about 7000 years ago onwards) show **estuarine and saltwater species**, such as barramundi and saltwater crocodiles, that are absent from older styles, matching the post-glacial rise in sea level that flooded the coast."
+    review: "check periodisation and dates of Arnhem Land rock art styles"
+    dp: [4.2.1a]
+    tags: [indigenous, aus]
+
+  - id: 3
+    q: "How can rock paintings be dated?"
+    a: "Radiocarbon dating of organic material in the paint (beeswax, charcoal); dating **mud-wasp nests** built over or under the paintings; and the sequence of overlapping styles (newer paintings on top)."
+    x: "Mud-wasp nests have dated some Kimberley (Gwion) paintings to around 12 000 years ago."
+    review: "check the Gwion dating figure"
+    dp: [4.2.1a, 4.2.2]
+    tags: [indigenous, aus]
+
+  - id: 4
+    q: "What are the limitations of rock art as scientific evidence of past ecosystems?"
+    a: "Species can be hard to identify, precise dating is difficult, and the paintings carry **cultural meanings**: they weren't made as scientific records. Interpretation should involve the **Traditional Owners**, who hold the knowledge."
+    dp: [4.2.1a, 4.2.4b]
+    tags: [indigenous]
+
+  - id: 5
+    q: "How do rock types and structures show what past environments were like?"
+    a: "Sedimentary rocks record the conditions in which they formed: **limestone** with coral (warm shallow seas), **coal** (swamp forests), cross-bedded **sandstone** (deserts or rivers), glacial deposits (ice ages); fossils in each layer show what lived there."
+    dp: [4.2.1b]
+
+  - id: 6
+    q: "What do banded iron formations, such as those in WA's Hamersley Range, show?"
+    a: "Alternating layers of iron oxide formed when **oxygen released by photosynthesising cyanobacteria** reacted with iron dissolved in the oceans, about 2.5–1.8 billion years ago: evidence of the **rise of oxygen** on Earth."
+    review: "check date range"
+    dp: [4.2.1b, 3.3.1]
+    tags: [aus]
+
+  - id: 7
+    q: "What does the presence of marine fossils and opal in inland Australia show?"
+    a: "During the Cretaceous (about 110 million years ago) a shallow **inland sea** covered much of central and eastern Australia: marine reptile fossils are found in Queensland, and opalised shells and bones at Coober Pedy and Lightning Ridge."
+    dp: [4.2.1b]
+    tags: [aus]
+
+  - id: 8
+    q: "What evidence about past climates do ice cores provide?"
+    a: "**Air bubbles** trapped in the ice preserve samples of past atmosphere (CO₂, methane); **isotope ratios** in the ice show past temperatures; **dust, ash and pollen** record eruptions and vegetation; **annual layers** allow dating."
+    dp: [4.2.1c]
+
+  - id: 9
+    q: "What do Antarctic ice cores (e.g. EPICA Dome C) reveal about CO₂ and temperature?"
+    a: "Over about **800 000 years**, CO₂ and temperature rose and fell **together** through ice-age cycles, with CO₂ between about 180 and 300 ppm. Today's level (over 420 ppm) is far outside that range."
+    review: "check figures"
+    dp: [4.2.1c, 4.3.1c]
+    tags: [data]
+
+  - id: 10
+    q: "What did ice cores from Law Dome (Australian Antarctic Territory) show?"
+    a: "Atmospheric CO₂ stayed at about **280 ppm** for centuries before the Industrial Revolution and then **rose sharply**, linking the rise to the burning of fossil fuels."
+    dp: [4.2.1c]
+    tags: [aus, data]
+
+  - id: 11
+    q: "Give examples of past and present technologies used to find evidence of past ecosystem change."
+    a: "**Past**: stratigraphy (rock layers), light microscopy of pollen and fossils. **Present**: radiometric dating, **mass spectrometry** (gas and isotope analysis), sequencing of ancient DNA, CT scanning of fossils, luminescence dating of sediments."
+    dp: [4.2.2]
+
+  - id: 12
+    q: "How are the gases trapped in ice cores analysed?"
+    a: "Ice samples are crushed or melted in a **vacuum** to release the trapped air, which is measured with **gas chromatography and mass spectrometry** for CO₂, methane and isotope ratios."
+    dp: [4.2.2b]
+
+  - id: 13
+    q: "How can oxygen isotopes in ice show past temperatures?"
+    a: "Water containing heavy **¹⁸O** evaporates less readily and condenses out sooner, so in **colder** periods polar snow (and ice) has a **lower ¹⁸O : ¹⁶O ratio**."
+    dp: [4.2.2b, 4.2.1c]
+
+  - id: 14
+    q: "How does pollen analysis show past changes in vegetation?"
+    a: "Pollen is durable and identifiable to plant type. Cores from lake sediments or peat contain layers of pollen; changes in the types and amounts show how **vegetation changed** (often alongside **charcoal**, which records fire)."
+    dp: [4.2.2, 4.2.4a]
+
+  - id: 15
+    q: "How did Australia's climate and vegetation change after it separated from Antarctica?"
+    a: "Australia drifted **north** (fully separated about 35 million years ago) and became **drier**, more seasonal and more fire-prone, with nutrient-poor soils. **Rainforests contracted** to small refuges, while **sclerophyll** forests, then grasslands and deserts, expanded."
+    review: "check separation date"
+    dp: [4.2.3b, 4.2.4a]
+    tags: [aus]
+
+  - id: 16
+    q: "What are sclerophyll plants, and what adaptations do they have?"
+    a: "Hard-leaved plants (eucalypts, acacias, banksias) with tough, often small leaves, **thick cuticles** and lots of lignin; adapted to **phosphorus-poor soils**, drought and **fire**."
+    dp: [4.2.3b, 3.2.1a]
+    tags: [aus]
+
+  - id: 17
+    q: "What evidence shows that sclerophyll plants evolved from rainforest ancestors?"
+    a: "Fossil leaves and pollen show **rainforest** dominated early on, with sclerophyll forms increasing as the climate dried; and the families of eucalypts (Myrtaceae) and banksias (Proteaceae) still include rainforest species, which DNA studies place close to their sclerophyll relatives."
+    review: "check summary of fossil and molecular evidence"
+    dp: [4.2.3b]
+    tags: [aus]
+
+  - id: 18
+    q: "What do the fossils of Riversleigh (Queensland) show about the evolution of Australian mammals?"
+    a: "They span many millions of years: older layers hold a rich **rainforest** fauna (possums, early kangaroos, bats, a toothed platypus); younger layers show species suited to **drier, more open** habitats, tracking the drying climate."
+    dp: [4.2.3a]
+    tags: [aus]
+
+  - id: 19
+    q: "Which small mammal was described from fossils before it was found alive?"
+    a: "The **mountain pygmy-possum** (*Burramys parvus*): known from fossils from 1896, found alive in **1966** in a ski lodge at Mount Hotham, Victoria."
+    dp: [4.2.3a]
+    tags: [aus, history]
+
+  - id: 20
+    q: "Which features of small desert mammals today suggest evolution in response to the drying of Australia?"
+    a: "Nocturnal and **burrowing** habits, highly efficient kidneys producing **concentrated urine**, water obtained from food, and fat stored in the tail (fat-tailed dunnart): traits suited to arid conditions that spread as Australia dried."
+    dp: [4.2.3a, 3.2.1b]
+    tags: [aus]
+
+  - id: 21
+    q: "Compare short-term and long-term changes that have shaped Australian ecosystems."
+    a: "**Short-term**: droughts (El Niño), floods, fires and disease outbreaks cause population booms and crashes. **Long-term**: continental drift, gradual climate change and ice-age cycles (sea-level change) drive evolution and extinction."
+    dp: [4.2.4a]
+    tags: [compare, aus]
+
+  - id: 22
+    q: "What were Australia's megafauna, and when did most disappear?"
+    a: "Large animals such as *Diprotodon* (a rhinoceros-sized marsupial), giant short-faced kangaroos, the giant bird *Genyornis* and the giant goanna *Megalania*. Most disappeared about **45 000–40 000 years ago**."
+    review: "dates debated"
+    dp: [4.2.4a, 4.3.1a]
+    tags: [aus]
+
+  - id: 23
+    q: "Evaluate the hypotheses for the extinction of Australia's megafauna."
+    a: |-
+      - **Climate change** (aridity): but megafauna had survived earlier glacial cycles.
+      - **Human hunting**: extinctions follow human arrival (at least 50 000 years ago), but few kill sites exist.
+      - **Human use of fire** changing vegetation.
+      Most scientists favour human impacts, possibly with climate.
+    x: "Dating of both the extinctions and human arrival is uncertain, which is why the debate continues."
+    review: "contested topic; check the balance of evidence presented"
+    dp: [4.2.4b, 4.3.1a]
+    tags: [aus]
+
+  - id: 24
+    q: "What did fungal spores in sediments at Lynch's Crater (Queensland) suggest about megafauna extinction?"
+    a: "Spores of a **dung fungus** (*Sporormiella*) dropped sharply about 41 000 years ago, before **charcoal** increased and vegetation changed. This suggests megafauna declined first (consistent with hunting), and more fire followed."
+    review: "check study details (Rule et al. 2012, Science)"
+    dp: [4.2.4b, 4.2.4a]
+    tags: [aus, data]

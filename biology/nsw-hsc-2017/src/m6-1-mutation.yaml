@@ -1,0 +1,191 @@
+deck:
+  module: 6
+  iq: 1
+cards:
+  - id: 1
+    q: "What is a mutation?"
+    a: "A **permanent change** in the DNA base sequence of a gene, or in the structure or number of chromosomes."
+    dp: [6.1.2a, 6.1.2b]
+
+  - id: 2
+    q: "What is a mutagen?"
+    a: "Any agent that **increases the rate of mutation**: certain kinds of radiation, chemicals, and some biological agents such as viruses."
+    dp: [6.1.1a, 6.1.1b, 6.1.1c]
+
+  - id: 3
+    q: "How does ultraviolet (UV) radiation cause mutations?"
+    a: "UV causes adjacent **thymine** bases on the same strand to bond together, forming **thymine dimers** that distort the DNA; errors are made when it is repaired or replicated. It is the main cause of **skin cancers** (including melanoma)."
+    x: "UV is non-ionising: it doesn't knock electrons out of atoms, but it is absorbed by DNA bases."
+    dp: [6.1.1a]
+    tags: [aus]
+
+  - id: 4
+    q: "How do X-rays and gamma rays cause mutations?"
+    a: "They are **ionising**: they knock electrons out of molecules, producing reactive ions and free radicals that **break DNA strands** and alter bases, causing deletions, rearrangements and other mutations."
+    x: "Sources include medical X-rays, radioactive materials (radon, fallout, nuclear accidents) and cosmic rays."
+    dp: [6.1.1a]
+
+  - id: 5
+    q: "How do chemical mutagens alter DNA?"
+    a: "Some **mimic bases** and pair wrongly (base analogues); some **add chemical groups** to bases so they mispair (e.g. mustard gas, compounds in tobacco smoke such as benzo[a]pyrene); some **slip between base pairs** (intercalating agents), causing insertions and deletions."
+    dp: [6.1.1b]
+
+  - id: 6
+    q: "Give examples of chemical mutagens people may be exposed to."
+    a: "**Tobacco smoke** (e.g. benzo[a]pyrene), **benzene**, **formaldehyde**, mustard gas, and acetaldehyde (formed when the body breaks down alcohol)."
+    dp: [6.1.1b, 8.2.1b]
+
+  - id: 7
+    q: "What are naturally occurring mutagens?"
+    a: "**Radon** gas from rocks, **UV** in sunlight, **cosmic** radiation, **aflatoxins** made by moulds (*Aspergillus*) on stored grain and peanuts, some **viruses**, transposons ('jumping genes'), and spontaneous copying errors and reactive oxygen from normal metabolism."
+    dp: [6.1.1c]
+
+  - id: 8
+    q: "How can viruses act as mutagens?"
+    a: "Some **insert their DNA into the host's chromosomes**, disrupting genes or switching on genes that drive cell division: e.g. **human papillomavirus** (HPV) → cervical cancer; hepatitis B → liver cancer."
+    dp: [6.1.1c]
+
+  - id: 9
+    q: "What is a point mutation?"
+    a: "A change at a single point in a gene: a **substitution**, **insertion** or **deletion** of one (or a few) nucleotides."
+    dp: [6.1.2a]
+
+  - id: 10
+    q: "What are the possible effects of a base substitution?"
+    a: "**Silent**: the codon still codes for the same amino acid. **Missense**: a different amino acid, which may change the protein's function (e.g. sickle-cell anaemia). **Nonsense**: a stop codon, giving a shortened, usually non-functional protein."
+    dp: [6.1.2a]
+
+  - id: 11
+    q: "What is a frameshift mutation, and why is it usually so harmful?"
+    a: "An **insertion or deletion** of bases (not a multiple of three) shifts the **reading frame**, so every codon after it changes; the protein is usually completely non-functional, often cut short by a new stop codon."
+    dp: [6.1.2a]
+
+  - id: 12
+    q: "The mRNA AUGGCUUCAGGA codes for Met-Ala-Ser-Gly. If the fourth base (G) is deleted, what amino acid sequence is produced?"
+    a: "**Met-Leu-Gln** (AUG CUU CAG GA…): every codon after the deletion changes, a frameshift."
+    dp: [6.1.2a]
+    calc: {kind: translate, mrna: "AUGCUUCAGGA", result: "Met-Leu-Gln"}
+
+  - id: 13
+    q: "Explain how a point mutation causes sickle-cell anaemia."
+    a: "A **substitution** in the β-globin gene changes one codon (mRNA GAG → GUG), so the 6th amino acid becomes **valine instead of glutamic acid**. The haemoglobin forms long fibres at low O₂, red blood cells become **sickle-shaped**, block capillaries and are destroyed (anaemia)."
+    x: "It's autosomal recessive; heterozygotes are more resistant to malaria, which is why the allele is common where malaria is."
+    dp: [6.1.2a, 8.2.1a]
+
+  - id: 14
+    q: "The sickle-cell mutation changes the codon GAG (glutamic acid) to GUG. Which amino acid does GUG code for?"
+    a: "**Val** (valine)."
+    dp: [6.1.2a]
+    calc: {kind: translate, mrna: "GUG", result: "Val"}
+
+  - id: 15
+    q: "What are chromosomal mutations?"
+    a: "Changes in the **structure** (deletion, duplication, inversion, translocation) or **number** (aneuploidy, polyploidy) of chromosomes. They affect many genes at once."
+    dp: [6.1.2b]
+
+  - id: 16
+    cloze: "Structural chromosomal mutations: {{c1::deletion}} (a segment is lost); {{c2::duplication}} (a segment is repeated); {{c3::inversion}} (a segment is reversed); {{c4::translocation}} (a segment moves to a non-homologous chromosome)."
+    dp: [6.1.2b]
+
+  - id: 17
+    q: "Give examples of human conditions caused by chromosomal mutations."
+    a: "**Number**: trisomy 21 (Down syndrome), Turner syndrome (XO), Klinefelter syndrome (XXY). **Structure**: cri-du-chat syndrome (deletion on chromosome 5); a translocation between chromosomes 9 and 22 (the Philadelphia chromosome) in chronic myeloid leukaemia."
+    dp: [6.1.2b]
+
+  - id: 18
+    q: "What is polyploidy, and why is it important in plants?"
+    a: "Having **more than two complete sets** of chromosomes (3n, 4n…), usually after a failure of cell division. Polyploid plants are often larger and more vigorous, and are **instantly reproductively isolated** from the parent species: a new species in one step (e.g. bread wheat is hexaploid)."
+    dp: [6.1.2b]
+
+  - id: 19
+    q: "Compare point mutations and chromosomal mutations."
+    a: |-
+      | | Point | Chromosomal |
+      |---|---|---|
+      | Scale | one or a few bases | large segments or whole chromosomes |
+      | Typical cause | copying errors, UV, chemicals | errors in meiosis, ionising radiation |
+      | Effect | one gene (may be silent) | many genes, often severe |
+      | Detected by | DNA sequencing | karyotype (microscope) |
+    dp: [6.1.2a, 6.1.2b]
+    tags: [compare]
+
+  - id: 20
+    q: "Distinguish somatic and germ-line mutations."
+    a: "**Somatic**: in body cells; affects only the cells descended from the mutated cell (e.g. cancer); **not inherited**. **Germ-line**: in cells that give rise to gametes; **can be passed to offspring**, who carry it in every cell."
+    dp: [6.1.3]
+    tags: [compare]
+
+  - id: 21
+    q: "Why do somatic mutations matter even though they aren't inherited?"
+    a: "If they affect genes that control **cell division** (proto-oncogenes, tumour-suppressor genes), they can cause **cancer**. A mutation early in development affects a large patch of the body."
+    dp: [6.1.3, 8.2.1d]
+
+  - id: 22
+    q: "Why are germ-line mutations important for evolution?"
+    a: "They are passed to offspring, **adding new alleles to the gene pool**, the variation on which natural selection acts."
+    dp: [6.1.3]
+
+  - id: 23
+    q: "What is non-coding DNA?"
+    a: "DNA that isn't translated into protein: **introns**, **regulatory sequences** (promoters, enhancers), genes for tRNA, rRNA and other RNAs, **repetitive** sequences (such as STRs) and telomeres. About 98–99% of the human genome doesn't code for protein."
+    dp: [6.1.4]
+
+  - id: 24
+    q: "Assess the significance of mutations in coding DNA."
+    a: "They can **directly change the amino-acid sequence** (missense, nonsense, frameshift), producing an altered or non-functional protein, though many substitutions are **silent** because the code is redundant."
+    dp: [6.1.4]
+
+  - id: 25
+    q: "Assess the significance of mutations in non-coding DNA."
+    a: "Many have **no effect**, so they accumulate (useful for DNA profiling and molecular clocks). But mutations in **regulatory regions** or **splice sites** can change when, where or how much a gene is expressed, causing disease or evolutionary change."
+    dp: [6.1.4]
+
+  - id: 26
+    q: "Give an example of a mutation in non-coding DNA with a major effect."
+    a: "**Lactase persistence**: a single-base change in a regulatory (enhancer) region upstream of the lactase gene keeps the gene **switched on in adulthood**, so adults can digest milk."
+    dp: [6.1.4]
+
+  - id: 27
+    q: "Which source of genetic variation creates new alleles, and which only create new combinations?"
+    a: "Only **mutation** creates **new alleles**. **Meiosis** (crossing over, independent assortment) and **fertilisation** create **new combinations** of existing alleles."
+    dp: [6.1.5]
+    tags: [compare]
+
+  - id: 28
+    q: "Define gene pool (syllabus glossary)."
+    glossary: gene pool
+    a: "The stock of different genes in an interbreeding population."
+    dp: [6.1.6]
+
+  - id: 29
+    q: "How does mutation affect the gene pool of a population?"
+    a: "It **introduces new alleles**, but slowly (mutation rates are low). Over long periods it provides the raw material for selection; harmful alleles tend to be removed by selection."
+    dp: [6.1.6]
+
+  - id: 30
+    q: "What is gene flow, and how does it affect gene pools?"
+    a: "The movement of alleles between populations when individuals (or pollen) **migrate and interbreed**. It **adds alleles** to a population and makes populations **more similar**, counteracting their divergence."
+    dp: [6.1.6]
+
+  - id: 31
+    q: "What is genetic drift?"
+    a: "**Random** changes in allele frequencies from one generation to the next, caused by **chance** in which individuals happen to reproduce, not by selection. It is strongest in **small populations**, where alleles can be lost or fixed."
+    dp: [6.1.6]
+
+  - id: 32
+    q: "What is the founder effect? Give an example."
+    a: "A new population started by **a few individuals** carries only a small, unrepresentative sample of the original gene pool. Example: koalas on Kangaroo Island (SA) descend from a small number of animals introduced in the 1920s and have **low genetic diversity**."
+    review: "check details of the Kangaroo Island koala founding"
+    dp: [6.1.6]
+    tags: [aus]
+
+  - id: 33
+    q: "What is a population bottleneck? Give an example."
+    a: "A **drastic reduction** in population size (disaster, hunting, disease) leaves a few survivors with reduced genetic diversity. Example: northern elephant seals were hunted to perhaps a few dozen animals in the 1890s; today's large population has very little diversity."
+    dp: [6.1.6]
+
+  - id: 34
+    q: "Evaluate the effects of mutation, gene flow and genetic drift on gene pools."
+    a: "**Mutation** adds new alleles, but slowly. **Gene flow** adds alleles and reduces differences between populations. **Drift** changes frequencies randomly and **reduces diversity**, especially in small populations. With selection, they drive evolution."
+    x: "For small, threatened populations drift is a serious risk; conservation managers counter it with gene flow (habitat corridors, translocations)."
+    dp: [6.1.6, 5.5.2a]

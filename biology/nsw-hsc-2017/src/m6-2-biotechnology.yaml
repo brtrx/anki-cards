@@ -1,0 +1,80 @@
+deck:
+  module: 6
+  iq: 2
+cards:
+  - id: 1
+    q: "What is biotechnology?"
+    a: "The use of **living organisms or their parts** (cells, enzymes, DNA) to make products or solve problems, in medicine, agriculture, industry and the environment."
+    dp: [6.2.1a]
+
+  - id: 2
+    q: "Give examples of past, present and future biotechnology."
+    a: "**Past**: fermentation (bread, beer, cheese), selective breeding, early vaccines, penicillin production. **Present**: recombinant insulin, GM crops, PCR and DNA profiling, mRNA vaccines, gene therapy. **Future**: widespread gene editing (CRISPR), gene drives, synthetic biology, personalised medicine."
+    dp: [6.2.1b, 6.2.1a]
+
+  - id: 3
+    q: "What ethical issues does biotechnology raise?"
+    a: "**Safety** (long-term health effects, allergens); **environmental risk** (gene flow to wild species); **animal welfare**; whether it is 'natural'; **privacy** and consent for genetic data; **equity** of access; **patenting** of genes and organisms; editing of the human germ line ('designer babies')."
+    dp: [6.2.1a]
+    tags: [ethics]
+
+  - id: 4
+    q: "What are the social implications of GM crops such as Bt cotton?"
+    a: "**Benefits**: higher yields and far less insecticide spraying (safer for farm workers). **Concerns**: companies **patent** seed, so farmers must buy it each season; contamination of non-GM or organic crops; consumer acceptance and labelling; effects on small farmers."
+    dp: [6.2.1a]
+    tags: [ethics, aus]
+
+  - id: 5
+    q: "What ethical issues are raised by genetically modified animals? Give an example."
+    a: "**AquAdvantage salmon** carries a growth-hormone gene from another salmon species, so it grows to market size faster. Issues: **animal welfare**, risk of escapes breeding with **wild salmon**, food safety and labelling."
+    dp: [6.2.1a]
+    tags: [ethics]
+
+  - id: 6
+    q: "Which bodies regulate gene technology in Australia?"
+    a: "The **Office of the Gene Technology Regulator (OGTR)** assesses and licenses work with GMOs for risks to people and the environment; **Food Standards Australia New Zealand (FSANZ)** assesses the safety and labelling of GM food."
+    dp: [6.2.1a]
+    tags: [aus]
+
+  - id: 7
+    q: "What is CRISPR-Cas9?"
+    a: "A gene-editing tool adapted from a **bacterial immune system**: a **guide RNA** leads the **Cas9** enzyme to a matching DNA sequence, which it cuts; the cell's repair then disables the gene or inserts a new sequence. It is cheap, fast and precise."
+    x: "Emmanuelle Charpentier and Jennifer Doudna won the 2020 Nobel Prize in Chemistry for it."
+    dp: [6.2.1b, 6.3.1]
+    tags: [history]
+
+  - id: 8
+    q: "What is a gene drive, and what are its potential uses and risks?"
+    a: "A genetic system (often CRISPR-based) that is inherited by **far more than 50%** of offspring, so it spreads rapidly through a wild population. **Uses**: suppressing malaria mosquitoes or invasive pests. **Risks**: hard to reverse, unpredictable effects on ecosystems and other species."
+    dp: [6.2.1b, 6.2.1d]
+
+  - id: 9
+    q: "Name some possible future directions of biotechnology."
+    a: "**Personalised medicine** (treatments matched to a person's genome), **gene therapy** and editing for inherited diseases, **synthetic biology** (designing organisms to make fuels and medicines), climate-resilient crops, and **de-extinction** projects."
+    dp: [6.2.1b]
+
+  - id: 10
+    q: "Evaluate the potential benefits for society of research using genetic technologies."
+    a: "**Medicine**: diagnosis, new treatments and vaccines, understanding disease. **Agriculture**: food security, less pesticide use. **Environment**: bioremediation, conservation genetics. **Economy**: new industries. But benefits depend on cost and access, and risks must be managed."
+    dp: [6.2.1c]
+
+  - id: 11
+    q: "Give an example of a medical benefit of research using genetic technologies."
+    a: "**Gene therapy** for an inherited retinal disease (Luxturna, approved 2017): a modified virus delivers working copies of the *RPE65* gene to retinal cells, improving vision. Another: **mRNA COVID-19 vaccines**, designed within days of the virus's genome being published (2020)."
+    review: "check details"
+    dp: [6.2.1c, 6.3.5]
+
+  - id: 12
+    q: "How can genetic techniques reduce biodiversity?"
+    a: "Planting a few GM or cloned varieties over large areas (**monocultures**) reduces crop diversity; **gene flow** from GM crops can alter wild relatives; herbicide-tolerant crops allow heavy herbicide use, removing weeds that insects depend on; gene drives could eliminate whole species."
+    dp: [6.2.1d]
+
+  - id: 13
+    q: "How can genetic techniques help protect biodiversity?"
+    a: "**Genetic monitoring** of threatened species, **seed banks** and frozen tissue banks, **genetic rescue** and assisted reproduction (AI, IVF) of endangered species, less broad-spectrum insecticide (Bt crops), and possibly gene drives to remove invasive pests."
+    dp: [6.2.1d, 5.5.2a]
+
+  - id: 14
+    q: "Evaluate the overall changes to Earth's biodiversity due to genetic techniques."
+    a: "People have **narrowed the genetic base of agriculture**: most food comes from a few species and varieties, a risk if disease or climate changes. Yet genetic techniques also give tools to **measure and conserve** diversity. The outcome depends on use and regulation."
+    dp: [6.2.1d]

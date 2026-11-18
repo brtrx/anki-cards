@@ -1,0 +1,598 @@
+# NSW Biology Stage 6 Syllabus (2017): content map used by tools/verify.py.
+#
+# Transcribed from the official syllabus document (NESA, version on nsw.gov.au,
+# file dated 2025-03; https://www.nsw.gov.au/education-and-training/nesa/curriculum/science/biology-stage-6-2017).
+# Australian Curriculum codes (ACSBL…) and learning-across-the-curriculum icons are omitted.
+#
+# Every card cites one or more ids from this file in its `dp:` list.
+#   - A dot point without sub-points is cited by its own id (e.g. 5.2.2).
+#   - A sub-point is cited as <dot point id><letter> (e.g. 5.1.1a).
+#   - kind: req  → introduced by "including" / "including but not limited to" (or no qualifier):
+#                  verify.py fails if no card covers it.
+#     kind: eg   → introduced by "for example": verify.py only warns if it is not covered.
+#
+# Syllabus text © NSW Education Standards Authority (NESA), reproduced for
+# non-commercial educational use.
+
+syllabus: "Biology Stage 6 Syllabus (2017)"
+last_hsc: 2027
+
+modules:
+  - number: 1
+    year: 11
+    title: "Cells as the Basis of Life"
+    iqs:
+      - number: 1
+        heading: "Cell Structure"
+        question: "What distinguishes one cell from another?"
+        dot_points:
+          - id: "1.1.1"
+            text: "investigate different cellular structures, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "examining a variety of prokaryotic and eukaryotic cells"}
+              - {id: b, kind: req, text: "describe a range of technologies that are used to determine a cell's structure and function"}
+          - id: "1.1.2"
+            text: "investigate a variety of prokaryotic and eukaryotic cell structures, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "drawing scaled diagrams of a variety of cells"}
+              - {id: b, kind: req, text: "comparing and contrasting different cell organelles and arrangements"}
+              - {id: c, kind: req, text: "modelling the structure and function of the fluid mosaic model of the cell membrane"}
+      - number: 2
+        heading: "Cell Function"
+        question: "How do cells coordinate activities within their internal environment and the external environment?"
+        dot_points:
+          - id: "1.2.1"
+            text: "investigate the way in which materials can move into and out of cells, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "conducting a practical investigation modelling diffusion and osmosis"}
+              - {id: b, kind: req, text: "examining the roles of active transport, endocytosis and exocytosis"}
+              - {id: c, kind: req, text: "relating the exchange of materials across membranes to the surface-area-to-volume ratio, concentration gradients and characteristics of the materials being exchanged"}
+          - id: "1.2.2"
+            text: "investigate cell requirements, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "suitable forms of energy, including light energy and chemical energy in complex molecules"}
+              - {id: b, kind: req, text: "matter, including gases, simple nutrients and ions"}
+              - {id: c, kind: req, text: "removal of wastes"}
+          - {id: "1.2.3", text: "investigate the biochemical processes of photosynthesis, cell respiration and the removal of cellular products and wastes in eukaryotic cells"}
+          - {id: "1.2.4", text: "conduct a practical investigation to model the action of enzymes in cells"}
+          - {id: "1.2.5", text: "investigate the effects of the environment on enzyme activity through the collection of primary or secondary data"}
+
+  - number: 2
+    year: 11
+    title: "Organisation of Living Things"
+    iqs:
+      - number: 1
+        heading: "Organisation of Cells"
+        question: "How are cells arranged in a multicellular organism?"
+        dot_points:
+          - id: "2.1.1"
+            text: "compare the differences between unicellular, colonial and multicellular organisms by:"
+            subs:
+              - {id: a, kind: req, text: "investigating structures at the level of the cell and organelle"}
+              - {id: b, kind: req, text: "relating structure of cells and cell specialisation to function"}
+          - {id: "2.1.2", text: "investigate the structure and function of tissues, organs and systems and relate those functions to cell differentiation and specialisation"}
+          - {id: "2.1.3", text: "justify the hierarchical structural organisation of organelles, cells, tissues, organs, systems and organisms"}
+      - number: 2
+        heading: "Nutrient and Gas Requirements"
+        question: "What is the difference in nutrient and gas requirements between autotrophs and heterotrophs?"
+        dot_points:
+          - id: "2.2.1"
+            text: "investigate the structure of autotrophs through the examination of a variety of materials, for example:"
+            subs:
+              - {id: a, kind: eg, text: "dissected plant materials"}
+              - {id: b, kind: eg, text: "microscopic structures"}
+              - {id: c, kind: eg, text: "using a range of imaging technologies to determine plant structure"}
+          - id: "2.2.2"
+            text: "investigate the function of structures in a plant, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "tracing the development and movement of the products of photosynthesis"}
+          - id: "2.2.3"
+            text: "investigate the gas exchange structures in animals and plants through the collection of primary and secondary data and information, for example:"
+            subs:
+              - {id: a, kind: eg, text: "microscopic structures: alveoli in mammals and leaf structure in plants"}
+              - {id: b, kind: eg, text: "macroscopic structures: respiratory systems in a range of animals"}
+          - id: "2.2.4"
+            text: "interpret a range of secondary-sourced information to evaluate processes, claims and conclusions that have led scientists to develop hypotheses, theories and models about the structure and function of plants, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "photosynthesis"}
+              - {id: b, kind: req, text: "transpiration-cohesion-tension theory"}
+          - id: "2.2.5"
+            text: "trace the digestion of foods in a mammalian digestive system, including:"
+            subs:
+              - {id: a, kind: req, text: "physical digestion"}
+              - {id: b, kind: req, text: "chemical digestion"}
+              - {id: c, kind: req, text: "absorption of nutrients, minerals and water"}
+              - {id: d, kind: req, text: "elimination of solid waste"}
+          - {id: "2.2.6", text: "compare the nutrient and gas requirements of autotrophs and heterotrophs"}
+      - number: 3
+        heading: "Transport"
+        question: "How does the composition of the transport medium change as it moves around an organism?"
+        dot_points:
+          - id: "2.3.1"
+            text: "investigate transport systems in animals and plants by comparing structures and components using physical and digital models, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "macroscopic structures in plants and animals"}
+              - {id: b, kind: req, text: "microscopic samples of blood, the cardiovascular system and plant vascular systems"}
+          - {id: "2.3.2", text: "investigate the exchange of gases between the internal and external environments of plants and animals"}
+          - id: "2.3.3"
+            text: "compare the structures and function of transport systems in animals and plants, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "vascular systems in plants and animals"}
+              - {id: b, kind: req, text: "open and closed transport systems in animals"}
+          - {id: "2.3.4", text: "compare the changes in the composition of the transport medium as it moves around an organism"}
+
+  - number: 3
+    year: 11
+    title: "Biological Diversity"
+    iqs:
+      - number: 1
+        heading: "Effects of the Environment on Organisms"
+        question: "How do environmental pressures promote a change in species diversity and abundance?"
+        dot_points:
+          - id: "3.1.1"
+            text: "predict the effects of selection pressures on organisms in ecosystems, including:"
+            subs:
+              - {id: a, kind: req, text: "biotic factors"}
+              - {id: b, kind: req, text: "abiotic factors"}
+          - id: "3.1.2"
+            text: "investigate changes in a population of organisms due to selection pressures over time, for example:"
+            subs:
+              - {id: a, kind: eg, text: "cane toads in Australia"}
+              - {id: b, kind: eg, text: "prickly pear distribution in Australia"}
+      - number: 2
+        heading: "Adaptations"
+        question: "How do adaptations increase the organism's ability to survive?"
+        dot_points:
+          - id: "3.2.1"
+            text: "conduct practical investigations, individually or in teams, or use secondary sources to examine the adaptations of organisms that increase their ability to survive in their environment, including:"
+            subs:
+              - {id: a, kind: req, text: "structural adaptations"}
+              - {id: b, kind: req, text: "physiological adaptations"}
+              - {id: c, kind: req, text: "behavioural adaptations"}
+          - id: "3.2.2"
+            text: "investigate, through secondary sources, the observations and collection of data that were obtained by Charles Darwin to support the Theory of Evolution by Natural Selection, for example:"
+            subs:
+              - {id: a, kind: eg, text: "finches of the Galapagos Islands"}
+              - {id: b, kind: eg, text: "Australian flora and fauna"}
+      - number: 3
+        heading: "Theory of Evolution by Natural Selection"
+        question: "What is the relationship between evolution and biodiversity?"
+        dot_points:
+          - {id: "3.3.1", text: "explain biological diversity in terms of the Theory of Evolution by Natural Selection by examining the changes in and diversification of life since it first appeared on the Earth"}
+          - id: "3.3.2"
+            text: "analyse how an accumulation of microevolutionary changes can drive evolutionary changes and speciation over time, for example:"
+            subs:
+              - {id: a, kind: eg, text: "evolution of the horse"}
+              - {id: b, kind: eg, text: "evolution of the platypus"}
+          - id: "3.3.3"
+            text: "explain, using examples, how Darwin and Wallace's Theory of Evolution by Natural Selection accounts for:"
+            subs:
+              - {id: a, kind: req, text: "convergent evolution"}
+              - {id: b, kind: req, text: "divergent evolution"}
+          - {id: "3.3.4", text: "explain how punctuated equilibrium is different from the gradual process of natural selection"}
+      - number: 4
+        heading: "Evolution – the Evidence"
+        question: "What is the evidence that supports the Theory of Evolution by Natural Selection?"
+        dot_points:
+          - id: "3.4.1"
+            text: "investigate, using secondary sources, evidence in support of Darwin and Wallace's Theory of Evolution by Natural Selection, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "biochemical evidence, comparative anatomy, comparative embryology and biogeography"}
+              - {id: b, kind: req, text: "techniques used to date fossils and the evidence produced"}
+          - id: "3.4.2"
+            text: "explain modern-day examples that demonstrate evolutionary change, for example:"
+            subs:
+              - {id: a, kind: eg, text: "the cane toad"}
+              - {id: b, kind: eg, text: "antibiotic-resistant strains of bacteria"}
+
+  - number: 4
+    year: 11
+    title: "Ecosystem Dynamics"
+    iqs:
+      - number: 1
+        heading: "Population Dynamics"
+        question: "What effect can one species have on the other species in a community?"
+        dot_points:
+          - id: "4.1.1"
+            text: "investigate and determine relationships between biotic and abiotic factors in an ecosystem, including:"
+            subs:
+              - {id: a, kind: req, text: "the impact of abiotic factors"}
+              - {id: b, kind: req, text: "the impact of biotic factors, including predation, competition and symbiotic relationships"}
+              - {id: c, kind: req, text: "the ecological niches occupied by species"}
+              - {id: d, kind: req, text: "predicting consequences for populations in ecosystems due to predation, competition, symbiosis and disease"}
+              - {id: e, kind: req, text: "measuring populations of organisms using sampling techniques"}
+          - {id: "4.1.2", text: "explain a recent extinction event"}
+      - number: 2
+        heading: "Past Ecosystems"
+        question: "How do selection pressures within an ecosystem influence evolutionary change?"
+        dot_points:
+          - id: "4.2.1"
+            text: "analyse palaeontological and geological evidence that can be used to provide evidence for past changes in ecosystems, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "Aboriginal rock paintings"}
+              - {id: b, kind: req, text: "rock structure and formation"}
+              - {id: c, kind: req, text: "ice core drilling"}
+          - id: "4.2.2"
+            text: "investigate and analyse past and present technologies that have been used to determine evidence for past changes, for example:"
+            subs:
+              - {id: a, kind: eg, text: "radiometric dating"}
+              - {id: b, kind: eg, text: "gas analysis"}
+          - id: "4.2.3"
+            text: "analyse evidence that present-day organisms have evolved from organisms in the past by examining and interpreting a range of secondary sources to evaluate processes, claims and conclusions relating to the evolution of organisms in Australia, for example:"
+            subs:
+              - {id: a, kind: eg, text: "small mammals"}
+              - {id: b, kind: eg, text: "sclerophyll plants"}
+          - id: "4.2.4"
+            text: "investigate the reasons for changes in past ecosystems, by:"
+            subs:
+              - {id: a, kind: req, text: "interpreting a range of secondary sources to develop an understanding of the changes in biotic and abiotic factors over short and long periods of time"}
+              - {id: b, kind: req, text: "evaluating hypotheses that account for identified trends"}
+      - number: 3
+        heading: "Future Ecosystems"
+        question: "How can human activity impact on an ecosystem?"
+        dot_points:
+          - id: "4.3.1"
+            text: "investigate changes in past ecosystems that may inform our approach to the management of future ecosystems, including:"
+            subs:
+              - {id: a, kind: req, text: "the role of human-induced selection pressures on the extinction of species"}
+              - {id: b, kind: req, text: "models that humans can use to predict future impacts on biodiversity"}
+              - {id: c, kind: req, text: "the role of changing climate on ecosystems"}
+          - id: "4.3.2"
+            text: "investigate practices used to restore damaged ecosystems, Country or Place, for example:"
+            subs:
+              - {id: a, kind: eg, text: "mining sites"}
+              - {id: b, kind: eg, text: "land degradation from agricultural practices"}
+
+  - number: 5
+    year: 12
+    title: "Heredity"
+    iqs:
+      - number: 1
+        heading: "Reproduction"
+        question: "How does reproduction ensure the continuity of a species?"
+        dot_points:
+          - id: "5.1.1"
+            text: "explain the mechanisms of reproduction that ensure the continuity of a species, by analysing sexual and asexual methods of reproduction in a variety of organisms, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "animals: advantages of external and internal fertilisation"}
+              - {id: b, kind: req, text: "plants: asexual and sexual reproduction"}
+              - {id: c, kind: req, text: "fungi: budding, spores"}
+              - {id: d, kind: req, text: "bacteria: binary fission"}
+              - {id: e, kind: req, text: "protists: binary fission, budding"}
+          - {id: "5.1.2", text: "analyse the features of fertilisation, implantation and hormonal control of pregnancy and birth in mammals"}
+          - {id: "5.1.3", text: "evaluate the impact of scientific knowledge on the manipulation of plant and animal reproduction in agriculture"}
+      - number: 2
+        heading: "Cell Replication"
+        question: "How important is it for genetic material to be replicated exactly?"
+        dot_points:
+          - id: "5.2.1"
+            text: "model the processes involved in cell replication, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "mitosis and meiosis"}
+              - {id: b, kind: req, text: "DNA replication using the Watson and Crick DNA model, including nucleotide composition, pairing and bonding"}
+          - {id: "5.2.2", text: "assess the effect of the cell replication processes on the continuity of species"}
+      - number: 3
+        heading: "DNA and Polypeptide Synthesis"
+        question: "Why is polypeptide synthesis important?"
+        dot_points:
+          - {id: "5.3.1", text: "construct appropriate representations to model and compare the forms in which DNA exists in eukaryotes and prokaryotes"}
+          - id: "5.3.2"
+            text: "model the process of polypeptide synthesis, including:"
+            subs:
+              - {id: a, kind: req, text: "transcription and translation"}
+              - {id: b, kind: req, text: "assessing the importance of mRNA and tRNA in transcription and translation"}
+              - {id: c, kind: req, text: "analysing the function and importance of polypeptide synthesis"}
+              - {id: d, kind: req, text: "assessing how genes and environment affect phenotypic expression"}
+          - {id: "5.3.3", text: "investigate the structure and function of proteins in living things"}
+      - number: 4
+        heading: "Genetic Variation"
+        question: "How can the genetic similarities and differences within and between species be compared?"
+        dot_points:
+          - {id: "5.4.1", text: "conduct practical investigations to predict variations in the genotype of offspring by modelling meiosis, including the crossing over of homologous chromosomes, fertilisation and mutations"}
+          - id: "5.4.2"
+            text: "model the formation of new combinations of genotypes produced during meiosis, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "interpreting examples of autosomal, sex-linkage, co-dominance, incomplete dominance and multiple alleles"}
+              - {id: b, kind: req, text: "constructing and interpreting information and data from pedigrees and Punnett squares"}
+          - id: "5.4.3"
+            text: "collect, record and present data to represent frequencies of characteristics in a population, in order to identify trends, patterns, relationships and limitations in data, for example:"
+            subs:
+              - {id: a, kind: eg, text: "examining frequency data"}
+              - {id: b, kind: eg, text: "analysing single nucleotide polymorphism (SNP)"}
+      - number: 5
+        heading: "Inheritance Patterns in a Population"
+        question: "Can population genetic patterns be predicted with any accuracy?"
+        dot_points:
+          - id: "5.5.1"
+            text: "investigate the use of technologies to determine inheritance patterns in a population using, for example:"
+            subs:
+              - {id: a, kind: eg, text: "DNA sequencing and profiling"}
+          - id: "5.5.2"
+            text: "investigate the use of data analysis from a large-scale collaborative project to identify trends, patterns and relationships, for example:"
+            subs:
+              - {id: a, kind: eg, text: "the use of population genetics data in conservation management"}
+              - {id: b, kind: eg, text: "population genetics studies used to determine the inheritance of a disease or disorder"}
+              - {id: c, kind: eg, text: "population genetics relating to human evolution"}
+
+  - number: 6
+    year: 12
+    title: "Genetic Change"
+    iqs:
+      - number: 1
+        heading: "Mutation"
+        question: "How does mutation introduce new alleles into a population?"
+        dot_points:
+          - id: "6.1.1"
+            text: "explain how a range of mutagens operate, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "electromagnetic radiation sources"}
+              - {id: b, kind: req, text: "chemicals"}
+              - {id: c, kind: req, text: "naturally occurring mutagens"}
+          - id: "6.1.2"
+            text: "compare the causes, processes and effects of different types of mutation, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "point mutation"}
+              - {id: b, kind: req, text: "chromosomal mutation"}
+          - {id: "6.1.3", text: "distinguish between somatic mutations and germ-line mutations and their effect on an organism"}
+          - {id: "6.1.4", text: "assess the significance of 'coding' and 'non-coding' DNA segments in the process of mutation"}
+          - {id: "6.1.5", text: "investigate the causes of genetic variation relating to the processes of fertilisation, meiosis and mutation"}
+          - {id: "6.1.6", text: "evaluate the effect of mutation, gene flow and genetic drift on the gene pool of populations"}
+      - number: 2
+        heading: "Biotechnology"
+        question: "How do genetic techniques affect Earth's biodiversity?"
+        dot_points:
+          - id: "6.2.1"
+            text: "investigate the uses and applications of biotechnology (past, present and future), including:"
+            subs:
+              - {id: a, kind: req, text: "analysing the social implications and ethical uses of biotechnology, including plant and animal examples"}
+              - {id: b, kind: req, text: "researching future directions of the use of biotechnology"}
+              - {id: c, kind: req, text: "evaluating the potential benefits for society of research using genetic technologies"}
+              - {id: d, kind: req, text: "evaluating the changes to the Earth's biodiversity due to genetic techniques"}
+      - number: 3
+        heading: "Genetic Technologies"
+        question: "Does artificial manipulation of DNA have the potential to change populations forever?"
+        dot_points:
+          - {id: "6.3.1", text: "investigate the uses and advantages of current genetic technologies that induce genetic change"}
+          - id: "6.3.2"
+            text: "compare the processes and outcomes of reproductive technologies, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "artificial insemination"}
+              - {id: b, kind: req, text: "artificial pollination"}
+          - id: "6.3.3"
+            text: "investigate and assess the effectiveness of cloning, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "whole organism cloning"}
+              - {id: b, kind: req, text: "gene cloning"}
+          - id: "6.3.4"
+            text: "describe techniques and applications used in recombinant DNA technology, for example:"
+            subs:
+              - {id: a, kind: eg, text: "the development of transgenic organisms in agricultural and medical applications"}
+          - {id: "6.3.5", text: "evaluate the benefits of using genetic technologies in agricultural, medical and industrial applications"}
+          - {id: "6.3.6", text: "evaluate the effect on biodiversity of using biotechnology in agriculture"}
+          - {id: "6.3.7", text: "interpret a range of secondary sources to assess the influence of social, economic and cultural contexts on a range of biotechnologies"}
+
+  - number: 7
+    year: 12
+    title: "Infectious Disease"
+    iqs:
+      - number: 1
+        heading: "Causes of Infectious Disease"
+        question: "How are diseases transmitted?"
+        dot_points:
+          - id: "7.1.1"
+            text: "describe a variety of infectious diseases caused by pathogens, including microorganisms, macroorganisms and non-cellular pathogens, and collect primary and secondary-sourced data and information relating to disease transmission, including:"
+            subs:
+              - {id: a, kind: req, text: "classifying different pathogens that cause disease in plants and animals"}
+              - {id: b, kind: req, text: "investigating the transmission of a disease during an epidemic"}
+              - {id: c, kind: req, text: "design and conduct a practical investigation relating to the microbial testing of water or food samples"}
+              - {id: d, kind: req, text: "investigate modes of transmission of infectious diseases, including direct contact, indirect contact and vector transmission"}
+          - id: "7.1.2"
+            text: "investigate the work of Robert Koch and Louis Pasteur, to explain the causes and transmission of infectious diseases, including:"
+            subs:
+              - {id: a, kind: req, text: "Koch's postulates"}
+              - {id: b, kind: req, text: "Pasteur's experiments on microbial contamination"}
+          - id: "7.1.3"
+            text: "assess the causes and effects of diseases on agricultural production, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "plant diseases"}
+              - {id: b, kind: req, text: "animal diseases"}
+          - {id: "7.1.4", text: "compare the adaptations of different pathogens that facilitate their entry into and transmission between hosts"}
+      - number: 2
+        heading: "Responses to Pathogens"
+        question: "How does a plant or animal respond to infection?"
+        dot_points:
+          - id: "7.2.1"
+            text: "investigate the response of a named Australian plant to a named pathogen through practical and/or secondary-sourced investigation, for example:"
+            subs:
+              - {id: a, kind: eg, text: "fungal pathogens"}
+              - {id: b, kind: eg, text: "viral pathogens"}
+          - {id: "7.2.2", text: "analyse responses to the presence of pathogens by assessing the physical and chemical changes that occur in the host animals cells and tissues"}
+      - number: 3
+        heading: "Immunity"
+        question: "How does the human immune system respond to exposure to a pathogen?"
+        dot_points:
+          - {id: "7.3.1", text: "investigate and model the innate and adaptive immune systems in the human body"}
+          - {id: "7.3.2", text: "explain how the immune system responds after primary exposure to a pathogen, including innate and acquired immunity"}
+      - number: 4
+        heading: "Prevention, Treatment and Control"
+        question: "How can the spread of infectious diseases be controlled?"
+        dot_points:
+          - {id: "7.4.1", text: "investigate and analyse the wide range of interrelated factors involved in limiting local, regional and global spread of a named infectious disease"}
+          - id: "7.4.2"
+            text: "investigate procedures that can be employed to prevent the spread of disease, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "hygiene practices"}
+              - {id: b, kind: req, text: "quarantine"}
+              - {id: c, kind: req, text: "vaccination, including passive and active immunity"}
+              - {id: d, kind: req, text: "public health campaigns"}
+              - {id: e, kind: req, text: "use of pesticides"}
+              - {id: f, kind: req, text: "genetic engineering"}
+          - id: "7.4.3"
+            text: "investigate and assess the effectiveness of pharmaceuticals as treatment strategies for the control of infectious disease, for example:"
+            subs:
+              - {id: a, kind: eg, text: "antivirals"}
+              - {id: b, kind: eg, text: "antibiotics"}
+          - {id: "7.4.4", text: "investigate and evaluate environmental management and quarantine methods used to control an epidemic or pandemic"}
+          - id: "7.4.5"
+            text: "interpret data relating to the incidence and prevalence of infectious disease in populations, for example:"
+            subs:
+              - {id: a, kind: eg, text: "mobility of individuals and the portion that are immune or immunised"}
+              - {id: b, kind: eg, text: "Malaria or Dengue Fever in South East Asia"}
+          - {id: "7.4.6", text: "evaluate historical, culturally diverse and current strategies to predict and control the spread of disease"}
+          - id: "7.4.7"
+            text: "investigate the contemporary application of Aboriginal protocols in the development of particular medicines and biological materials in Australia and how recognition and protection of Indigenous cultural and intellectual property is important, for example:"
+            subs:
+              - {id: a, kind: eg, text: "bush medicine"}
+              - {id: b, kind: eg, text: "smoke bush in Western Australia"}
+
+  - number: 8
+    year: 12
+    title: "Non-infectious Disease and Disorders"
+    iqs:
+      - number: 1
+        heading: "Homeostasis"
+        question: "How is an organism's internal environment maintained in response to a changing external environment?"
+        dot_points:
+          - id: "8.1.1"
+            text: "construct and interpret negative feedback loops that show homeostasis by using a range of sources, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "temperature"}
+              - {id: b, kind: req, text: "glucose"}
+          - id: "8.1.2"
+            text: "investigate the various mechanisms used by organisms to maintain their internal environment within tolerance limits, including:"
+            subs:
+              - {id: a, kind: req, text: "trends and patterns in behavioural, structural and physiological adaptations in endotherms that assist in maintaining homeostasis"}
+              - {id: b, kind: req, text: "internal coordination systems that allow homeostasis to be maintained, including hormones and neural pathways"}
+              - {id: c, kind: req, text: "mechanisms in plants that allow water balance to be maintained"}
+      - number: 2
+        heading: "Causes and Effects"
+        question: "Do non-infectious diseases cause more deaths than infectious diseases?"
+        dot_points:
+          - id: "8.2.1"
+            text: "investigate the causes and effects of non-infectious diseases in humans, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "genetic diseases"}
+              - {id: b, kind: req, text: "diseases caused by environmental exposure"}
+              - {id: c, kind: req, text: "nutritional diseases"}
+              - {id: d, kind: req, text: "cancer"}
+          - id: "8.2.2"
+            text: "collect and represent data to show the incidence, prevalence and mortality rates of non-infectious diseases, for example:"
+            subs:
+              - {id: a, kind: eg, text: "nutritional diseases"}
+              - {id: b, kind: eg, text: "diseases caused by environmental exposure"}
+      - number: 3
+        heading: "Epidemiology"
+        question: "Why are epidemiological studies used?"
+        dot_points:
+          - id: "8.3.1"
+            text: "analyse patterns of non-infectious diseases in populations, including their incidence and prevalence, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "nutritional diseases"}
+              - {id: b, kind: req, text: "diseases caused by environmental exposure"}
+          - {id: "8.3.2", text: "investigate the treatment/management, and possible future directions for further research, of a non-infectious disease using an example from one of the non-infectious diseases categories listed above"}
+          - {id: "8.3.3", text: "evaluate the method used in an example of an epidemiological study"}
+          - {id: "8.3.4", text: "evaluate, using examples, the benefits of engaging in an epidemiological study"}
+      - number: 4
+        heading: "Prevention"
+        question: "How can non-infectious diseases be prevented?"
+        dot_points:
+          - id: "8.4.1"
+            text: "use secondary sources to evaluate the effectiveness of current disease-prevention methods and develop strategies for the prevention of a non-infectious disease, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "educational programs and campaigns"}
+              - {id: b, kind: req, text: "genetic engineering"}
+      - number: 5
+        heading: "Technologies and Disorders"
+        question: "How can technologies be used to assist people who experience disorders?"
+        dot_points:
+          - id: "8.5.1"
+            text: "explain a range of causes of disorders by investigating the structures and functions of the relevant organs, for example:"
+            subs:
+              - {id: a, kind: eg, text: "hearing loss"}
+              - {id: b, kind: eg, text: "visual disorders"}
+              - {id: c, kind: eg, text: "loss of kidney function"}
+          - id: "8.5.2"
+            text: "investigate technologies that are used to assist with the effects of a disorder, including but not limited to:"
+            subs:
+              - {id: a, kind: req, text: "hearing loss: cochlear implants, bone conduction implants, hearing aids"}
+              - {id: b, kind: req, text: "visual disorders: spectacles, laser surgery"}
+              - {id: c, kind: req, text: "loss of kidney function: dialysis"}
+          - {id: "8.5.3", text: "evaluate the effectiveness of a technology that is used to manage and assist with the effects of a disorder"}
+
+# Working Scientifically skills (identical in Year 11 and Year 12; "It is expected
+# that the content of each skill will be addressed by the end of the Stage 6 course").
+working_scientifically:
+  - number: 1
+    heading: "Questioning and Predicting"
+    outcome: "develops and evaluates questions and hypotheses for scientific investigation (BIO11/12-1)"
+    dot_points:
+      - {id: "WS.1.1", text: "develop and evaluate inquiry questions and hypotheses to identify a concept that can be investigated scientifically, involving primary and secondary data"}
+      - {id: "WS.1.2", text: "modify questions and hypotheses to reflect new evidence"}
+  - number: 2
+    heading: "Planning Investigations"
+    outcome: "designs and evaluates investigations in order to obtain primary and secondary data and information (BIO11/12-2)"
+    dot_points:
+      - {id: "WS.2.1", text: "assess risks, consider ethical issues and select appropriate materials and technologies when designing and planning an investigation"}
+      - {id: "WS.2.2", text: "justify and evaluate the use of variables and experimental controls to ensure that a valid procedure is developed that allows for the reliable collection of data"}
+      - {id: "WS.2.3", text: "evaluate and modify an investigation in response to new evidence"}
+  - number: 3
+    heading: "Conducting Investigations"
+    outcome: "conducts investigations to collect valid and reliable primary and secondary data and information (BIO11/12-3)"
+    dot_points:
+      - {id: "WS.3.1", text: "employ and evaluate safe work practices and manage risks"}
+      - {id: "WS.3.2", text: "use appropriate technologies to ensure and evaluate accuracy"}
+      - {id: "WS.3.3", text: "select and extract information from a wide range of reliable secondary sources and acknowledge them using an accepted referencing style"}
+  - number: 4
+    heading: "Processing Data and Information"
+    outcome: "selects and processes appropriate qualitative and quantitative data and information using a range of appropriate media (BIO11/12-4)"
+    dot_points:
+      - {id: "WS.4.1", text: "select qualitative and quantitative data and information and represent them using a range of formats, digital technologies and appropriate media"}
+      - {id: "WS.4.2", text: "apply quantitative processes where appropriate"}
+      - {id: "WS.4.3", text: "evaluate and improve the quality of data"}
+  - number: 5
+    heading: "Analysing Data and Information"
+    outcome: "analyses and evaluates primary and secondary data and information (BIO11/12-5)"
+    dot_points:
+      - {id: "WS.5.1", text: "derive trends, patterns and relationships in data and information"}
+      - {id: "WS.5.2", text: "assess error, uncertainty and limitations in data"}
+      - {id: "WS.5.3", text: "assess the relevance, accuracy, validity and reliability of primary and secondary data and suggest improvements to investigations"}
+  - number: 6
+    heading: "Problem Solving"
+    outcome: "solves scientific problems using primary and secondary data, critical thinking skills and scientific processes (BIO11/12-6)"
+    dot_points:
+      - {id: "WS.6.1", text: "use modelling (including mathematical examples) to explain phenomena, make predictions and solve problems using evidence from primary and secondary sources"}
+      - {id: "WS.6.2", text: "use scientific evidence and critical thinking skills to solve problems"}
+  - number: 7
+    heading: "Communicating"
+    outcome: "communicates scientific understanding using suitable language and terminology for a specific audience or purpose (BIO11/12-7)"
+    dot_points:
+      - {id: "WS.7.1", text: "select and use suitable forms of digital, visual, written and/or oral forms of communication"}
+      - {id: "WS.7.2", text: "select and apply appropriate scientific notations, nomenclature and scientific language to communicate in a variety of contexts"}
+      - {id: "WS.7.3", text: "construct evidence-based arguments and engage in peer feedback to evaluate an argument or conclusion"}
+
+# Syllabus glossary (selected terms). A card with `glossary: <term>` must give
+# this definition word for word; verify.py checks it.
+glossary:
+  abiotic: "The non-living components of the environment."
+  allele: "A variant form of a gene."
+  biotic: "All the living organisms in a specific region or area, including animals, plants and microorganisms."
+  conclusion: "A judgement based on evidence."
+  controlled variable: "A variable that is kept constant (or changed in constant ways) during an investigation."
+  Country: "An area that is traditionally owned and looked after by an Aboriginal language group or community, or by certain people within that group. The term may indicate more than simply a geographical area − it is also a concept that can encompass the spiritual meanings and feelings of attachment associated with that area."
+  dependent variable: "A variable that changes in response to changes to the independent variable in an investigation."
+  gene pool: "The stock of different genes in an interbreeding population."
+  hypothesis: "A tentative explanation for an observed phenomenon, expressed as a precise and unambiguous statement that can be supported or refuted by investigation."
+  independent variable: "A variable that is changed in an investigation to see what effect it has on the dependent variable."
+  Indigenous cultural and intellectual property: "Includes objects, sites, cultural knowledge, cultural expression and the arts, that have been transmitted or continue to be transmitted through generations as belonging to a particular Indigenous group or Indigenous people as a whole or their territory."
+  microevolution: "A change in gene frequency in a population over a short period of time."
+  model: "A representation that describes, simplifies, clarifies or provides an explanation of the workings, structure or relationships within an object, system or idea."
+  niche: "A position or function in a habitat that provides all the requirements for life of a species."
+  primary data: "Information created by a person or persons directly involved in a study or observing an event."
+  protocol: "Appropriate ways of behaving, communicating and showing respect for the diversity of histories and cultures. This involves appreciation of the knowledge, standing and status of people within a local Aboriginal community. Protocols inevitably vary between communities, and between people within a community. In establishing partnerships between Aboriginal communities and industries or professions, it is especially important that protocols are acknowledged and respected."
+  reliability: "An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results."
+  symbiosis: "Interaction between two different organisms living in close physical association, including mutualism, commensalism, and parasitism. Symbiosis can be positive (beneficial) or negative."
+  theory: "A set of concepts, claims and/or laws that can be used to explain and predict a wide range of related observed phenomena. Theories are typically founded on clearly identified assumptions, are testable, produce reproducible results and have explanatory power."
+  translation: "The process by which a sequence of nucleotide triplets in a messenger RNA molecule gives rise to a specific sequence of amino acids during synthesis of a polypeptide or protein."
+  validity: "An extent to which tests measure what was intended; an extent to which data, inferences and actions produced from tests and other processes are accurate."
+  variable: "In an investigation, a factor that can be changed, maintained or measured − eg time, distance, light, temperature."
+  vector: "An insect or animal that carries a disease from one animal or plant to another."

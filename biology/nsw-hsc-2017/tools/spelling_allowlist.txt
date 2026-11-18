@@ -1,0 +1,74 @@
+# Words the English dictionary doesn't know but that are correct here: biology
+# terms, names of organisms, people and places, and Latin binomials.
+# Australian spellings of dictionary words (colour, haemoglobin, specialised …)
+# are accepted automatically and don't need to be listed.
+# Add a word only after checking its spelling in a reliable source.
+helicase
+
+# units and prefixes
+nm mm cm km mL kg mol pre
+
+# cells and microscopy
+archaea bilayer centrifugation cristae cryo cytoskeleton endosymbiosis fimbria glycolipid grana
+lysosome microfilament microtubule nucleoid peptidoglycan stroma thylakoid
+aquaporin cytosol endocytosis exocytosis microvilli pinocytosis pyruvate
+
+# organisation, nutrition, transport
+autoradiography cava chemoautotroph eucalypt haemocoel haemolymph lignified mesophyll mitral
+oxyhaemoglobin parabronchi potometer tracheole
+
+# diversity and evolution
+cyanobacteria endosymbiotic epicormic lignotuber methicillin microevolution microevolutionary
+monotreme opalised quoll
+
+# ecosystems
+bioclimatic chytrid dryland dunnart goanna grevillea honeyeater interspecific intraspecific jarrah
+melomys mesopredator mycorrhizal outcompete overhunting staghorn barramundi zooxanthellae
+
+# taxa (genera, species, families) and fossils
+Cactoblastis cactorum Equus Hyracotherium Monotrematum Nothofagus Obdurodon Proteaceae
+Steropodon Teinolophos Tiktaalik
+Balanus Batrachochytrium dendrobatidis Burramys parvus Chthamalus Diprotodon Genyornis Megalania
+Myrtaceae Sporormiella Kalanchoe Taq
+Agrobacterium tumefaciens thuringiensis coli Phytophthora infestans Wollemi sapiens
+aegypti alternifolia Austropuccinia cinnamomi Conospermum Eremophila falciparum Giardia Hardenbergia
+Melaleuca psidii psidioides Rhodomyrtus Trypanosoma Wolbachia
+
+# places and geological names
+Chengjiang Galápagos Gondwana Pilbara Qld Riversleigh
+Bogong Coober Pedy Gwion Hamersley Hotham Landcare Niño
+Buller Sahul Denisovan Kakadu Pirie Wittenoom
+
+# Italian (quarantine)
+giorni quaranta
+
+# heredity
+acrosome aneuploidy anticodon autosomal carboxyl chiasmata chorionic codominance codominant
+epigenetic epigenetics intron ligase luteum methylation micropropagation nucleosome
+phosphodiester plantlet superovulation trisomy
+
+# genetic change
+benzo biofuel bioplastic chymosin cri fermenter frameshift glutamic hexaploid mispair missense
+papillomavirus polyploidy proto telomere transposon
+
+# infectious disease
+aciclovir antiretroviral antivenom apoptosis artemisinin biopiracy biosecurity callose chitinase
+conocurvone cytokine fomite giardiasis gubinge haemagglutinin handwashing kuru lockdown
+macroorganism macroparasite misfold misfolded neuraminidase oomycete oseltamivir phytoalexin
+pillies reassortment Tamiflu transcriptase tylose variolation wastewater Zika
+
+# non-infectious disease and disorders
+abscisic bariatric bifida bilby biofortified dialyser erythropoietin folate folic interneuron macular
+melanocyte mesothelioma metformin mmol osmoreceptor polycystic preimplantation presbycusis saltbush
+sensorineural spina thermoreceptor toric
+
+# amino acids (three-letter codes)
+Ala Arg Asn Asp Cys Gln Glu Gly His Ile Leu Lys Met Phe Pro Ser Thr Trp Tyr Val
+
+# Latin, Greek and people
+cellula omnis karyon Schleiden Fick Visking
+Helmont Ingenhousz Joly Kamen Marcello Münch
+Eldredge Margulis Connell Leadbeater
+Chargaff Meselson Stahl Okazaki Punnett
+Doudna Emmanuelle Klinefelter Roslin Luxturna
+Creutzfeldt Jakob Bergmann Graeme Henle

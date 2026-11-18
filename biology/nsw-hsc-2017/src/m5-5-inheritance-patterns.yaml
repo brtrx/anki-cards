@@ -1,0 +1,104 @@
+deck:
+  module: 5
+  iq: 5
+cards:
+  - id: 1
+    q: "What is DNA sequencing?"
+    a: "Working out the **exact order of the bases** in a DNA molecule. Sanger sequencing (1977) read one fragment at a time; **next-generation** sequencing reads millions of fragments at once, so whole genomes are now fast and cheap."
+    dp: [5.5.1a]
+
+  - id: 2
+    q: "How did Sanger (chain-termination) sequencing work?"
+    a: "DNA is copied with a mix of normal and labelled **chain-terminating** nucleotides, giving fragments of every length, each ending at a known base; separating them by **size** (electrophoresis) reads off the sequence."
+    dp: [5.5.1a]
+    tags: [history]
+
+  - id: 3
+    q: "What is DNA profiling?"
+    a: "Analysing regions of DNA that **vary greatly between individuals**, mainly **short tandem repeats (STRs)**, to produce a pattern that is practically unique to each person (except identical twins)."
+    dp: [5.5.1a]
+
+  - id: 4
+    cloze: "DNA profiling: DNA is extracted → the STR regions are copied millions of times by {{c1::PCR}} → the fragments are separated by size using {{c2::gel (or capillary) electrophoresis}} → the pattern of bands or peaks is {{c3::compared}} between samples."
+    dp: [5.5.1a]
+
+  - id: 5
+    q: "What is the polymerase chain reaction (PCR)?"
+    a: "A way to **copy a specific DNA segment** millions of times through repeated cycles of: **denaturing** (about 95 °C, strands separate), **annealing** of primers (about 55–65 °C) and **extension** by heat-stable *Taq* polymerase (about 72 °C)."
+    dp: [5.5.1a, 6.3.1]
+
+  - id: 6
+    q: "How does gel electrophoresis separate DNA fragments?"
+    a: "DNA is **negatively charged** (phosphate groups), so in an electric field it moves through the gel towards the **positive** electrode; **smaller fragments move further**."
+    dp: [5.5.1a]
+
+  - id: 7
+    q: "How is DNA profiling used to work out inheritance and relationships?"
+    a: "Each STR allele a child has must come from **one of the parents**, so roughly half of a child's bands match each parent. Profiles can confirm parentage and trace relationships in families, breeding programs and wild populations."
+    dp: [5.5.1a, 5.5.2a]
+
+  - id: 8
+    q: "How is DNA sequencing used to study inherited disease in families and populations?"
+    a: "It identifies **disease-causing mutations**, allows **carrier screening** and diagnosis, and comparing the genomes of many affected and unaffected people reveals which variants are linked to a condition."
+    dp: [5.5.1a, 5.5.2b]
+
+  - id: 9
+    q: "What was the Human Genome Project?"
+    a: "An international collaboration (**1990–2003**) that sequenced the human genome (about 3 billion base pairs) and identified roughly **20 000 protein-coding genes**, with the data shared freely."
+    x: "The first truly complete, gap-free human sequence was published in 2022."
+    dp: [5.5.2]
+    tags: [history]
+
+  - id: 10
+    q: "What was the 1000 Genomes Project, and why was it useful?"
+    a: "A collaboration (2008–2015) that sequenced the genomes of about **2500 people from 26 populations**, cataloguing common human genetic variation (SNPs and others): a reference for finding variants linked to disease."
+    review: "check figures"
+    dp: [5.5.2, 5.5.2b]
+
+  - id: 11
+    q: "Why does genetic diversity matter in conservation management?"
+    a: "Small, isolated populations **lose diversity** (genetic drift, inbreeding), which reduces fitness and the ability to adapt to disease or climate change. Genetic data guide the choice of **breeding pairs**, **translocations** and protected populations."
+    dp: [5.5.2a, 6.1.6]
+
+  - id: 12
+    q: "How has population genetics been used to manage Tasmanian devils?"
+    a: "Sequencing showed devils have **very low genetic diversity**, which helped DFTD spread. Genetic data are used to select animals for **disease-free insurance populations** that keep as much diversity as possible, and to track genes linked to resistance."
+    dp: [5.5.2a, 4.1.1d]
+    tags: [aus]
+
+  - id: 13
+    q: "What is genetic rescue? Give an Australian example."
+    a: "Introducing individuals from another population to **restore genetic diversity** in an inbred one. Male **mountain pygmy-possums** from a larger population were added to the small, inbred Mount Buller population (2011), and numbers and diversity increased."
+    review: "check details"
+    dp: [5.5.2a]
+    tags: [aus]
+
+  - id: 14
+    q: "How did the Koala Genome Consortium's work help conservation?"
+    a: "Sequencing the koala genome (2018) revealed genes for **detoxifying eucalyptus leaves** and for **immunity** (relevant to chlamydia and koala retrovirus), and comparing populations shows their genetic diversity, guiding translocations and breeding."
+    review: "check details"
+    dp: [5.5.2a]
+    tags: [aus]
+
+  - id: 15
+    q: "How do population genetic studies identify how a disease is inherited?"
+    a: "**Family (pedigree) studies** reveal the pattern of inheritance, and **large population studies** compare DNA of affected and unaffected people to find associated genes. For example, studies of families with many cases of breast cancer identified **BRCA1 and BRCA2** mutations."
+    dp: [5.5.2b]
+
+  - id: 16
+    q: "What does mitochondrial DNA reveal about human evolution?"
+    a: "mtDNA passes down the **maternal line** without recombination. Human mtDNA is **most diverse in Africa**, consistent with modern humans originating there and later migrating out ('Out of Africa'); the Y chromosome traces paternal lines in the same way."
+    dp: [5.5.2c]
+
+  - id: 17
+    q: "What has ancient DNA revealed about human evolution?"
+    a: "Sequencing **Neanderthal** and **Denisovan** genomes showed that early modern humans **interbred** with them: people of non-African descent carry about 2% Neanderthal DNA, and Aboriginal Australians and Papuans also carry Denisovan DNA."
+    review: "check percentages"
+    dp: [5.5.2c]
+
+  - id: 18
+    q: "What have genome studies, done with Aboriginal communities, shown about the history of Aboriginal Australians?"
+    a: "Aboriginal Australians and Papuans descend from some of the **earliest people to leave Africa**, arriving in Sahul at least 50 000 years ago, and are among the **oldest continuous populations** outside Africa, with deep genetic diversity between groups."
+    review: "check summary of findings (e.g. Malaspinas et al. 2016)"
+    dp: [5.5.2c]
+    tags: [indigenous, aus]

@@ -1,0 +1,158 @@
+deck:
+  module: 2
+  iq: 3
+cards:
+  - id: 1
+    q: "Describe the mammalian circulatory system."
+    a: "A **closed, double** circulation: the heart pumps blood through arteries → capillaries → veins. The **pulmonary** circuit (right side of the heart → lungs → left atrium) and the **systemic** circuit (left ventricle → body → right atrium)."
+    dp: [2.3.1a]
+
+  - id: 2
+    cloze: "Blood flow through the heart: body → {{c1::vena cava}} → right atrium → right ventricle → {{c2::pulmonary artery}} → lungs → {{c3::pulmonary vein}} → left atrium → {{c4::left ventricle}} → {{c5::aorta}} → body."
+    dp: [2.3.1a]
+
+  - id: 3
+    q: "Why is the wall of the left ventricle thicker than that of the right ventricle?"
+    a: "The left ventricle pumps blood around the **whole body** at **high pressure**; the right ventricle pumps only to the nearby **lungs**, at lower pressure (which protects the delicate lung capillaries)."
+    dp: [2.3.1a]
+
+  - id: 4
+    q: "What do the heart valves do?"
+    a: "They **prevent backflow** of blood: atrioventricular valves (tricuspid and bicuspid/mitral) lie between the atria and ventricles; semilunar valves lie at the bases of the aorta and pulmonary artery."
+    dp: [2.3.1a]
+
+  - id: 5
+    q: "Compare arteries, capillaries and veins."
+    a: |-
+      | | Arteries | Capillaries | Veins |
+      |---|---|---|---|
+      | Wall | thick, muscular, elastic | one cell thick | thin, less muscle |
+      | Blood | away from heart, high pressure | low pressure | to heart, low pressure |
+      | Role | deliver blood | exchange with tissues | return blood; valves |
+    dp: [2.3.1a, 2.3.1b]
+    tags: [compare]
+
+  - id: 6
+    q: "Describe the macroscopic structures of a flowering plant's transport system."
+    a: "**Roots** (root hairs absorb water and minerals) connect through the **vascular bundles** of the stem to the **veins** of the leaves; xylem carries water up, and phloem, running alongside, links sources and sinks."
+    dp: [2.3.1a]
+
+  - id: 7
+    q: "What are the main components of blood and their functions?"
+    a: |-
+      - **Plasma** (about 55%): water carrying nutrients, CO₂, urea, hormones, proteins and heat.
+      - **Red blood cells**: carry O₂ (haemoglobin).
+      - **White blood cells**: defence against pathogens.
+      - **Platelets**: blood clotting.
+    dp: [2.3.1b]
+
+  - id: 8
+    q: "How do you tell white blood cells from red blood cells in a stained blood smear?"
+    a: "White blood cells are **larger**, much **fewer**, and have a stained (often lobed) **nucleus**. Red blood cells are small, numerous, biconcave and have **no nucleus**."
+    dp: [2.3.1b]
+    tags: [practical]
+
+  - id: 9
+    q: "How is oxygen carried in the blood?"
+    a: "About 98% is bound to **haemoglobin** in red blood cells as oxyhaemoglobin; a small amount is dissolved in the plasma."
+    dp: [2.3.1b, 2.3.2]
+
+  - id: 10
+    q: "How is carbon dioxide carried in the blood?"
+    a: "Mostly as **hydrogen carbonate (bicarbonate) ions** in the plasma (about 70%); some bound to **haemoglobin** (about 20%); and some **dissolved** in plasma (about 7–10%)."
+    dp: [2.3.1b, 2.3.2]
+
+  - id: 11
+    q: "Describe the structure of xylem and relate it to its function."
+    a: "**Dead, hollow** cells (vessels and tracheids) joined end to end; vessels have **no end walls**, so they form continuous tubes; walls are thickened with **lignin**, which supports the plant and stops the tubes collapsing under tension; **pits** allow sideways movement of water."
+    dp: [2.3.1b]
+
+  - id: 12
+    q: "Describe the structure of phloem and relate it to its function."
+    a: "**Living sieve tube elements** joined end to end by perforated **sieve plates**, with little cytoplasm and no nucleus, so sap flows easily. Each has a **companion cell** (nucleus, many mitochondria) that keeps it alive and actively loads sucrose."
+    dp: [2.3.1b]
+
+  - id: 13
+    cloze: "The path of oxygen in a mammal: air → trachea → bronchi → bronchioles → {{c1::alveoli}} → diffuses into the {{c2::capillaries}} → binds to {{c3::haemoglobin}} → pulmonary vein → heart → aorta → tissue capillaries → diffuses into body cells, where it is used in the {{c4::mitochondria}}."
+    dp: [2.3.2]
+
+  - id: 14
+    q: "Why do O₂ and CO₂ move in opposite directions in the lungs and in the tissues?"
+    a: "Each gas diffuses **down its own concentration gradient**. Alveolar air has more O₂ and less CO₂ than blood: O₂ enters the blood, CO₂ leaves. Respiring cells use O₂ and make CO₂: O₂ enters the cells, CO₂ enters the blood."
+    dp: [2.3.2]
+
+  - id: 15
+    q: "How does gas exchange between a plant and the air differ between day and night?"
+    a: "**Day**: photosynthesis is faster than respiration, so there's a net uptake of CO₂ and release of O₂. **Night**: only respiration, so there's a net uptake of O₂ and release of CO₂ (stomata are mostly closed)."
+    dp: [2.3.2, 2.2.6]
+
+  - id: 16
+    q: "What are lenticels?"
+    a: "Pores of loosely packed cells in the bark of woody stems and roots that allow **gas exchange** between the air and the living tissues inside."
+    dp: [2.3.2]
+
+  - id: 17
+    q: "Compare xylem and phloem."
+    a: |-
+      | | Xylem | Phloem |
+      |---|---|---|
+      | Carries | water, mineral ions | sucrose, amino acids, hormones |
+      | Direction | upwards only | up or down (source → sink) |
+      | Cells | dead, lignified | living sieve tubes + companion cells |
+      | Driven by | transpiration pull (passive) | pressure flow (active loading) |
+    dp: [2.3.3a]
+    tags: [compare]
+
+  - id: 18
+    q: "Compare the vascular systems of plants and mammals."
+    a: "Mammals: a **pump** (heart) moves **one fluid** (blood) around a **circuit** of vessels, carrying gases as well as nutrients. Plants: **no pump and no circuit**; two separate systems (xylem and phloem) driven by transpiration and pressure differences."
+    x: "Plants don't use their vascular tissue for gas transport: gases diffuse through air spaces and stomata."
+    dp: [2.3.3a]
+    tags: [compare]
+
+  - id: 19
+    q: "What is an open circulatory system? Give an example."
+    a: "The heart pumps the transport fluid (**haemolymph**) into a body cavity (**haemocoel**), where it bathes the organs directly, then returns to the heart through openings (ostia). Pressure and flow are low. Example: insects."
+    dp: [2.3.3b]
+
+  - id: 20
+    q: "What is a closed circulatory system? Give an example."
+    a: "Blood stays **inside vessels**; materials are exchanged with cells through capillary walls. Pressure and flow rate are higher, and blood can be directed to where it's needed. Examples: vertebrates, earthworms."
+    dp: [2.3.3b]
+
+  - id: 21
+    q: "Why can insects manage with a slow, low-pressure open circulatory system?"
+    a: "Their haemolymph doesn't need to carry O₂: the **tracheal system** delivers gases directly to the cells, and insects are small."
+    dp: [2.3.3b, 2.2.3b]
+
+  - id: 22
+    q: "Compare single circulation (fish) with double circulation (mammals)."
+    a: "**Fish**: heart → gills → body → heart; blood passes through the heart **once** per circuit, and pressure drops after the gills. **Mammals**: blood passes through the heart **twice** (pulmonary, then systemic), so the body receives blood at high pressure."
+    dp: [2.3.3b, 2.3.3a]
+    tags: [compare]
+
+  - id: 23
+    q: "How does the composition of blood change as it passes through the lungs?"
+    a: "**O₂ increases** and **CO₂ decreases** (pulmonary artery → pulmonary vein)."
+    dp: [2.3.4]
+
+  - id: 24
+    q: "How does the composition of blood change as it passes through respiring muscle?"
+    a: "**O₂ and glucose decrease**; **CO₂ and heat increase**; during intense exercise, **lactate** also increases."
+    dp: [2.3.4]
+
+  - id: 25
+    q: "How does blood change as it passes from the small intestine through the liver after a meal?"
+    a: "Blood in the **hepatic portal vein** is rich in glucose, amino acids and other absorbed nutrients. The liver stores excess glucose as glycogen and breaks down excess amino acids into **urea**, so blood leaving the liver has a regulated glucose level and more urea."
+    dp: [2.3.4]
+
+  - id: 26
+    q: "How does blood change as it passes through the kidneys?"
+    a: "**Urea**, excess water and excess salts are removed, so blood in the renal vein has less urea than blood in the renal artery (and, like any tissue, less O₂ and more CO₂)."
+    x: "Blood in the renal vein has the lowest urea concentration of any vessel in the body; blood leaving the liver has the highest."
+    dp: [2.3.4, 8.5.1c]
+
+  - id: 27
+    q: "How does the composition of phloem sap and xylem sap change as they move through a plant?"
+    a: "**Phloem**: sucrose concentration is highest at **sources**, where it's loaded, and falls towards **sinks**, where it's unloaded (this difference drives the flow). **Xylem**: water and mineral ions from the roots; leaf cells take up the ions, and water is lost by transpiration."
+    dp: [2.3.4]

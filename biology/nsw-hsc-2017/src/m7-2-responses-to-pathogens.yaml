@@ -1,0 +1,100 @@
+deck:
+  module: 7
+  iq: 2
+cards:
+  - id: 1
+    q: "What is myrtle rust?"
+    a: "A disease caused by the **fungus** *Austropuccinia psidii*, first found in Australia on the NSW Central Coast in **2010**. It infects plants of the family **Myrtaceae** (eucalypts, lilly pillies, tea trees, paperbarks)."
+    x: "Symptoms: yellow powdery spore masses on young growth, deformed leaves, dieback and sometimes death of the plant."
+    dp: [7.2.1a]
+    tags: [aus]
+
+  - id: 2
+    q: "How has myrtle rust affected Australian native plants?"
+    a: "Effects vary widely between species. Highly susceptible rainforest species such as **native guava** (*Rhodomyrtus psidioides*) and scrub turpentine have declined severely and are now listed as **critically endangered**."
+    review: "check conservation listings"
+    dp: [7.2.1a]
+    tags: [aus]
+
+  - id: 3
+    q: "How do resistant plants respond to myrtle rust, compared with susceptible ones?"
+    a: "**Resistant** individuals show a **hypersensitive response** (cells around the infection die, so the fungus can't spread) and chemical defences, leaving small dead flecks. **Susceptible** plants develop spreading spore-producing lesions, and repeated infection of new growth leads to dieback."
+    x: "Resistance varies within species, so resistant individuals can be selected for planting and breeding."
+    review: "check against a current source on myrtle rust host responses"
+    dp: [7.2.1a]
+    tags: [aus]
+
+  - id: 4
+    q: "How does jarrah respond to infection by *Phytophthora cinnamomi*?"
+    a: "The water mould infects the **roots**, which rot, so water uptake is blocked and the tree shows **dieback**. Resistant jarrah can **wall off** the infection (lesions are contained by thickened cell walls and defence chemicals), and resistant lines have been selected for replanting."
+    review: "check details"
+    dp: [7.2.1, 7.1.1a]
+    tags: [aus]
+
+  - id: 17
+    q: "How do plants respond to viral pathogens? Give an Australian example."
+    a: "Cells detect and destroy viral RNA (**RNA silencing**); they also use the **hypersensitive response**, systemic acquired resistance, and **callose** that blocks the channels viruses use to spread between cells."
+    x: "Australian example: *Hardenbergia* mosaic virus, spread by aphids, infects the native purple coral pea in south-west WA."
+    review: "check the Hardenbergia mosaic virus example"
+    dp: [7.2.1b]
+    tags: [aus]
+
+  - id: 5
+    q: "What physical (structural) defences do plants use against pathogens?"
+    a: "**Thickening of cell walls** with callose and lignin; **tyloses** that block xylem vessels; **closing stomata**; **shedding** infected leaves; forming cork layers around infected areas. (Plus existing barriers such as bark and waxy cuticle.)"
+    dp: [7.2.1]
+
+  - id: 6
+    q: "What chemical defences do plants use against pathogens?"
+    a: "**Phytoalexins** (antimicrobial compounds made at the infection site); **pathogenesis-related proteins**, including enzymes such as chitinases that break down fungal walls; reactive oxygen; and signalling molecules (**salicylic acid**) that switch on defences elsewhere in the plant."
+    dp: [7.2.1]
+
+  - id: 7
+    q: "What is the hypersensitive response in plants?"
+    a: "Rapid, deliberate **death of plant cells around the infection site**, which deprives the pathogen of living tissue and walls it off; it appears as small dead spots."
+    dp: [7.2.1]
+
+  - id: 8
+    q: "What is systemic acquired resistance in plants?"
+    a: "After a local infection, signals (e.g. **salicylic acid**) travel through the plant and switch on defences in **uninfected parts**, giving longer-lasting resistance to a broad range of pathogens."
+    dp: [7.2.1]
+
+  - id: 9
+    q: "How do plant defences differ from the animal immune system?"
+    a: "Plants have **no circulating immune cells and no antibodies**; each cell defends itself using receptors that recognise pathogen molecules, and they lack the specific memory of the animal adaptive immune system."
+    dp: [7.2.1, 7.3.1]
+    tags: [compare]
+
+  - id: 10
+    q: "What physical and chemical changes happen in an animal's cells and tissues in response to a pathogen?"
+    a: "**Inflammation** (blood vessels widen and leak; swelling, redness, heat, pain), **fever**, more **mucus**, **phagocytosis**, and self-destruction of infected cells; chemicals released include **histamine**, **cytokines**, **interferons** and **complement** proteins."
+    dp: [7.2.2]
+
+  - id: 11
+    cloze: "Inflammation: damaged cells and {{c1::mast cells}} release {{c2::histamine}}; arterioles {{c3::dilate}} (redness, heat) and capillaries become more {{c4::permeable}}, so fluid and white blood cells leave the blood (swelling); {{c5::phagocytes}} engulf the pathogens."
+    dp: [7.2.2]
+
+  - id: 12
+    q: "How does fever help fight infection?"
+    a: "Chemicals released by immune cells make the **hypothalamus raise the body's temperature set point**. Higher temperature slows the reproduction of many pathogens and speeds up immune responses. (A very high fever is dangerous: it can denature proteins.)"
+    dp: [7.2.2, 8.1.1a]
+
+  - id: 13
+    q: "What are interferons?"
+    a: "Proteins released by **virus-infected cells** that signal neighbouring cells to make antiviral proteins, **blocking viral replication**, and that activate immune cells such as natural killer cells."
+    dp: [7.2.2, 7.3.1]
+
+  - id: 14
+    q: "How does an infected body cell signal to the immune system that it is infected?"
+    a: "It displays fragments of the pathogen's proteins (**antigens**) on **MHC class I** molecules on its surface, so cytotoxic T cells can recognise and kill it."
+    dp: [7.2.2, 7.3.1]
+
+  - id: 15
+    q: "What is apoptosis, and how does it help defend against infection?"
+    a: "**Programmed cell death**: infected cells (often triggered by cytotoxic T cells or natural killer cells) dismantle themselves in an orderly way, stopping the pathogen from reproducing and spreading."
+    dp: [7.2.2]
+
+  - id: 16
+    q: "What is pus, and what does it show?"
+    a: "A thick fluid of **dead neutrophils**, bacteria, cell debris and tissue fluid at the site of a bacterial infection: evidence of phagocytes fighting the infection."
+    dp: [7.2.2]

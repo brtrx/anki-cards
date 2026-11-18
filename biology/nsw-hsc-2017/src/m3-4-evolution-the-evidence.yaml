@@ -1,0 +1,118 @@
+deck:
+  module: 3
+  iq: 4
+cards:
+  - id: 1
+    q: "What is biochemical evidence for evolution?"
+    a: "Comparing **DNA and protein (amino acid) sequences**: the more closely related two species are, the more similar their sequences. All organisms also share the same **genetic code**, DNA/RNA and ATP, pointing to a common ancestor."
+    dp: [3.4.1a]
+
+  - id: 2
+    q: "How is the protein cytochrome c used as evidence for evolution?"
+    a: "It's found in all aerobic organisms. Human and chimpanzee cytochrome c are **identical**; human and rhesus monkey differ by **one** amino acid; human and yeast by **many more**. The number of differences matches relationships shown by other evidence."
+    review: "check the amino-acid difference counts"
+    dp: [3.4.1a]
+    tags: [data]
+
+  - id: 3
+    q: "What is a molecular clock?"
+    a: "Mutations build up in a given gene at a roughly **constant rate**, so the number of sequence differences between two species can estimate **how long ago they shared a common ancestor** (calibrated with dated fossils)."
+    dp: [3.4.1a]
+
+  - id: 4
+    q: "What does comparative anatomy show about evolution?"
+    a: "**Homologous structures** such as the pentadactyl limb share the same bone pattern despite different functions, showing common ancestry. **Vestigial structures** are remnants of structures that were functional in ancestors."
+    dp: [3.4.1a]
+
+  - id: 5
+    q: "What are vestigial structures? Give examples."
+    a: "Reduced structures with little or no function that were functional in ancestors: the human **coccyx** (tailbone) and **appendix**, **pelvic bones** in whales and pythons, the wings of flightless birds."
+    dp: [3.4.1a]
+
+  - id: 6
+    q: "What is the embryological evidence for evolution?"
+    a: "Early vertebrate embryos are strikingly similar: all have **pharyngeal arches** (which become gills in fish), a **post-anal tail** and a notochord. They diverge later in development, suggesting shared ancestry."
+    x: "Haeckel's famous 19th-century drawings exaggerated the similarities, but modern photographs still show the shared features."
+    dp: [3.4.1a]
+
+  - id: 7
+    q: "What is biogeography, and how does it support evolution?"
+    a: "The study of the **distribution of species**. Similar environments on different continents hold **different** species (marsupials in Australia, placentals elsewhere), and island species resemble **nearby mainland** species: best explained by evolution from local ancestors after separation."
+    dp: [3.4.1a]
+
+  - id: 8
+    q: "How does the breakup of Gondwana explain the distribution of marsupials and some plant groups?"
+    a: "Australia, Antarctica and South America were once joined in **Gondwana**. Marsupials and plants such as southern beech (*Nothofagus*) and the banksia family (Proteaceae) are found on these now-separate continents because their ancestors lived there **before it broke up**."
+    dp: [3.4.1a, 4.2.3]
+    tags: [aus]
+
+  - id: 9
+    q: "How do fossils provide evidence for evolution?"
+    a: "They show that **life has changed over time**: different organisms appear in rock layers of different ages, and **transitional fossils** show intermediate features, e.g. *Archaeopteryx* (dinosaur–bird) and *Tiktaalik* (fish–four-legged animal)."
+    dp: [3.4.1b]
+
+  - id: 10
+    q: "How does relative dating work?"
+    a: "**Law of superposition**: in undisturbed sedimentary rock, lower layers are older. Fossils are put in order by the layer they're in, and **index fossils** link layers in different places. It gives the order of events, not an age in years."
+    dp: [3.4.1b, 4.2.1b]
+
+  - id: 11
+    q: "What is an index fossil?"
+    a: "A fossil of a species that was **widespread** but existed for only a **short time**, so finding it dates a rock layer and allows layers in different places to be matched."
+    dp: [3.4.1b]
+
+  - id: 12
+    q: "How does radiometric (absolute) dating work?"
+    a: "Radioactive isotopes decay at a constant rate (**half-life**). Measuring the ratio of the **parent isotope to its decay product** in a sample gives its age in years."
+    dp: [3.4.1b, 4.2.2a]
+
+  - id: 13
+    q: "Why is carbon-14 dating used only for remains younger than about 50 000 years?"
+    a: "Carbon-14 has a short **half-life (5730 years)**, so after about 50 000 years too little remains to measure. It dates once-living material (bone, wood, charcoal, shell)."
+    dp: [3.4.1b, 4.2.2a]
+
+  - id: 14
+    q: "How old is a bone that contains 25% of its original carbon-14?"
+    a: "**About 11 460 years**: two half-lives (100% → 50% → 25%), and 2 × 5730 = 11 460."
+    dp: [3.4.1b]
+    calc: {kind: halflife, half_life: 5730, remaining: 0.25, result: 11460}
+
+  - id: 15
+    q: "How are fossils millions of years old dated?"
+    a: "Fossils are usually in sedimentary rock, which can't be dated directly. Layers of **volcanic rock** above and below the fossil are dated with long-lived isotopes (e.g. **potassium-40 → argon-40**, half-life about 1.3 billion years; uranium → lead), bracketing the fossil's age."
+    dp: [3.4.1b, 4.2.2a]
+
+  - id: 16
+    q: "What are the limitations of the fossil record?"
+    a: "It is **incomplete and biased**: fossilisation is rare (it needs rapid burial and usually hard parts), soft-bodied organisms are seldom preserved, and many fossils are destroyed by erosion or never found."
+    dp: [3.4.1b]
+
+  - id: 17
+    q: "Explain how antibiotic resistance in bacteria demonstrates evolution by natural selection."
+    a: "A bacterial population **varies**; a few cells carry a resistance gene (from mutation or a plasmid). The antibiotic **kills susceptible cells**; resistant cells **survive and multiply**, so the population becomes mostly resistant."
+    tip: "Don't write that bacteria 'become resistant in response to' the antibiotic. The antibiotic selects existing resistant variants; it doesn't cause the resistance."
+    dp: [3.4.2b]
+
+  - id: 18
+    q: "Apart from mutation, how do bacteria acquire antibiotic-resistance genes?"
+    a: "By **horizontal gene transfer**, especially **plasmids** passed between cells by conjugation (also transformation and transduction), so resistance can spread quickly, even between species."
+    dp: [3.4.2b]
+
+  - id: 19
+    q: "What is MRSA, and why is it significant?"
+    a: "**MRSA**: methicillin-resistant *Staphylococcus aureus*, strains resistant to methicillin and related antibiotics (penicillins). It's a major cause of hard-to-treat hospital infections, and it shows evolution happening in decades."
+    x: "Penicillin-resistant *S. aureus* was reported within a few years of penicillin's widespread use in the 1940s."
+    dp: [3.4.2b]
+
+  - id: 20
+    q: "How do cane toads show evolutionary change happening today?"
+    a: "Toads at the **invasion front** have evolved **longer legs** and greater endurance than toads in older populations, so the front now advances several times faster than it did in the 1940s–60s (from about 10 km to over 50 km a year)."
+    review: "check the rates of spread (Phillips et al. 2006, Nature)"
+    dp: [3.4.2a]
+    tags: [aus, data]
+
+  - id: 21
+    q: "How do rabbits and the myxoma virus show evolution in Australia?"
+    a: "Myxoma virus, released in **1950**, killed over 99% of infected rabbits at first. Within about a decade rabbits had evolved **greater resistance** and the virus had evolved to be **less lethal** (milder strains spread longer)."
+    dp: [3.4.2]
+    tags: [aus, history]

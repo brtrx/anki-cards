@@ -1,5 +1,5 @@
 # Build and verification tools (see each deck's README)
 genanki==0.13.1        # writes .apkg packages
 verbecc==2.1.0         # independent French conjugation reference (Verbiste data)
-pyspellchecker==0.9.1  # French / English spelling check
+pyspellchecker==0.9.1  # French / English spelling check (biology: Australian English)
 PyYAML>=6.0            # deck sources

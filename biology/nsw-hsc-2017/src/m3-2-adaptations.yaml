@@ -1,0 +1,109 @@
+deck:
+  module: 3
+  iq: 2
+cards:
+  - id: 1
+    q: "What is an adaptation?"
+    a: "An **inherited** characteristic that increases an organism's chance of **surviving and reproducing** in its environment."
+    tip: "Individuals don't adapt during their lifetime in the evolutionary sense: populations become adapted over generations by natural selection."
+    dp: [3.2.1a, 3.2.1b, 3.2.1c]
+
+  - id: 2
+    q: "Distinguish structural, physiological and behavioural adaptations."
+    a: "**Structural**: physical features of the body. **Physiological**: internal body functions and chemistry (metabolism, excretion, reproduction). **Behavioural**: what the organism does (actions, responses)."
+    dp: [3.2.1a, 3.2.1b, 3.2.1c]
+    tags: [compare]
+
+  - id: 3
+    q: "Give two structural adaptations of eucalypt leaves to hot, dry conditions."
+    a: "Mature leaves **hang vertically**, edge-on to the midday sun, reducing heat load and water loss; a **thick waxy cuticle** reduces evaporation."
+    dp: [3.2.1a]
+    tags: [aus]
+
+  - id: 4
+    q: "How are many Australian plants structurally adapted to survive bushfires?"
+    a: "Thick, insulating **bark**; **epicormic buds** under the bark that sprout after fire; **lignotubers** at the base that re-sprout; and woody fruits (e.g. *Banksia*) that open to release seed after fire."
+    dp: [3.2.1a, 4.2.3b]
+    tags: [aus]
+
+  - id: 5
+    q: "What structural adaptations help the red kangaroo move efficiently over long distances?"
+    a: "Long **hind legs with elastic tendons** that store and release energy, so hopping costs little extra energy at speed; a large muscular **tail** for balance, and as a 'fifth leg' when moving slowly."
+    dp: [3.2.1a]
+    tags: [aus]
+
+  - id: 6
+    q: "Give a physiological adaptation that helps desert mammals such as the spinifex hopping mouse conserve water."
+    a: "Their kidneys produce **extremely concentrated urine**, and they get most of their water from food and from respiration (metabolic water), so they may never need to drink."
+    dp: [3.2.1b]
+    tags: [aus]
+
+  - id: 7
+    q: "What is embryonic diapause in kangaroos, and why is it an advantage?"
+    a: "A **physiological** adaptation: a fertilised embryo stays dormant in the uterus while a joey is suckling in the pouch. If the joey leaves or dies (e.g. in drought), the embryo resumes development, so young can be replaced quickly when conditions allow."
+    dp: [3.2.1b]
+    tags: [aus]
+
+  - id: 8
+    q: "How do red kangaroos behave to keep cool in hot weather?"
+    a: "They rest in **shade** in the hottest part of the day and are active at dawn, dusk and night; they **lick their forearms**, where blood vessels are close to the skin, so evaporating saliva cools the blood."
+    dp: [3.2.1c, 8.1.2a]
+    tags: [aus]
+
+  - id: 9
+    q: "How does the water-holding frog of inland Australia survive long droughts?"
+    a: "It **burrows** underground and becomes dormant (aestivation: behavioural); it forms a **cocoon** of shed skin that reduces water loss (structural) and stores water in its **bladder** while lowering its metabolic rate (physiological)."
+    tip: "Many organisms combine all three types of adaptation; one example can illustrate all three."
+    dp: [3.2.1c, 3.2.1a, 3.2.1b]
+    tags: [aus]
+
+  - id: 10
+    q: "Why do koalas hug tree trunks on very hot days?"
+    a: "Some tree trunks are **cooler than the air**, so pressing against them lets the koala lose heat by **conduction** without using water: a behavioural adaptation."
+    dp: [3.2.1c]
+    tags: [aus]
+
+  - id: 11
+    q: "How are grey mangroves adapted to salty, waterlogged mud?"
+    a: "**Salt glands** on the leaves excrete excess salt (physiological), and **pneumatophores** (aerial roots that stick up out of the mud) allow gas exchange for the roots (structural)."
+    dp: [3.2.1b, 3.2.1a]
+    tags: [aus]
+
+  - id: 12
+    q: "How can the adaptations of plants be investigated practically?"
+    a: "For example, compare leaves from different habitats: count **stomata** using clear nail-polish peels, compare cuticle thickness in sections, or measure the rate of water loss from leaves of different types under the same conditions."
+    dp: [3.2.1a, WS.2.2]
+    tags: [practical]
+
+  - id: 13
+    q: "What did Darwin observe about the finches of the Galápagos Islands?"
+    a: "Different islands had finches with **different beak shapes and sizes**, each suited to the local food (seeds, insects, cactus). They resembled each other and a mainland South American species, suggesting **descent from a common ancestor** followed by adaptation."
+    x: "Darwin didn't realise at first that they were all finches; the ornithologist John Gould identified them in 1837."
+    dp: [3.2.2a]
+    tags: [history]
+
+  - id: 14
+    q: "Apart from finches, what Galápagos observations influenced Darwin?"
+    a: "**Giant tortoises** and **mockingbirds** differed from island to island (locals could tell which island a tortoise came from by its shell), and island species resembled those of nearby South America rather than species from similar climates elsewhere."
+    dp: [3.2.2a]
+    tags: [history]
+
+  - id: 15
+    q: "How did Peter and Rosemary Grant's study of Galápagos finches support Darwin's theory?"
+    a: "During a severe **drought in 1977** on Daphne Major, mostly large, hard seeds were left; finches with **deeper beaks** survived better, and the next generation had measurably deeper beaks: natural selection observed in real time."
+    dp: [3.2.2a, 3.4.2]
+    tags: [history, data]
+
+  - id: 16
+    q: "What did Darwin observe in Australia in 1836 that later fed into his theory?"
+    a: "Australian animals such as the **platypus** and marsupials were strikingly different from those in similar habitats elsewhere, yet filled **similar ecological roles** (he compared an Australian ant-lion with a European one)."
+    x: "In his diary he wrote that an unbeliever might exclaim 'Surely two distinct Creators must have been at work'. Evolution from different ancestors on an isolated continent later explained the pattern."
+    review: "check the diary quotation and date (Darwin's Beagle diary, January 1836)"
+    dp: [3.2.2b]
+    tags: [aus, history]
+
+  - id: 17
+    q: "What kinds of evidence did Darwin draw on in *On the Origin of Species* (1859)?"
+    a: "**Variation** within species, **artificial selection** by breeders (e.g. pigeons), Malthus's idea that populations **overproduce**, the **fossil record**, **biogeography** (island species) and comparative **anatomy**."
+    dp: [3.2.2, 3.3.1]
+    tags: [history]

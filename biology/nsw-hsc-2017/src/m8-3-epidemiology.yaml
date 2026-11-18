@@ -1,0 +1,118 @@
+deck:
+  module: 8
+  iq: 3
+cards:
+  - id: 1
+    q: "What is epidemiology?"
+    a: "The study of the **patterns** (who, where, when) and **causes** of disease in **populations**, used to prevent and control health problems."
+    dp: [8.3.1a, 8.3.1b]
+
+  - id: 2
+    q: "What patterns do epidemiologists look for in non-infectious disease data?"
+    a: "Differences by **person** (age, sex, ethnicity, income, occupation), **place** (region, urban or rural) and **time** (trends, seasons); comparing incidence and prevalence between groups points to **risk factors**."
+    dp: [8.3.1a, 8.3.1b]
+    tags: [data]
+
+  - id: 3
+    q: "What patterns are seen in the incidence and prevalence of type 2 diabetes in Australia?"
+    a: "Prevalence has **risen over recent decades**, increases with **age**, and is higher in **lower-income** areas, in remote areas and among Aboriginal and Torres Strait Islander people, reflecting social factors such as access to affordable healthy food and health services."
+    review: "check against current AIHW data and wording"
+    dp: [8.3.1a]
+    tags: [aus, data]
+
+  - id: 4
+    q: "What patterns are seen in melanoma incidence in Australia?"
+    a: "Incidence is **highest in Queensland** (highest UV), rises with **age** and is higher in **men**. Rates in **younger** age groups have **fallen** since sun-protection campaigns began, while rates in older people remain high."
+    review: "check against current data"
+    dp: [8.3.1b]
+    tags: [aus, data]
+
+  - id: 5
+    q: "Why did mesothelioma incidence in Australia keep rising long after asbestos use declined?"
+    a: "The disease has a **long latency**, typically **20–40+ years** between exposure and diagnosis, so cases continued to rise for decades after the peak of asbestos use; people now affected include home renovators as well as former asbestos workers."
+    dp: [8.3.1b]
+    tags: [aus, data]
+
+  - id: 6
+    q: "How is type 2 diabetes treated and managed?"
+    a: "**Lifestyle** changes (healthy diet, weight loss, exercise); regular blood-glucose **monitoring**; **medication** (metformin and newer drugs such as GLP-1 agonists), and insulin if needed; regular checks of **eyes, feet and kidneys** to catch complications early."
+    dp: [8.3.2]
+
+  - id: 7
+    q: "What are future directions for research into type 2 diabetes?"
+    a: "**Remission** through intensive weight loss (very-low-calorie diets, bariatric surgery); new drug classes; **genetic** risk prediction; continuous glucose monitors and automated insulin delivery; better community prevention programs."
+    review: "check against current sources"
+    dp: [8.3.2]
+
+  - id: 8
+    q: "How is melanoma treated?"
+    a: "**Early**: surgical removal with a margin of normal skin. **Advanced**: **immunotherapy** (checkpoint inhibitors that 'release the brakes' on T cells), **targeted therapy** (drugs that block the mutated BRAF protein in tumours with a *BRAF* mutation) and radiotherapy."
+    dp: [8.3.2]
+
+  - id: 9
+    q: "What are future directions for melanoma research?"
+    a: "Earlier detection (AI-assisted skin imaging, total-body photography for high-risk people); treatments **personalised** to each tumour's mutations; **cancer vaccines** (including mRNA vaccines in trials); overcoming resistance to immunotherapy."
+    review: "check against current sources"
+    dp: [8.3.2]
+
+  - id: 10
+    q: "Name the main types of epidemiological study."
+    a: "**Descriptive** (describe who, where, when; e.g. cross-sectional surveys). **Analytical**: **case–control** (compare people with and without the disease for past exposures) and **cohort** (follow exposed and unexposed groups forward). **Intervention** studies (randomised controlled trials)."
+    dp: [8.3.3]
+
+  - id: 11
+    q: "Compare cohort and case–control studies."
+    a: |-
+      | | Cohort | Case–control |
+      |---|---|---|
+      | Starts with | exposure | disease |
+      | Direction | forward in time | looks back |
+      | Good for | common diseases; measures risk | rare diseases; quick, cheaper |
+      | Weakness | slow, expensive | recall bias |
+    dp: [8.3.3]
+    tags: [compare]
+
+  - id: 12
+    q: "Describe Doll and Hill's studies linking smoking and lung cancer."
+    a: "**1950 case–control study**: London hospital patients with lung cancer were far more likely to be smokers than matched patients without it. **British Doctors Study** (cohort, from 1951): about 40 000 doctors followed for 50 years; lung cancer deaths **rose with the amount smoked**."
+    x: "The cohort also showed that the risk fell after people quit smoking."
+    dp: [8.3.3, 8.3.4]
+    tags: [history]
+
+  - id: 13
+    q: "Evaluate the method of the British Doctors Study."
+    a: "**Strengths**: very large sample; prospective (no recall bias); 50-year follow-up; showed a **dose–response** relationship; consistent with other studies. **Limitations**: doctors (mostly men) aren't representative; smoking was self-reported; it is observational, so confounding is possible (though unlikely to explain so strong an effect)."
+    dp: [8.3.3]
+
+  - id: 14
+    q: "What makes an epidemiological study valid and reliable?"
+    a: "A **large, representative sample**; an appropriate **comparison group**; controlling or adjusting for **confounding variables**; minimising **bias** (selection, recall); blinding where possible; statistical analysis; and **replication** by other studies."
+    dp: [8.3.3, WS.5.3]
+
+  - id: 15
+    q: "What is a confounding variable in an epidemiological study?"
+    a: "A factor linked to **both the exposure and the disease** that can create a false association. Example: people who drink a lot of alcohol are more likely to smoke, so alcohol might wrongly appear to cause lung cancer."
+    dp: [8.3.3]
+
+  - id: 16
+    q: "Why can't a correlation alone prove a cause, and what evidence strengthens a causal link?"
+    a: "An association may be due to **chance, bias or confounding**. A causal link is supported by a **strong** association, **consistency** across studies, a **dose–response** relationship, the exposure coming **before** the disease, a plausible **biological mechanism** and experimental evidence."
+    dp: [8.3.3, WS.5.1]
+
+  - id: 17
+    q: "Evaluate the benefits of epidemiological studies."
+    a: "They identify **causes and risk factors** (e.g. smoking → lung cancer), provide **evidence for public-health policy** (tobacco taxes, plain packaging), evaluate treatments and screening, and help **plan health services**. But they can be slow and costly, and show associations, not proof."
+    dp: [8.3.4]
+
+  - id: 18
+    q: "Give an Australian example of epidemiology leading to a successful prevention measure."
+    a: "Studies linking low **folate** in early pregnancy to **neural tube defects** (e.g. spina bifida) led to **mandatory folic acid** in bread-making flour from **2009**, after which neural tube defects fell, especially among babies of Aboriginal and Torres Strait Islander mothers."
+    review: "check figures and wording"
+    dp: [8.3.4, 8.4.1a]
+    tags: [aus]
+
+  - id: 19
+    q: "How did epidemiology contribute to the banning of asbestos in Australia?"
+    a: "Studies of **asbestos workers** and miners (e.g. at Wittenoom) showed much higher rates of mesothelioma, asbestosis and lung cancer; this evidence led to a **total ban** on the use and import of asbestos in Australia from the end of **2003**."
+    dp: [8.3.4]
+    tags: [aus, history]

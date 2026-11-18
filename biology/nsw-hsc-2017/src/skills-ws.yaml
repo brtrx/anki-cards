@@ -1,0 +1,305 @@
+deck:
+  skills: ws
+cards:
+  # ---- Questioning and predicting ----
+  - id: 1
+    q: "Define hypothesis (syllabus glossary)."
+    glossary: hypothesis
+    a: "A tentative explanation for an observed phenomenon, expressed as a precise and unambiguous statement that can be supported or refuted by investigation."
+    dp: [WS.1.1]
+
+  - id: 2
+    q: "What makes a good hypothesis?"
+    a: "A **testable** (falsifiable) statement that predicts the **relationship between the independent and dependent variables**, with a reason, e.g. 'If temperature increases from 10 °C to 40 °C, the rate of catalase activity will increase, because molecules collide more often.'"
+    dp: [WS.1.1]
+
+  - id: 3
+    q: "What makes a good inquiry question for an investigation?"
+    a: "It is **focused** and **scientifically testable**, and it identifies the **variables**, e.g. 'How does temperature affect the rate of catalase activity?'"
+    dp: [WS.1.1]
+
+  - id: 4
+    q: "Define theory (syllabus glossary)."
+    glossary: theory
+    a: "A set of concepts, claims and/or laws that can be used to explain and predict a wide range of related observed phenomena. Theories are typically founded on clearly identified assumptions, are testable, produce reproducible results and have explanatory power."
+    dp: [WS.1.1, WS.6.2]
+
+  - id: 5
+    q: "Distinguish a hypothesis, a theory and a scientific law."
+    a: "**Hypothesis**: a tentative, testable explanation or prediction. **Theory**: a well-tested explanation of a wide range of observations, supported by much evidence (e.g. the Theory of Evolution by Natural Selection). **Law**: describes a consistent pattern (often mathematical) without explaining why."
+    tip: "In science, 'theory' doesn't mean a guess."
+    dp: [WS.1.1]
+    tags: [compare]
+
+  - id: 6
+    q: "What should you do when your results don't support your hypothesis?"
+    a: "Report the data honestly, **reject or modify the hypothesis**, consider errors and uncontrolled variables, then **refine the question** and design a further investigation. Unexpected results often lead to new questions."
+    dp: [WS.1.2, WS.2.3]
+
+  # ---- Planning investigations ----
+  - id: 7
+    q: "What does a risk assessment for a practical investigation include?"
+    a: "The **hazards**; how **likely** and how **severe** harm would be; **control measures** (PPE, safer procedures or substitutes); what to do if an accident happens; and safe **disposal** of waste."
+    dp: [WS.2.1, WS.3.1]
+
+  - id: 8
+    q: "What ethical issues must be considered when planning a biology investigation?"
+    a: "**Animal welfare** (follow animal-research rules; replace, reduce, refine); **human participants** (informed consent, privacy, freedom to withdraw, no harm); **environmental** impact (collecting from the wild); and **honest** reporting of data."
+    dp: [WS.2.1]
+    tags: [ethics]
+
+  - id: 9
+    q: "What are the '3Rs' of animal ethics?"
+    a: "**Replace** animals with alternatives where possible; **Reduce** the number of animals used; **Refine** procedures to minimise pain and distress."
+    dp: [WS.2.1]
+    tags: [ethics]
+
+  - id: 10
+    q: "Define independent variable (syllabus glossary)."
+    glossary: independent variable
+    a: "A variable that is changed in an investigation to see what effect it has on the dependent variable."
+    dp: [WS.2.2]
+
+  - id: 11
+    q: "Define dependent variable (syllabus glossary)."
+    glossary: dependent variable
+    a: "A variable that changes in response to changes to the independent variable in an investigation."
+    dp: [WS.2.2]
+
+  - id: 12
+    q: "Define controlled variable (syllabus glossary)."
+    glossary: controlled variable
+    a: "A variable that is kept constant (or changed in constant ways) during an investigation."
+    dp: [WS.2.2]
+
+  - id: 13
+    q: "Define variable (syllabus glossary)."
+    glossary: variable
+    a: "In an investigation, a factor that can be changed, maintained or measured − eg time, distance, light, temperature."
+    dp: [WS.2.2]
+
+  - id: 14
+    q: "What is the purpose of an experimental control?"
+    a: "It is a set-up identical to the others except that the **independent variable is absent** (or at a standard level). It gives a **baseline** for comparison, so changes in the dependent variable can be attributed to the independent variable."
+    dp: [WS.2.2]
+
+  - id: 15
+    q: "Distinguish a controlled variable and an experimental control."
+    a: "A **controlled variable** is a factor kept the **same in every trial**. A **control** is a separate **set-up or group** without the treatment, used as a baseline."
+    dp: [WS.2.2]
+    tags: [compare]
+
+  - id: 16
+    q: "Distinguish a negative control and a positive control."
+    a: "**Negative control**: expected to show **no effect** (e.g. boiled enzyme), showing that the effect needs the factor being tested. **Positive control**: expected to **show the effect** (e.g. a known catalase source), showing that the method works."
+    dp: [WS.2.2]
+    tags: [compare, practical]
+
+  - id: 17
+    q: "Why must controlled variables be kept constant?"
+    a: "So that the **independent variable is the only factor** affecting the dependent variable, making it a fair test and the investigation **valid**."
+    dp: [WS.2.2, WS.5.3]
+
+  - id: 18
+    q: "A pilot trial shows an enzyme reaction is over too quickly to measure. How could you modify the investigation?"
+    a: "**Slow it down or measure faster**: dilute the enzyme or substrate, lower the temperature, take readings at shorter intervals, or use a data logger."
+    dp: [WS.2.3]
+    tags: [practical]
+
+  # ---- Conducting investigations ----
+  - id: 19
+    q: "Give examples of safe work practices in biology practicals."
+    a: "Wear **PPE** (safety glasses, lab coat, gloves); use **aseptic technique** with microbes; cut **away from the body** with scalpels; never eat or drink in the lab; **wash hands**; report spills and breakages; dispose of biological and chemical waste correctly."
+    dp: [WS.3.1]
+    tags: [practical]
+
+  - id: 20
+    q: "What is accuracy?"
+    a: "How close a measurement (or result) is to the **true or accepted value**."
+    dp: [WS.3.2, WS.5.3]
+
+  - id: 21
+    q: "How can the accuracy of measurements be improved?"
+    a: "Use **calibrated** equipment of suitable **resolution** (e.g. electronic balance, digital thermometer, data logger); remove **systematic errors** (zero the balance); read scales correctly (eye level with the meniscus, avoiding parallax)."
+    dp: [WS.3.2]
+
+  - id: 22
+    q: "Distinguish accuracy and precision."
+    a: "**Accuracy**: how close results are to the **true value**. **Precision**: how close **repeated measurements are to each other** (their spread). Results can be precise but inaccurate if there's a systematic error."
+    dp: [WS.3.2, WS.5.3]
+    tags: [compare]
+
+  - id: 23
+    q: "How do you judge whether a secondary source is reliable?"
+    a: "Check the **author's expertise** (e.g. a university, CSIRO, a government health agency), whether it's **peer-reviewed**, how **recent** it is, its **purpose and possible bias** (commercial or political interests), whether it gives evidence and references, and whether it agrees with other reliable sources."
+    dp: [WS.3.3]
+
+  - id: 24
+    q: "What information does a reference in an accepted style (e.g. APA or Harvard) contain?"
+    a: "**Author**, **year**, **title**, publisher or journal (or website name), and for online sources the **URL** and date accessed; each in-text citation links to an entry in the reference list."
+    dp: [WS.3.3]
+
+  - id: 25
+    q: "Define primary data (syllabus glossary)."
+    glossary: primary data
+    a: "Information created by a person or persons directly involved in a study or observing an event."
+    dp: [WS.3.3]
+
+  - id: 26
+    q: "How does secondary data differ from primary data?"
+    a: "**Secondary data** was collected by **someone else** (journal articles, databases, government statistics), not by the investigator; it must be evaluated for reliability and acknowledged with a reference."
+    dp: [WS.3.3]
+    tags: [compare]
+
+  # ---- Processing data ----
+  - id: 27
+    q: "Which type of graph suits which kind of data?"
+    a: |-
+      - **Line graph**: continuous independent and dependent variables (temperature vs rate).
+      - **Column/bar graph**: categories (species, blood groups).
+      - **Histogram**: frequency distribution of continuous data.
+      - **Scatter plot** with line of best fit: correlation.
+      - **Pie chart**: parts of a whole.
+    dp: [WS.4.1]
+    tags: [data]
+
+  - id: 28
+    q: "What conventions should a scientific graph follow?"
+    a: "A **title**; **independent variable on the x-axis**, dependent on the y-axis; both axes **labelled with units**; even, appropriate **scales**; accurately plotted points; a **line or curve of best fit** where appropriate; a key if needed."
+    dp: [WS.4.1]
+    tags: [data]
+
+  - id: 29
+    q: "Distinguish qualitative and quantitative data."
+    a: "**Qualitative**: descriptive, non-numerical (colour, behaviour, presence or absence). **Quantitative**: numerical measurements or counts (mass, time, number of colonies)."
+    dp: [WS.4.1]
+    tags: [compare]
+
+  - id: 30
+    q: "Why calculate the mean of repeated trials, and how should outliers be treated?"
+    a: "Averaging reduces the effect of **random error**. Outliers should be **identified and investigated**; exclude one from the mean only with a justified reason (e.g. a known mistake), and say so in the report."
+    dp: [WS.4.2, WS.4.3]
+    tags: [data]
+
+  - id: 31
+    q: "A potato cylinder's mass changes from 2.5 g to 2.2 g. What is the percentage change in mass?"
+    a: "**−12%** ((2.2 − 2.5) ÷ 2.5 × 100): a 12% decrease."
+    dp: [WS.4.2]
+    tags: [data]
+    calc: {kind: percent-change, initial: 2.5, final: 2.2, result: -12}
+
+  - id: 32
+    q: "How do you calculate a rate from a graph?"
+    a: "Rate = **change in y ÷ change in x**, the **gradient** of the line (for a curve, the gradient of a tangent at that point), with units (e.g. mL of O₂ per minute)."
+    dp: [WS.4.2]
+    tags: [data]
+
+  - id: 33
+    q: "How can the quality of data be improved?"
+    a: "**Repeat** trials and use larger samples (reliability); use **calibrated, higher-resolution** equipment or data loggers (accuracy); **control variables** and use a control (validity); **randomise** sampling."
+    dp: [WS.4.3]
+
+  # ---- Analysing data ----
+  - id: 34
+    q: "How do you describe a trend shown in a graph?"
+    a: "State the **overall relationship** (e.g. as X increases, Y increases), **quote values with units** ('the rate rose from 2 to 8 mL/min between 20 and 40 °C'), and note any **changes in the pattern** (peak, plateau) and anomalies."
+    dp: [WS.5.1]
+    tags: [data]
+
+  - id: 35
+    q: "Distinguish random and systematic errors."
+    a: "**Random**: unpredictable scatter (reaction time, fluctuating conditions); reduced by **repeating and averaging**; affects reliability. **Systematic**: consistent bias in one direction (equipment not calibrated or zeroed, parallax); **not** fixed by repetition; affects **accuracy**."
+    dp: [WS.5.2]
+    tags: [compare]
+
+  - id: 36
+    q: "What is uncertainty in a measurement?"
+    a: "The **range within which the true value probably lies**, often taken as ± half the smallest scale division of an analogue instrument (e.g. 23.5 ± 0.5 °C)."
+    dp: [WS.5.2]
+
+  - id: 37
+    q: "Define validity (syllabus glossary)."
+    glossary: validity
+    a: "An extent to which tests measure what was intended; an extent to which data, inferences and actions produced from tests and other processes are accurate."
+    dp: [WS.5.3]
+
+  - id: 38
+    q: "Define reliability (syllabus glossary)."
+    glossary: reliability
+    a: "An extent to which repeated observations and/or measurements taken under identical circumstances will yield similar results."
+    dp: [WS.5.3]
+
+  - id: 39
+    q: "How do you improve the reliability of an investigation?"
+    a: "**Repeat** the investigation (several trials, or a larger sample) and check that the results are **consistent**; compare with other groups' or published results."
+    dp: [WS.5.3]
+
+  - id: 40
+    q: "How do you improve the validity of an investigation?"
+    a: "Make sure it **tests what it is meant to**: change **only the independent variable**, keep all others **controlled**, include a **control**, measure the dependent variable appropriately and use an adequate sample."
+    dp: [WS.5.3]
+
+  - id: 41
+    q: "Compare validity, reliability and accuracy."
+    a: |-
+      | Term | Means | Improve by |
+      |---|---|---|
+      | Validity | tests what it's meant to | controlling variables, a control |
+      | Reliability | consistent on repetition | repeating trials, larger samples |
+      | Accuracy | close to the true value | calibrated, suitable equipment |
+    dp: [WS.5.3]
+    tags: [compare]
+
+  - id: 42
+    q: "A student repeats a measurement five times and gets very similar results, but the balance was never zeroed. Comment on the data."
+    a: "The results are **reliable** (consistent) but **not accurate**: not zeroing the balance causes a **systematic error** that repetition can't remove."
+    dp: [WS.5.3, WS.5.2]
+
+  # ---- Problem solving ----
+  - id: 43
+    q: "Define model (syllabus glossary)."
+    glossary: model
+    a: "A representation that describes, simplifies, clarifies or provides an explanation of the workings, structure or relationships within an object, system or idea."
+    dp: [WS.6.1]
+
+  - id: 44
+    q: "What are the benefits and limitations of models in science?"
+    a: "**Benefits**: simplify complex systems, show things too small, large or slow to observe, allow **predictions** and safe, cheap testing of ideas. **Limitations**: they **simplify** and make assumptions, may leave out variables, and must be **tested against real data**."
+    dp: [WS.6.1]
+
+  - id: 45
+    q: "How should you evaluate a scientific claim reported in the media?"
+    a: "Find the **original study**; check the **sample size**, control group and whether it was **peer-reviewed**; look for **conflicts of interest**; check whether a correlation is being reported as a cause; and see whether other studies agree."
+    dp: [WS.6.2]
+
+  # ---- Communicating ----
+  - id: 46
+    q: "How are scientific (binomial) names written?"
+    a: "**Genus** with a capital letter, **species** in lower case, both in *italics* (underlined when handwritten), e.g. *Homo sapiens*; after first use, the genus can be shortened (*H. sapiens*)."
+    dp: [WS.7.2]
+
+  - id: 47
+    q: "What are the conventions for writing units in science?"
+    a: "Use **SI units** with the correct symbols (m, g, s, L, °C, mol); leave a **space between number and unit** (25 °C, 3.2 g); no full stop after a symbol; use prefixes correctly (k, m, µ, n)."
+    dp: [WS.7.2]
+
+  - id: 48
+    q: "What are the sections of a scientific report?"
+    a: "Title, **aim**, **hypothesis**, risk assessment, materials, **method**, **results** (tables, graphs), **discussion** (trends, errors, validity, reliability, accuracy, improvements), **conclusion** (answers the aim; supports or refutes the hypothesis) and references."
+    dp: [WS.7.1]
+
+  - id: 49
+    q: "Define conclusion (syllabus glossary)."
+    glossary: conclusion
+    a: "A judgement based on evidence."
+    dp: [WS.7.3]
+
+  - id: 50
+    q: "What makes an evidence-based argument?"
+    a: "A clear **claim**, supported by relevant **evidence** (data, reliable sources), **reasoning** that links the evidence to the claim, and acknowledgement of **limitations** or counter-arguments."
+    dp: [WS.7.3]
+
+  - id: 51
+    q: "What is peer review, and why does it matter?"
+    a: "Before a study is published, **independent experts** in the field critically evaluate its methods, results and conclusions. It improves the **quality and reliability** of published science, though it doesn't guarantee a study is correct."
+    dp: [WS.7.3, WS.3.3]
