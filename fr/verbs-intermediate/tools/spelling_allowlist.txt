@@ -1,0 +1,53 @@
+# Words the spell-checkers don't know but which are correct.
+# One per line, case-insensitive. Add a short justification as a comment
+# when the word is not obviously a proper noun or loanword.
+
+[fr]
+# loanwords / informal
+texto
+week
+end
+prof
+fac
+ado
+Internet
+pique-niquer
+# acronyms
+CV
+# languages (lower case in French)
+portugais
+# feminine of thaï (adjective)
+thaïe
+# interjections
+eh
+# proper nouns
+Loire
+Ulysse
+Marseille
+Écosse
+Lyon
+Rome
+Bretagne
+Napoléon
+Sainte
+Hélène
+Berlin
+Nantes
+Normandie
+Dijon
+Cléopâtre
+Paul
+Venise
+Jeanne
+Domrémy
+Louis
+XIV
+
+[en]
+café
+# British spellings
+dialled
+favour
+neighbours
+# 'if ifs and ands were pots and pans' (English proverb)
+ands

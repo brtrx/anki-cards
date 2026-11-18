@@ -1,0 +1,68 @@
+name: Verify decks
+
+on:
+  push:
+  pull_request:
+
+# A newer push to the same branch cancels the older, now-irrelevant run.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Self-test — the checker must catch known mistakes
+        run: python fr/verbs-intermediate/tools/test_verify.py
+
+      - name: Self-test — grammar_check client (stub server, no Java needed)
+        run: python fr/verbs-intermediate/tools/test_grammar_check.py
+
+      - name: Verify every card (lint, conjugation, spelling)
+        run: python fr/verbs-intermediate/tools/verify.py --strict
+
+      - name: Build packages
+        run: python fr/verbs-intermediate/tools/build.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fr-verbs-intermediate
+          path: |
+            fr/verbs-intermediate/dist/
+            fr/verbs-intermediate/VERIFICATION.md
+
+  grammar:
+    # Advisory: LanguageTool runs as a local server on the runner. Flags never fail
+    # this job; it fails only if LanguageTool can't be fetched or started.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 20   # normally ~3 min; never let it sit for GitHub's 6-hour default
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+          cache-dependency-path: fr/verbs-intermediate/tools/languagetool/pom.xml
+      - run: pip install -r requirements.txt
+      - name: LanguageTool grammar check
+        run: python fr/verbs-intermediate/tools/grammar_check.py --fetch
+      - name: Show the report (run summary page and this log)
+        run: tee -a "$GITHUB_STEP_SUMMARY" < fr/verbs-intermediate/GRAMMAR.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grammar-report
+          path: fr/verbs-intermediate/GRAMMAR.md

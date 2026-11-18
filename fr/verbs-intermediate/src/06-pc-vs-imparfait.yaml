@@ -1,0 +1,320 @@
+deck:
+  number: 6
+  slug: pc-vs-imparfait
+  title: "Passé composé or imparfait? (choose the tense)"
+  mode: choice
+  description: |
+    Only the infinitive is given — the context tells you which tense.
+    Imparfait: background, description, habits, states, actions in progress.
+    Passé composé: events, sequences, reactions, bounded periods, specific dates.
+    Watch the verbs that change meaning: *je connaissais* (knew) / *j'ai connu*
+    (met); *je savais* (knew) / *j'ai su* (found out); *je devais* (was supposed
+    to) / *j'ai dû* (had to); *je pouvais* / *j'ai pu* (managed to).
+
+cards:
+  - id: 1
+    text: "Hier soir, pendant que je {{regardais}} un film, quelqu'un a sonné à la porte."
+    verb: regarder
+    tense: imparfait
+    person: 1s
+    en: "Last night, while I was watching a film, someone rang the doorbell."
+    note: "*pendant que* + an action in progress → **imparfait**; the interruption (*a sonné*) → passé composé."
+
+  - id: 2
+    text: "Je lisais tranquillement quand soudain la lumière {{s'est éteinte}}."
+    verb: s'éteindre
+    tense: passe-compose
+    person: 3s
+    agree: f
+    en: "I was reading quietly when suddenly the light went out."
+    note: "*soudain* signals a sudden, completed event → **passé composé**. Pronominal → être, agreeing with *la lumière*."
+
+  - id: 3
+    text: "Quand j'étais enfant, je {{passais}} toutes mes vacances chez mes grands-parents."
+    verb: passer
+    tense: imparfait
+    person: 1s
+    en: "When I was a child, I used to spend all my holidays at my grandparents'."
+    note: "A repeated habit (*toutes mes vacances*, *quand j'étais enfant*) → **imparfait**."
+
+  - id: 4
+    text: "L'été dernier, nous {{avons passé}} deux semaines en Bretagne."
+    verb: passer
+    tense: passe-compose
+    person: 1p
+    aux: avoir
+    en: "Last summer we spent two weeks in Brittany."
+    note: "One bounded period (*deux semaines*, *l'été dernier*) → **passé composé**, even though it lasted a while. (*passer* + time → avoir.)"
+
+  - id: 5
+    text: "Il {{faisait}} beau, les oiseaux chantaient et j'étais heureux."
+    verb: faire
+    tense: imparfait
+    person: 3s
+    en: "The weather was lovely, the birds were singing and I was happy."
+    note: "Setting the scene — weather, background, feelings → **imparfait**."
+
+  - id: 6
+    text: "Il {{a plu}} trois jours de suite, puis le soleil est revenu."
+    verb: pleuvoir
+    tense: passe-compose
+    person: 3s
+    en: "It rained for three days in a row, then the sun came back."
+    note: "A bounded period (*trois jours de suite*) followed by the next event (*puis*) → **passé composé**."
+
+  - id: 7
+    text: "{{J'ai connu}} ma femme à une soirée chez des amis."
+    verb: connaître
+    tense: passe-compose
+    person: 1s
+    en: "I met my wife at a party at some friends' place."
+    note: "*connaître* in the passé composé = **to meet** for the first time. *Je connaissais* = I knew (already)."
+
+  - id: 8
+    text: "À l'époque, je {{connaissais}} tous les voisins de l'immeuble."
+    verb: connaître
+    tense: imparfait
+    person: 1s
+    en: "Back then, I knew all the neighbours in the building."
+    note: "An ongoing state of knowing → **imparfait**. *à l'époque* = back then."
+
+  - id: 9
+    text: "Quand {{j'ai su}} la vérité, j'ai été choqué."
+    verb: savoir
+    tense: passe-compose
+    person: 1s
+    en: "When I found out the truth, I was shocked."
+    note: "*savoir* in the passé composé = **found out** (a moment). The imparfait *je savais* = I knew (a state). *j'ai été choqué* = my reaction at that moment."
+
+  - id: 10
+    text: "Je {{savais}} depuis le début qu'il mentait, mais je n'ai rien dit."
+    verb: savoir
+    tense: imparfait
+    person: 1s
+    en: "I'd known all along that he was lying, but I didn't say anything."
+    note: "A state of knowledge (*depuis le début*) → **imparfait**; the decision not to speak → passé composé."
+
+  - id: 11
+    text: "Je {{devais}} partir à huit heures, mais mon train a été annulé."
+    verb: devoir
+    tense: imparfait
+    person: 1s
+    en: "I was supposed to leave at eight, but my train was cancelled."
+    note: "*je devais* = I was supposed to (a plan that may not have happened). *J'ai dû partir* = I had to leave (and did)."
+
+  - id: 12
+    text: "Il y avait une grève, alors nous {{avons dû}} rentrer à pied."
+    verb: devoir
+    tense: passe-compose
+    person: 1p
+    en: "There was a strike, so we had to walk home."
+    note: "*nous avons dû* = we had to (and did): an obligation that was carried out. The background (*il y avait une grève*) is in the imparfait."
+
+  - id: 13
+    text: "Malgré la neige, ils {{ont pu}} atterrir sans problème."
+    verb: pouvoir
+    tense: passe-compose
+    person: 3p
+    en: "Despite the snow, they managed to land without any problems."
+    note: "*pouvoir* in the passé composé = **managed to**. *Ils pouvaient* = they were able to (in general)."
+
+  - id: 14
+    text: "Elle {{avait}} peur du noir quand elle était petite."
+    verb: avoir
+    tense: imparfait
+    person: 3s
+    en: "She was afraid of the dark when she was little."
+    note: "A lasting state in the past (fear, age, feelings) → **imparfait**."
+
+  - id: 15
+    text: "Quand le chien a aboyé, {{j'ai eu}} peur."
+    verb: avoir
+    tense: passe-compose
+    person: 1s
+    en: "When the dog barked, I got a fright."
+    note: "*j'ai eu peur* = I got scared (a reaction at a precise moment). *J'avais peur* = I was scared (ongoing)."
+
+  - id: 16
+    text: "Napoléon {{est mort}} à Sainte-Hélène en 1821."
+    verb: mourir
+    tense: passe-compose
+    person: 3s
+    en: "Napoleon died on Saint Helena in 1821."
+    note: "A completed event with a date → **passé composé** (in history books, often the passé simple: *il mourut*)."
+
+  - id: 17
+    text: "Le château, qui {{dominait}} la vallée, a été détruit pendant la guerre."
+    verb: dominer
+    tense: imparfait
+    person: 3s
+    en: "The castle, which overlooked the valley, was destroyed during the war."
+    note: "How things were (a lasting description) → **imparfait**; what happened → passé composé (passive *a été détruit*)."
+
+  - id: 18
+    text: "D'habitude, on {{dînait}} vers sept heures."
+    verb: dîner
+    tense: imparfait
+    person: 3s
+    en: "We usually had dinner around seven."
+    note: "*d'habitude* = usually → **imparfait**."
+
+  - id: 19
+    text: "Ce jour-là, exceptionnellement, nous {{avons dîné}} à minuit."
+    verb: dîner
+    tense: passe-compose
+    person: 1p
+    en: "That day, for once, we had dinner at midnight."
+    note: "*ce jour-là* — one specific occasion, in contrast with the habit → **passé composé**."
+
+  - id: 20
+    text: "Il {{était}} minuit quand nous sommes enfin arrivés."
+    verb: être
+    tense: imparfait
+    person: 3s
+    en: "It was midnight when we finally arrived."
+    note: "The time of day as background → **imparfait**: *il était minuit*."
+
+  - id: 21
+    text: "Nous {{avons attendu}} le bus pendant quarante minutes."
+    verb: attendre
+    tense: passe-compose
+    person: 1p
+    en: "We waited for the bus for forty minutes."
+    note: "*pendant* + a precise duration presents the action as finished → **passé composé**."
+
+  - id: 22
+    text: "Nous {{attendions}} depuis quarante minutes quand le bus est enfin arrivé."
+    verb: attendre
+    tense: imparfait
+    person: 1p
+    en: "We had been waiting for forty minutes when the bus finally came."
+    note: "**depuis + imparfait** = had been doing (still going on at that past moment) — the past version of *depuis* + présent."
+
+  - id: 23
+    text: "Tout à coup, le téléphone {{a sonné}}."
+    verb: sonner
+    tense: passe-compose
+    person: 3s
+    en: "All of a sudden, the phone rang."
+    note: "*tout à coup* = suddenly → **passé composé**."
+
+  - id: 24
+    text: "Le jour où je l'ai rencontrée, elle {{portait}} une robe rouge."
+    verb: porter
+    tense: imparfait
+    person: 3s
+    en: "The day I met her, she was wearing a red dress."
+    note: "Physical description (clothes, appearance) → **imparfait**. (*l'ai rencontrée*: agreement with *l'* = her.)"
+
+  - id: 25
+    text: "Il {{a habité}} à Berlin de 2015 à 2020."
+    verb: habiter
+    tense: passe-compose
+    person: 3s
+    en: "He lived in Berlin from 2015 to 2020."
+    note: "A closed period with start and end dates (*de… à…*) → **passé composé**."
+
+  - id: 26
+    text: "Quand je suis entré, tout le monde {{s'est tu}}."
+    verb: se taire
+    tense: passe-compose
+    person: 3s
+    en: "When I came in, everyone went quiet."
+    note: "A reaction to an event → **passé composé**. *se taire* → **tu**: tout le monde s'est tu."
+
+  - id: 27
+    text: "Quand je suis entré, tout le monde {{parlait}} en même temps."
+    verb: parler
+    tense: imparfait
+    person: 3s
+    en: "When I came in, everyone was talking at once."
+    note: "Already in progress when I came in → **imparfait**. Compare *tout le monde s'est tu* (a reaction → passé composé)."
+
+  - id: 28
+    text: "Il était une fois un roi qui {{avait}} trois filles."
+    verb: avoir
+    tense: imparfait
+    person: 3s
+    en: "Once upon a time there was a king who had three daughters."
+    note: "Fairy-tale opening: description → **imparfait**."
+
+  - id: 29
+    text: "Un beau matin, la plus jeune {{a décidé}} de quitter le château."
+    verb: décider
+    tense: passe-compose
+    person: 3s
+    en: "One fine morning, the youngest decided to leave the castle."
+    note: "*Un beau matin* introduces an event that moves the story on → **passé composé** (in a written tale: passé simple, *décida*)."
+
+  - id: 30
+    text: "Il {{s'est levé}}, il a mis son chapeau sur sa tête."
+    verb: se lever
+    tense: passe-compose
+    person: 3s
+    source: "Jacques Prévert, « Déjeuner du matin », *Paroles* (1946)"
+    en: "He got up, he put his hat on his head."
+    note: "A sequence of completed actions, one after another → **passé composé**. Prévert's poem is built on this."
+
+  - id: 31
+    text: "{{J'étais}} en train de cuisiner quand j'ai entendu un cri."
+    verb: être
+    tense: imparfait
+    person: 1s
+    en: "I was in the middle of cooking when I heard a scream."
+    note: "*être en train de* = to be in the middle of → always **imparfait** in the past."
+
+  - id: 32
+    text: "Il y a deux ans, nous {{avons déménagé}} à Nantes."
+    verb: déménager
+    tense: passe-compose
+    person: 1p
+    en: "Two years ago we moved to Nantes."
+    note: "*il y a* + time = ago → a dated, completed event → **passé composé**."
+
+  - id: 33
+    text: "Mes grands-parents {{avaient}} une petite ferme en Normandie."
+    verb: avoir
+    tense: imparfait
+    person: 3p
+    en: "My grandparents had a small farm in Normandy."
+    note: "An ongoing state or possession in the past → **imparfait**."
+
+  - id: 34
+    text: "Ils {{ont vendu}} la ferme en 1998."
+    verb: vendre
+    tense: passe-compose
+    person: 3p
+    en: "They sold the farm in 1998."
+    note: "A specific event with a date → **passé composé**."
+
+  - id: 35
+    text: "Ce matin, {{j'ai raté}} mon bus, alors je suis arrivé en retard."
+    verb: rater
+    tense: passe-compose
+    person: 1s
+    en: "This morning I missed my bus, so I was late."
+    note: "A chain of completed events (*alors*) → **passé composé**."
+
+  - id: 36
+    text: "Elle {{était}} fatiguée, donc elle est rentrée tôt."
+    verb: être
+    tense: imparfait
+    person: 3s
+    en: "She was tired, so she went home early."
+    note: "A state (the cause) → **imparfait**; the resulting action → passé composé."
+
+  - id: 37
+    text: "Quand il {{a vu}} le prix, il a changé d'avis."
+    verb: voir
+    tense: passe-compose
+    person: 3s
+    en: "When he saw the price, he changed his mind."
+    note: "Two successive events: *quand* + passé composé = at the moment when."
+
+  - id: 38
+    text: "Quand il {{était}} jeune, il voulait devenir pilote."
+    verb: être
+    tense: imparfait
+    person: 3s
+    en: "When he was young, he wanted to become a pilot."
+    note: "*quand* + a period of life → **imparfait** (a state, not an event). His wish was ongoing too: *il voulait*."

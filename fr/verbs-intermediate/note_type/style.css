@@ -1,0 +1,80 @@
+.card {
+  font-family: "Charter", "Georgia", "Iowan Old Style", "Palatino", serif;
+  font-size: 22px;
+  line-height: 1.45;
+  text-align: center;
+  color: #1d1d1f;
+  background: #fbfaf7;
+  padding: 12px 10px;
+}
+.deck {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 12px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: #8a8578;
+  margin-bottom: 18px;
+}
+.sentence { font-size: 26px; max-width: 34em; margin: 0 auto; }
+.blank {
+  display: inline-block;
+  min-width: 4.5em;
+  border-bottom: 2px solid #2f6f9f;
+  color: transparent;
+}
+.ans, .target {
+  color: #2f6f9f;
+  font-weight: 600;
+}
+.target { border-bottom: 2px dotted #2f6f9f; }
+.cue, .tense {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  color: #6b6658;
+  margin-top: 14px;
+}
+.cue::before { content: "( "; }
+.cue::after { content: " )"; }
+.hint { margin-top: 18px; font-size: 15px; }
+hr#answer { border: none; border-top: 1px solid #e3dfd5; margin: 18px auto; max-width: 30em; }
+.solution {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2f6f9f;
+  margin-bottom: 10px;
+}
+.english { font-style: italic; color: #3d3a33; }
+.note, .also, .source, .glance {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  max-width: 34em;
+  margin: 12px auto 0;
+  text-align: left;
+}
+.note { font-size: 16px; background: #f1eee6; border-left: 3px solid #2f6f9f; padding: 8px 12px; border-radius: 4px; }
+.also { font-size: 15px; color: #4a473f; }
+.also .label { color: #8a8578; }
+.source { font-size: 14px; color: #6b6658; text-align: right; }
+.glance {
+  font-size: 13px;
+  color: #6b6658;
+  border-top: 1px dashed #e3dfd5;
+  padding-top: 8px;
+  margin-top: 18px;
+  line-height: 1.6;
+}
+.tts { margin-top: 10px; }
+
+/* Night mode (desktop, AnkiDroid, AnkiMobile) */
+.nightMode.card, .night_mode .card, .nightMode .card { background: #1e1e1e; color: #e8e6e1; }
+.nightMode .ans, .nightMode .target, .nightMode .solution { color: #7fb8e0; }
+.nightMode .blank { border-bottom-color: #7fb8e0; }
+.nightMode .english { color: #d6d3cc; }
+.nightMode .note { background: #2a2925; border-left-color: #7fb8e0; }
+.nightMode .also { color: #c9c5bb; }
+.nightMode hr#answer { border-top-color: #3a3833; }
+.nightMode .glance { border-top-color: #3a3833; }
+
+@media (max-width: 500px) {
+  .card { font-size: 19px; }
+  .sentence { font-size: 22px; }
+}

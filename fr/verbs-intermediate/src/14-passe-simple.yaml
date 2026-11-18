@@ -1,0 +1,296 @@
+deck:
+  number: 14
+  slug: passe-simple
+  title: "Passé simple & literary tenses — recognition"
+  mode: recognise
+  description: |
+    For reading novels, tales, history and the news in print. You don't
+    need to *produce* these forms, just recognise them: the form is shown
+    highlighted — name the infinitive and the everyday tense you'd use instead
+    (passé simple → passé composé; passé antérieur → plus-que-parfait;
+    imperfect subjunctive → present subjunctive).
+    Endings to spot: -a / -èrent (-er verbs), -it / -irent, -ut / -urent,
+    -int / -inrent (venir, tenir); -âmes, -îmes, -ûmes = nous.
+    Trap: *fut* (passé simple) vs *fût* (imperfect subjunctive).
+
+cards:
+  - id: 1
+    text: "Ils {{vécurent}} heureux et eurent beaucoup d'enfants."
+    verb: vivre
+    tense: passe-simple
+    person: 3p
+    tags: [idiom]
+    en: "They lived happily ever after and had lots of children."
+    note: "The classic fairy-tale ending. *vécurent* ← vivre, *eurent* ← avoir. Endings in -urent, -irent, -èrent, -inrent are always 3rd person plural."
+
+  - id: 2
+    text: "Je le {{vis}}, je rougis, je pâlis à sa vue."
+    verb: voir
+    tense: passe-simple
+    person: 1s
+    source: "Jean Racine, *Phèdre*, acte I, scène 3 (1677)"
+    en: "I saw him, I blushed, I turned pale at the sight of him."
+    note: "*je vis* = I saw (voir) — not 'I live' (vivre: je vis)! The narrative context decides. *rougis, pâlis*: for -ir verbs the singular passé simple looks like the present."
+
+  - id: 3
+    text: "La Cigale, ayant chanté tout l'été, se trouva fort dépourvue quand la bise {{fut venue}}."
+    verb: venir
+    tense: passe-anterieur
+    person: 3s
+    agree: f
+    source: "Jean de La Fontaine, « La Cigale et la Fourmi », *Fables* (1668)"
+    en: "The cicada, having sung all summer, found herself quite destitute when the north wind came."
+    note: "**Passé antérieur** (passé simple of être/avoir + participle): an action just before another in the passé simple. Everyday equivalent: plus-que-parfait. *se trouva* is the passé simple of se trouver."
+
+  - id: 4
+    text: "Il {{mourut}} quand il n'eut plus son ange."
+    verb: mourir
+    tense: passe-simple
+    person: 3s
+    source: "Victor Hugo, *Les Misérables* (1862) — Jean Valjean's epitaph"
+    en: "He died when he no longer had his angel."
+    note: "*mourut* ← mourir (il est mort). *eut* ← avoir. Valjean's 'angel' is Cosette."
+
+  - id: 5
+    text: "Jeanne d'Arc {{naquit}} à Domrémy vers 1412."
+    verb: naître
+    tense: passe-simple
+    person: 3s
+    agree: f
+    en: "Joan of Arc was born in Domrémy around 1412."
+    note: "*naître* → **naquit** (elle est née) — one of the strangest passé simple forms. History books are full of it."
+
+  - id: 6
+    text: "Louis XIV {{régna}} pendant soixante-douze ans."
+    verb: régner
+    tense: passe-simple
+    person: 3s
+    en: "Louis XIV reigned for seventy-two years."
+    note: "-er verbs: -ai, -as, **-a**, -âmes, -âtes, -èrent. Louis XIV (1643–1715) had the longest reign of any French king."
+
+  - id: 7
+    text: "Les Parisiens {{prirent}} la Bastille le 14 juillet 1789."
+    verb: prendre
+    tense: passe-simple
+    person: 3p
+    en: "Parisians stormed the Bastille on 14 July 1789."
+    note: "*prendre* → il prit, ils **prirent** (ils ont pris). *prendre* = to capture here."
+
+  - id: 8
+    text: "Elle {{mit}} son manteau et sortit sans un mot."
+    verb: mettre
+    tense: passe-simple
+    person: 3s
+    en: "She put on her coat and went out without a word."
+    note: "*mit* ← mettre (elle a mis). Don't confuse it with *met* (present). *sortit* is also passé simple."
+
+  - id: 9
+    text: "Il {{fallut}} attendre le printemps."
+    verb: falloir
+    tense: passe-simple
+    person: 3s
+    en: "We had to wait until spring."
+    note: "*falloir* → il **fallut** (il a fallu)."
+
+  - id: 10
+    text: "Nous {{reçûmes}} une lettre de Paris."
+    verb: recevoir
+    tense: passe-simple
+    person: 1p
+    en: "We received a letter from Paris."
+    note: "-âmes / -îmes / -ûmes = *nous*. *reçûmes* ← recevoir (nous avons reçu)."
+
+  - id: 11
+    text: "Ils {{vinrent}}, ils virent, ils vainquirent."
+    verb: venir
+    tense: passe-simple
+    person: 3p
+    en: "They came, they saw, they conquered."
+    note: "*venir/tenir* have a special passé simple in **-in-**: il vint, ils vinrent; il tint, ils tinrent. (*virent* ← voir, *vainquirent* ← vaincre.)"
+
+  - id: 12
+    text: "Ce {{fut}} une longue nuit."
+    verb: être
+    tense: passe-simple
+    person: 3s
+    en: "It was a long night."
+    note: "*être* → je fus, il **fut**, nous fûmes, ils furent. No circumflex: *fût* (with ^) is the imperfect subjunctive."
+
+  - id: 13
+    text: "Elle {{eut}} soudain une idée."
+    verb: avoir
+    tense: passe-simple
+    person: 3s
+    en: "Suddenly she had an idea."
+    note: "*avoir* → j'eus, il **eut** (pronounced /y/), ils eurent."
+
+  - id: 14
+    text: "Il {{dut}} renoncer à son projet."
+    verb: devoir
+    tense: passe-simple
+    person: 3s
+    en: "He had to give up his plan."
+    note: "*devoir* → il **dut** (il a dû)."
+
+  - id: 15
+    text: "Ils {{purent}} enfin s'échapper."
+    verb: pouvoir
+    tense: passe-simple
+    person: 3p
+    en: "At last they managed to escape."
+    note: "*pouvoir* → il put, ils **purent** (ils ont pu)."
+
+  - id: 16
+    text: "Je {{sus}} alors que tout était perdu."
+    verb: savoir
+    tense: passe-simple
+    person: 1s
+    en: "I knew then that all was lost."
+    note: "*savoir* → je **sus** (≈ I realised / I found out)."
+
+  - id: 17
+    text: "Elle {{crut}} entendre un bruit dans le couloir."
+    verb: croire
+    tense: passe-simple
+    person: 3s
+    en: "She thought she heard a noise in the corridor."
+    note: "*croire* → elle **crut** (elle a cru)."
+
+  - id: 18
+    text: "Il {{plut}} toute la nuit."
+    verb: pleuvoir
+    tense: passe-simple
+    person: 3s
+    en: "It rained all night."
+    note: "*il plut* ← pleuvoir — or *plaire* (*Elle lui plut* = he liked her). Context decides."
+
+  - id: 19
+    text: "Il {{ouvrit}} lentement la porte."
+    verb: ouvrir
+    tense: passe-simple
+    person: 3s
+    en: "He slowly opened the door."
+    note: "*ouvrir* → il **ouvrit** (il a ouvert)."
+
+  - id: 20
+    text: "Elle {{écrivit}} une longue lettre à sa sœur."
+    verb: écrire
+    tense: passe-simple
+    person: 3s
+    en: "She wrote a long letter to her sister."
+    note: "*écrire* → elle **écrivit** (elle a écrit)."
+
+  - id: 21
+    text: "Ils {{firent}} le tour du monde en quatre-vingts jours."
+    verb: faire
+    tense: passe-simple
+    person: 3p
+    en: "They went round the world in eighty days."
+    note: "*faire* → il fit, ils **firent** (ils ont fait). A nod to Jules Verne (1872)."
+
+  - id: 22
+    text: "Quelques jours plus tard, le prince {{l'épousa}}."
+    verb: épouser
+    tense: passe-simple
+    person: 3s
+    en: "A few days later, the prince married her."
+    note: "-er verbs: il **épousa** (il l'a épousée)."
+
+  - id: 23
+    text: "Il {{se leva}}, prit son chapeau et partit."
+    verb: se lever
+    tense: passe-simple
+    person: 3s
+    en: "He got up, took his hat and left."
+    note: "A chain of events in a narrative → passé simple. *se leva* ← se lever; *prit* ← prendre; *partit* ← partir."
+
+  - id: 24
+    text: "Ils {{allèrent}} jusqu'à la mer."
+    verb: aller
+    tense: passe-simple
+    person: 3p
+    en: "They went as far as the sea."
+    note: "*aller* → il alla, ils **allèrent** (ils sont allés)."
+
+  - id: 25
+    text: "Elle {{vit}} qu'il pleurait."
+    verb: voir
+    tense: passe-simple
+    person: 3s
+    en: "She saw that he was crying."
+    note: "*elle vit* = she saw (voir, passé simple) **or** she lives (vivre, présent). The imparfait *pleurait* shows we're in a past narrative."
+
+  - id: 26
+    text: "Par ma foi ! il y a plus de quarante ans que je dis de la prose sans que j'en {{susse}} rien."
+    verb: savoir
+    tense: subjonctif-imparfait
+    person: 1s
+    source: "Molière, *Le Bourgeois gentilhomme*, acte II, scène 4 (1670)"
+    en: "Good heavens! For more than forty years I've been speaking prose without knowing it."
+    note: "*susse* is the **imperfect subjunctive** of savoir (modern French: *sans que j'en sache rien*). Monsieur Jourdain discovers he has spoken prose all his life."
+
+  - id: 27
+    text: "Il dort. Quoique le sort {{fût}} pour lui bien étrange, il vivait."
+    verb: être
+    tense: subjonctif-imparfait
+    person: 3s
+    source: "Victor Hugo, *Les Misérables* (1862) — Jean Valjean's epitaph"
+    en: "He sleeps. Although fate was very strange to him, he lived."
+    note: "**fût** (with ^) = imperfect subjunctive, here after *quoique*; *fut* (no ^) = passé simple. Modern French: *quoique le sort soit…*"
+
+  - id: 28
+    text: "Il {{marcha}} toute la nuit sans s'arrêter."
+    verb: marcher
+    tense: passe-simple
+    person: 3s
+    en: "He walked all night without stopping."
+    note: "-er verbs: il **marcha** (il a marché)."
+
+  - id: 29
+    text: "Ils {{se regardèrent}} sans rien dire."
+    verb: se regarder
+    tense: passe-simple
+    person: 3p
+    en: "They looked at each other without saying a word."
+    note: "**-èrent** = 3rd person plural of -er verbs (ils se sont regardés)."
+
+  - id: 30
+    text: "Nous {{arrivâmes}} à Marseille au lever du soleil."
+    verb: arriver
+    tense: passe-simple
+    person: 1p
+    en: "We reached Marseille at sunrise."
+    note: "**-âmes** = *nous*, -er verbs (with circumflex). Nous sommes arrivés."
+
+  - id: 31
+    text: "Quand il {{eut terminé}} son discours, tout le monde applaudit."
+    verb: terminer
+    tense: passe-anterieur
+    person: 3s
+    en: "When he had finished his speech, everyone applauded."
+    note: "Passé antérieur after *quand / dès que / après que* in literary narrative (= *quand il avait terminé*)."
+
+  - id: 32
+    text: "Elle {{tint}} parole."
+    verb: tenir
+    tense: passe-simple
+    person: 3s
+    en: "She kept her word."
+    note: "*tenir* → elle **tint** (elle a tenu). *tenir parole* = to keep one's word."
+
+  - id: 33
+    text: "Ils {{craignirent}} le pire."
+    verb: craindre
+    tense: passe-simple
+    person: 3p
+    en: "They feared the worst."
+    note: "-indre verbs: il craignit, ils **craignirent** (ils ont craint)."
+
+  - id: 34
+    text: "Le Loup {{se mit}} à courir de toute sa force par le chemin qui était le plus court."
+    verb: se mettre
+    tense: passe-simple
+    person: 3s
+    source: "Charles Perrault, « Le Petit Chaperon rouge », *Histoires ou contes du temps passé* (1697)"
+    en: "The wolf began to run as fast as he could along the shorter path."
+    note: "*se mettre à* + infinitive = to start doing. *se mit* ← se mettre (il s'est mis)."

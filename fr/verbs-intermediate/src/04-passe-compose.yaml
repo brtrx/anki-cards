@@ -1,0 +1,437 @@
+deck:
+  number: 4
+  slug: passe-compose
+  title: "Passé composé — auxiliaries, participles & agreement"
+  mode: form
+  description: |
+    The three things that go wrong in the passé composé:
+    1. the auxiliary (être or avoir — and the verbs that switch);
+    2. irregular past participles (pris, mis, dû, vécu, né, mort…);
+    3. agreement (with être, with pronominal verbs, and with a direct object
+       placed before avoir — but never with *en*).
+    Also: where *ne… pas* and adverbs go.
+
+cards:
+  - id: 1
+    text: "Je suis venu, j'ai vu, {{j'ai vaincu}}."
+    verb: vaincre
+    tense: passe-compose
+    person: 1s
+    source: "Julius Caesar, *Veni, vidi, vici* (47 BC), in its usual French translation"
+    en: "I came, I saw, I conquered."
+    note: "*vaincre* → **vaincu**. Note the two auxiliaries: *venir* takes être, *voir* and *vaincre* take avoir."
+
+  - id: 2
+    text: "Longtemps, je {{me suis couché}} de bonne heure."
+    verb: se coucher
+    tense: passe-compose
+    person: 1s
+    source: "Marcel Proust, *Du côté de chez Swann* (1913) — the first sentence of *À la recherche du temps perdu*"
+    en: "For a long time, I went to bed early."
+    note: "Pronominal verbs always take **être**: je me suis couché. The narrator is male, so no *-e*."
+
+  - id: 3
+    text: "Aujourd'hui, maman {{est morte}}. Ou peut-être hier, je ne sais pas."
+    verb: mourir
+    tense: passe-compose
+    person: 3s
+    agree: f
+    source: "Albert Camus, *L'Étranger* (1942) — opening lines"
+    en: "Mother died today. Or maybe yesterday, I don't know."
+    note: "*mourir* → **mort**; it takes être, so it agrees: elle est mort**e**. *naître* → né works the same way."
+
+  - id: 4
+    text: "L'homme {{est né}} libre, et partout il est dans les fers."
+    verb: naître
+    tense: passe-compose
+    person: 3s
+    source: "Jean-Jacques Rousseau, *Du contrat social* (1762)"
+    en: "Man is born free, and everywhere he is in chains."
+    note: "*naître* → **né**, with être. French uses the passé composé where English says 'is born'."
+
+  - id: 5
+    text: "La France {{a perdu}} une bataille ! Mais la France n'a pas perdu la guerre !"
+    verb: perdre
+    tense: passe-compose
+    person: 3s
+    source: "Charles de Gaulle, poster « À tous les Français » (1940)"
+    en: "France has lost a battle! But France has not lost the war!"
+    note: "-re verbs → participle in **-u**: perdre → perdu, attendre → attendu, répondre → répondu."
+
+  - id: 6
+    text: "Heureux qui, comme Ulysse, {{a fait}} un beau voyage."
+    verb: faire
+    tense: passe-compose
+    person: 3s
+    source: "Joachim du Bellay, *Les Regrets* (1558)"
+    en: "Happy he who, like Ulysses, has made a fine voyage."
+    note: "*faire* → **fait**. Same family: refaire, défaire, satisfaire (satisfait)."
+
+  - id: 7
+    text: "Il {{a mis}} le café dans la tasse."
+    verb: mettre
+    tense: passe-compose
+    person: 3s
+    source: "Jacques Prévert, « Déjeuner du matin », *Paroles* (1946)"
+    en: "He put the coffee in the cup."
+    note: "*mettre* → **mis** (fem. *mise*); permettre → permis, promettre → promis. Prévert's poem is the classic text for learning the passé composé."
+
+  - id: 8
+    text: "Je {{vous ai compris}} !"
+    verb: comprendre
+    tense: passe-compose
+    person: 1s
+    agree: mp
+    source: "Charles de Gaulle, speech in Algiers (4 June 1958)"
+    en: "I have understood you!"
+    note: "*prendre* family → **-pris**: pris, appris, compris, surpris. *vous* (direct object, plural) comes before *avoir*, but *compris* already ends in *s*. Famously ambiguous: everyone heard what they wanted to hear."
+
+  - id: 9
+    text: "Nous {{avons dû}} annuler nos vacances à cause de la grève."
+    verb: devoir
+    tense: passe-compose
+    person: 1p
+    en: "We had to cancel our holiday because of the strike."
+    note: "*devoir* → **dû** — the circumflex is only on the masculine singular, to tell it apart from *du*: due, dus, dues have none."
+
+  - id: 10
+    text: "Est-ce que tu {{as pu}} joindre le médecin ?"
+    verb: pouvoir
+    tense: passe-compose
+    person: 2s
+    en: "Did you manage to get hold of the doctor?"
+    note: "*pouvoir* → **pu**. In the passé composé it often means 'managed to'. *joindre quelqu'un* = to reach someone (by phone)."
+
+  - id: 11
+    text: "{{J'ai su}} tout de suite que quelque chose n'allait pas."
+    verb: savoir
+    tense: passe-compose
+    person: 1s
+    en: "I knew straight away that something was wrong."
+    note: "*savoir* → **su**. In the passé composé *savoir* means 'realised / found out' at a precise moment; 'I knew (all along)' is *je savais*."
+
+  - id: 12
+    text: "Vous {{avez reçu}} mon message ?"
+    verb: recevoir
+    tense: passe-compose
+    person: 2p
+    en: "Did you get my message?"
+    note: "*recevoir* → **reçu** (ç before *u*). Same: aperçu, déçu, conçu."
+
+  - id: 13
+    text: "On {{a bu}} un verre en terrasse après le travail."
+    verb: boire
+    tense: passe-compose
+    person: 3s
+    en: "We had a drink on a café terrace after work."
+    note: "*boire* → **bu**; croire → cru; lire → lu. *boire un verre* = to have a drink."
+
+  - id: 14
+    text: "Tu {{as cru}} à son histoire ?"
+    verb: croire
+    tense: passe-compose
+    person: 2s
+    en: "Did you believe his story?"
+    note: "*croire* → **cru**. *croire à quelque chose* = to believe something is true."
+
+  - id: 15
+    text: "Ils {{ont vécu}} dix ans au Canada avant de revenir en France."
+    verb: vivre
+    tense: passe-compose
+    person: 3p
+    en: "They lived in Canada for ten years before coming back to France."
+    note: "*vivre* → **vécu** (survivre → survécu). A completed, bounded period (*dix ans*) → passé composé."
+
+  - id: 16
+    text: "Il {{a plu}} toute la nuit."
+    verb: pleuvoir
+    tense: passe-compose
+    person: 3s
+    en: "It rained all night."
+    note: "*pleuvoir* → **plu**. Trap: *plaire* → plu too! *Ce film m'a plu* = I liked this film."
+
+  - id: 17
+    text: "Le spectacle {{vous a plu}} ?"
+    verb: plaire
+    tense: passe-compose
+    person: 3s
+    en: "Did you enjoy the show?"
+    note: "*plaire* → **plu** (same as pleuvoir). The thing you liked is the subject: *le spectacle vous a plu*."
+
+  - id: 18
+    text: "Elles {{sont parties}} sans dire au revoir."
+    verb: partir
+    tense: passe-compose
+    person: 3p
+    agree: f
+    en: "They (f.) left without saying goodbye."
+    note: "*partir* takes **être**: the participle agrees with the subject — elles sont parti**es**."
+
+  - id: 19
+    text: "Ma sœur et moi, nous {{sommes nées}} à Marseille."
+    verb: naître
+    tense: passe-compose
+    person: 1p
+    agree: fp
+    en: "My sister and I were born in Marseille."
+    note: "être + agreement with the subject: *nous* = two women → **nées**."
+
+  - id: 20
+    text: "Le facteur {{est passé}} ce matin ?"
+    verb: passer
+    tense: passe-compose
+    person: 3s
+    en: "Did the postman come by this morning?"
+    note: "*passer* = to drop by → **être** (il est passé). With a direct object it takes avoir: *j'ai passé une bonne soirée*."
+
+  - id: 21
+    text: "{{J'ai passé}} trois semaines en Écosse cet été."
+    verb: passer
+    tense: passe-compose
+    person: 1s
+    aux: avoir
+    en: "I spent three weeks in Scotland this summer."
+    note: "With a direct object (*trois semaines*), *passer* takes **avoir**. Same switch: monter, descendre, sortir, rentrer, retourner."
+
+  - id: 22
+    text: "Tu {{as sorti}} la poubelle ?"
+    verb: sortir
+    tense: passe-compose
+    person: 2s
+    aux: avoir
+    en: "Did you take the bin out?"
+    note: "*sortir* + direct object = to take out → **avoir**. Without an object, *je suis sorti(e)* = I went out."
+
+  - id: 23
+    text: "Nous {{sommes sortis}} dîner en ville samedi."
+    verb: sortir
+    tense: passe-compose
+    person: 1p
+    en: "We went out for dinner in town on Saturday."
+    note: "*sortir* with no direct object → **être**, agreeing with the subject: nous sommes sortis."
+
+  - id: 24
+    text: "Le livreur {{a monté}} les cartons jusqu'au cinquième étage."
+    verb: monter
+    tense: passe-compose
+    person: 3s
+    aux: avoir
+    en: "The delivery man carried the boxes up to the fifth floor."
+    note: "*monter quelque chose* = to carry/take up → **avoir**. *Il est monté* = he went up."
+
+  - id: 25
+    text: "Elle {{est descendue}} du train à Lyon."
+    verb: descendre
+    tense: passe-compose
+    person: 3s
+    agree: f
+    en: "She got off the train in Lyon."
+    note: "*descendre* with no object → **être**: elle est descendu**e**. *descendre de* = to get off."
+
+  - id: 26
+    text: "Ils {{sont restés}} chez eux à cause de la neige."
+    verb: rester
+    tense: passe-compose
+    person: 3p
+    en: "They stayed at home because of the snow."
+    note: "*rester* is an être verb — surprising, since it's not a movement. (Mnemonic: DR MRS VANDERTRAMP.)"
+
+  - id: 27
+    text: "Le vase {{est tombé}} par terre."
+    verb: tomber
+    tense: passe-compose
+    person: 3s
+    en: "The vase fell on the floor."
+    note: "*tomber* → être. To *drop* something is *faire tomber*: j'ai fait tomber le vase."
+
+  - id: 28
+    text: "Ma fille {{est devenue}} médecin."
+    verb: devenir
+    tense: passe-compose
+    person: 3s
+    agree: f
+    en: "My daughter became a doctor."
+    note: "*devenir* → **devenu**, with être. No article before a profession after *devenir* or *être*."
+
+  - id: 29
+    text: "Elle {{s'est cassé}} la jambe au ski."
+    verb: se casser
+    tense: passe-compose
+    person: 3s
+    agree: inv
+    en: "She broke her leg skiing."
+    note: "**No agreement!** The direct object (*la jambe*) comes **after** the verb, and *se* is an indirect object. Compare *elle s'est blessée* (*se* = direct object → agreement)."
+
+  - id: 30
+    text: "Elles {{se sont parlé}} pendant des heures."
+    verb: se parler
+    tense: passe-compose
+    person: 3p
+    agree: inv
+    en: "They (f.) talked to each other for hours."
+    note: "**No agreement**: one speaks *à quelqu'un*, so *se* is an indirect object. Same: se téléphoner, se sourire, se mentir, se succéder."
+
+  - id: 31
+    text: "Elles {{se sont rencontrées}} à la fac."
+    verb: se rencontrer
+    tense: passe-compose
+    person: 3p
+    agree: f
+    en: "They (f.) met at university."
+    note: "*rencontrer quelqu'un* → *se* is a direct object → agreement: rencontr**ées**. *la fac* = university (informal)."
+
+  - id: 32
+    text: "La lettre que tu {{m'as écrite}} m'a beaucoup touché."
+    verb: écrire
+    tense: passe-compose
+    person: 2s
+    agree: fs
+    en: "The letter you wrote me really touched me."
+    note: "With avoir, the participle agrees with a **direct object placed before it**: *que* = la lettre (f.) → écrit**e**. *m'* is an indirect object here, so it doesn't count."
+
+  - id: 33
+    text: "Tes clés ? Je {{les ai mises}} dans ton sac."
+    verb: mettre
+    tense: passe-compose
+    person: 1s
+    agree: fp
+    en: "Your keys? I put them in your bag."
+    note: "*les* (= les clés, f. pl.) comes before *avoir* → mis**es**. You can hear this one: /miz/."
+
+  - id: 34
+    text: "C'est cette robe-là que tu {{as choisie}} pour le mariage ?"
+    verb: choisir
+    tense: passe-compose
+    person: 2s
+    agree: fs
+    en: "Is that the dress you chose for the wedding?"
+    note: "*que* = cette robe (f.), placed before the verb → choisi**e**."
+
+  - id: 35
+    text: "Des pommes ? {{J'en ai acheté}} deux kilos."
+    verb: acheter
+    tense: passe-compose
+    person: 1s
+    en: "Apples? I bought two kilos."
+    note: "**No agreement with *en***, even though it comes first: j'en ai acheté (not *achetées*)."
+
+  - id: 36
+    text: "Je {{n'ai pas encore fini}} mon rapport."
+    verb: finir
+    tense: passe-compose
+    person: 1s
+    en: "I haven't finished my report yet."
+    note: "*ne… pas* goes around the **auxiliary**; short adverbs (*encore, déjà, bien, toujours*) usually sit between the auxiliary and the participle."
+
+  - id: 37
+    text: "Il {{n'est jamais allé}} à l'étranger."
+    verb: aller
+    tense: passe-compose
+    person: 3s
+    en: "He has never been abroad."
+    note: "*ne… jamais* around the auxiliary. *aller* → être."
+
+  - id: 38
+    text: "Nous {{avons ouvert}} un compte en ligne."
+    verb: ouvrir
+    tense: passe-compose
+    person: 1p
+    en: "We opened an online account."
+    note: "*ouvrir* → **ouvert**; offrir → offert, découvrir → découvert, souffrir → souffert."
+
+  - id: 39
+    text: "Mon portefeuille {{a disparu}} pendant le trajet."
+    verb: disparaître
+    tense: passe-compose
+    person: 3s
+    en: "My wallet disappeared during the journey."
+    note: "-aître verbs → **-u**: connaître → connu, paraître → paru, disparaître → disparu."
+
+  - id: 40
+    text: "Il {{a conduit}} toute la nuit pour arriver à temps."
+    verb: conduire
+    tense: passe-compose
+    person: 3s
+    en: "He drove all night to get there in time."
+    note: "-uire verbs → **-uit**: conduit, construit, produit, traduit, détruit."
+
+  - id: 41
+    text: "Elle {{a peint}} ce tableau à vingt ans."
+    verb: peindre
+    tense: passe-compose
+    person: 3s
+    en: "She painted this picture at the age of twenty."
+    note: "-indre verbs → **-int**: peint, craint, éteint, rejoint."
+
+  - id: 42
+    text: "{{J'ai couru}} pour attraper le bus."
+    verb: courir
+    tense: passe-compose
+    person: 1s
+    en: "I ran to catch the bus."
+    note: "*courir* → **couru**; tenir → tenu; venir → venu (but with être)."
+
+  - id: 43
+    text: "Ils {{ont résolu}} le problème en dix minutes."
+    verb: résoudre
+    tense: passe-compose
+    person: 3p
+    en: "They solved the problem in ten minutes."
+    note: "*résoudre* → **résolu**."
+
+  - id: 44
+    text: "On {{a ri}} aux larmes."
+    verb: rire
+    tense: passe-compose
+    person: 3s
+    en: "We laughed till we cried."
+    note: "*rire* → **ri** — no *t*, unlike dire → dit, écrire → écrit. Same: sourire → souri."
+
+  - id: 45
+    text: "Elle {{a suivi}} une formation en comptabilité."
+    verb: suivre
+    tense: passe-compose
+    person: 3s
+    en: "She did a training course in accounting."
+    note: "*suivre* → **suivi**; être → été; avoir → eu."
+
+  - id: 46
+    text: "Tu {{as eu}} peur ?"
+    verb: avoir
+    tense: passe-compose
+    person: 2s
+    en: "Were you scared? (Did you get a fright?)"
+    note: "*avoir* → **eu** (pronounced /y/). *avoir peur* = to be afraid."
+
+  - id: 47
+    text: "Nous {{nous sommes assis}} au premier rang."
+    verb: s'asseoir
+    tense: passe-compose
+    person: 1p
+    en: "We sat in the front row."
+    note: "*s'asseoir* → **assis**, with être (pronominal): nous nous sommes assis."
+
+  - id: 48
+    text: "Il {{a fallu}} attendre deux heures aux urgences."
+    verb: falloir
+    tense: passe-compose
+    person: 3s
+    en: "We had to wait two hours in A&E."
+    note: "*falloir* → **fallu**, impersonal *il*. *les urgences* = the emergency department."
+
+  - id: 49
+    text: "Désolée, je {{me suis trompée}} de numéro."
+    verb: se tromper
+    tense: passe-compose
+    person: 1s
+    agree: f
+    en: "Sorry, I dialled the wrong number."
+    note: "*se tromper de* = to get the wrong (number, door, day…). Pronominal → être; the speaker is a woman: tromp**ée**."
+
+  - id: 50
+    text: "Elle {{a pris}} sa retraite l'année dernière."
+    verb: prendre
+    tense: passe-compose
+    person: 3s
+    en: "She retired last year."
+    note: "*prendre sa retraite* = to retire. *prendre* → **pris** (fem. *prise*)."

@@ -1,0 +1,292 @@
+deck:
+  number: 8
+  slug: conditionnel
+  title: "Conditionnel présent & passé"
+  mode: form
+  description: |
+    Conditionnel présent = future stem + imparfait endings (je voudr-ais,
+    nous ir-ions). Conditionnel passé = conditional of avoir/être + participle.
+    Uses: politeness (je voudrais, pourriez-vous), advice (tu devrais),
+    wishes (j'aimerais), hypotheses (si + imparfait → …), the future seen from
+    the past (il a dit qu'il viendrait), regrets and reproaches (j'aurais dû,
+    tu aurais pu), and the journalistic conditional for unconfirmed news.
+
+cards:
+  - id: 1
+    text: "Je {{voudrais}} un café, s'il vous plaît."
+    verb: vouloir
+    tense: conditionnel
+    person: 1s
+    en: "I'd like a coffee, please."
+    note: "Polite conditional: **je voudrais**, not *je veux*. Future stem *voudr-* + imparfait ending *-ais*."
+
+  - id: 2
+    text: "{{Pourriez}}-vous m'indiquer la sortie ?"
+    verb: pouvoir
+    tense: conditionnel
+    person: 2p
+    en: "Could you show me the way out?"
+    note: "*pourriez-vous…?* = could you…? (polite). Stem **pourr-** + *-iez*."
+
+  - id: 3
+    text: "Tu {{devrais}} consulter un médecin."
+    verb: devoir
+    tense: conditionnel
+    person: 2s
+    en: "You should see a doctor."
+    note: "*devoir* in the conditional = **should** (advice): tu devrais, vous devriez."
+
+  - id: 4
+    text: "À ta place, je {{ferais}} attention."
+    verb: faire
+    tense: conditionnel
+    person: 1s
+    en: "If I were you, I'd be careful."
+    note: "*à ta place* = if I were you → conditional. *faire* → fer- + -ais."
+
+  - id: 5
+    text: "{{Auriez}}-vous un stylo à me prêter ?"
+    verb: avoir
+    tense: conditionnel
+    person: 2p
+    en: "Would you have a pen you could lend me?"
+    note: "Polite request: *auriez-vous…?* *avoir* → aur- + -iez."
+
+  - id: 6
+    text: "Ce {{serait}} génial de partir ensemble !"
+    verb: être
+    tense: conditionnel
+    person: 3s
+    en: "It would be great to go away together!"
+    note: "*être* → ser- + -ait: ce serait."
+
+  - id: 7
+    text: "{{J'aimerais}} bien apprendre le portugais."
+    verb: aimer
+    tense: conditionnel
+    person: 1s
+    en: "I'd really like to learn Portuguese."
+    note: "Wishes: *j'aimerais (bien)*, *je voudrais*. Regular: infinitive + -ais."
+
+  - id: 8
+    text: "Selon la police, le suspect {{aurait quitté}} le pays."
+    verb: quitter
+    tense: conditionnel-passe
+    person: 3s
+    en: "According to the police, the suspect has reportedly left the country."
+    note: "**Journalistic conditional**: unconfirmed information. Conditionnel passé = conditional of avoir/être + participle."
+
+  - id: 9
+    text: "D'après les sondages, ce parti {{obtiendrait}} 30 % des voix."
+    verb: obtenir
+    tense: conditionnel
+    person: 3s
+    en: "According to the polls, this party would get 30% of the vote."
+    note: "Conditional for an estimate or an unconfirmed report. *obtenir* → **obtiendr-** (like venir)."
+
+  - id: 10
+    text: "Il m'a dit qu'il {{viendrait}} vers huit heures."
+    verb: venir
+    tense: conditionnel
+    person: 3s
+    en: "He told me he'd come at about eight."
+    note: "**Future in the past**: after a past verb of saying, the future becomes the conditional (« Je viendrai » → il a dit qu'il viendrait)."
+
+  - id: 11
+    text: "Nous {{irions}} bien au cinéma, mais il n'y a plus de places."
+    verb: aller
+    tense: conditionnel
+    person: 1p
+    en: "We'd happily go to the cinema, but there are no seats left."
+    note: "*aller* → **ir-** + -ions: nous irions."
+
+  - id: 12
+    text: "Il {{vaudrait}} mieux partir avant la pluie."
+    verb: valoir
+    tense: conditionnel
+    person: 3s
+    en: "It would be better to leave before the rain."
+    note: "*il vaudrait mieux* + infinitive = it would be better to (softer than *il vaut mieux*). *valoir* → vaudr-."
+
+  - id: 13
+    text: "Il {{faudrait}} trouver une autre solution."
+    verb: falloir
+    tense: conditionnel
+    person: 3s
+    en: "We ought to find another solution."
+    note: "*il faudrait* = we ought to / someone should. *falloir* → faudr-."
+
+  - id: 14
+    text: "Couvrez ce sein que je {{ne saurais}} voir."
+    verb: savoir
+    tense: conditionnel
+    person: 1s
+    source: "Molière, *Le Tartuffe*, acte III, scène 2 (1669)"
+    en: "Cover that bosom, which I cannot bear to see."
+    note: "Literary **ne saurais** (no *pas*) = cannot. *savoir* → saur- + -ais. Tartuffe the hypocrite pretends to be shocked."
+
+  - id: 15
+    text: "Vous {{verriez}} le coucher de soleil depuis la terrasse, c'est magnifique !"
+    verb: voir
+    tense: conditionnel
+    person: 2p
+    en: "You should see the sunset from the terrace — it's magnificent!"
+    note: "*voir* → **verr-** + -iez: vous verriez."
+
+  - id: 16
+    text: "Avec des si, on {{mettrait}} Paris en bouteille."
+    verb: mettre
+    tense: conditionnel
+    person: 3s
+    tags: [proverb]
+    en: "With 'ifs' you could put Paris in a bottle. (If ifs and ands were pots and pans…)"
+    note: "Proverb mocking endless hypotheses. *mettre* → mettr- → on mettrait."
+
+  - id: 17
+    text: "Ils {{préféreraient}} rester à la maison ce soir."
+    verb: préférer
+    tense: conditionnel
+    person: 3p
+    also: ["préfèreraient"]
+    en: "They'd rather stay at home tonight."
+    note: "Traditional spelling keeps **é** in the future and conditional (préféreraient); the 1990 reform also allows *préfèreraient*."
+
+  - id: 18
+    text: "Tu {{achèterais}} quoi avec un million d'euros ?"
+    verb: acheter
+    tense: conditionnel
+    person: 2s
+    en: "What would you buy with a million euros?"
+    note: "*acheter* → **achèter-** (è) in the conditional, as in the future."
+
+  - id: 19
+    text: "Je {{t'enverrais}} bien une carte, mais je n'ai pas ton adresse."
+    verb: envoyer
+    tense: conditionnel
+    person: 1s
+    en: "I'd gladly send you a card, but I don't have your address."
+    note: "*envoyer* → **enverr-**: j'enverrais."
+
+  - id: 20
+    text: "{{J'aurais dû}} t'écouter."
+    verb: devoir
+    tense: conditionnel-passe
+    person: 1s
+    en: "I should have listened to you."
+    note: "**j'aurais dû** + infinitive = I should have… (a regret). Conditional of avoir + *dû*."
+
+  - id: 21
+    text: "Tu {{aurais pu}} me prévenir !"
+    verb: pouvoir
+    tense: conditionnel-passe
+    person: 2s
+    en: "You could have warned me!"
+    note: "**tu aurais pu** + infinitive = you could have (a reproach)."
+
+  - id: 22
+    text: "Nous {{serions venus}} plus tôt si nous avions su."
+    verb: venir
+    tense: conditionnel-passe
+    person: 1p
+    en: "We would have come earlier if we had known."
+    note: "si + plus-que-parfait → **conditionnel passé**. être verb: nous serions venus."
+
+  - id: 23
+    text: "Elle {{aurait aimé}} devenir actrice."
+    verb: aimer
+    tense: conditionnel-passe
+    person: 3s
+    en: "She would have liked to become an actress."
+    note: "*j'aurais aimé* = I would have liked to (an unfulfilled wish)."
+
+  - id: 24
+    text: "D'après certains témoins, l'incendie {{aurait commencé}} vers minuit."
+    verb: commencer
+    tense: conditionnel-passe
+    person: 3s
+    en: "According to some witnesses, the fire apparently started around midnight."
+    note: "Journalistic conditional (past): facts not yet confirmed."
+
+  - id: 25
+    text: "À ta place, je {{ne serais pas parti}} sans prévenir."
+    verb: partir
+    tense: conditionnel-passe
+    person: 1s
+    en: "If I'd been you, I wouldn't have left without telling anyone."
+    note: "Negation goes around the auxiliary: je ne serais pas parti."
+
+  - id: 26
+    text: "Sans ton aide, je {{n'aurais jamais réussi}}."
+    verb: réussir
+    tense: conditionnel-passe
+    person: 1s
+    en: "Without your help, I would never have made it."
+    note: "*sans* + noun can replace a *si* clause: sans ton aide = si tu ne m'avais pas aidé."
+
+  - id: 27
+    text: "Le nez de Cléopâtre : s'il eût été plus court, toute la face de la terre {{aurait changé}}."
+    verb: changer
+    tense: conditionnel-passe
+    person: 3s
+    source: "Blaise Pascal, *Pensées* (1670)"
+    en: "Cleopatra's nose: had it been shorter, the whole face of the earth would have changed."
+    note: "*s'il eût été* is a literary form (subjonctif plus-que-parfait) of *s'il avait été*. The main clause is in the conditionnel passé."
+
+  - id: 28
+    text: "Ils {{se seraient rencontrés}} sur un site de rencontres."
+    verb: se rencontrer
+    tense: conditionnel-passe
+    person: 3p
+    en: "They apparently met on a dating site."
+    note: "Pronominal → être, with agreement. Conditionnel passé for hearsay."
+
+  - id: 29
+    text: "Le Corbeau, honteux et confus, jura, mais un peu tard, qu'on {{ne l'y prendrait plus}}."
+    verb: prendre
+    tense: conditionnel
+    person: 3s
+    source: "Jean de La Fontaine, « Le Corbeau et le Renard », *Fables* (1668)"
+    en: "The crow, ashamed and embarrassed, swore — though a little late — that he wouldn't be caught out like that again."
+    note: "Future in the past after *jura* (passé simple of *jurer*): « On ne m'y prendra plus » → qu'on ne l'y prendrait plus."
+
+  - id: 30
+    text: "Vous {{seriez}} libre jeudi ?"
+    verb: être
+    tense: conditionnel
+    person: 2p
+    en: "Would you be free on Thursday?"
+    note: "The conditional softens questions. *vous* de politesse here, so *libre* is singular."
+
+  - id: 31
+    text: "On {{dirait}} qu'il va pleuvoir."
+    verb: dire
+    tense: conditionnel
+    person: 3s
+    en: "It looks like it's going to rain."
+    note: "*on dirait que* = it looks like / it seems that. *dire* → dir-."
+
+  - id: 32
+    text: "Ça {{me ferait}} plaisir de te revoir."
+    verb: faire
+    tense: conditionnel
+    person: 3s
+    en: "It would be lovely to see you again."
+    note: "*ça me ferait plaisir* = I'd love to / it would make me happy."
+
+  - id: 33
+    text: "Et si tu n'existais pas, dis-moi pourquoi {{j'existerais}}."
+    verb: exister
+    tense: conditionnel
+    person: 1s
+    source: "Joe Dassin, « Et si tu n'existais pas » (1975)"
+    en: "And if you didn't exist, tell me why I would exist."
+    note: "si + imparfait → **conditionnel présent**."
+
+  - id: 34
+    text: "{{J'aurais voulu}} être un artiste."
+    verb: vouloir
+    tense: conditionnel-passe
+    person: 1s
+    source: "Luc Plamondon & Michel Berger, « Le Blues du businessman », *Starmania* (1978)"
+    en: "I would have liked to be an artist."
+    note: "Conditionnel passé of *vouloir*: regret for a life not lived."

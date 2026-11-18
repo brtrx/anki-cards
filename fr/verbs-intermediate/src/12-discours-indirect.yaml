@@ -1,0 +1,242 @@
+deck:
+  number: 12
+  slug: discours-indirect
+  title: "Reported speech & sequence of tenses"
+  mode: choice
+  description: |
+    Each card shows what was said (« … ») and asks you to report it.
+    After a reporting verb in the PAST (il a dit que, elle m'a demandé si…):
+      présent → imparfait          passé composé → plus-que-parfait
+      futur → conditionnel         futur antérieur → conditionnel passé
+      imparfait, plus-que-parfait, conditionnel → no change
+      impératif → de + infinitif
+    After a reporting verb in the PRESENT, nothing changes.
+    Watch the time words too: demain → le lendemain, hier → la veille,
+    ce matin → ce matin-là, ici → là. And indirect questions have no inversion
+    and no est-ce que.
+
+cards:
+  - id: 1
+    text: "« Je suis fatigué. » → Il a dit qu'il {{était}} fatigué."
+    verb: être
+    tense: imparfait
+    person: 3s
+    en: "'I'm tired.' → He said he was tired."
+    note: "Présent → **imparfait** after a past reporting verb."
+
+  - id: 2
+    text: "« Je viendrai demain. » → Elle a promis qu'elle {{viendrait}} le lendemain."
+    verb: venir
+    tense: conditionnel
+    person: 3s
+    en: "'I'll come tomorrow.' → She promised she would come the next day."
+    note: "Futur → **conditionnel**; *demain* → *le lendemain*."
+
+  - id: 3
+    text: "« J'ai perdu mes clés. » → Il m'a expliqué qu'il {{avait perdu}} ses clés."
+    verb: perdre
+    tense: plus-que-parfait
+    person: 3s
+    en: "'I've lost my keys.' → He explained to me that he had lost his keys."
+    note: "Passé composé → **plus-que-parfait**. The possessive changes too: *mes* → *ses*."
+
+  - id: 4
+    text: "« Je travaillais à Lyon à l'époque. » → Elle m'a raconté qu'elle {{travaillait}} à Lyon à cette époque-là."
+    verb: travailler
+    tense: imparfait
+    person: 3s
+    en: "'I was working in Lyon at the time.' → She told me she was working in Lyon at that time."
+    note: "The imparfait **doesn't change** in reported speech (nor do the plus-que-parfait and the conditionnel)."
+
+  - id: 5
+    text: "« Nous aurons fini avant midi. » → Ils ont assuré qu'ils {{auraient fini}} avant midi."
+    verb: finir
+    tense: conditionnel-passe
+    person: 3p
+    en: "'We'll have finished before noon.' → They assured us they would have finished before noon."
+    note: "Futur antérieur → **conditionnel passé**."
+
+  - id: 6
+    text: "« Est-ce que tu as faim ? » → Il m'a demandé si {{j'avais}} faim."
+    verb: avoir
+    tense: imparfait
+    person: 1s
+    en: "'Are you hungry?' → He asked me if I was hungry."
+    note: "A yes/no question is reported with **si**; présent → imparfait."
+
+  - id: 7
+    text: "« Où vas-tu ? » → Elle m'a demandé où {{j'allais}}."
+    verb: aller
+    tense: imparfait
+    person: 1s
+    en: "'Where are you going?' → She asked me where I was going."
+    note: "Indirect questions have **no inversion**: *où j'allais* (not *où allais-je*)."
+
+  - id: 8
+    text: "« Qu'est-ce que vous voulez ? » → Il nous a demandé ce que nous {{voulions}}."
+    verb: vouloir
+    tense: imparfait
+    person: 1p
+    en: "'What do you want?' → He asked us what we wanted."
+    note: "*qu'est-ce que* → **ce que** in reported questions."
+
+  - id: 9
+    text: "« Ferme la porte ! » → Il m'a dit de {{fermer}} la porte."
+    verb: fermer
+    tense: infinitif
+    en: "'Shut the door!' → He told me to shut the door."
+    note: "An imperative becomes **de + infinitive**."
+
+  - id: 10
+    text: "« Je vais déménager. » → Il nous a annoncé qu'il {{allait}} déménager."
+    verb: aller
+    tense: imparfait
+    person: 3s
+    en: "'I'm going to move house.' → He announced he was going to move."
+    note: "Futur proche (*vais* + infinitive) → **allait** + infinitive."
+
+  - id: 11
+    text: "« Je viens de rentrer. » → Elle a dit qu'elle {{venait}} de rentrer."
+    verb: venir
+    tense: imparfait
+    person: 3s
+    en: "'I've just got home.' → She said she had just got home."
+    note: "Passé récent (*viens de*) → **venait de**."
+
+  - id: 12
+    text: "« J'habite ici depuis deux ans. » → Il m'a dit qu'il {{habitait}} là depuis deux ans."
+    verb: habiter
+    tense: imparfait
+    person: 3s
+    en: "'I've lived here for two years.' → He told me he had lived there for two years."
+    note: "Présent → imparfait; *ici* → *là*. (*depuis* + imparfait = had been doing.)"
+
+  - id: 13
+    text: "« Je t'appellerai la semaine prochaine. » → Tu m'avais dit que tu {{m'appellerais}} la semaine suivante !"
+    verb: appeler
+    tense: conditionnel
+    person: 2s
+    en: "'I'll call you next week.' → You'd told me you would call me the following week!"
+    note: "Futur → conditionnel; *la semaine prochaine* → *la semaine suivante*. *appeler* keeps its double l: appellerais."
+
+  - id: 14
+    text: "« Je suis partie hier. » → Elle a expliqué qu'elle {{était partie}} la veille."
+    verb: partir
+    tense: plus-que-parfait
+    person: 3s
+    agree: f
+    en: "'I left yesterday.' → She explained that she had left the day before."
+    note: "Passé composé → plus-que-parfait; *hier* → *la veille*."
+
+  - id: 15
+    text: "« Il pleut. » → Il dit qu'il {{pleut}}."
+    verb: pleuvoir
+    tense: present
+    person: 3s
+    en: "'It's raining.' → He says it's raining."
+    note: "Reporting verb in the **present** (*il dit*) → **no change** of tense."
+
+  - id: 16
+    text: "« Je serai là. » → Elle dit qu'elle {{sera}} là."
+    verb: être
+    tense: futur
+    person: 3s
+    en: "'I'll be there.' → She says she'll be there."
+    note: "Reporting verb in the present → the future stays a future."
+
+  - id: 17
+    text: "« J'aimerais partir. » → Il a avoué qu'il {{aimerait}} partir."
+    verb: aimer
+    tense: conditionnel
+    person: 3s
+    en: "'I'd like to leave.' → He admitted he would like to leave."
+    note: "The conditionnel **doesn't change**."
+
+  - id: 18
+    text: "« Il faut que tu viennes. » → Elle m'a dit qu'il {{fallait}} que je vienne."
+    verb: falloir
+    tense: imparfait
+    person: 3s
+    en: "'You have to come.' → She told me I had to come."
+    note: "*il faut* → *il fallait*; the subjunctive (*que je vienne*) stays as it is in modern French."
+
+  - id: 19
+    text: "« Tu as fini ? » → Il voulait savoir si {{j'avais fini}}."
+    verb: finir
+    tense: plus-que-parfait
+    person: 1s
+    en: "'Have you finished?' → He wanted to know whether I had finished."
+    note: "Passé composé → **plus-que-parfait** in an indirect question."
+
+  - id: 20
+    text: "« Combien ça coûte ? » → Je lui ai demandé combien ça {{coûtait}}."
+    verb: coûter
+    tense: imparfait
+    person: 3s
+    en: "'How much does it cost?' → I asked him how much it cost."
+    note: "Indirect question: no inversion; présent → imparfait."
+
+  - id: 21
+    text: "« Je ne sais pas ce qui se passe. » → Il a admis qu'il {{ne savait pas}} ce qui se passait."
+    verb: savoir
+    tense: imparfait
+    person: 3s
+    en: "'I don't know what's going on.' → He admitted he didn't know what was going on."
+    note: "Every present verb shifts: *sais* → *savait*, *se passe* → *se passait*."
+
+  - id: 22
+    text: "« Je pourrai vous aider demain. » → Il nous a dit qu'il {{pourrait}} nous aider le lendemain."
+    verb: pouvoir
+    tense: conditionnel
+    person: 3s
+    en: "'I'll be able to help you tomorrow.' → He told us he could help us the next day."
+    note: "Futur → conditionnel; *demain* → *le lendemain*."
+
+  - id: 23
+    text: "« J'ai toujours voulu voir Venise. » → Elle m'a confié qu'elle {{avait toujours voulu}} voir Venise."
+    verb: vouloir
+    tense: plus-que-parfait
+    person: 3s
+    en: "'I've always wanted to see Venice.' → She confided that she had always wanted to see Venice."
+    note: "Passé composé → plus-que-parfait; *toujours* stays between the auxiliary and the participle."
+
+  - id: 24
+    text: "« Quand est-ce que vous partez ? » → Ils voulaient savoir quand nous {{partions}}."
+    verb: partir
+    tense: imparfait
+    person: 1p
+    en: "'When are you leaving?' → They wanted to know when we were leaving."
+    note: "*est-ce que* disappears in reported questions; présent → imparfait."
+
+  - id: 25
+    text: "« Qu'est-ce qui s'est passé ? » → Il m'a demandé ce qui {{s'était passé}}."
+    verb: se passer
+    tense: plus-que-parfait
+    person: 3s
+    en: "'What happened?' → He asked me what had happened."
+    note: "*qu'est-ce qui* → **ce qui**; passé composé → plus-que-parfait."
+
+  - id: 26
+    text: "« Je l'ai vue ce matin. » → Il a dit qu'il {{l'avait vue}} le matin même."
+    verb: voir
+    tense: plus-que-parfait
+    person: 3s
+    agree: fs
+    en: "'I saw her this morning.' → He said he had seen her that same morning."
+    note: "*ce matin* → *ce matin-là* / *le matin même*. The agreement with *l'* (= her) stays: vu**e**."
+
+  - id: 27
+    text: "Je savais que tu {{réussirais}}."
+    verb: réussir
+    tense: conditionnel
+    person: 2s
+    en: "I knew you would succeed."
+    note: "A future seen from the past → **conditionnel**: 'I knew (then) that you would…'."
+
+  - id: 28
+    text: "Je pensais que tu {{étais déjà parti}}."
+    verb: partir
+    tense: plus-que-parfait
+    person: 2s
+    en: "I thought you had already left."
+    note: "A past belief about an earlier action → **plus-que-parfait**."
